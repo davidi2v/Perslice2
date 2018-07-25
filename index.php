@@ -230,7 +230,7 @@
 					<div class="col-md-4">
 						<div class="blogBox">
 							<div class="blogImg">
-								<img src="img/blogPost1.jpg">
+								<img src="img/blogpost1.jpg">
 							</div>
 							<div class="blogContent">
 								<h4>Take It From a Pro</h4>
@@ -241,7 +241,7 @@
 					<div class="col-md-4">
 						<div class="blogBox">
 							<div class="blogImg">
-								<img src="img/blogPost2.jpg">
+								<img src="img/blogpost2.jpg">
 							</div>
 							<div class="blogContent">
 								<h4>Planning a Party that...</h4>
