@@ -67,8 +67,10 @@
 		<section id="shopHm">
 			<div class="container">
 				<div class="row text-center">
-					<h2>The Perslice Gives A Perfect Slice Every Time</h2>
-					<p>Get your Perslice today</p>
+					<div class="col-md-12">
+						<h2>The Perslice Gives A Perfect Slice Every Time</h2>
+						<p>Get your Perslice today</p>
+					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-6">

@@ -65,6 +65,11 @@ a.ctaBtn:hover {
     color: #fff;
 }
 
+#shopHm {
+        margin-top: 3em;
+        margin-bottom: 3em;
+}
+
 #shopHm #saleTag {
     font-size: 22px;
     background-color: #afe2e3;
@@ -121,6 +126,8 @@ a.ctaBtn:hover {
     background-position: center;
     background-size: cover;
     height: 300px;
+
+    margin-bottom: 6em;
 }
 
 #cakepopBox {
@@ -145,7 +152,11 @@ a.ctaBtn:hover {
 }
 #insta .col-xs-6 img:hover {opacity: .7}
 
+#recipes {margin-top: 7em; margin-bottom: 7em;}
+
 #recipes .col-md-8 img {width: 100%;}
+
+#recipes h2 {padding-bottom: 25px;}
 
 #recipes .col-md-8 {padding: 0px;}
 
@@ -161,12 +172,16 @@ a.ctaBtn:hover {
 
 #recipeDetail {padding: 0px 13px;}
 
+#blogHm {margin-top: 7em; margin-bottom: 7em;}
+
 .blogBox {display : flex; margin-bottom: 20px;}
 
 .blogBox .blogImg {flex : 1;}
 .blogBox .blogContent {flex : 1; padding-left: 5px;}
 
 .blogBox .blogImg img {width: 100%;}
+
+#shopPlatforms {margin-bottom: 7em;}
 
 #shopPlatforms #socialBox {display: flex;}
 
