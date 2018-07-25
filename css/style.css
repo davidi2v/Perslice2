@@ -39,7 +39,7 @@ a.navbar-brand img {width: 75px;}
 #landing .col-md-8 {padding-left: 0px;}
 
 #landingImg img {
-    width: 100vw;
+    width: 100%;
 }
 
 #landingCta {
@@ -65,11 +65,24 @@ a.ctaBtn:hover {
     color: #fff;
 }
 
-#shopHm img {
-    width: 100vw;
+#shopHm #saleTag {
+    font-size: 22px;
+    background-color: #afe2e3;
+    width: 100px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
 }
 
-#shopHm .col-md-4 {
+#shopHm img {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+#shopHm .col-md-6 {
     text-align: center;
     margin-bottom: 4em;
 }
@@ -102,7 +115,7 @@ a.ctaBtn:hover {
 #myCarousel .carousel-control.left {background: none;}
 #myCarousel .carousel-control.right {background: none;}
 
-#cakepops {
+#newsletter {
     background-image: url("../img/cakePops.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -110,7 +123,85 @@ a.ctaBtn:hover {
     height: 300px;
 }
 
-@media only screen and (max-width: 768px) {
-    #newsletter .container-fluid {padding-left: 0px; padding-right: 0px;}
+#cakepopBox {
+    text-align: center;
+    width: 93%;
+    position: relative;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
 }
 
+#cakepopBox h3 {margin-top: 0px; font-weight: bold;}
+
+#insta .col-xs-6 {
+    padding: 0px;
+}
+
+#insta {margin: 5em 0px;}
+
+#insta .col-xs-6 img {
+    width: 100%;
+}
+#insta .col-xs-6 img:hover {opacity: .7}
+
+#recipes .col-md-8 img {width: 100%;}
+
+#recipes .col-md-8 {padding: 0px;}
+
+#recipes #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+
+#recipes #timeDiv .time {flex: 1;}
+
+#recipes #timeDiv .time img {width: 30px; float: left; padding-right: 7px;}
+
+#recipeCarousel  .carousel-control.left {background: none;}
+
+#recipeCarousel  .carousel-control.right {background: none;}
+
+#recipeDetail {padding: 0px 13px;}
+
+.blogBox {display : flex; margin-bottom: 20px;}
+
+.blogBox .blogImg {flex : 1;}
+.blogBox .blogContent {flex : 1; padding-left: 5px;}
+
+.blogBox .blogImg img {width: 100%;}
+
+#shopPlatforms #socialBox {display: flex;}
+
+#shopPlatforms #socialBox .icon {flex: 1; padding: 25px 0px;}
+
+#shopPlatforms #socialBox img {width: 90%; flex: 1; display: block; margin: 0px auto;}
+
+footer {background-color: #eeb2ca;}
+
+footer ul {list-style: none; padding-left: 0px;}
+
+footer ul li { margin-bottom: 5px;}
+footer ul li a {color: #000; transition: .3s;}
+footer ul li a:hover {color: #000; text-decoration: none;}
+
+#newsletterForm {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#newsletterForm button {
+    display: block;
+    width: 100%;
+    background: none;
+    border: solid 2px #000;
+    color: #000;
+    transition: .3s;
+}
+#newsletterForm button:hover {
+    background: #000;
+    color: #fff;
+}
+
+ul#socialFooter {display: flex;}
+
+ul#socialFooter li {padding-right: 10px;}
+
+#Copyright {text-align: center; padding-top: 30px; padding-bottom: 20px;}

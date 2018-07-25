@@ -51,7 +51,7 @@
 			</div>
 		</nav>
 		<section id="landing">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div id="landingImg" class="col-md-8">
 						<img src="img/slicedCake.jpg" alt="sliced cake">
@@ -66,14 +66,19 @@
 		</section>
 		<section id="shopHm">
 			<div class="container">
+				<div class="row text-center">
+					<h2>The Perslice Gives A Perfect Slice Every Time</h2>
+					<p>Get your Perslice today</p>
+				</div>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
 						<p id="productPrice">$24.99</p>
 						<a class="ctaBtn" href="#">Quick View</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6">
+						<span id="saleTag">Sale</span>
 						<img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 						<p id="productPrice">$24.99</p>
@@ -117,13 +122,192 @@
 			</div>
 		</section>
 		<section id="newsletter">
-			<div class="container-fluid">
-				<div id="cakepops">
-					<h3>Great Offers &amp; Free Recipes</h3>
-					<a class="ctaBtn" href="#">Sign Up For Our Newsletter</a>
+			<div id="cakepopBox">
+				<h3>Great Offers &amp; Free Recipes</h3>
+				<a class="ctaBtn" href="#">Sign Up For Our Newsletter</a>
+			</div>
+		</section>
+		<section id="insta">
+			<div class="container">
+				<div class="row text-center">
+					<h2>Instagram @perslice</h2>
+					<p>Tag us @perslice to have your photo added to our feed!</p>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="#"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href="#"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="#"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href="#"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="#"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href="#"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
+					</div>
 				</div>
 			</div>
 		</section>
+		<section id="recipes">
+			<div class="text-center">
+				<h2>Delicious Recipes</h2>
+			</div>
+			<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <!-- <ol class="carousel-indicators">
+			    <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#recipeCarousel" data-slide-to="1"></li>
+			  </ol> -->
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+    				<div class="row">
+    					<div class="col-md-8 text-center">
+    						<img src="img/blueBerryVelvetCake.jpg">
+    						<h3>Blueberry Velvet Cake</h3>
+    					</div>
+    					<div class="col-md-4">
+    						<div id="recipeDetail">
+								<div id="timeDiv">
+									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+								</div>
+	    						<a class="ctaBtn" href="#">View Recipe</a>
+    						</div>
+    					</div>
+    				</div>
+			    </div>
+			    <div class="item">
+    				<div class="row">
+    					<div class="col-md-8 text-center">
+    						<img src="img/blueBerryVelvetCake.jpg">
+    						<h3>Blueberry Velvet Cake</h3>
+    					</div>
+    					<div class="col-md-4">
+							<div id="recipeDetail">
+								<div id="timeDiv">
+									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+								</div>
+								<a class="ctaBtn" href="#">View Recipe</a>
+    						</div>
+    					</div>
+    				</div>
+			    </div>
+			  </div>
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#recipeCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#recipeCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</section>
+		<section id="blogHm">
+			<div class="container">
+				<div class="row text-center">
+					<h2>Perlice Blog</h2>
+					<p>For fun and sweet reads</p>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="blogBox">
+							<div class="blogImg">
+								<img src="img/blogPost1.jpg">
+							</div>
+							<div class="blogContent">
+								<h4>Take It From a Pro</h4>
+								<p>Interesting facts about birthdays in the 18th century.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blogBox">
+							<div class="blogImg">
+								<img src="img/blogPost2.jpg">
+							</div>
+							<div class="blogContent">
+								<h4>Planning a Party that...</h4>
+								<p>First thing to remember is to plan ahead of time.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="shopPlatforms">
+			<div class="container text-center">
+				<h2>You can also shop at...</h2>
+				<div id="socialBox">
+					<div class="icon"><a href="#"><img src="img/amazonIcon.png"></a></div>
+					<div class="icon"><a href="#"><img src="img/fbIcon.png"></a></div>
+				</div>
+				<p>Interested in becoming a retailer? <a href="#">Click here</a> and you'll be a step closer to having Perslice in your stores!</p>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<h3>Our Site</h3>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Shop</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">How To Use</a></li>
+							<li><a href="#">F.A.Q.</a></li>
+							<li><a href="#">Terms of Service</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-6">
+						<h3>Let's Connect</h3>
+						<ul>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">1 (888) 567-1901</a></li>
+							<li><a href="#">info@persliceusa.com</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Events</a></li>
+						</ul>
+						<ul id="socialFooter">
+							<li><a href="#"><img src="img/fbIcon.png" width="25px"></a></li>
+							<li><a href="#"><img src="img/fbIcon.png" width="25px"></a></li>
+							<li><a href="#"><img src="img/fbIcon.png" width="25px"></a></li>
+							<li><a href="#"><img src="img/fbIcon.png" width="25px"></a></li>
+						</ul>
+					</div>
+					<div id="newsletterForm" class="col-xs-12 text-center">
+						<p>Subscribe to our newsletter</p>
+						<form>
+						  <div class="form-group">
+						    <label for="email" class="sr-only">Email address</label>
+						    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email Address">
+						    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+						  </div>
+						  <button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div id="Copyright">&copy; <?php echo date("Y"); ?> by Perslice</div>
+		</footer>
 	</body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
