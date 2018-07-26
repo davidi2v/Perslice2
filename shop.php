@@ -80,13 +80,6 @@
 						</div>
 						<div class="productSlider">
 						  <div class="sliderItem">
-						  	<a href="/">
-						  		<img src="img/cakeStand.jpg" alt="">
-								<h1 class="featuredTitle">Perslice Cake Stand</h1>
-								<p id="productPrice">$24.99</p>
-						  	</a>
-						  </div>
-						  <div class="sliderItem">
 						  	<a href="#">
 						  		<img src="img/cakeStand.jpg" alt="">
 								<h1 class="featuredTitle">Perslice Cake Stand</h1>
@@ -95,9 +88,16 @@
 						  </div>
 						  <div class="sliderItem">
 						  	<a href="#">
-						  		<img src="img/cakeStand.jpg" alt="">
+						  		<img src="img/cakePan.jpg" alt="">
 								<h1 class="featuredTitle">Perslice Cake Stand</h1>
-								<p id="productPrice">$24.99</p>
+								<p id="productPrice">$14.99</p>
+						  	</a>
+						  </div>
+						  <div class="sliderItem">
+						  	<a href="#">
+						  		<img src="img/measuringSpoons.jpg" alt="">
+								<h1 class="featuredTitle">Perslice Cake Stand</h1>
+								<p id="productPrice">$7.99</p>
 						  	</a>
 						  </div>
 						</div>
