@@ -243,18 +243,30 @@ shop css
 }
 
 #shop img {
-    width: 150px;
+    width: 280px;
     display: block;
     margin: 0px auto;
 }
 
-#shop .col-xs-6 {
+#shop #mainProduct {
     text-align: center;
     margin-bottom: 4em;
 }
 
-#shop .col-xs-6 h2 {
+#shop #mainProduct h2 {
     font-size: 20px;
+    margin-top: 0px;
 }
+
+#shop .productSlider {margin-top: 3em; margin-bottom: 3em;}
+
+#shop .productSlider img {width: 150px;}
+#shop .productSlider h1 {font-size: 22px;}
+
+.sliderItem {text-align: center;}
+
+.sliderItem a {color: #000;}
+.sliderItem a:hover {text-decoration: none;}
+
 
 

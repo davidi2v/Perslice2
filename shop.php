@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Perslice Homepage</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<?php include 'banner.php'?>
@@ -58,17 +59,47 @@
 					<h2>SHOP!</h2>
 				</div>
 				<div class="row">
-					<div class="col-xs-6">
+					<div id="mainProduct" class="col-xs-12">
 						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
 						<p id="productPrice">$24.99</p>
 						<a class="ctaBtn" href="#">Quick View</a>
 					</div>
-					<div class="col-xs-6">
+					<!-- <div class="col-xs-6">
 						<img src="img/cakeStand.jpg" alt="perslice cake stand">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 						<p id="productPrice">$24.99</p>
 						<a class="ctaBtn" href="#">Quick View</a>
+					</div> -->
+				</div>
+				<div class="row">
+					<div id="features">
+						<div class="text-left">
+							<h2>Featured Products</h2>
+						</div>
+						<div class="productSlider">
+						  <div class="sliderItem">
+						  	<a href="#">
+						  		<img src="img/cakeStand.jpg" alt="">
+								<h1 class="featuredTitle">Perslice Cake Stand</h1>
+								<p id="productPrice">$24.99</p>
+						  	</a>
+						  </div>
+						  <div class="sliderItem">
+						  	<a href="#">
+						  		<img src="img/cakeStand.jpg" alt="">
+								<h1 class="featuredTitle">Perslice Cake Stand</h1>
+								<p id="productPrice">$24.99</p>
+						  	</a>
+						  </div>
+						  <div class="sliderItem">
+						  	<a href="#">
+						  		<img src="img/cakeStand.jpg" alt="">
+								<h1 class="featuredTitle">Perslice Cake Stand</h1>
+								<p id="productPrice">$24.99</p>
+						  	</a>
+						  </div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -122,5 +153,6 @@
 	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/slick.js"></script>
 </html>
