@@ -3,9 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Perslice Shop</title>
+		<title>Delicious Recipes</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<?php include 'banner.php'?>
@@ -51,66 +50,39 @@
 		</div>
 	</nav>
 	<body>
-		<div id="imgHeader">
-			<img src="img/shopHeader.jpg" alt="blue cupcake">
-			<h1 id="imgText">Free Shipping<br> on All Orders</h1>
-		</div>
-		<div id="shop">
+		<section id="allRecipes">
 			<div class="container">
 				<div class="row text-center">
-					<h2>SHOP!</h2>
+					<h1>Delicious Recipes</h1>
+					<p>Fun and sweet recipes</p>
 				</div>
 				<div class="row">
-					<div id="mainProduct" class="col-xs-12">
-						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
-						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
-						<p id="productPrice">$24.99</p>
-						<a class="ctaBtn" href="#">Quick View</a>
+					<div class="col-xs-6">
+						<img src="img/blueBerryVelvetCake.jpg" alt="Blue Velvet Cake">
+						<h3>Blue Velvet Cake</h3>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
 					</div>
-					<!-- <div class="col-xs-6">
-						<img src="img/cakeStand.jpg" alt="perslice cake stand">
-						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
-						<p id="productPrice">$24.99</p>
-						<a class="ctaBtn" href="#">Quick View</a>
-					</div> -->
-				</div>
-				<div class="row">
-
-					<div id="features" class="container">
-						<div class="text-left">
-							<h2>Featured Products</h2>
-						</div>
-							<div class="productSlider">
-							  <div class="sliderItem">
-							  	<a href="#">
-							  		<img src="img/cakeStand.jpg" alt="cake stand">
-									<h1 class="featuredTitle">Perslice <br>Cake Stand</h1>
-									<p id="productPrice">$24.99</p>
-							  	</a>
-							  </div>
-							  <div class="sliderItem">
-							  	<a href="#">
-							  		<img src="img/cakePan.jpg" alt="cake pan">
-									<h1 class="featuredTitle">Perslice <br>Cake Pan</h1>
-									<p id="productPrice">$14.99</p>
-							  	</a>
-							  </div>
-							  <div class="sliderItem">
-							  	<a href="#">
-							  		<img src="img/measuringSpoons.jpg" alt="measuring spoons">
-									<h1 class="featuredTitle">Perslice <br>Measuring Spoons</h1>
-									<p id="productPrice">$7.99</p>
-							  	</a>
-							  </div>
-							</div>
+					<div class="col-xs-6">
+						<img src="img/igPost2.jpg" alt="Blueberry Velvet Cake">
+						<h3>Double Chocolate Cake</h3>
+						<a href="#" class="ctaBtn">Read Recipe</a>
+					</div>
+					<div class="col-xs-6">
+						<img src="img/igPost3.jpg" alt="Blueberry Velvet Cake">
+						<h3>Strawberry Vanilla Cake</h3>
+						<a href="#" class="ctaBtn">Read Recipe</a>
+					</div>
+					<div class="col-xs-6">
+						<img src="img/igPost4.jpg" alt="Blueberry Velvet Cake">
+						<h3>Strawberry Cake</h3>
+						<a href="#" class="ctaBtn">Read Recipe</a>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	</body>
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script src="js/slick.js"></script>
+	<script src="js/script.js"></script>
 </html>

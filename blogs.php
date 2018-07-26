@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Perslice Shop</title>
+		<title>Perslice Blogspot</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 		<link rel="stylesheet" href="css/style.css">
@@ -51,58 +51,59 @@
 		</div>
 	</nav>
 	<body>
-		<div id="imgHeader">
-			<img src="img/shopHeader.jpg" alt="blue cupcake">
-			<h1 id="imgText">Free Shipping<br> on All Orders</h1>
-		</div>
-		<div id="shop">
-			<div class="container">
-				<div class="row text-center">
-					<h2>SHOP!</h2>
-				</div>
-				<div class="row">
-					<div id="mainProduct" class="col-xs-12">
-						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
-						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
-						<p id="productPrice">$24.99</p>
-						<a class="ctaBtn" href="#">Quick View</a>
-					</div>
-					<!-- <div class="col-xs-6">
-						<img src="img/cakeStand.jpg" alt="perslice cake stand">
-						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
-						<p id="productPrice">$24.99</p>
-						<a class="ctaBtn" href="#">Quick View</a>
-					</div> -->
-				</div>
-				<div class="row">
+		<div id="blogs" class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h1>Blogs, Events and Delicious Recipes!</h1>
+					<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <!-- <ol class="carousel-indicators">
+					    <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#recipeCarousel" data-slide-to="1"></li>
+					  </ol> -->
 
-					<div id="features" class="container">
-						<div class="text-left">
-							<h2>Featured Products</h2>
-						</div>
-							<div class="productSlider">
-							  <div class="sliderItem">
-							  	<a href="#">
-							  		<img src="img/cakeStand.jpg" alt="cake stand">
-									<h1 class="featuredTitle">Perslice <br>Cake Stand</h1>
-									<p id="productPrice">$24.99</p>
-							  	</a>
-							  </div>
-							  <div class="sliderItem">
-							  	<a href="#">
-							  		<img src="img/cakePan.jpg" alt="cake pan">
-									<h1 class="featuredTitle">Perslice <br>Cake Pan</h1>
-									<p id="productPrice">$14.99</p>
-							  	</a>
-							  </div>
-							  <div class="sliderItem">
-							  	<a href="#">
-							  		<img src="img/measuringSpoons.jpg" alt="measuring spoons">
-									<h1 class="featuredTitle">Perslice <br>Measuring Spoons</h1>
-									<p id="productPrice">$7.99</p>
-							  	</a>
-							  </div>
-							</div>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+		    				<div class="row">
+		    					<div class="col-md-12 text-center">
+		    						<img src="img/blogpost1.jpg">
+		    						<h3>Take It From a Pro</h3>
+									<p>Interesting facts about birthdays in the 18th century and how it is different form today.</p>
+									<a href="#" class="ctaBtn">Read More</a>
+		    					</div>
+		    				</div>
+					    </div>
+						<div class="item">
+		    				<div class="row">
+		    					<div class="col-md-12 text-center">
+		    						<img src="img/blogpost1.jpg">
+		    						<h3>Take It From a Pro</h3>
+									<p>Interesting facts about birthdays in the 18th century and how it is different form today.</p>
+									<a href="#" class="ctaBtn">Read More</a>
+		    					</div>
+		    				</div>
+					    </div>
+						<div class="item">
+		    				<div class="row">
+		    					<div class="col-md-12 text-center">
+		    						<img src="img/blogpost1.jpg">
+		    						<h3>Take It From a Pro</h3>
+									<p>Interesting facts about birthdays in the 18th century and how it is different form today.</p>
+									<a href="#" class="ctaBtn">Read More</a>
+		    					</div>
+		    				</div>
+					    </div>
+					  </div>
+					  <!-- Left and right controls -->
+					  <a class="left carousel-control" href="#recipeCarousel" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control" href="#recipeCarousel" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
 					</div>
 				</div>
 			</div>

@@ -279,4 +279,47 @@ shop css
     overflow: hidden;
 }
 
+/* ---------------------
+product css
+---------------------*/
+#product img {width: 100%;}
+
+#product #thumbnails {list-style: none; padding-left: 0px; display: block; margin: 0px auto;}
+
+#product #thumbnails li {width: 25%; float: left;}
+
+#breadcrumbs ul {list-style: none; display: flex;}
+
+#breadcrumbs ul li {padding-right: 15px;}
+
+/* ---------------------
+recipe-all css
+---------------------*/
+#allRecipes img {width: 100%;}
+
+/* ---------------------
+single recipe css
+---------------------*/
+
+#recipe {margin-bottom: 7em;}
+
+#recipe .col-md-8 img {width: 100%;}
+
+#recipe h2 {padding-bottom: 25px;}
+
+#recipe .col-md-8 {padding: 0px;}
+
+#recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+
+#recipe #timeDiv .time {flex: 1;}
+
+#recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;}
+
+/* ---------------------
+blogs css
+---------------------*/
+#blogs img {width: 100%;}
+
+
+
 
