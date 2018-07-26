@@ -289,10 +289,10 @@
 							<li><a href="#">Events</a></li>
 						</ul>
 						<ul id="socialFooter">
-							<li><a href="#"><img src="img/fbIcon.png" width="25px"></a></li>
-							<li><a href="#"><img src="img/fbIcon.png" width="25px"></a></li>
-							<li><a href="#"><img src="img/fbIcon.png" width="25px"></a></li>
-							<li><a href="#"><img src="img/fbIcon.png" width="25px"></a></li>
+							<li><a href="#"><img src="img/fbIcon_blk.png"></a></li>
+							<li><a href="#"><img src="img/igIcon.png"></a></li>
+							<li><a href="#"><img src="img/twitterIcon.png"></a></li>
+							<li><a href="#"><img src="img/youtubeIcon.png"></a></li>
 						</ul>
 					</div>
 					<div id="newsletterForm" class="col-xs-12 text-center">
@@ -303,7 +303,7 @@
 						    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email Address">
 						    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
 						  </div>
-						  <button type="submit" class="btn btn-primary">Submit</button>
+						  <button type="submit" class="btn btn-primary">Subscribe Now</button>
 						</form>
 					</div>
 				</div>

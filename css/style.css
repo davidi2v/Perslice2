@@ -219,4 +219,6 @@ ul#socialFooter {display: flex;}
 
 ul#socialFooter li {padding-right: 10px;}
 
+ul#socialFooter li img {width: 35px;}
+
 #Copyright {text-align: center; padding-top: 30px; padding-bottom: 20px;}
