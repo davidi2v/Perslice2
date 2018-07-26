@@ -1,3 +1,6 @@
+/* ---------------------
+index css
+---------------------*/
 #banner {background-color: #eeb2ca;}
 
 #banner p {
@@ -92,7 +95,7 @@ a.ctaBtn:hover {
     margin-bottom: 4em;
 }
 
-#shopHm #productPrice {font-size: 20px; padding: 10px 0px;}
+#productPrice {font-size: 20px; padding: 10px 0px;}
 
 #myCarousel {height: 540px;}
 
@@ -222,3 +225,36 @@ ul#socialFooter li {padding-right: 10px;}
 ul#socialFooter li img {width: 35px;}
 
 #Copyright {text-align: center; padding-top: 30px; padding-bottom: 20px;}
+
+/* ---------------------
+shop css
+---------------------*/
+#imgHeader {position: relative;}
+
+#imgHeader img {width: 100%;}
+
+#imgHeader #imgText {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0,-50%);
+    text-align: right;
+    font-size: 34px;
+}
+
+#shop img {
+    width: 150px;
+    display: block;
+    margin: 0px auto;
+}
+
+#shop .col-xs-6 {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+#shop .col-xs-6 h2 {
+    font-size: 20px;
+}
+
+

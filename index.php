@@ -6,50 +6,48 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
-		<div id="banner" class="text-center">
-			<p>SIGN UP WITH YOUR EMAIL TO RECEIVE YOUR PROMO CODE NOW</p>
-		</div>
-		<nav class="navbar">
-			<div class="container">
-				<a id="number" href="#">CALL NOW : (888) 567-1901</a>
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">
-						<img src="img/Logo_Perslice.png" alt="perslice logo">
-					</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">HOME</a></li>
-						<li><a href="#">SHOP</a></li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-							<li><a href="#">RETAILER</a></li>
-							<li><a href="#">DISTRIBUTOR</a></li>
-							</ul>
-						</li>
-						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">BLOG <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-							<li><a href="#">RECIPES</a></li>
-							<li><a href="#">SPECIAL EVENTS</a></li>
-							</ul>
-						</li>
-						<li><a href="#">HOW TO USE</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-					</ul>
-				</div>
+	<?php include 'banner.php'?>
+	<nav class="navbar">
+		<div class="container">
+			<a id="number" href="#">CALL NOW : (888) 567-1901</a>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="img/Logo_Perslice.png" alt="perslice logo">
+				</a>
 			</div>
-		</nav>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">HOME</a></li>
+					<li><a href="#">SHOP</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						<li><a href="#">RETAILER</a></li>
+						<li><a href="#">DISTRIBUTOR</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">BLOG <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+						<li><a href="#">RECIPES</a></li>
+						<li><a href="#">SPECIAL EVENTS</a></li>
+						</ul>
+					</li>
+					<li><a href="#">HOW TO USE</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<body>
 		<section id="landing">
 			<div class="container-fluid">
 				<div class="row">
@@ -264,53 +262,53 @@
 				<p>Interested in becoming a retailer? <a href="#">Click here</a> and you'll be a step closer to having Perslice in your stores!</p>
 			</div>
 		</section>
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-6">
-						<h3>Our Site</h3>
-						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Shop</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">How To Use</a></li>
-							<li><a href="#">F.A.Q.</a></li>
-							<li><a href="#">Terms of Service</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-						</ul>
-					</div>
-					<div class="col-xs-6">
-						<h3>Let's Connect</h3>
-						<ul>
-							<li><a href="#">Contact Us</a></li>
-							<li><a href="#">1 (888) 567-1901</a></li>
-							<li><a href="#">info@persliceusa.com</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Events</a></li>
-						</ul>
-						<ul id="socialFooter">
-							<li><a href="#"><img src="img/fbIcon_blk.png"></a></li>
-							<li><a href="#"><img src="img/igIcon.png"></a></li>
-							<li><a href="#"><img src="img/twitterIcon.png"></a></li>
-							<li><a href="#"><img src="img/youtubeIcon.png"></a></li>
-						</ul>
-					</div>
-					<div id="newsletterForm" class="col-xs-12 text-center">
-						<p>Subscribe to our newsletter</p>
-						<form>
-						  <div class="form-group">
-						    <label for="email" class="sr-only">Email address</label>
-						    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email Address">
-						    <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-						  </div>
-						  <button type="submit" class="btn btn-primary">Subscribe Now</button>
-						</form>
-					</div>
+	</body>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6">
+					<h3>Our Site</h3>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">How To Use</a></li>
+						<li><a href="#">F.A.Q.</a></li>
+						<li><a href="#">Terms of Service</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-6">
+					<h3>Let's Connect</h3>
+					<ul>
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">1 (888) 567-1901</a></li>
+						<li><a href="#">info@persliceusa.com</a></li>
+						<li><a href="#">Press</a></li>
+						<li><a href="#">Events</a></li>
+					</ul>
+					<ul id="socialFooter">
+						<li><a href="#"><img src="img/fbIcon_blk.png"></a></li>
+						<li><a href="#"><img src="img/igIcon.png"></a></li>
+						<li><a href="#"><img src="img/twitterIcon.png"></a></li>
+						<li><a href="#"><img src="img/youtubeIcon.png"></a></li>
+					</ul>
+				</div>
+				<div id="newsletterForm" class="col-xs-12 text-center">
+					<p>Subscribe to our newsletter</p>
+					<form>
+					  <div class="form-group">
+						<label for="email" class="sr-only">Email address</label>
+						<input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email Address">
+						<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+					  </div>
+					  <button type="submit" class="btn btn-primary">Subscribe Now</button>
+					</form>
 				</div>
 			</div>
-			<div id="Copyright">&copy; <?php echo date("Y"); ?> by Perslice</div>
-		</footer>
-	</body>
+		</div>
+		<div id="Copyright">&copy; <?php echo date("Y"); ?> by Perslice</div>
+	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
