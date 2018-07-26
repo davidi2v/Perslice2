@@ -80,7 +80,7 @@
 						</div>
 						<div class="productSlider">
 						  <div class="sliderItem">
-						  	<a href="#">
+						  	<a href="/">
 						  		<img src="img/cakeStand.jpg" alt="">
 								<h1 class="featuredTitle">Perslice Cake Stand</h1>
 								<p id="productPrice">$24.99</p>
