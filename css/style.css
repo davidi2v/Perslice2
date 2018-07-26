@@ -275,6 +275,8 @@ shop css
     margin: 0px auto;
 }
 
-#box { position: relative;}
+.slick-slider {
+    overflow: hidden;
+}
 
 

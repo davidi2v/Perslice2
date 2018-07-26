@@ -79,7 +79,6 @@
 						<div class="text-left">
 							<h2>Featured Products</h2>
 						</div>
-						<div id="box">
 							<div class="productSlider">
 							  <div class="sliderItem">
 							  	<a href="#">
@@ -103,7 +102,6 @@
 							  	</a>
 							  </div>
 							</div>
-						</div>
 					</div>
 				</div>
 			</div>
