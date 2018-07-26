@@ -74,32 +74,35 @@
 					</div> -->
 				</div>
 				<div class="row">
-					<div id="features">
+
+					<div id="features" class="container">
 						<div class="text-left">
 							<h2>Featured Products</h2>
 						</div>
-						<div class="productSlider">
-						  <div class="sliderItem">
-						  	<a href="#">
-						  		<img src="img/cakeStand.jpg" alt="">
-								<h1 class="featuredTitle">Perslice Cake Stand</h1>
-								<p id="productPrice">$24.99</p>
-						  	</a>
-						  </div>
-						  <div class="sliderItem">
-						  	<a href="#">
-						  		<img src="img/cakePan.jpg" alt="">
-								<h1 class="featuredTitle">Perslice Cake Stand</h1>
-								<p id="productPrice">$14.99</p>
-						  	</a>
-						  </div>
-						  <div class="sliderItem">
-						  	<a href="#">
-						  		<img src="img/measuringSpoons.jpg" alt="">
-								<h1 class="featuredTitle">Perslice Cake Stand</h1>
-								<p id="productPrice">$7.99</p>
-						  	</a>
-						  </div>
+						<div id="box">
+							<div class="productSlider">
+							  <div class="sliderItem">
+							  	<a href="#">
+							  		<img src="img/cakeStand.jpg" alt="">
+									<h1 class="featuredTitle">Perslice <br>Cake Stand</h1>
+									<p id="productPrice">$24.99</p>
+							  	</a>
+							  </div>
+							  <div class="sliderItem">
+							  	<a href="#">
+							  		<img src="img/cakePan.jpg" alt="">
+									<h1 class="featuredTitle">Perslice <br>Cake Pan</h1>
+									<p id="productPrice">$14.99</p>
+							  	</a>
+							  </div>
+							  <div class="sliderItem">
+							  	<a href="#">
+							  		<img src="img/measuringSpoons.jpg" alt="">
+									<h1 class="featuredTitle">Perslice <br>Measuring Spoons</h1>
+									<p id="productPrice">$7.99</p>
+							  	</a>
+							  </div>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -265,8 +265,16 @@ shop css
 
 .sliderItem {text-align: center;}
 
+.sliderItem p {font-size: 20px; padding: 10px 0px;}
+
 .sliderItem a {color: #000;}
 .sliderItem a:hover {text-decoration: none;}
 
+.slick-list {
+    width: 430px;
+    margin: 0px auto;
+}
+
+#box { position: relative;}
 
 
