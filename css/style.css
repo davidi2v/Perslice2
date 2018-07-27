@@ -258,10 +258,11 @@ shop css
     margin-top: 0px;
 }
 
-#shop .productSlider {margin-top: 3em; margin-bottom: 3em;}
+.productSlider {margin-top: 3em; margin-bottom: 3em;}
 
-#shop .productSlider img {width: 150px;}
-#shop .productSlider h1 {font-size: 22px;}
+#features .productSlider img {width: 190px; display: block; margin: 0px auto;}
+
+.productSlider h1 {font-size: 22px;}
 
 .sliderItem {text-align: center;}
 
@@ -320,6 +321,41 @@ blogs css
 ---------------------*/
 #blogs img {width: 100%;}
 
+/* ---------------------
+blogposts css
+---------------------*/
+#blogposts img {width: 100%; padding: 20px 0px;}
 
+#blogposts .aside img {width: 280px; padding: 0px;}
 
+#followSocial { text-align: center;}
 
+#followSocial ul {display: flex; list-style: none; padding: 0px; width: 250px; margin: 0px auto;}
+
+#followSocial ul li img {width: 75%;}
+
+/* ---------------------
+contact css
+---------------------*/
+button.ctaBtn{
+    width: 100%;
+    border: solid 2px #000;
+    display: block;
+    color: #000;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: .3s;
+    text-align: center;
+}
+button.ctaBtn:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.formSelect {background-color: #eeb2ca;}
+.formSelect h1 {font-size: 28px; padding: 20px 0px;}
+.formSelectBlu {background-color: #afe2e3;}
+.formSelectBlu h1 {font-size: 28px; padding: 20px 0px;}
