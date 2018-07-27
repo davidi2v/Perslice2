@@ -50,88 +50,97 @@
 		</div>
 	</nav>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="formSelect text-center">
-						<h1>Contact Us</h1>
+		<section id="contact">
+			<img src="img/babyBitesCake.jpg" alt="Baby bites cake">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="formSelect text-center">
+							<h1>Contact Us</h1>
+						</div>
+						<div id="form">
+							<p>Please fill the form below if you have any questions or concers about Perslice or our services, and we will be glad to assist.</p>
+							<form>
+							  <div class="form-group">
+							    <label for="name">Full Name</label>
+							    <input type="email" class="form-control" id="name" placeholder="First, Last Name">
+							  </div>
+							  <div class="form-group">
+							    <label for="email">Email address</label>
+							    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+							  </div>
+							  <div class="form-group">
+							    <label for="phoneNumber">Phone Number</label>
+							    <input type="email" class="form-control" id="phoneNumber" placeholder="Best number to contact">
+							  </div>
+							  <div class="form-group">
+							    <label for="message">Example textarea</label>
+							    <textarea class="form-control" id="message" rows="3"></textarea>
+							  </div>
+							  <button type="submit" class="ctaBtn">Send</button>
+							  <p>Want our Perslice cake slicer and server in your stores? Please <a href="#">click here</a>.</p>
+							</form>
+						</div>
 					</div>
-					<div id="form">
-						<form>
-						  <div class="form-group">
-						    <label for="name">Full Name</label>
-						    <input type="email" class="form-control" id="name" placeholder="First, Last Name">
-						  </div>
-						  <div class="form-group">
-						    <label for="email">Email address</label>
-						    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-						  </div>
-						  <div class="form-group">
-						    <label for="phoneNumber">Phone Number</label>
-						    <input type="email" class="form-control" id="phoneNumber" placeholder="Best number to contact">
-						  </div>
-						  <div class="form-group">
-						    <label for="message">Example textarea</label>
-						    <textarea class="form-control" id="message" rows="3"></textarea>
-						  </div>
-						  <button type="submit" class="ctaBtn">Submit</button>
-						</form>
+					<div class="col-xs-12">
+						<div class="formSelectBlu text-center">
+							<h1>Wholesale and Retail</h1>
+						</div>
+						<div id="form">
+							<p>Get your own Perslice products in your store! We will respond with in 1 business day.</p>
+							<form>
+							  <div class="form-group">
+							    <label for="name">Full Name</label>
+							    <input type="email" class="form-control" id="name" placeholder="First, Last Name">
+							  </div>
+							  <div class="form-group">
+							    <label for="email">Email address</label>
+							    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+							  </div>
+							  <div class="form-group">
+							    <label for="phoneNumber">Phone Number</label>
+							    <input type="email" class="form-control" id="phoneNumber" placeholder="Best number to contact">
+							  </div>
+							  <div class="form-group">
+							    <label for="message">Example textarea</label>
+							    <textarea class="form-control" id="message" rows="3"></textarea>
+							  </div>
+							  <button type="submit" class="ctaBtn">Send</button>
+							  <p>Have questions about our products or service? Please <a href="#">click here</a>.</p>
+							</form>
+						</div>
 					</div>
-				</div>
-				<div class="col-xs-12">
-					<div class="formSelectBlu text-center">
-						<h1>Wholesale and Retail</h1>
-					</div>
-					<div id="form">
-						<form>
-						  <div class="form-group">
-						    <label for="name">Full Name</label>
-						    <input type="email" class="form-control" id="name" placeholder="First, Last Name">
-						  </div>
-						  <div class="form-group">
-						    <label for="email">Email address</label>
-						    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-						  </div>
-						  <div class="form-group">
-						    <label for="phoneNumber">Phone Number</label>
-						    <input type="email" class="form-control" id="phoneNumber" placeholder="Best number to contact">
-						  </div>
-						  <div class="form-group">
-						    <label for="message">Example textarea</label>
-						    <textarea class="form-control" id="message" rows="3"></textarea>
-						  </div>
-						  <button type="submit" class="ctaBtn">Submit</button>
-						</form>
-					</div>
-				</div>
-				<div class="col-xs-12">
-					<div class="formSelect text-center">
-						<h1>Distribution</h1>
-					</div>
-					<div id="form">
-						<form>
-						  <div class="form-group">
-						    <label for="name">Full Name</label>
-						    <input type="email" class="form-control" id="name" placeholder="First, Last Name">
-						  </div>
-						  <div class="form-group">
-						    <label for="email">Email address</label>
-						    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-						  </div>
-						  <div class="form-group">
-						    <label for="phoneNumber">Phone Number</label>
-						    <input type="email" class="form-control" id="phoneNumber" placeholder="Best number to contact">
-						  </div>
-						  <div class="form-group">
-						    <label for="message">Example textarea</label>
-						    <textarea class="form-control" id="message" rows="3"></textarea>
-						  </div>
-						  <button type="submit" class="ctaBtn">Submit</button>
-						</form>
+					<div class="col-xs-12">
+						<div class="formSelect text-center">
+							<h1>Distribution</h1>
+						</div>
+						<div id="form">
+							<p>Get your own Perslice products in your store! We will respond with in 1 business day.</p>
+							<form>
+							  <div class="form-group">
+							    <label for="name">Full Name</label>
+							    <input type="email" class="form-control" id="name" placeholder="First, Last Name">
+							  </div>
+							  <div class="form-group">
+							    <label for="email">Email address</label>
+							    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+							  </div>
+							  <div class="form-group">
+							    <label for="phoneNumber">Phone Number</label>
+							    <input type="email" class="form-control" id="phoneNumber" placeholder="Best number to contact">
+							  </div>
+							  <div class="form-group">
+							    <label for="message">Example textarea</label>
+							    <textarea class="form-control" id="message" rows="3"></textarea>
+							  </div>
+							  <button type="submit" class="ctaBtn">Send</button>
+							  <p>Have questions about our products or service? Please <a href="#">click here</a>.</p>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	</body>
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
