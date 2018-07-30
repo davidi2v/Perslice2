@@ -226,6 +226,22 @@ ul#socialFooter li img {width: 35px;}
 
 #Copyright {text-align: center; padding-top: 30px; padding-bottom: 20px;}
 
+@media only screen and (max-width: 767px) {
+    #landing .container-fluid, #landing .container-fluid .col-md-8 {
+        padding: 0px;
+    }
+
+    #landing .ctaBtn {margin-left: 15px; margin-right: 15px;}
+
+    ul.dropdown-menu li{background-color: #eeb2ca; text-align: center; padding: 10px 0px;}
+
+    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+        padding: 0px;
+    }
+
+    #landing .row {margin: 0px;}
+}
+
 /* ---------------------
 shop css
 ---------------------*/
@@ -278,20 +294,6 @@ shop css
 
 .slick-slider {
     overflow: hidden;
-}
-
-@media only screen and (max-width: 767px) {
-    #landing .container-fluid, #landing .container-fluid .col-md-8 {
-        padding: 0px;
-    }
-
-    #landing .ctaBtn {margin-left: 15px; margin-right: 15px;}
-
-    ul.dropdown-menu li{background-color: #eeb2ca; text-align: center; padding: 10px 0px;}
-
-    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
-        padding: 0px;
-    }
 }
 
 /* ---------------------
