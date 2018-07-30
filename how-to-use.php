@@ -17,20 +17,19 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">
+				<a class="navbar-brand" href="#">
 					<img src="img/Logo_Perslice.png" alt="perslice logo">
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li><a href="/">HOME</a></li>
+					<li><a href="#">HOME</a></li>
 					<li class="active"><a href="shop.php">SHOP</a></li>
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="contact.php">CONTACT <span class="caret"></span></a>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-						<li><a href="contact.php#contactForm">CONTACT US</a></li>
-						<li><a href="contact.php#retailForm">RETAILER</a></li>
-						<li><a href="contact.php#distributionForm">DISTRIBUTOR</a></li>
+						<li><a href="#">RETAILER</a></li>
+						<li><a href="#">DISTRIBUTOR</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -38,10 +37,10 @@
 						<ul class="dropdown-menu">
 						<li><a href="blogs.php">BLOGS</a></li>
 						<li><a href="recipes-all.php">RECIPES</a></li>
-						<li><a href="all=events.php">SPECIAL EVENTS</a></li>
+						<li><a href="#">SPECIAL EVENTS</a></li>
 						</ul>
 					</li>
-					<li><a href="how-to-use.php">HOW TO USE</a></li>
+					<li><a href="#">HOW TO USE</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -51,12 +50,12 @@
 		</div>
 	</nav>
 	<body>
-		<div class="container">
+		<div id="howto" class="container">
 			<div id="video" class="row text-center">
 				<h3>Video of Perslice sent to us by Miguel will go here.</h3>
 			</div>
-			<div class="row text-center">
-				<h3>Our Perslice Cake Slicer and Server cuts your cake into equal sizes!</h3>
+			<div class="row">
+				<h2>Our Perslice Cake Slicer and Server cuts your cake into equal sizes!</h2>
 			    <div id="persliceAnimation" class="container">
 			        <div class="row">
 			          <div class="cakeOutlines text-center">

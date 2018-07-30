@@ -17,20 +17,19 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">
+				<a class="navbar-brand" href="#">
 					<img src="img/Logo_Perslice.png" alt="perslice logo">
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li><a href="/">HOME</a></li>
+					<li><a href="#">HOME</a></li>
 					<li class="active"><a href="shop.php">SHOP</a></li>
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="contact.php">CONTACT <span class="caret"></span></a>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-						<li><a href="contact.php#contactForm">CONTACT US</a></li>
-						<li><a href="contact.php#retailForm">RETAILER</a></li>
-						<li><a href="contact.php#distributionForm">DISTRIBUTOR</a></li>
+						<li><a href="#">RETAILER</a></li>
+						<li><a href="#">DISTRIBUTOR</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -38,10 +37,10 @@
 						<ul class="dropdown-menu">
 						<li><a href="blogs.php">BLOGS</a></li>
 						<li><a href="recipes-all.php">RECIPES</a></li>
-						<li><a href="all=events.php">SPECIAL EVENTS</a></li>
+						<li><a href="#">SPECIAL EVENTS</a></li>
 						</ul>
 					</li>
-					<li><a href="how-to-use.php">HOW TO USE</a></li>
+					<li><a href="#">HOW TO USE</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -71,10 +70,10 @@
 						<h2>Get your own Perslice Cake Slicer and Server!</h2>
 						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
 						<h3>Perslice<br>Cake Slicer and Server</h3>
-						<p id="productPrice">$24.99</p>
+						<p id="productPrice"></p>
 						<a href="product.php" class="ctaBtn">Buy Now</a>
 					</div>
-					<div id="featuredBlogs">
+					<div id="featuredBlogs2">
 						<h2 class="text-center">Other Blogposts</h2>
 						<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indicators -->
@@ -90,14 +89,12 @@
 								<img src="img/blogpost1.jpg" alt="">
 								<h3>Blogpost 1</h3>
 								</a>
-								<p>This a placeholder text for the blogpost.</p>
 						    </div>
 						    <div class="item">
 							<a href="blogpost.php">
 								<img src="img/blogpost2.jpg" alt="">
-								<h3>Blogpost 2</h3>
+								<h3>Blogpost 1</h3>
 								</a>
-								<p>This a placeholder text for the blogpost.</p>
 						    </div>
 						  </div>
 						  <!-- Left and right controls -->
@@ -116,10 +113,10 @@
 					<div id="followSocial">
 						<h3>Follow Us!</h2>
 						<ul>
-							<li><a href="#"><img src="img/fbIcon_blk.png" alt=""></a></li>
-							<li><a href="#"><img src="img/igIcon.png" alt=""></a></li>
-							<li><a href="#"><img src="img/twitterIcon.png" alt=""></a></li>
-							<li><a href="#"><img src="img/youtubeIcon.png" alt=""></a></li>
+							<li><a href="https://www.facebook.com/PersliceUSA/" target="_blank"><img src="img/fbIcon_blk.png" alt=""></a></li>
+							<li><a href="https://www.instagram.com/persliceusa/" target="_blank"><img src="img/igIcon.png" alt=""></a></li>
+							<li><a href="https://twitter.com/persliceusa?lang=en" target="_blank"><img src="img/twitterIcon.png" alt=""></a></li>
+							<li><a href="https://www.youtube.com/channel/UCNun0CgGBKZDRyAzXDZSYWg" target="_blank"><img src="img/youtubeIcon.png" alt=""></a></li>
 						</ul>
 					</div>
 				</div>

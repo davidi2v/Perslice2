@@ -407,12 +407,16 @@ blogposts css
 
 #followSocial ul li img {width: 75%;}
 
-#featuredBlogs {margin-bottom: 4em;}
+#featuredBlogs {margin-bottom: 4em; margin-top: 4em;}
 #featuredBlogs .carousel {height: 310px;}
-.carousel-indicators .active {background-color: #000;}
-.carousel-indicators li {border: solid 2px #000;
 
-/* ---------------------
+#featuredBlogs2 {margin-bottom: 4em; margin-top: 4em;}
+#featuredBlogs2 .carousel {height: 360px;}
+
+.carousel-indicators .active {background-color: #000;}
+.carousel-indicators li {border: solid 2px #000;}
+
+/*---------------------
 contact css
 ---------------------*/
 #contact img {width: 100%;}
@@ -445,9 +449,11 @@ button.ctaBtn:hover {
 
 /* ---------------------
 how-to-use css
----------------------*/
+--------------------- */
+#howto h2 {text-align: center; padding-top: 2em;}
+
 #video {
-    height: 200px;
+    height: 300px;
     background-color: #eeb2ca;
 }
 

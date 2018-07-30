@@ -39,7 +39,7 @@
 						<ul class="dropdown-menu">
 						<li><a href="blogs.php">BLOGS</a></li>
 						<li><a href="recipes-all.php">RECIPES</a></li>
-						<li><a href="all=events.php">SPECIAL EVENTS</a></li>
+						<li><a href="all-events.php">SPECIAL EVENTS</a></li>
 						</ul>
 					</li>
 					<li><a href="how-to-use.php">HOW TO USE</a></li>
