@@ -17,16 +17,16 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="/">
 					<img src="img/Logo_Perslice.png" alt="perslice logo">
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li><a href="#">HOME</a></li>
+					<li><a href="/">HOME</a></li>
 					<li class="active"><a href="shop.php">SHOP</a></li>
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT <span class="caret"></span></a>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="contact.php">CONTACT <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 						<li><a href="#">RETAILER</a></li>
 						<li><a href="#">DISTRIBUTOR</a></li>
