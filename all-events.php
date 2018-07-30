@@ -24,7 +24,7 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					<li><a href="/">HOME</a></li>
-					<li class="active"><a href="shop.php">SHOP</a></li>
+					<li><a href="shop.php">SHOP</a></li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="contact.php">CONTACT <span class="caret"></span></a>
 						<ul class="dropdown-menu">
@@ -33,7 +33,7 @@
 						<li><a href="contact.php#distributionForm">DISTRIBUTOR</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
+					<li class="dropdown active">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="blogs.php">ARTICLES<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 						<li><a href="blogs.php">BLOGS</a></li>
