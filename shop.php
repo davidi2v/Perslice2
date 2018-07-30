@@ -65,8 +65,8 @@
 					<div id="mainProduct" class="col-xs-12">
 						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
-						<p id="productPrice">$24.99</p>
-						<a class="ctaBtn" href="#">Quick View</a>
+						<p class="productPrice">$24.99</p>
+						<a class="ctaBtn" href="#">Buy Now</a>
 					</div>
 					<!-- <div class="col-xs-6">
 						<img src="img/cakeStand.jpg" alt="perslice cake stand">

@@ -97,7 +97,7 @@ a.ctaBtn:hover {
     margin-bottom: 4em;
 }
 
-#shopHm p.productPrice {font-size: 20px; padding: 10px 0px;}
+#shopHm p.productPrice, #mainProduct p.productPrice {font-size: 20px; padding: 10px 0px;}
 
 #myCarousel {height: 540px;}
 
@@ -257,12 +257,14 @@ shop css
 
 #imgHeader #imgText {
     position: absolute;
-    top: 50%;
+    top: 45%;
     right: 10px;
     transform: translate(0,-50%);
     text-align: right;
-    font-size: 34px;
+    font-size: 30px;
 }
+
+#shop {padding-top: 4em;}
 
 #shop img {
     width: 280px;
@@ -276,7 +278,6 @@ shop css
 }
 
 #shop #mainProduct h2 {
-    font-size: 20px;
     margin-top: 0px;
 }
 
