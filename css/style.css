@@ -97,7 +97,7 @@ a.ctaBtn:hover {
     margin-bottom: 4em;
 }
 
-#shopHm p.productPrice, #mainProduct p.productPrice, #product p.productPrice {font-size: 20px; padding: 10px 0px;}
+#shopHm p.productPrice, #mainProduct p.productPrice, #product p.productPrice, .aside p.productPrice {font-size: 20px; padding: 10px 0px;}
 
 #myCarousel {height: 540px;}
 
@@ -379,6 +379,13 @@ single recipe css
 blogs css
 ---------------------*/
 #blogs img {width: 100%;}
+#blogs .aside {margin-top: 4em;}
+
+.posts {padding-top: 20px; padding-bottom: 20px;}
+.posts p {font-size: 16px;padding-bottom: 10px;}
+.posts img {padding-bottom: 10px;}
+
+.carousel-inner a {color: #000; text-decoration: none; text-align: center;}
 
 /* ---------------------
 blogposts css
@@ -392,6 +399,11 @@ blogposts css
 #followSocial ul {display: flex; list-style: none; padding: 0px; width: 250px; margin: 0px auto;}
 
 #followSocial ul li img {width: 75%;}
+
+#featuredBlogs {margin-bottom: 4em;}
+#featuredBlogs .carousel {height: 310px;}
+.carousel-indicators .active {background-color: #eeb2ca;}
+.carousel-indicators li {border: solid 2px #eeb2ca;
 
 /* ---------------------
 contact css

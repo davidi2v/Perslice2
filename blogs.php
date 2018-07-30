@@ -81,37 +81,41 @@
 						<h2>Get your own Perslice Cake Slicer and Server!</h2>
 						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
 						<h3>Perslice<br>Cake Slicer and Server</h3>
-						<p id="productPrice">$24.99</p>
+						<p class="productPrice">$24.99</p>
 						<a href="product.php" class="ctaBtn">Buy Now</a>
 					</div>
 					<section id="blogHm">
 						<div class="container">
 							<div class="row text-center">
-								<h2>Recent Posts</h2>
-								<p>Read our editors stories</p>
+								<h2>Recent Blogs</h2>
+								<p>For fun and sweet reads</p>
 							</div>
 							<div class="row">
 								<div class="col-md-4">
-									<div class="blogBox">
-										<div class="blogImg">
-											<img src="img/blogpost1.jpg">
+									<a href="blogpost.php">
+										<div class="blogBox">
+											<div class="blogImg">
+												<img src="img/blogpost1.jpg">
+											</div>
+											<div class="blogContent">
+												<h4>Take It From a Pro</h4>
+												<p>Interesting facts about birthdays in the 18th century.</p>
+											</div>
 										</div>
-										<div class="blogContent">
-											<h4>Take It From a Pro</h4>
-											<p>Interesting facts about birthdays in the 18th century.</p>
-										</div>
-									</div>
+									</a>
 								</div>
 								<div class="col-md-4">
-									<div class="blogBox">
-										<div class="blogImg">
-											<img src="img/blogpost2.jpg">
+									<a href="blogpost.php">
+										<div class="blogBox">
+											<div class="blogImg">
+												<img src="img/blogpost2.jpg">
+											</div>
+											<div class="blogContent">
+												<h4>Take It From a Pro</h4>
+												<p>Interesting facts about birthdays in the 18th century.</p>
+											</div>
 										</div>
-										<div class="blogContent">
-											<h4>Planning a Party that...</h4>
-											<p>First thing to remember is to plan ahead of time.</p>
-										</div>
-									</div>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -131,13 +135,13 @@
 							<a href="blogpost.php">
 								<img src="img/blogpost1.jpg" alt="">
 								<h3>Blogpost 1</h3>
-								</a>
+							</a>
 						    </div>
 						    <div class="item">
 							<a href="blogpost.php">
 								<img src="img/blogpost2.jpg" alt="">
 								<h3>Blogpost 2</h3>
-								</a>
+							</a>
 						    </div>
 						  </div>
 						  <!-- Left and right controls -->

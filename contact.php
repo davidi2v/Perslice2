@@ -24,8 +24,8 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					<li><a href="/">HOME</a></li>
-					<li class="active"><a href="shop.php">SHOP</a></li>
-					<li class="dropdown">
+					<li><a href="shop.php">SHOP</a></li>
+					<li class="dropdown active">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="contact.php">CONTACT <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 						<li><a href="contact.php#contactForm">CONTACT US</a></li>
@@ -79,7 +79,7 @@
 							    <textarea class="form-control" id="message" rows="3"></textarea>
 							  </div>
 							  <button type="submit" class="ctaBtn">Send</button>
-							  <p>Want our Perslice cake slicer and server in your stores? Please <a href="#">click here</a>.</p>
+							  <p>Want our Perslice cake slicer and server in your stores? Please <a href="contact.php#retailForm">click here</a>.</p>
 							</form>
 						</div>
 					</div>
@@ -91,23 +91,23 @@
 							<p>Get your own Perslice products in your store! We will respond with in 1 business day.</p>
 							<form>
 							  <div class="form-group">
-							    <label for="name">Full Name</label>
-							    <input type="email" class="form-control" id="name" placeholder="First, Last Name">
+							    <label for="name2">Full Name</label>
+							    <input type="email" class="form-control" id="name2" placeholder="First, Last Name">
 							  </div>
 							  <div class="form-group">
-							    <label for="email">Email address</label>
-							    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+							    <label for="email2">Email address</label>
+							    <input type="email" class="form-control" id="email2" placeholder="name@example.com">
 							  </div>
 							  <div class="form-group">
-							    <label for="phoneNumber">Phone Number</label>
-							    <input type="email" class="form-control" id="phoneNumber" placeholder="Best number to contact">
+							    <label for="phoneNumber2">Phone Number</label>
+							    <input type="email" class="form-control" id="phoneNumber2" placeholder="Best number to contact">
 							  </div>
 							  <div class="form-group">
-							    <label for="message">Example textarea</label>
-							    <textarea class="form-control" id="message" rows="3"></textarea>
+							    <label for="message2">Example textarea</label>
+							    <textarea class="form-control" id="message2" rows="3"></textarea>
 							  </div>
 							  <button type="submit" class="ctaBtn">Send</button>
-							  <p>Have questions about our products or service? Please <a href="#">click here</a>.</p>
+							  <p>Have questions about our products or service? Please <a href="contact.php#contactForm">click here</a>.</p>
 							</form>
 						</div>
 					</div>
@@ -119,23 +119,23 @@
 							<p>Get your own Perslice products in your store! We will respond with in 1 business day.</p>
 							<form>
 							  <div class="form-group">
-							    <label for="name">Full Name</label>
-							    <input type="email" class="form-control" id="name" placeholder="First, Last Name">
+							    <label for="name3">Full Name</label>
+							    <input type="email" class="form-control" id="name3" placeholder="First, Last Name">
 							  </div>
 							  <div class="form-group">
-							    <label for="email">Email address</label>
-							    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+							    <label for="email3">Email address</label>
+							    <input type="email" class="form-control" id="email3" placeholder="name@example.com">
 							  </div>
 							  <div class="form-group">
-							    <label for="phoneNumber">Phone Number</label>
-							    <input type="email" class="form-control" id="phoneNumber" placeholder="Best number to contact">
+							    <label for="phoneNumber4">Phone Number</label>
+							    <input type="email" class="form-control" id="phoneNumber4" placeholder="Best number to contact">
 							  </div>
 							  <div class="form-group">
-							    <label for="message">Example textarea</label>
-							    <textarea class="form-control" id="message" rows="3"></textarea>
+							    <label for="message5">Example textarea</label>
+							    <textarea class="form-control" id="message5" rows="3"></textarea>
 							  </div>
 							  <button type="submit" class="ctaBtn">Send</button>
-							  <p>Have questions about our products or service? Please <a href="#">click here</a>.</p>
+							  <p>Have questions about our products or service? Please <a href="contact.php#contactForm">click here</a>.</p>
 							</form>
 						</div>
 					</div>
