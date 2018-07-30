@@ -356,12 +356,19 @@ product css
 recipe-all css
 ---------------------*/
 #allRecipes img {width: 100%;}
+#allRecipes h3 {font-size: 20px; text-align: center;}
+#allRecipes a {position: absolute; bottom: 20px; left: 50%; transform: translate(-50%,0%); width: 85%;}
+
+.recipeItem {height: 310px;}
 
 /* ---------------------
 single recipe css
 ---------------------*/
+#allRecipes {margin-bottom: 6em;}
 
 #recipe {margin-bottom: 7em;}
+
+#recipeHead {margin-bottom: 2em;}
 
 #recipe .col-md-8 img {width: 100%;}
 
@@ -402,8 +409,8 @@ blogposts css
 
 #featuredBlogs {margin-bottom: 4em;}
 #featuredBlogs .carousel {height: 310px;}
-.carousel-indicators .active {background-color: #eeb2ca;}
-.carousel-indicators li {border: solid 2px #eeb2ca;
+.carousel-indicators .active {background-color: #000;}
+.carousel-indicators li {border: solid 2px #000;
 
 /* ---------------------
 contact css

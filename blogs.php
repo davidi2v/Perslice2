@@ -57,23 +57,23 @@
 					<div class="posts">
 						<h3>Take It From a Pro</h3>
 						<p>Published : July 17, 2018</p>
-						<img src="img/blogpost1.jpg">
+						<a href="blogpost.php"><img src="img/blogpost1.jpg"></a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<a href="#" class="ctaBtn">Read More</a>
+						<a href="blogpost.php" class="ctaBtn">Read More</a>
 					</div>
 					<div class="posts">
 						<h3>Blogpost 2</h3>
 						<p>Published : July 17, 2018</p>
-						<img src="img/blogpost1.jpg">
+						<a href="blogpost.php"><img src="img/blogpost1.jpg"></a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<a href="#" class="ctaBtn">Read More</a>
+						<a href="blogpost.php" class="ctaBtn">Read More</a>
 					</div>
 					<div class="posts">
 						<h3>Blogpost 3</h3>
 						<p>Published : July 17, 2018</p>
-						<img src="img/blogpost1.jpg">
+						<a href="blogpost.php"><img src="img/blogpost1.jpg"></a>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<a href="#" class="ctaBtn">Read More</a>
+						<a href="blogpost.php" class="ctaBtn">Read More</a>
 					</div>
 				</div>
 				<div class="col-xs-12">
