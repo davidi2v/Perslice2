@@ -1,6 +1,8 @@
 /* ---------------------
 index css
 ---------------------*/
+#landing p, #shopHm p {font-size: 16px;}
+
 #banner {background-color: #eeb2ca;}
 
 #banner p {
