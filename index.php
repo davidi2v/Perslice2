@@ -138,26 +138,26 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-6">
-						<a href="#"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
+						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
 					</div>
 					<div class="col-xs-6">
-						<a href="#"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6">
-						<a href="#"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
-					</div>
-					<div class="col-xs-6">
-						<a href="#"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
+						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6">
-						<a href="#"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
+						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
 					</div>
 					<div class="col-xs-6">
-						<a href="#"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
+						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
+					</div>
+					<div class="col-xs-6">
+						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
 					</div>
 				</div>
 			</div>
@@ -231,26 +231,30 @@
 				</div>
 				<div class="row">
 					<div class="col-md-4">
-						<div class="blogBox">
-							<div class="blogImg">
-								<img src="img/blogpost1.jpg">
+						<a href="blogpost.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blogpost1.jpg">
+								</div>
+								<div class="blogContent">
+									<h4>Take It From a Pro</h4>
+									<p>Interesting facts about birthdays in the 18th century.</p>
+								</div>
 							</div>
-							<div class="blogContent">
-								<h4>Take It From a Pro</h4>
-								<p>Interesting facts about birthdays in the 18th century.</p>
-							</div>
-						</div>
+						</a>
 					</div>
 					<div class="col-md-4">
-						<div class="blogBox">
-							<div class="blogImg">
-								<img src="img/blogpost2.jpg">
+						<a href="blogpost.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blogpost2.jpg">
+								</div>
+								<div class="blogContent">
+									<h4>Planning a Party that...</h4>
+									<p>First thing to remember is to plan ahead of time.</p>
+								</div>
 							</div>
-							<div class="blogContent">
-								<h4>Planning a Party that...</h4>
-								<p>First thing to remember is to plan ahead of time.</p>
-							</div>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
