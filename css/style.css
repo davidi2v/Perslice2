@@ -97,7 +97,7 @@ a.ctaBtn:hover {
     margin-bottom: 4em;
 }
 
-#shopHm p.productPrice, #mainProduct p.productPrice {font-size: 20px; padding: 10px 0px;}
+#shopHm p.productPrice, #mainProduct p.productPrice, #product p.productPrice {font-size: 20px; padding: 10px 0px;}
 
 #myCarousel {height: 540px;}
 
@@ -306,7 +306,13 @@ shop css
 /* ---------------------
 product css
 ---------------------*/
+#product {margin-bottom: 6em;}
+
 #product img {width: 100%;}
+
+#product h1 {font-size: 30px;}
+
+#product button {background-color: #eeb2ca;}
 
 #product #thumbnails {list-style: none; padding-left: 0px; display: block; margin: 0px auto;}
 
@@ -315,7 +321,37 @@ product css
 #breadcrumbs ul {list-style: none; display: flex;}
 
 #breadcrumbs ul li {padding-right: 15px;}
+#breadcrumbs ul li a {color: #000;}
+#breadcrumbs ul li:last-child a {color: #337ab7; text-decoration: underline;}
 
+#addtocart {margin-bottom: 4em; margin-top: 2em;}
+
+.panel-group .panel {border-radius: 0px;}
+
+.panel-default {border: none; box-shadow: none;}
+
+.panel-default>.panel-heading {
+    background: none;
+    border-right: 0;
+    border-left: 0;
+    border-top: solid 2px #000;
+}
+
+.panel-group .panel-default:last-child {
+    border-bottom: solid 2px #000;
+}
+
+.panel-heading {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .panel-heading a {
+      font-size: 20px;
+    }
 /* ---------------------
 recipe-all css
 ---------------------*/
@@ -382,10 +418,11 @@ button.ctaBtn:hover {
     color: #fff;
 }
 
-.formSelect {background-color: #eeb2ca;}
+.formSelect {background-color: #eeb2ca; margin-bottom: 2em;}
 .formSelect h1 {font-size: 28px; padding: 20px 0px;}
 .formSelectBlu {background-color: #afe2e3;}
 .formSelectBlu h1 {font-size: 28px; padding: 20px 0px;}
+#contact p {margin-bottom: 2em; margin-top: 2em; font-size: 16px;}
 
 /* ---------------------
 how-to-use css

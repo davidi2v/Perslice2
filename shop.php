@@ -66,7 +66,7 @@
 						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
 						<p class="productPrice">$24.99</p>
-						<a class="ctaBtn" href="#">Buy Now</a>
+						<a class="ctaBtn" href="product.php">Buy Now</a>
 					</div>
 					<!-- <div class="col-xs-6">
 						<img src="img/cakeStand.jpg" alt="perslice cake stand">

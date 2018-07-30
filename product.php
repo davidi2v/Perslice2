@@ -84,7 +84,7 @@
 					<h1>Perslice<br>Cake Slicer and Server</h1>
 				</div>
 				<div class="col-xs-6">
-					<p id="productPrice">$24.99</p>
+					<p class="productPrice">$24.99</p>
 				</div>
 				<div class="col-xs-6">
 					<form>
@@ -103,7 +103,7 @@
 				        </div>
 					</form>
 				</div>
-				<div class="col-xs-12">
+				<div id="addtocart" class="col-xs-12">
 					<a href="#" class="ctaBtn">Add to Cart</a>
 				</div>
 				<div class="col-xs-12">

@@ -60,7 +60,7 @@
 					<div id="landingCta" class="col-md-4">
 						<h1>PERSLICE</h1>
 						<p>Spend less time slicing<br> and more time celebrating</p>
-						<a class="ctaBtn" href="#">Shop Now</a>
+						<a class="ctaBtn" href="product.php">Shop Now</a>
 					</div>
 				</div>
 			</div>
@@ -104,7 +104,7 @@
 			      <img src="img/cakeHeart.jpg" alt="cake with heart">
 				  <h3>Order 2<br> <span>save 20%</span></h3>
 				  <p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
-				  <a class="ctaBtn" href="#">Shop Now</a>
+				  <a class="ctaBtn" href="product.php">Shop Now</a>
 			    </div>
 			    <div class="item">
 			      <img src="img/babyBitesCake.jpg" alt="baby bites cake">
@@ -188,7 +188,7 @@
 									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
 									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
 								</div>
-	    						<a class="ctaBtn" href="#">View Recipe</a>
+	    						<a class="ctaBtn" href="blue-velvet-cake.php">View Recipe</a>
     						</div>
     					</div>
     				</div>
@@ -250,8 +250,8 @@
 									<img src="img/blogpost2.jpg">
 								</div>
 								<div class="blogContent">
-									<h4>Planning a Party that...</h4>
-									<p>First thing to remember is to plan ahead of time.</p>
+									<h4>Take It From a Pro</h4>
+									<p>Interesting facts about birthdays in the 18th century.</p>
 								</div>
 							</div>
 						</a>
