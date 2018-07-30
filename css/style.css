@@ -339,7 +339,7 @@ contact css
 ---------------------*/
 #contact img {width: 100%;}
 
-#form p {text-align: center;}
+#contactForm p, #retailForm p, #distributionForm p {text-align: center;}
 
 button.ctaBtn{
     width: 100%;

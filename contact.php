@@ -54,11 +54,11 @@
 			<img src="img/babyBitesCake.jpg" alt="Baby bites cake">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-xs-12"  id="contactForm">
 						<div class="formSelect text-center">
 							<h1>Contact Us</h1>
 						</div>
-						<div id="form">
+						<div>
 							<p>Please fill the form below if you have any questions or concers about Perslice or our services, and we will be glad to assist.</p>
 							<form>
 							  <div class="form-group">
@@ -82,11 +82,11 @@
 							</form>
 						</div>
 					</div>
-					<div class="col-xs-12">
+					<div class="col-xs-12"  id="retailForm">
 						<div class="formSelectBlu text-center">
 							<h1>Wholesale and Retail</h1>
 						</div>
-						<div id="form">
+						<div>
 							<p>Get your own Perslice products in your store! We will respond with in 1 business day.</p>
 							<form>
 							  <div class="form-group">
@@ -110,11 +110,11 @@
 							</form>
 						</div>
 					</div>
-					<div class="col-xs-12">
+					<div class="col-xs-12"  id="distributionForm">
 						<div class="formSelect text-center">
 							<h1>Distribution</h1>
 						</div>
-						<div id="form">
+						<div>
 							<p>Get your own Perslice products in your store! We will respond with in 1 business day.</p>
 							<form>
 							  <div class="form-group">

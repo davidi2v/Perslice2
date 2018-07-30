@@ -28,8 +28,9 @@
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="contact.php">CONTACT <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-						<li><a href="#">RETAILER</a></li>
-						<li><a href="#">DISTRIBUTOR</a></li>
+						<li><a href="contact.php#contactForm">CONTACT US</a></li>
+						<li><a href="contact.php#retailForm">RETAILER</a></li>
+						<li><a href="contact.php#distributionForm">DISTRIBUTOR</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -37,10 +38,10 @@
 						<ul class="dropdown-menu">
 						<li><a href="blogs.php">BLOGS</a></li>
 						<li><a href="recipes-all.php">RECIPES</a></li>
-						<li><a href="#">SPECIAL EVENTS</a></li>
+						<li><a href="all=events.php">SPECIAL EVENTS</a></li>
 						</ul>
 					</li>
-					<li><a href="#">HOW TO USE</a></li>
+					<li><a href="how-to-use.php">HOW TO USE</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
