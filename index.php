@@ -77,14 +77,14 @@
 					<div class="col-md-6">
 						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
-						<p id="productPrice">$24.99</p>
+						<p class="productPrice">$24.99</p>
 						<a class="ctaBtn" href="#">Quick View</a>
 					</div>
 					<div class="col-md-6">
 						<span id="saleTag">Sale</span>
 						<img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
-						<p id="productPrice">$24.99</p>
+						<p class="productPrice">$24.99</p>
 						<a class="ctaBtn" href="#">Quick View</a>
 					</div>
 				</div>
@@ -132,7 +132,7 @@
 		</section>
 		<section id="insta">
 			<div class="container">
-				<div class="row text-center">
+				<div class="head row text-center">
 					<h2>Instagram @perslice</h2>
 					<p>Tag us @perslice to have your photo added to our feed!</p>
 				</div>
@@ -259,10 +259,10 @@
 			<div class="container text-center">
 				<h2>You can also shop at...</h2>
 				<div id="socialBox">
-					<div class="icon"><a href="#"><img src="img/amazonIcon.png"></a></div>
-					<div class="icon"><a href="#"><img src="img/fbIcon.png"></a></div>
+					<div class="icon"><a href="https://www.amazon.com/Perslice-Cake-Slicer-Server-Occasion/dp/B07CRRLDJL/ref=sr_1_1?s=home-garden&ie=UTF8&qid=1532976822&sr=1-1&keywords=perslice&dpID=31bxtcBTOYL&preST=_SY300_QL70_&dpSrc=srch" target="_blank"><img src="img/amazonIcon.png"></a></div>
+					<div class="icon"><a href="https://www.facebook.com/PersliceUSA/"  target="_blank"><img src="img/fbIcon.png"></a></div>
 				</div>
-				<p>Interested in becoming a retailer? <a href="#">Click here</a> and you'll be a step closer to having Perslice in your stores!</p>
+				<p>Interested in becoming a retailer? <a href="contact.php#retailForm">Click here</a> and you'll be a step closer to having Perslice in your stores!</p>
 			</div>
 		</section>
 	</body>

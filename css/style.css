@@ -1,7 +1,7 @@
 /* ---------------------
 index css
 ---------------------*/
-#landing p, #shopHm p {font-size: 16px;}
+#landing p, #shopHm p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 16px;}
 
 #banner {background-color: #eeb2ca;}
 
@@ -41,7 +41,7 @@ ul.navbar-nav li.active a {font-weight: bold;}
 
 a.navbar-brand img {width: 75px;}
 
-#landing {padding-bottom: 4em;}
+#landing, #shopHm, #specials, #newsletter, #insta, #recipes, #blogHm, #shopPlatformp {padding-bottom: 4em;}
 
 #landingImg img {
     width: 100%;
@@ -97,7 +97,7 @@ a.ctaBtn:hover {
     margin-bottom: 4em;
 }
 
-#productPrice {font-size: 20px; padding: 10px 0px;}
+#shopHm p.productPrice {font-size: 20px; padding: 10px 0px;}
 
 #myCarousel {height: 540px;}
 
@@ -140,7 +140,7 @@ a.ctaBtn:hover {
     width: 93%;
     position: relative;
     left: 50%;
-    top: 70%;
+    top: 80%;
     transform: translate(-50%,-50%);
 }
 
@@ -150,10 +150,13 @@ a.ctaBtn:hover {
     padding: 0px;
 }
 
-#insta {margin: 5em 0px;}
+#insta {margin-top: 5em;}
+
+#insta .head {margin: 0px 5px;}
 
 #insta .col-xs-6 img {
     width: 100%;
+    transition: .3s;
 }
 #insta .col-xs-6 img:hover {opacity: .7}
 
