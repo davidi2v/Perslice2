@@ -43,24 +43,26 @@
 					</li>
 					<li><a href="how-to-use.php">HOW TO USE</a></li>
 				</ul>
-				<ul class="nav navbar-nav navbar-right">
+				<!-- <ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-				</ul>
+				</ul> -->
 			</div>
 		</div>
 	</nav>
 	<body>
 		<section id="landing">
-			<div class="container-fluid">
+			<div class="container-fluid" style="padding: 0px;">
 				<div class="row">
 					<div id="landingImg" class="col-md-8">
 						<img src="img/slicedCake.jpg" alt="sliced cake">
 					</div>
 					<div id="landingCta" class="col-md-4">
-						<h1>PERSLICE</h1>
-						<p>Spend less time slicing<br> and more time celebrating</p>
-						<a class="ctaBtn" href="product.php">Shop Now</a>
+						<div id="landingContainer">
+							<h1>PERSLICE</h1>
+							<p>Spend less time slicing<br> and more time celebrating</p>
+							<a class="ctaBtn" href="product.php">Shop Now</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -73,7 +75,7 @@
 						<p>Get your Perslice today</p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row desk">
 					<div class="col-md-6">
 						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
@@ -88,9 +90,73 @@
 						<a class="ctaBtn" href="#">Quick View</a>
 					</div>
 				</div>
+				<div class="row mobile">
+					<div class="col-md-6">
+						<div class="mainBox">
+							<a href="product.php">
+								<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
+								<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
+								<p class="productPrice">$24.99</p>
+								<div class="middle">
+	  						    <div class="text"><a href="#">Quick Preview</a></div>
+	  						  </div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="productCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <!-- <ol class="carousel-indicators">
+						    <li data-target="#productCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#productCarousel" data-slide-to="1"></li>
+						  </ol> -->
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner">
+						    <div class="item active">
+								<span id="saleTag">Sale</span>
+								<a href="product.php"><img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+  	  							<h2 class="productTitle">Perslice<br> Cake Stand</h2>
+	  	  						<p class="productPrice">$24.99</p>
+								<div class="middle">
+	  						    <div class="text"><a href="#">Quick Preview</a></div>
+	  						  </div>
+							</a>
+						    </div>
+							<div class="item">
+							   <a href="product.php"><img src="img/cakePan.jpg" alt="perslice cake slicer and server">
+							   <h2 class="productTitle">Perslice<br> Cake Pan</h2>
+							   <p class="productPrice">$24.99</p>
+							   <div class="middle">
+							   <div class="text"><a href="#">Quick Preview</a></div>
+							 </div>
+						   </a>
+						   </div>
+						   <div class="item">
+							   <a href="product.php"><img src="img/measuringSpoons.jpg" alt="perslice cake slicer and server">
+							   <h2 class="productTitle">Perslice<br> Measuring Spoons</h2>
+							   <p class="productPrice">$24.99</p>
+							   <div class="middle">
+							   <div class="text"><a href="#">Quick Preview</a></div>
+							 </div>
+						   </a>
+						   </div>
+						  </div>
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#productCarousel" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#productCarousel" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
-		<section id="specials">
+		<section id="specials" class="desk">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <!-- <ol class="carousel-indicators">
@@ -102,7 +168,7 @@
 			  <div class="carousel-inner">
 			    <div class="item active">
 			      <img src="img/cakeHeart.jpg" alt="cake with heart">
-				  <h3>Order 2<br> <span>save 20%</span></h3>
+				  <h3>Order 2<br> <span>Save 20%</span></h3>
 				  <p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
 				  <a class="ctaBtn" href="product.php">Shop Now</a>
 			    </div>
@@ -124,6 +190,34 @@
 			  </a>
 			</div>
 		</section>
+		<section id="specials" class="mobile">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/cakeHeart.jpg" alt="cake with heart">
+					</div>
+					<div class="col-md-6 salesContent">
+					<div class="contentBox">
+						<h3>Order 2<br> <span>Save 20%</span></h3>
+		  				<p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
+		  				<a class="ctaBtn" href="product.php">Shop Now</a>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 salesContent">
+					<div class="contentBox">
+						<h3><span>Enter to win</span> <br>$500</h3>
+	  					<p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
+	  					<a class="ctaBtn" href="#">Learn More</a>
+					</div>
+					</div>
+					<div class="col-md-6">
+						<img src="img/babyBitesCake.jpg" alt="baby bites cake">
+					</div>
+				</div>
+			</div>
+		</section>
 		<section id="newsletter">
 			<div id="cakepopBox">
 				<h3>Great Offers &amp; Free Recipes</h3>
@@ -136,35 +230,82 @@
 					<h2>Instagram @perslice</h2>
 					<p>Tag us @perslice to have your photo added to our feed!</p>
 				</div>
-				<div class="row">
-					<div class="col-xs-6">
-						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
+				<div class="desk">
+					<div class="row">
+						<div class="col-xs-6">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
+						</div>
+						<div class="col-xs-6">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
+						</div>
 					</div>
-					<div class="col-xs-6">
-						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
+					<div class="row">
+						<div class="col-xs-6">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
+						</div>
+						<div class="col-xs-6">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
+						</div>
+						<div class="col-xs-6">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-xs-6">
-						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
+				<div class="mobile">
+					<div class="row">
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
+						</div>
 					</div>
-					<div class="col-xs-6">
-						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-6">
-						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
-					</div>
-					<div class="col-xs-6">
-						<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="recipes">
+		<section id="recipes" class="container">
 			<div class="text-center">
 				<h2>Delicious Recipes</h2>
+				<p>Try out the recipe and let us know how it tastes!</p>
 			</div>
 			<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
@@ -177,12 +318,13 @@
 			  <div class="carousel-inner">
 			    <div class="item active">
     				<div class="row">
-    					<div class="col-md-8 text-center">
+    					<div class="col-md-6 text-center">
     						<img src="img/blueBerryVelvetCake.jpg">
-    						<h3>Blueberry Velvet Cake</h3>
+    						<h3 class="desk">Blueberry Velvet Cake</h3>
     					</div>
-    					<div class="col-md-4">
+    					<div class="col-md-6">
     						<div id="recipeDetail">
+								<h3 class="mobile">Blueberry Velvet Cake</h3>
 								<div id="timeDiv">
 									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
 									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
@@ -195,12 +337,9 @@
 			    </div>
 			    <div class="item">
     				<div class="row">
-    					<div class="col-md-8 text-center">
-    						<img src="img/blueBerryVelvetCake.jpg">
-    						<h3>Blueberry Velvet Cake</h3>
-    					</div>
-    					<div class="col-md-4">
+    					<div class="col-xs-4 col-md-6">
 							<div id="recipeDetail">
+								<h3 class="mobile">Blueberry Velvet Cake</h3>
 								<div id="timeDiv">
 									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
 									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
@@ -208,6 +347,10 @@
 								</div>
 								<a class="ctaBtn" href="#">View Recipe</a>
     						</div>
+    					</div>
+						<div class="col-xs-8 col-md-6 text-center">
+    						<img src="img/blueBerryVelvetCake.jpg">
+    						<h3 class="desk">Blueberry Velvet Cake</h3>
     					</div>
     				</div>
 			    </div>
@@ -229,12 +372,53 @@
 					<h2>Perlice Blog</h2>
 					<p>For fun and sweet reads</p>
 				</div>
-				<div class="row">
+				<div class="row desk">
 					<div class="col-md-4">
 						<a href="blogpost.php">
 							<div class="blogBox">
 								<div class="blogImg">
 									<img src="img/blogpost1.jpg">
+								</div>
+								<div class="blogContent">
+									<h4>Take It From a Pro</h4>
+									<p>Interesting facts about birthdays in the 18th century.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="blogpost.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blogpost2.jpg">
+								</div>
+								<div class="blogContent">
+									<h4>Take It From a Pro</h4>
+									<p>Interesting facts about birthdays in the 18th century.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row mobile">
+					<div class="col-md-4">
+						<a href="blogpost.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blogpost1.jpg">
+								</div>
+								<div class="blogContent">
+									<h4>Take It From a Pro</h4>
+									<p>Interesting facts about birthdays in the 18th century.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="blogpost.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blogpost2.jpg">
 								</div>
 								<div class="blogContent">
 									<h4>Take It From a Pro</h4>

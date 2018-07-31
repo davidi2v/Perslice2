@@ -1,6 +1,9 @@
 /* ---------------------
 index css
 ---------------------*/
+.desk {display: block;}
+.mobile {display: none;}
+
 #landing p, #shopHm p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 16px;}
 
 #banner {background-color: #eeb2ca;}
@@ -122,8 +125,9 @@ a.ctaBtn:hover {
     margin: 0px 13px;
 }
 
-#myCarousel .carousel-control.left {background: none;}
-#myCarousel .carousel-control.right {background: none;}
+#myCarousel .carousel-control.left, #productCarousel .carousel-control.left {background: none;}
+#myCarousel .carousel-control.right, #productCarousel .carousel-control.right {background: none;}
+
 
 #newsletter {
     background-image: url("../img/cakePops.jpg");
@@ -146,7 +150,7 @@ a.ctaBtn:hover {
 
 #cakepopBox h3 {margin-top: 0px; font-weight: bold;}
 
-#insta .col-xs-6 {
+#insta .col-xs-6, #insta .col-md-3 {
     padding: 0px;
 }
 
@@ -154,15 +158,15 @@ a.ctaBtn:hover {
 
 #insta .head {margin: 0px 5px;}
 
-#insta .col-xs-6 img {
+#insta .col-xs-6 img, #insta .col-md-3 img {
     width: 100%;
     transition: .3s;
 }
-#insta .col-xs-6 img:hover {opacity: .7}
+#insta .col-xs-6 img:hover, #insta .col-md-3 img:hover {opacity: .7}
 
 #recipes {margin-top: 7em; margin-bottom: 7em;}
 
-#recipes .col-md-8 img {width: 100%;}
+#recipes .col-md-8 img, #recipes .col-md-6 img {width: 100%;}
 
 #recipes h2 {padding-bottom: 25px;}
 
@@ -246,6 +250,117 @@ ul#socialFooter li img {width: 35px;}
     }
 
     #landing .row {margin: 0px;}
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile {display: block;}
+    .desk {display: none;}
+
+    a.navbar-brand img {width: 140px;}
+
+    .navbar {height: 170px;}
+
+    .navbar .container {position: relative;}
+
+    .navbar-nav {float: right; margin-top: 70px;}
+
+    #number {
+        transform: none;
+        right: 45px;
+        text-align: right;
+        top: 30px;
+    }
+
+    #banner {background-color: #eeb2ca; height: 50px;}
+    #banner p {font-size: 16px; text-align: center; line-height: 40px;}
+
+    #landingCta {position: relative;}
+    #landingContainer {
+        width: 300px;
+        display: block;
+        margin: 0px auto;
+        margin-top: 11em;
+    }
+
+    #shopHm .mainBox a {color: #000; text-decoration: none;}
+
+    .mainBox {position: relative; overflow: hidden;}
+
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      bottom: -100%;
+      /* top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%); */
+      text-align: center;
+      width: 100%;
+    }
+
+    .mainBox:hover .middle, #productCarousel .item:hover .middle {
+      opacity: 1;
+      bottom: 0%;
+      width: 100%;
+    }
+    .text {
+      background-color: #eeb3ca;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+
+    .carousel-control {color: #000;}
+    .carousel-control:hover {color: #000;}
+    .carousel-control:focus {color: #000;}
+
+    #specials img {width: 100%;}
+
+    #specials .col-md-6 {text-align: center; padding: 0px;}
+
+    #specials .salesContent {position: relative;}
+
+    #specials .salesContent .contentBox {
+        position: absolute;
+        top: 50%;
+        transform: translate(0,50%);
+        margin: 0px 35px;
+    }
+
+    #cakepopBox {width: 600px; top: 70%;}
+    #cakepopBox h3 {font-size: 40px;}
+
+    #newsletter {
+        background-image: url("../img/cakePops2.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        height: 300px;
+
+        margin-bottom: 6em;
+    }
+
+    #recipeDetail {
+        position: absolute;
+        top: 50%;
+        transform: translate(0,70%);
+        width: 500px;
+    }
+
+    #recipeCarousel .carousel-control .glyphicon-chevron-right, .carousel-control .icon-nextglyphicon .glyphicon-chevron-right {
+        right: 25px;
+    }
+
+    #recipeCarousel .carousel-control .glyphicon-chevron-left, .carousel-control .icon-nextglyphicon .glyphicon-chevron-left {
+        left: 25px;
+    }
+
+    .blogBox {display : block;}
+
+    #shopPlatforms #socialBox img {width: 40%}
+    #shopPlatforms #socialBox .icon:first-child img {float: right; margin-right: 25px;}
+    #shopPlatforms #socialBox .icon:last-child img {float: left; margin-left: 25px;}
 }
 
 /* ---------------------
