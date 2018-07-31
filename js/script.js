@@ -70,4 +70,26 @@ $(".input-number").keydown(function (e) {
             e.preventDefault();
         }
     });
+
+    /*-------------------------------------
+    | Popup Nav Menu
+    -------------------------------------*/
+    // var menuBtn = document.querySelector('.navbar-toggle');
+    // var overlay = document.createElement('div');
+    // overlay.id = 'overlay';
+    // overlay.style.width = 100 + 'vw';
+    // overlay.style.height = 100 + 'vh';
+    // overlay.style.backgroundColor = 'red';
+    // overlay.style.position = 'fixed';
+    // overlay.style.top = 0;
+    // overlay.style.left = 0;
+    // overlay.style.zIndex = 5;
+    // overlay.style.opacity = 7\10;
+
+
+
+   // menuBtn.addEventListener('click', function (e) {
+   //    document.body.appendChild(overlay);
+   //    console.log(e);
+   // });
 });

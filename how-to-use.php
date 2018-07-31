@@ -56,7 +56,7 @@
 				<h3>Video of Perslice sent to us by Miguel will go here.</h3>
 			</div>
 			<div class="row">
-				<h2>Our Perslice Cake Slicer and Server cuts your cake into equal sizes!</h2>
+				<h1>How many slices does Perslice slice?</h1>
 			    <div id="persliceAnimation" class="container">
 			        <div class="row">
 			          <div class="cakeOutlines text-center">
@@ -69,11 +69,11 @@
 			            <p id="animeText"><span id="sizeNumber">Slice into</span> equal sizes!</p>
 			          </div>
 			          <div class="buttonsRow">
-			            <p id="button30" class="buttons">30</p>
-			            <p id="button24" class="buttons">24</p>
-			            <p id="button20" class="buttons">20</p>
-			            <p id="button16" class="buttons">16</p>
 			            <p id="button14" class="buttons">14</p>
+			            <p id="button16" class="buttons">16</p>
+			            <p id="button20" class="buttons">20</p>
+			            <p id="button24" class="buttons">24</p>
+			            <p id="button30" class="buttons">30</p>
 			          </div>
 			        </div>
 			    </div>
