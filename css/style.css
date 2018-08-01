@@ -306,7 +306,7 @@ ul#socialFooter li img {width: 35px;}
       width: 100%;
     }
 
-    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle {
+    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle, #featuredBlogs .item:hover .middle {
       opacity: 1;
       bottom: 0%;
       width: 100%;
@@ -683,3 +683,29 @@ faq css
     #faqHead {text-align: center; padding: 15px 0px;}
     #myTable {margin-bottom: 6em;}
 }
+
+/*-------------------------------------
+| event css
+-------------------------------------*/
+@media only screen and (min-width: 768px) {
+    .aside h2 {font-size: 25px; text-align: left; margin-top: 5em;}
+    .aside2 h2 {font-size: 25px; text-align: left; margin-top: 1em;}
+
+    #blogs {margin-top: 2em;}
+
+    #featuredBlogs h2 {font-size: 25px; text-align: left;}
+
+    #featuredBlogs .carousel {
+        height: 300px;
+    }
+
+    #featuredBlogs .carousel h3 {margin-top: 0px;}
+    #blogHeader p {font-size: 16px;}
+
+    #blogposts {margin-bottom: 6em;}
+
+    #blogs .posts {margin-bottom: 4em;}
+}
+
+
+

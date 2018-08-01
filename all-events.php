@@ -55,31 +55,31 @@
 		<div class="container" id="blogs">
 			<h1>Upcoming Perslice Events</h1>
 			<div class="row">
-				<div class="col-xs-12 text-left">
+				<div class="col-xs-12 col-md-8 text-left">
 					<div class="posts">
 						<img src="img/blogpost2.jpg">
 						<h3>IHHS in Chicago, Illinios</h3>
 						<p>March 15, 2017</p>
 						<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-						<a href="#" class="ctaBtn">Read More</a>
+						<a href="event.php" class="ctaBtn">Read More</a>
 					</div>
 					<div class="posts">
 						<img src="img/blogpost2.jpg">
 						<h3>Upcoming Event #2</h3>
 						<p>May 25, 2017</p>
 						<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-						<a href="#" class="ctaBtn">Read More</a>
+						<a href="event.php" class="ctaBtn">Read More</a>
 					</div>
 					<div class="posts">
 						<img src="img/blogpost2.jpg">
 						<h3>Upcoming Event #3</h3>
 						<p>August 15, 2017</p>
 						<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-						<a href="#" class="ctaBtn">Read More</a>
+						<a href="event.php" class="ctaBtn">Read More</a>
 					</div>
 				</div>
-				<div class="col-xs-12">
-					<div class="aside text-center">
+				<div class="col-xs-12 col-md-4">
+					<div class="aside2 text-center">
 						<h2>Get your own Perslice Cake Slicer and Server!</h2>
 						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
 						<h3>Perslice<br>Cake Slicer and Server</h3>
@@ -91,39 +91,46 @@
 						<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indicators -->
 						  <ol class="carousel-indicators">
-						    <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#recipeCarousel" data-slide-to="1"></li>
+							<li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#recipeCarousel" data-slide-to="1"></li>
+							<li data-target="#recipeCarousel" data-slide-to="3"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
-						    <div class="item active">
-							<a href="blogpost.php">
+							<div class="item active">
+							<a href="event.php">
 								<img src="img/blogpost1.jpg" alt="">
-								<h3>Past Event #1</h3>
-								</a>
-						    </div>
-						    <div class="item">
-							<a href="blogpost.php">
-								<img src="img/blogpost2.jpg" alt="">
-								<h3>Past Event #2</h3>
-								</a>
-						    </div>
+							</a>
+							<div class="middle">
+								<div class="text"><a href="event.php">Past Event 1</a></div>
+							</div>
+							</div>
 							<div class="item">
-							<a href="blogpost.php">
+							<a href="event.php">
+								<img src="img/blogpost2.jpg" alt="">
+							</a>
+							<div class="middle">
+								<div class="text"><a href="event.php">Past Event 2</a></div>
+							</div>
+							</div>
+							<div class="item">
+							<a href="event.php">
 								<img src="img/blogpost1.jpg" alt="">
-								<h3>Past Event #3</h3>
-								</a>
-						    </div>
+							</a>
+							<div class="middle">
+								<div class="text"><a href="event.php">Past Event 3</a></div>
+							</div>
+							</div>
 						  </div>
 						  <!-- Left and right controls -->
 						  <a class="left carousel-control" href="#recipeCarousel" data-slide="prev">
-						    <span class="glyphicon glyphicon-chevron-left"></span>
-						    <span class="sr-only">Previous</span>
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
 						  </a>
 						  <a class="right carousel-control" href="#recipeCarousel" data-slide="next">
-						    <span class="glyphicon glyphicon-chevron-right"></span>
-						    <span class="sr-only">Next</span>
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span class="sr-only">Next</span>
 						  </a>
 						</div>
 					</div>

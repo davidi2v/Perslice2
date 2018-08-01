@@ -54,7 +54,7 @@
 	<body>
 		<div class="container" id="blogposts">
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-8">
 					<div id="blogHeader">
 						<h1>IHHS in Chicago, Illinios</h1>
 						<p>August 15, 2017</p>
@@ -67,7 +67,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-4">
 					<div class="aside text-center">
 						<h2>Get your own Perslice Cake Slicer and Server!</h2>
 						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
@@ -75,40 +75,9 @@
 						<p id="productPrice">$24.99</p>
 						<a href="product.php" class="ctaBtn">Buy Now</a>
 					</div>
-					<div class="container" id="blogs">
-						<h1>Upcoming Perslice Events</h1>
+					<div id="blogs">
 						<div class="row">
-							<div class="col-xs-12 text-left">
-								<div class="posts">
-									<img src="img/blogpost2.jpg">
-									<h3>IHHS in Chicago, Illinios</h3>
-									<p>March 15, 2017</p>
-									<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-									<a href="#" class="ctaBtn">Read More</a>
-								</div>
-								<div class="posts">
-									<img src="img/blogpost2.jpg">
-									<h3>Upcoming Event #2</h3>
-									<p>May 25, 2017</p>
-									<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-									<a href="#" class="ctaBtn">Read More</a>
-								</div>
-								<div class="posts">
-									<img src="img/blogpost2.jpg">
-									<h3>Upcoming Event #3</h3>
-									<p>August 15, 2017</p>
-									<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-									<a href="#" class="ctaBtn">Read More</a>
-								</div>
-							</div>
 							<div class="col-xs-12">
-								<div class="aside text-center">
-									<h2>Get your own Perslice Cake Slicer and Server!</h2>
-									<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
-									<h3>Perslice<br>Cake Slicer and Server</h3>
-									<p id="productPrice">$24.99</p>
-									<a href="product.php" class="ctaBtn">Buy Now</a>
-								</div>
 								<div id="featuredBlogs">
 									<h2 class="text-center">Past Events</h2>
 									<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
@@ -116,27 +85,34 @@
 									  <ol class="carousel-indicators">
 									    <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
 									    <li data-target="#recipeCarousel" data-slide-to="1"></li>
+									    <li data-target="#recipeCarousel" data-slide-to="3"></li>
 									  </ol>
 
 									  <!-- Wrapper for slides -->
 									  <div class="carousel-inner">
 									    <div class="item active">
-										<a href="blogpost.php">
+										<a href="event.php">
 											<img src="img/blogpost1.jpg" alt="">
-											<h3>Past Event #1</h3>
-											</a>
+										</a>
+										<div class="middle">
+											<div class="text"><a href="event.php">Past Event 1</a></div>
+										</div>
 									    </div>
 									    <div class="item">
-										<a href="blogpost.php">
+										<a href="event.php">
 											<img src="img/blogpost2.jpg" alt="">
-											<h3>Past Event #2</h3>
-											</a>
+										</a>
+										<div class="middle">
+											<div class="text"><a href="event.php">Past Event 2</a></div>
+										</div>
 									    </div>
 										<div class="item">
-										<a href="blogpost.php">
+										<a href="event.php">
 											<img src="img/blogpost1.jpg" alt="">
-											<h3>Past Event #3</h3>
-											</a>
+										</a>
+										<div class="middle">
+											<div class="text"><a href="event.php">Past Event 3</a></div>
+										</div>
 									    </div>
 									  </div>
 									  <!-- Left and right controls -->
@@ -154,7 +130,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-4">
 					<div id="followSocial">
 						<h3>Follow Us!</h2>
 						<ul>
