@@ -52,11 +52,11 @@
 		</div>
 	</nav>
 	<body>
-			<div class="container">
+			<div id="faqHead" class="container">
 				<h1>Frequently Asked Questions</h1>
 			</div>
 			<div id="search">
-				<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+				<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for questions.." title="Type in a name">
 			</div>
 		<div class="container">
 			<table id="myTable">
