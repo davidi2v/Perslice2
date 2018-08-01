@@ -306,7 +306,7 @@ ul#socialFooter li img {width: 35px;}
       width: 100%;
     }
 
-    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle, #featuredBlogs .item:hover .middle {
+    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle, #featuredBlogs .item:hover .middle, #blogs .blogBox:hover .middle {
       opacity: 1;
       bottom: 0%;
       width: 100%;
@@ -515,11 +515,19 @@ blogs css
 #blogs img {width: 100%;}
 #blogs .aside {margin-top: 4em;}
 
+#blogs .mobile {
+    margin-top: 4em;
+}
+
 .posts {padding-top: 20px; padding-bottom: 20px;}
 .posts p {font-size: 16px;padding-bottom: 10px;}
 .posts img {padding-bottom: 10px;}
 
 .carousel-inner a {color: #000; text-decoration: none; text-align: center;}
+
+@media only screen and (min-width: 768px) {
+    .blogContent a {color: #000; text-decoration: none;}
+}
 
 /* ---------------------
 blogposts css

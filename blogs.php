@@ -54,7 +54,7 @@
 	<body>
 		<div class="container" id="blogs">
 			<div class="row">
-				<div class="col-xs-12 text-left">
+				<div class="col-xs-12 col-md-8 text-left">
 					<div class="posts">
 						<h3>Take It From a Pro</h3>
 						<p>Published : July 17, 2018</p>
@@ -77,7 +77,7 @@
 						<a href="blogpost.php" class="ctaBtn">Read More</a>
 					</div>
 				</div>
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-4">
 					<div class="aside text-center">
 						<h2>Get your own Perslice Cake Slicer and Server!</h2>
 						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
@@ -85,7 +85,34 @@
 						<p class="productPrice">$24.99</p>
 						<a href="product.php" class="ctaBtn">Buy Now</a>
 					</div>
-					<section id="blogHm">
+					<div class="mobile">
+						<h2>Recent Blogposts</h2>
+							<a href="blogpost.php">
+								<div class="blogBox">
+									<div class="blogImg">
+										<img src="img/blogpost1.jpg">
+									</div>
+									<div class="blogContent">
+										<div class="middle">
+											<div class="text"><a href="blogpost.php">Blog Post 1</a></div>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="blogpost.php">
+								<div class="blogBox">
+									<div class="blogImg">
+										<img src="img/blogpost2.jpg">
+									</div>
+									<div class="blogContent">
+										<div class="middle">
+											<div class="text"><a href="blogpost.php">Blog Post 2</a></div>
+										</div>
+									</div>
+								</div>
+							</a>
+					</div>
+					<section id="blogHm" class="desk">
 						<div class="container">
 							<div class="row text-center">
 								<h2>Recent Blogs</h2>
@@ -126,33 +153,46 @@
 						<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indicators -->
 						  <ol class="carousel-indicators">
-						    <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#recipeCarousel" data-slide-to="1"></li>
+							<li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#recipeCarousel" data-slide-to="1"></li>
+							<li data-target="#recipeCarousel" data-slide-to="3"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
-						    <div class="item active">
+							<div class="item active">
 							<a href="blogpost.php">
 								<img src="img/blogpost1.jpg" alt="">
-								<h3>Blogpost 1</h3>
 							</a>
-						    </div>
-						    <div class="item">
+							<div class="middle">
+								<div class="text"><a href="blogpost.php">Blog Post 1</a></div>
+							</div>
+							</div>
+							<div class="item">
 							<a href="blogpost.php">
 								<img src="img/blogpost2.jpg" alt="">
-								<h3>Blogpost 2</h3>
 							</a>
-						    </div>
+							<div class="middle">
+								<div class="text"><a href="blogpost.php">Blog Post 2</a></div>
+							</div>
+							</div>
+							<div class="item">
+							<a href="blogpost.php">
+								<img src="img/blogpost1.jpg" alt="">
+							</a>
+							<div class="middle">
+								<div class="text"><a href="blogpost.php">Blog Post 3</a></div>
+							</div>
+							</div>
 						  </div>
 						  <!-- Left and right controls -->
 						  <a class="left carousel-control" href="#recipeCarousel" data-slide="prev">
-						    <span class="glyphicon glyphicon-chevron-left"></span>
-						    <span class="sr-only">Previous</span>
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
 						  </a>
 						  <a class="right carousel-control" href="#recipeCarousel" data-slide="next">
-						    <span class="glyphicon glyphicon-chevron-right"></span>
-						    <span class="sr-only">Next</span>
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span class="sr-only">Next</span>
 						  </a>
 						</div>
 					</div>
