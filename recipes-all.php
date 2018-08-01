@@ -53,31 +53,111 @@
 	</nav>
 	<body>
 		<section id="allRecipes">
-			<div class="container">
+			<div class="container desk">
 				<div id="recipeHead" class="row text-center">
 					<h1>Delicious Recipes</h1>
 					<p>Fun and sweet recipes</p>
 				</div>
 				<div class="row">
-					<div class="col-xs-6 recipeItem">
+					<div class="col-xs-6 col-md-3 recipeItem">
 						<img src="img/blueBerryVelvetCake.jpg" alt="Blue Velvet Cake">
 						<h3>Blue Velvet Cake</h3>
 						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
 					</div>
-					<div class="col-xs-6 recipeItem">
+					<div class="col-xs-6 col-md-3 recipeItem">
 						<img src="img/igPost2.jpg" alt="Blueberry Velvet Cake">
 						<h3>Double Chocolate Cake</h3>
-						<a href="#" class="ctaBtn">Read Recipe</a>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
 					</div>
-					<div class="col-xs-6 recipeItem">
+					<div class="col-xs-6 col-md-3 recipeItem">
 						<img src="img/igPost3.jpg" alt="Blueberry Velvet Cake">
 						<h3>Strawberry Vanilla Cake</h3>
-						<a href="#" class="ctaBtn">Read Recipe</a>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
 					</div>
-					<div class="col-xs-6 recipeItem">
+					<div class="col-xs-6 col-md-3 recipeItem">
 						<img src="img/igPost4.jpg" alt="Blueberry Velvet Cake">
 						<h3>Strawberry Cake</h3>
-						<a href="#" class="ctaBtn">Read Recipe</a>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/blueBerryVelvetCake.jpg" alt="Blue Velvet Cake">
+						<h3>Blue Velvet Cake</h3>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost2.jpg" alt="Blueberry Velvet Cake">
+						<h3>Double Chocolate Cake</h3>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost3.jpg" alt="Blueberry Velvet Cake">
+						<h3>Strawberry Vanilla Cake</h3>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost4.jpg" alt="Blueberry Velvet Cake">
+						<h3>Strawberry Cake</h3>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+				</div>
+			</div>
+			<div class="container mobile">
+				<div id="recipeHead" class="row text-center">
+					<h1>Delicious Recipes</h1>
+					<p>Fun and sweet recipes</p>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/blueBerryVelvetCake.jpg" alt="Blue Velvet Cake">
+						<div class="middle">
+							<div class="text"><a href="blue-velvet-cake.php">Strawberry Cake</a></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost2.jpg" alt="Blueberry Velvet Cake">
+						<div class="middle">
+							<div class="text"><a href="blue-velvet-cake.php">Strawberry Cake</a></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost3.jpg" alt="Blueberry Velvet Cake">
+						<div class="middle">
+							<div class="text"><a href="blue-velvet-cake.php">Strawberry Cake</a></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost4.jpg" alt="Blueberry Velvet Cake">
+						<div class="middle">
+							<div class="text"><a href="blue-velvet-cake.php">Strawberry Cake</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/blueBerryVelvetCake.jpg" alt="Blue Velvet Cake">
+						<div class="middle">
+							<div class="text"><a href="blue-velvet-cake.php">Strawberry Cake</a></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost2.jpg" alt="Blueberry Velvet Cake">
+						<div class="middle">
+							<div class="text"><a href="blue-velvet-cake.php">Strawberry Cake</a></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost3.jpg" alt="Blueberry Velvet Cake">
+						<div class="middle">
+							<div class="text"><a href="blue-velvet-cake.php">Strawberry Cake</a></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-3 recipeItem">
+						<img src="img/igPost4.jpg" alt="Blueberry Velvet Cake">
+						<div class="middle">
+							<div class="text"><a href="blue-velvet-cake.php">Strawberry Cake</a></div>
+						</div>
 					</div>
 				</div>
 			</div>

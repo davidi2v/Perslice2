@@ -54,10 +54,10 @@
 	<body>
 		<div id="recipe" class="container">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-xs-12 col-md-6">
 					<img src="img/blueBerryVelvetCake.jpg" alt="Blue velvet cake">
 				</div>
-				<div class="col-md-4">
+				<div class="col-xs-12 col-md-6">
 					<div id="recipeDetail">
 						<div id="timeDiv">
 							<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>

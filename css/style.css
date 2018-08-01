@@ -306,7 +306,7 @@ ul#socialFooter li img {width: 35px;}
       width: 100%;
     }
 
-    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle, #featuredBlogs .item:hover .middle, #blogs .blogBox:hover .middle {
+    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle, #featuredBlogs .item:hover .middle, #blogs .blogBox:hover .middle, #allRecipes .mobile .recipeItem:hover .middle {
       opacity: 1;
       bottom: 0%;
       width: 100%;
@@ -316,6 +316,11 @@ ul#socialFooter li img {width: 35px;}
       color: white;
       font-size: 16px;
       padding: 16px 32px;
+    }
+
+    .text a {
+      color: #000;
+      text-decoration: none;
     }
 
     .carousel-control {color: #000;}
@@ -349,9 +354,8 @@ ul#socialFooter li img {width: 35px;}
     }
 
     #recipeDetail {
-        position: absolute;
-        top: 50%;
-        transform: translate(0,70%);
+        display: block;
+        margin: 0px auto;
         width: 500px;
     }
 
@@ -502,30 +506,45 @@ recipe-all css
 ---------------------*/
 #allRecipes img {width: 100%;}
 #allRecipes h3 {font-size: 20px; text-align: center;}
-#allRecipes a {position: absolute; bottom: 20px; left: 50%; transform: translate(-50%,0%); width: 85%;}
+@media only screen and (max-width: 768px) {
+    #allRecipes a {position: absolute; bottom: 20px; left: 50%; transform: translate(-50%,0%); width: 85%;}
+    .desk .recipeItem a.ctaBtn {position: absolute; bottom: 0px;}
+}
 
 .recipeItem {height: 310px;}
+
+@media only screen and (min-width: 768px) {
+    .mobile .col-md-3 {padding: 0px;}
+
+    .mobile .recipeItem {position: relative; height: auto; margin-bottom: 25px; margin-right:0px; margin-left:0px; overflow: hidden;}
+}
 
 /* ---------------------
 single recipe css
 ---------------------*/
 #allRecipes {margin-bottom: 6em;}
 
-#recipe {margin-bottom: 7em;}
+#recipe {margin-bottom: 7em; margin-top: 2em;}
 
 #recipeHead {margin-bottom: 2em;}
 
-#recipe .col-md-8 img {width: 100%;}
+#recipe .col-xs-12 img {width: 100%;}
 
 #recipe h2 {padding-bottom: 25px;}
 
-#recipe .col-md-8 {padding: 0px;}
+#recipe .col-xs-12 {padding: 0px;}
+#recipe #procedure {padding-left: 15px; padding-right: 15px;}
 
 #recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
 
-#recipe #timeDiv .time {flex: 1;}
+#recipe #timeDiv .time {flex: 1; text-align: center;}
 
-#recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;}
+#recipe #timeDiv .time img {width: 30px; float: left; padding-left: 7px;}
+
+@media only screen and (min-width: 768px) {
+    #recipe .col-xs-12 {padding: 15px;}
+    #recipe #procedure {padding-left: 0px; padding-right: 0px;}
+}
 
 /* ---------------------
 blogs css
