@@ -336,22 +336,22 @@
     					</div>
     				</div>
 			    </div>
-			    <div class="item">
+				<div class="item">
     				<div class="row">
-    					<div class="col-xs-4 col-md-6">
-							<div id="recipeDetail">
+    					<div class="col-md-6 text-center">
+    						<img src="img/blueBerryVelvetCake.jpg">
+    						<h3 class="desk">Blueberry Velvet Cake</h3>
+    					</div>
+    					<div class="col-md-6">
+    						<div id="recipeDetail">
 								<h3 class="mobile">Blueberry Velvet Cake</h3>
 								<div id="timeDiv">
 									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
 									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
 									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
 								</div>
-								<a class="ctaBtn" href="#">View Recipe</a>
+	    						<a class="ctaBtn" href="blue-velvet-cake.php">View Recipe</a>
     						</div>
-    					</div>
-						<div class="col-xs-8 col-md-6 text-center">
-    						<img src="img/blueBerryVelvetCake.jpg">
-    						<h3 class="desk">Blueberry Velvet Cake</h3>
     					</div>
     				</div>
 			    </div>
