@@ -54,10 +54,99 @@
 	</nav>
 	<body>
 		<div id="imgHeader">
-			<img src="img/shopHeader.jpg" alt="blue cupcake">
+			<img class="desk" src="img/shopHeader.jpg" alt="blue cupcake">
+			<img class="mobile" src="img/shopHeader2.jpg" alt="blue cupcake">
 			<h1 id="imgText">Free Shipping<br> on All Orders</h1>
 		</div>
-		<div id="shop">
+		<section id="shopHm" class="mobile">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<h2>SHOP!</h2>
+					</div>
+				</div>
+				<div class="row desk">
+					<div class="col-md-6">
+						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
+						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
+						<p class="productPrice">$24.99</p>
+						<a class="ctaBtn" href="#">Quick View</a>
+					</div>
+					<div class="col-md-6">
+						<span id="saleTag">Sale</span>
+						<img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
+						<p class="productPrice">$24.99</p>
+						<a class="ctaBtn" href="#">Quick View</a>
+					</div>
+				</div>
+				<div class="row mobile">
+					<div class="col-md-6">
+						<div class="mainBox">
+							<a href="product.php">
+								<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
+								<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
+								<p class="productPrice">$24.99</p>
+								<div class="middle">
+	  						    <div class="text"><a href="#">Quick Preview</a></div>
+	  						  </div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="productCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <!-- <ol class="carousel-indicators">
+						    <li data-target="#productCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#productCarousel" data-slide-to="1"></li>
+						  </ol> -->
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner">
+						    <div class="item active">
+								<span id="saleTag">Sale</span>
+								<a href="product.php"><img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+  	  							<h2 class="productTitle">Perslice<br> Cake Stand</h2>
+	  	  						<p class="productPrice">$24.99</p>
+								<div class="middle">
+	  						    <div class="text"><a href="#">Quick Preview</a></div>
+	  						  </div>
+							</a>
+						    </div>
+							<div class="item">
+							   <a href="product.php"><img src="img/cakePan.jpg" alt="perslice cake slicer and server">
+							   <h2 class="productTitle">Perslice<br> Cake Pan</h2>
+							   <p class="productPrice">$24.99</p>
+							   <div class="middle">
+							   <div class="text"><a href="#">Quick Preview</a></div>
+							 </div>
+						   </a>
+						   </div>
+						   <div class="item">
+							   <a href="product.php"><img src="img/measuringSpoons.jpg" alt="perslice cake slicer and server">
+							   <h2 class="productTitle">Perslice<br> Measuring Spoons</h2>
+							   <p class="productPrice">$24.99</p>
+							   <div class="middle">
+							   <div class="text"><a href="#">Quick Preview</a></div>
+							 </div>
+						   </a>
+						   </div>
+						  </div>
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#productCarousel" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#productCarousel" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div id="shop" class="desk">
 			<div class="container">
 				<div class="row text-center">
 					<h2>SHOP!</h2>
