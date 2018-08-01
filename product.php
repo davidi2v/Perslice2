@@ -12,7 +12,7 @@
 	<?php include 'banner.php'?>
 	<nav class="navbar">
 		<div class="container">
-			<a id="number" href="#">CALL NOW : (888) 567-1901</a>
+			<a id="number" href="#"><i class="fas fa-phone"></i> CALL NOW : (888) 567-1901</a>
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
@@ -45,10 +45,10 @@
 					</li>
 					<li><a href="how-to-use.php">HOW TO USE</a></li>
 				</ul>
-				<ul class="nav navbar-nav navbar-right">
+				<!-- <ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-				</ul>
+				</ul> -->
 			</div>
 		</div>
 	</nav>
