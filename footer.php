@@ -1,7 +1,7 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-6">
+			<div class="col-xs-6 col-md-4">
 				<h3>Our Site</h3>
 				<ul>
 					<li><a href="/">Home</a></li>
@@ -13,7 +13,7 @@
 					<li><a href="privacy-policy.php">Privacy Policy</a></li>
 				</ul>
 			</div>
-			<div class="col-xs-6">
+			<div class="col-xs-6 col-md-4">
 				<h3>Let's Connect</h3>
 				<ul>
 					<li><a href="contact.php">Contact Us</a></li>
@@ -29,7 +29,7 @@
 					<li><a href="https://www.youtube.com/channel/UCNun0CgGBKZDRyAzXDZSYWg"><img src="img/youtubeIcon.png"></a></li>
 				</ul>
 			</div>
-			<div id="newsletterForm" class="col-xs-12 text-center">
+			<div id="newsletterForm" class="col-xs-12 col-md-4 text-center">
 				<p>Subscribe to our newsletter</p>
 				<form>
 				  <div class="form-group">

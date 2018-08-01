@@ -187,9 +187,12 @@ a.ctaBtn:hover {
 #blogHm {margin-top: 7em; margin-bottom: 7em;}
 #blogHm a {color: #000; text-decoration: none;}
 
+#blogHm img {transition: 1s;}
+#blogHm img:hover {opacity: .8;}
+
 .blogBox {display : flex; margin-bottom: 20px;}
-.blogBox .blogImg {flex : 1;}
-.blogBox .blogContent {flex : 1; padding-left: 5px;}
+.blogBox .blogImg {flex : 1; padding-bottom: 20px;}
+.blogBox .blogContent {flex : 1;}
 .blogBox .blogContent h4 {margin-top: 0px;}
 
 .blogBox .blogImg img {width: 100%;}
@@ -200,7 +203,8 @@ a.ctaBtn:hover {
 
 #shopPlatforms #socialBox .icon {flex: 1; padding: 25px 0px;}
 
-#shopPlatforms #socialBox img {width: 90%; flex: 1; display: block; margin: 0px auto;}
+#shopPlatforms #socialBox img {width: 90%; flex: 1; display: block; margin: 0px auto; transition: .3s;}
+#shopPlatforms #socialBox img:hover {opacity: .8;}
 
 footer {background-color: #eeb2ca;}
 
@@ -253,6 +257,9 @@ ul#socialFooter li img {width: 35px;}
 }
 
 @media only screen and (min-width: 768px) {
+    ul.navbar-nav li.active a {background-color: #eeb3ca;}
+
+
     .mobile {display: block;}
     .desk {display: none;}
 
@@ -299,7 +306,7 @@ ul#socialFooter li img {width: 35px;}
       width: 100%;
     }
 
-    .mainBox:hover .middle, #productCarousel .item:hover .middle {
+    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle {
       opacity: 1;
       bottom: 0%;
       width: 100%;
@@ -361,6 +368,11 @@ ul#socialFooter li img {width: 35px;}
     #shopPlatforms #socialBox img {width: 40%}
     #shopPlatforms #socialBox .icon:first-child img {float: right; margin-right: 25px;}
     #shopPlatforms #socialBox .icon:last-child img {float: left; margin-left: 25px;}
+
+    #shopPlatforms p {width: 320px; display: block; margin: 10px auto;}
+
+    .blogBox {overflow: hidden; position: relative}
+    #blogHm .row {margin-top: 25px;}
 }
 
 /* ---------------------

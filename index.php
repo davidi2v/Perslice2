@@ -5,12 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Perslice Homepage</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<?php include 'banner.php'?>
 	<nav class="navbar">
 		<div class="container">
-			<a id="number" href="#">CALL NOW : (888) 567-1901</a>
+			<a id="number" href="#"><i class="fas fa-phone"></i> CALL NOW : (888) 567-1901</a>
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
@@ -407,9 +408,8 @@
 								<div class="blogImg">
 									<img src="img/blogpost1.jpg">
 								</div>
-								<div class="blogContent">
-									<h4>Take It From a Pro</h4>
-									<p>Interesting facts about birthdays in the 18th century.</p>
+								<div class="blogContent middle">
+									<div class="text"><a href="#">Blogpost 1</a></div>
 								</div>
 							</div>
 						</a>
@@ -420,9 +420,8 @@
 								<div class="blogImg">
 									<img src="img/blogpost2.jpg">
 								</div>
-								<div class="blogContent">
-									<h4>Take It From a Pro</h4>
-									<p>Interesting facts about birthdays in the 18th century.</p>
+								<div class="blogContent middle">
+									<div class="text"><a href="#">Blogpost 2</a></div>
 								</div>
 							</div>
 						</a>
@@ -431,11 +430,10 @@
 						<a href="blogpost.php">
 							<div class="blogBox">
 								<div class="blogImg">
-									<img src="img/blogpost2.jpg">
+									<img src="img/blogpost1.jpg">
 								</div>
-								<div class="blogContent">
-									<h4>Take It From a Pro</h4>
-									<p>Interesting facts about birthdays in the 18th century.</p>
+								<div class="blogContent middle">
+									<div class="text"><a href="#">Blogpost 3</a></div>
 								</div>
 							</div>
 						</a>
