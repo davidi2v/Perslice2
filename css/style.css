@@ -581,7 +581,7 @@ product css
 
 #product #thumbnails li {width: 25%; float: left;}
 
-#breadcrumbs ul {list-style: none; display: flex;}
+#breadcrumbs ul {list-style: none; display: flex; font-family: "futura-pt", sans-serif; font-size: 20px;}
 
 #breadcrumbs ul li {padding-right: 15px;}
 #breadcrumbs ul li a {color: #000;}
