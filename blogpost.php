@@ -57,7 +57,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-8">
 					<div id="blogHeader">
-						<h1>Take it form a Pro</h1>
+						<h1>Take it From a Pro</h1>
 						<p>Published : July 17, 2018</p>
 					</div>
 					<img src="img/blogpost1.jpg" alt="" id="blogImg">

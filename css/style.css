@@ -413,7 +413,7 @@ ul#socialFooter li img {width: 35px;}
         padding-bottom: 30px;
     }
 
-    #specials .salesContent .contentBox .ctaBtn {
+    #specials .salesContent .contentBox .ctaBtn, #blogs .ctaBtn {
         float: left;
     }
 
@@ -492,7 +492,6 @@ ul#socialFooter li img {width: 35px;}
 
     #shopPlatforms h2 {font-family: "futura-pt", sans-serif; font-size: 40px; padding-bottom: 25px;}
     #shopPlatforms p {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px; padding-bottom: 25px;}
-
 
 }
 
@@ -882,7 +881,31 @@ faq css
 
     #blogs {margin-top: 2em;}
 
-    #featuredBlogs h2 {font-size: 25px; text-align: left;}
+
+    .aside h2 {font-family: "futura-pt", sans-serif; font-size: 30px;}
+
+    #blogs .aside a.ctaBtn {float: none; width: 100%;}
+
+    #blogs .posts h3 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
+    #blogs h3 {text-align: center; font-family: "futura-pt", sans-serif; font-size: 26px;}
+    #blogs h2 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 26px;}
+
+    #blogs p {font-size: 18px; text-align: center; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+
+    #blogs .posts p {text-align: left;}
+
+    #blogposts .aside a.ctaBtn {float: none; width: 100%;}
+
+    #blogposts .posts h3 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
+    #blogposts h3 {text-align: center; font-family: "futura-pt", sans-serif; font-size: 26px;}
+    #blogHeader h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
+
+    #blogposts p {font-size: 18px; text-align: left; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+
+    #blogposts .posts p {text-align: left;}
+
+
+    #featuredBlogs h2 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif;}
 
     #featuredBlogs .carousel {
         height: 300px;
@@ -894,6 +917,7 @@ faq css
     #blogposts {margin-bottom: 6em;}
 
     #blogs .posts {margin-bottom: 4em;}
+
 }
 
 #terms, #policy {
