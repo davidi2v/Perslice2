@@ -53,7 +53,7 @@
 		</div>
 	</nav>
 	<body>
-		<div class="container">
+		<div class="container" id="terms">
 			<h1 class="text-center">Terms of Service</h1>
 			TERMS OF SERVICE
 			<br>

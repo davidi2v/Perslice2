@@ -53,7 +53,7 @@
 		</div>
 	</nav>
 	<body>
-		<div class="container">
+		<div class="container" id="policy">
 			<h1 class="text-center">Privacy Policy</h1>
 			Perslice USA Privacy Policy
 			<br>

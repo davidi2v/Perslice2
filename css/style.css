@@ -896,5 +896,9 @@ faq css
     #blogs .posts {margin-bottom: 4em;}
 }
 
-
-
+#terms, #policy {
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 5em;
+}
