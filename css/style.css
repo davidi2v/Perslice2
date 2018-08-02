@@ -4,13 +4,13 @@ index css
 .desk {display: block;}
 .mobile {display: none;}
 
-#landing p, #shopHm p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 16px;}
+#landing p, #shopHm p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 20px; margin: 0px;}
 
 #banner {background-color: #eeb2ca;}
 
 #banner p {
     color: #fff;
-    text-shadow: 0px 1px 3px rgba(0,0,0,.5);
+    text-shadow: 0px 3px 4px rgba(0,0,10,.8);
     padding: 5px 10px;
     margin-bottom: 0px;
  }
@@ -18,6 +18,9 @@ index css
  .navbar {
      margin-bottom: 0px;
  }
+
+ .nav>li {border-right: solid 1px #000; width: 152px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 18px;}
+ .nav>li:last-child {border-right:none;}
 
  .navbar-header {height: 100px;}
 
@@ -28,6 +31,7 @@ index css
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     color: #000;
+    font-size: 30px;
 }
 
 ul.navbar-nav {text-align: center;}
@@ -54,18 +58,23 @@ a.navbar-brand img {width: 75px;}
     text-align: center;
 }
 
-#landingCta p {padding: 10px 0px;}
+#landingCta p {padding-bottom: 20px;  font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 26px;}
 
 a.ctaBtn{
-    border: solid 2px #000;
+    border: solid 1px #000;
     display: block;
     color: #000;
-    border-radius: 5px;
+    border-radius: 3px;
     font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: .3s;
     text-align: center;
+    width: 130px;
+    margin: 0px auto;
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 a.ctaBtn:hover {
     text-decoration: none;
@@ -73,15 +82,17 @@ a.ctaBtn:hover {
     color: #fff;
 }
 
+
+
 #shopHm {
         margin-top: 3em;
         margin-bottom: 3em;
 }
 
-#shopHm #saleTag {
+#shopHm a#saleTag {
     font-size: 22px;
     background-color: #afe2e3;
-    width: 100px;
+    width: 200px;
     padding: 10px 0px;
     border-radius: 5px;
     position: absolute;
@@ -95,12 +106,25 @@ a.ctaBtn:hover {
     margin: 0px auto;
 }
 
+#shopHm h2 {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 45px;}
+#shopHm .subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px;  color: #afe2e3;}
+.brandName {font-family: 'Cookie', cursive; font-size: 40px;}
+
 #shopHm .col-md-6 {
     text-align: center;
     margin-bottom: 4em;
 }
 
-#shopHm p.productPrice, #mainProduct p.productPrice, #product p.productPrice, .aside p.productPrice {font-size: 20px; padding: 10px 0px;}
+#shopHm p.productPrice, #mainProduct p.productPrice, #product p.productPrice, .aside p.productPrice {font-size: 24px; padding: 10px 0px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+
+.modal-body #productInfo a.ctaBtn {color: #000; width: 100%; transition: .3s;}
+.modal-body #productInfo a.ctaBtn:hover {color: #fff;}
+
+.modal-header {border-bottom: none;}
+
+.modal-header .close {opacity: 1; font-size: 30px;}
+.modal-header .close:hover {opacity: .7;}
+.modal-footer {display: none;}
 
 #myCarousel {height: 540px;}
 
@@ -150,13 +174,19 @@ a.ctaBtn:hover {
 
 #cakepopBox h3 {margin-top: 0px; font-weight: bold;}
 
-#insta .col-xs-6, #insta .col-md-3 {
+#insta .col-xs-6 {
     padding: 0px;
+}
+
+#insta .col-md-3 {
+    padding: 5px;
 }
 
 #insta {margin-top: 5em;}
 
-#insta .head {margin: 0px 5px;}
+#insta .head {margin: 0px 5px; margin-bottom: 30px;font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+
+#insta .head h2 {font-size: 40px;}
 
 #insta .col-xs-6 img, #insta .col-md-3 img {
     width: 100%;
@@ -168,7 +198,7 @@ a.ctaBtn:hover {
 
 #recipes .col-md-8 img, #recipes .col-md-6 img {width: 100%;}
 
-#recipes h2 {padding-bottom: 25px;}
+#recipes h2 {padding-bottom: 10px;  font-size: 40px; font-family: "futura-pt", sans-serif; font-size: 40px;}
 
 #recipes .col-md-8 {padding: 0px;}
 
@@ -183,6 +213,7 @@ a.ctaBtn:hover {
 #recipeCarousel  .carousel-control.right {background: none;}
 
 #recipeDetail {padding: 0px 13px;}
+#recipeDetail h3 { font-family: "futura-pt", sans-serif; font-size: 40px;}
 
 #blogHm {margin-top: 7em; margin-bottom: 7em;}
 #blogHm a {color: #000; text-decoration: none;}
@@ -214,10 +245,16 @@ footer ul li { margin-bottom: 5px;}
 footer ul li a {color: #000; transition: .3s;}
 footer ul li a:hover {color: #000; text-decoration: none;}
 
+footer h3 {font-family: "futura-pt", sans-serif; font-size: 30px;}
+footer li {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+
 #newsletterForm {
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
+#newsletterForm {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+
 
 #newsletterForm button {
     display: block;
@@ -226,6 +263,7 @@ footer ul li a:hover {color: #000; text-decoration: none;}
     border: solid 2px #000;
     color: #000;
     transition: .3s;
+    font-size: 20px;
 }
 #newsletterForm button:hover {
     background: #000;
@@ -238,7 +276,7 @@ ul#socialFooter li {padding-right: 10px;}
 
 ul#socialFooter li img {width: 35px;}
 
-#Copyright {text-align: center; padding-top: 30px; padding-bottom: 20px;}
+#Copyright {text-align: center; padding-top: 30px; padding-bottom: 20px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
 
 @media only screen and (max-width: 767px) {
     #landing .container-fluid, #landing .container-fluid .col-md-8 {
@@ -257,19 +295,39 @@ ul#socialFooter li img {width: 35px;}
 }
 
 @media only screen and (min-width: 768px) {
-    ul.navbar-nav li.active a {background-color: #eeb3ca;}
+    .dropdown-menu {
+        border-radius: 3px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #eeb2ca;
+    }
+
+    .dropdown-menu li {
+        border-bottom: solid 1px #000;
+    }
+
+    .dropdown-menu li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    ul.navbar-nav li.active a {background-color: #afe2e3;}
 
 
     .mobile {display: block;}
     .desk {display: none;}
 
-    a.navbar-brand img {width: 140px;}
+    a.navbar-brand img {width: 180px;}
 
-    .navbar {height: 170px;}
+    .navbar {height: 210px;}
 
     .navbar .container {position: relative;}
 
-    .navbar-nav {float: right; margin-top: 70px;}
+    .navbar-nav {float: right; margin-top: 85px;}
 
     #number {
         transform: none;
@@ -279,15 +337,17 @@ ul#socialFooter li img {width: 35px;}
     }
 
     #banner {background-color: #eeb2ca; height: 50px;}
-    #banner p {font-size: 16px; text-align: center; line-height: 40px;}
+    #banner p {font-size: 24px; text-align: center; line-height: 40px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
     #landingCta {position: relative;}
     #landingContainer {
         width: 300px;
         display: block;
         margin: 0px auto;
-        margin-top: 11em;
+        margin-top: 6em;
     }
+
+	#landingContainer h1 {font-family: 'Cookie', cursive; font-size: 90px; margin-bottom: 0px;}
 
     #shopHm .mainBox a {color: #000; text-decoration: none;}
 
@@ -310,13 +370,19 @@ ul#socialFooter li img {width: 35px;}
       opacity: 1;
       bottom: 0%;
       width: 100%;
+      z-index: 10;
     }
     .text {
       background-color: #eeb3ca;
-      color: white;
+      color: #000;
       font-size: 16px;
       padding: 16px 32px;
+      font-family: "futura-pt", sans-serif;
+      font-style: normal;
+      font-weight: 300;
     }
+
+    .text:hover {cursor: pointer;}
 
     .text a {
       color: #000;
@@ -336,12 +402,54 @@ ul#socialFooter li img {width: 35px;}
     #specials .salesContent .contentBox {
         position: absolute;
         top: 50%;
-        transform: translate(0,50%);
+        transform: translate(0,30%);
         margin: 0px 35px;
+        text-align: left;
+        left: 30px;
     }
 
-    #cakepopBox {width: 600px; top: 70%;}
-    #cakepopBox h3 {font-size: 40px;}
+    #specials .salesContent .contentBox p {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    #specials .salesContent .contentBox .ctaBtn {
+        float: left;
+    }
+
+     #specials .salesContent .contentBox .ctaBtn p{
+        padding-bottom: 0px;
+    }
+
+    #specials .salesContent .contentBox h3 {font-size: 50px; "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+
+    #specials .salesContent .contentBox p.ctaBtn{
+        border: solid 1px #000;
+        display: block;
+        color: #000;
+        border-radius: 3px;
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: .3s;
+        text-align: center;
+        width: 130px;
+        margin: 0px auto;
+        font-family: "futura-pt", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+    }
+    #specials .salesContent .contentBox p.ctaBtn:hover {
+        text-decoration: none;
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    #cakepopBox {width: 700px; top: 70%;}
+    #cakepopBox h3 {font-size: 40px; color: #fff; background-color: #000; font-family: "futura-pt", sans-serif;}
+
+    #cakepopBox .ctaBtn {width: 300px; margin-top: 30px;}
 
     #newsletter {
         background-image: url("../img/cakePops2.jpg");
@@ -377,6 +485,15 @@ ul#socialFooter li img {width: 35px;}
 
     .blogBox {overflow: hidden; position: relative}
     #blogHm .row {margin-top: 25px;}
+
+    #recipes p.subheading, #blogHm p.subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px; padding-bottom: 25px;}
+
+    #blogHm h2 { font-family: "futura-pt", sans-serif; font-size: 40px;}
+
+    #shopPlatforms h2 {font-family: "futura-pt", sans-serif; font-size: 40px; padding-bottom: 25px;}
+    #shopPlatforms p {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px; padding-bottom: 25px;}
+
+
 }
 
 /* ---------------------
@@ -500,6 +617,7 @@ product css
         .productDetailBox {flex: 1;}
 
         #productInfo {margin-top: 6em;}
+        .modal-body #productInfo {margin-top: 2em;}
     }
 /* ---------------------
 recipe-all css
@@ -538,12 +656,16 @@ single recipe css
 #recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
 
 #recipe #timeDiv .time {flex: 1; text-align: center;}
+#recipeDetail #timeDiv .time p { font-family: "futura-pt", sans-serif;}
 
 #recipe #timeDiv .time img {width: 30px; float: left; padding-left: 7px;}
 
 @media only screen and (min-width: 768px) {
     #recipe .col-xs-12 {padding: 15px;}
     #recipe #procedure {padding-left: 0px; padding-right: 0px;}
+
+    #recipeCarousel #recipeDetail {margin-top: 80px;}
+    #recipeDetail .ctaBtn {float: left;}
 }
 
 /* ---------------------

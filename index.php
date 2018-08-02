@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Perslice Homepage</title>
+		<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.typekit.net/cco5pnz.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
@@ -11,7 +13,7 @@
 	<?php include 'banner.php'?>
 	<nav class="navbar">
 		<div class="container">
-			<a id="number" href="#"><i class="fas fa-phone"></i> CALL NOW : (888) 567-1901</a>
+			<a id="number" href="#">CALL : (888) 567-1901</a>
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
@@ -53,17 +55,31 @@
 	</nav>
 	<body>
 		<section id="landing">
-			<div class="container-fluid" style="padding: 0px;">
+			<div class="container-fluid desk" style="padding: 0px;">
 				<div class="row">
 					<div id="landingImg" class="col-md-8">
 						<img src="img/slicedCake.jpg" alt="sliced cake">
 					</div>
 					<div id="landingCta" class="col-md-4">
 						<div id="landingContainer">
-							<h1>PERSLICE</h1>
+							<h1>Perslice</h1>
 							<p>Spend less time slicing<br> and more time celebrating</p>
 							<a class="ctaBtn" href="product.php">Shop Now</a>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid mobile" style="padding: 0px;">
+				<div class="row">
+					<div id="landingCta" class="col-md-4">
+						<div id="landingContainer">
+							<h1>Perslice</h1>
+							<p>Spend less time slicing<br> and more time celebrating</p>
+							<a class="ctaBtn" href="product.php">Shop Now</a>
+						</div>
+					</div>
+					<div id="landingImg" class="col-md-8">
+						<img src="img/slicedCake.jpg" alt="sliced cake">
 					</div>
 				</div>
 			</div>
@@ -73,7 +89,7 @@
 				<div class="row text-center">
 					<div class="col-md-12">
 						<h2>The Perslice Gives A Perfect Slice Every Time</h2>
-						<p>Get your Perslice today</p>
+						<p class="subheading">Get your <span class="brandName">Perslice</span> today</p>
 					</div>
 				</div>
 				<div class="row desk">
@@ -98,10 +114,83 @@
 								<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
 								<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
 								<p class="productPrice">$24.99</p>
-								<div class="middle">
-	  						    <div class="text"><a href="#">Quick Preview</a></div>
-	  						  </div>
 							</a>
+								<div class="middle">
+	  						    <div class="text">
+									<p data-toggle="modal" data-target="#myModal">Quick Preview</p>
+								</div>
+	  						  </div>
+
+	  						<!-- Modal -->
+	  						<div id="myModal" class="modal fade" role="dialog">
+	  						  <div class="modal-dialog">
+
+	  						    <!-- Modal content-->
+	  						    <div class="modal-content">
+	  						      <div class="modal-header">
+	  						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	  						      </div>
+	  						      <div class="modal-body">
+	  						        <!-- <div class="container"> -->
+										<div id="product" class="mobile">
+											<div class="row">
+												<div class="col-xs-12 col-md-7">
+													<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
+													<ul id="thumbnails">
+														<li><img src="img/Perslice.jpg" alt=""></li>
+														<li><img src="img/Perslice_front.jpg" alt=""></li>
+														<li><img src="img/Perslice_frontRt.jpg" alt=""></li>
+														<li><img src="img/Perslice_backRt.jpg" alt=""></li>
+														<li><img src="img/Perslice_back.jpg" alt=""></li>
+														<li><img src="img/Perslice_backLt.jpg" alt=""></li>
+														<li><img src="img/Perslice_top.jpg" alt=""></li>
+														<li><img src="img/Perslice_box.jpg" alt=""></li>
+													</ul>
+												</div>
+												<div id="productInfo" class="col-md-5">
+													<div id="productName"  class="text-center">
+														<h1>Perslice<br>Cake Slicer and Server</h1>
+													</div>
+													<div id="productDetail">
+														<div class="productDetailBox">
+															<p class="productPrice">$24.99</p>
+														</div>
+														<div class="productDetailBox">
+															<form>
+																<div class="input-group">
+																	<span class="input-group-btn">
+																		<button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+																			<span class="glyphicon glyphicon-minus"></span>
+																		</button>
+																	</span>
+																	<input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+																	<span class="input-group-btn">
+																		<button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+																			<span class="glyphicon glyphicon-plus"></span>
+																		</button>
+																	</span>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div>
+														<a href="product.php">View full details</a>
+													</div>
+													<div id="addtocart">
+														<a href="#" class="ctaBtn">Add to Cart</a>
+													</div>
+													</div>
+											</div>
+											</div>
+	  						        <!-- </div> -->
+	  						      </div>
+	  						      <div class="modal-footer">
+	  						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	  						      </div>
+	  						    </div>
+
+	  						  </div>
+	  						</div>
 						</div>
 					</div>
 					<div class="col-md-6">
@@ -115,32 +204,38 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-								<span id="saleTag">Sale</span>
+								<a href="shop.php" id="saleTag">Special Offers</a>
 								<a href="product.php"><img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
   	  							<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 	  	  						<p class="productPrice">$24.99</p>
+								</a>
 								<div class="middle">
-	  						    <div class="text"><a href="#">Quick Preview</a></div>
+									<div class="text">
+										<p data-toggle="modal" data-target="#myModal">Quick Preview</p>
+									</div>
 	  						  </div>
-							</a>
 						    </div>
 							<div class="item">
 							   <a href="product.php"><img src="img/cakePan.jpg" alt="perslice cake slicer and server">
 							   <h2 class="productTitle">Perslice<br> Cake Pan</h2>
 							   <p class="productPrice">$24.99</p>
+							    </a>
 							   <div class="middle">
-							   <div class="text"><a href="#">Quick Preview</a></div>
-							 </div>
-						   </a>
+						    		<div class="text">
+										<p data-toggle="modal" data-target="#myModal">Quick Preview</p>
+   									</div>
+							 	</div>
 						   </div>
 						   <div class="item">
 							   <a href="product.php"><img src="img/measuringSpoons.jpg" alt="perslice cake slicer and server">
 							   <h2 class="productTitle">Perslice<br> Measuring Spoons</h2>
 							   <p class="productPrice">$24.99</p>
+							   </a>
 							   <div class="middle">
-							   <div class="text"><a href="#">Quick Preview</a></div>
-							 </div>
-						   </a>
+								   <div class="text">
+   										<p data-toggle="modal" data-target="#myModal">Quick Preview</p>
+   									</div>
+							 	</div>
 						   </div>
 						  </div>
 						  <!-- Left and right controls -->
@@ -169,13 +264,13 @@
 			  <div class="carousel-inner">
 			    <div class="item active">
 			      <img src="img/cakeHeart.jpg" alt="cake with heart">
-				  <h3>Order 2<br> <span>Save 20%</span></h3>
+				  <h3>Order 2<br> <span>SAVE 20%</span></h3>
 				  <p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
 				  <a class="ctaBtn" href="product.php">Shop Now</a>
 			    </div>
 			    <div class="item">
 			      <img src="img/babyBitesCake.jpg" alt="baby bites cake">
-				  <h3><span>Enter to win</span> <br>$500</h3>
+				  <h3><span>Enter to Win</span> <br>$500</h3>
 				  <p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
 				  <a class="ctaBtn" href="#">Learn More</a>
 			    </div>
@@ -195,11 +290,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="img/cakeHeart.jpg" alt="cake with heart">
+						<img class="desk" src="img/cakeHeart.jpg" alt="cake with heart">
+	  			    	<img class="mobile" src="img/cakeHeart_desk.jpg" alt="cake with heart">
 					</div>
 					<div class="col-md-6 salesContent">
 					<div class="contentBox">
-						<h3>Order 2<br> <span>Save 20%</span></h3>
+						<h3>Order 2<br> <span>SAVE 20%</span></h3>
 		  				<p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
 		  				<a class="ctaBtn" href="product.php">Shop Now</a>
 					</div>
@@ -208,27 +304,47 @@
 				<div class="row">
 					<div class="col-md-6 salesContent">
 					<div class="contentBox">
-						<h3><span>Enter to win</span> <br>$500</h3>
+						<h3><span>Enter to Win</span> <br>$500</h3>
 	  					<p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
-	  					<a class="ctaBtn" href="#">Learn More</a>
+	  					<p class="ctaBtn" data-toggle="modal" data-target="#contestModal">Learn More</p>
+					</div>
+					<div id="contestModal" class="modal fade" role="dialog">
+					  <div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content">
+						  <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Perslice Contest Rules</h4>
+						  </div>
+						  <div class="modal-body">
+
+						  </div>
+						  <div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						  </div>
+						</div>
+
+					  </div>
 					</div>
 					</div>
 					<div class="col-md-6">
-						<img src="img/babyBitesCake.jpg" alt="baby bites cake">
+						<img class="desk" src="img/babyBitesCake.jpg" alt="baby bites cake">
+	  			      	<img class="mobile" src="img/babyBitesCake_desk.jpg" alt="cake with heart">
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="newsletter">
+		<section class="container" id="newsletter">
 			<div id="cakepopBox">
-				<h3>Great Offers &amp; Free Recipes</h3>
+				<h3>GREAT OFFERS &amp; FREE RECIPES</h3>
 				<a class="ctaBtn" href="#">Sign Up For Our Newsletter</a>
 			</div>
 		</section>
 		<section id="insta">
 			<div class="container">
 				<div class="head row text-center">
-					<h2>Instagram @perslice</h2>
+					<h2>Instagram @<span class="brandName">perslice</span></h2>
 					<p>Tag us @perslice to have your photo added to our feed!</p>
 				</div>
 				<div class="desk">
@@ -306,7 +422,7 @@
 		<section id="recipes" class="container">
 			<div class="text-center">
 				<h2>Delicious Recipes</h2>
-				<p>Try out the recipe and let us know how it tastes!</p>
+				<p class="subheading">Try out the recipe and let us know how it tastes!</p>
 			</div>
 			<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
@@ -371,7 +487,7 @@
 			<div class="container">
 				<div class="row text-center">
 					<h2>Perlice Blog</h2>
-					<p>For fun and sweet reads</p>
+					<p class="subheading">For fun and sweet reads</p>
 				</div>
 				<div class="row desk">
 					<div class="col-md-4">
@@ -409,7 +525,7 @@
 									<img src="img/blogpost1.jpg">
 								</div>
 								<div class="blogContent middle">
-									<div class="text"><a href="#">Blogpost 1</a></div>
+									<div class="text"><a href="blogpost.php">Blogpost 1</a></div>
 								</div>
 							</div>
 						</a>
@@ -421,7 +537,7 @@
 									<img src="img/blogpost2.jpg">
 								</div>
 								<div class="blogContent middle">
-									<div class="text"><a href="#">Blogpost 2</a></div>
+									<div class="text"><a href="blogpost.php">Blogpost 2</a></div>
 								</div>
 							</div>
 						</a>
@@ -433,7 +549,7 @@
 									<img src="img/blogpost1.jpg">
 								</div>
 								<div class="blogContent middle">
-									<div class="text"><a href="#">Blogpost 3</a></div>
+									<div class="text"><a href="blogpost.php">Blogpost 3</a></div>
 								</div>
 							</div>
 						</a>
