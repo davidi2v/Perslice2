@@ -612,9 +612,10 @@ product css
     font-size: 30px;
   }
 
-  .panel-heading a {
-      font-size: 20px;
-    }
+  .panel-title a {font-family: "futura-pt", sans-serif; font-size: 20px;}
+  .panel-body {font-family: "futura-pt", sans-serif; font-size: 16px;}
+
+    #productInfo #productName h1 {font-family: "futura-pt", sans-serif; font-size: 40px;}
 
     @media only screen and (min-width: 768px) {
         #productDetail {display: flex;}
@@ -622,6 +623,8 @@ product css
 
         #productInfo {margin-top: 6em;}
         .modal-body #productInfo {margin-top: 2em;}
+
+        #addtocart a.ctaBtn {display: inline-block;}
     }
 /* ---------------------
 recipe-all css
