@@ -830,7 +830,7 @@ faq css
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-
+  font-family: "futura-pt", sans-serif;
 }
 
 #myTable {
@@ -857,6 +857,15 @@ faq css
     background-color: #eeb2ca;
     height: 100px;
     margin-bottom: 3em;
+}
+
+#faqHead {font-family: "futura-pt", sans-serif;}
+#myTable b {font-family: "futura-pt", sans-serif; font-size: 20px;}
+
+#myTable {
+    font-family: "futura-pt", sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
 
 @media only screen and (min-width: 768px) {
