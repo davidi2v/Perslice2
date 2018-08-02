@@ -638,9 +638,10 @@ recipe-all css
 .recipeItem {height: 310px;}
 
 @media only screen and (min-width: 768px) {
-    .mobile .col-md-3 {padding: 0px;}
+    .mobile .col-md-3 {padding: 5px;}
+    .mobile .col-md-3 .text {margin-right: 10px;}
 
-    .mobile .recipeItem {position: relative; height: auto; margin-bottom: 25px; margin-right:0px; margin-left:0px; overflow: hidden;}
+    .mobile .recipeItem {position: relative; height: auto; margin-bottom: 10px; margin-right: 0px; margin-left: 0px; overflow: hidden;}
 }
 
 /* ---------------------
