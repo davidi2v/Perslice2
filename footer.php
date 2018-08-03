@@ -22,12 +22,12 @@
 					<li><a href="press.php">Press</a></li>
 					<li><a href="all-events.php">Events</a></li>
 				</ul>
-				<!-- <ul id="socialFooter">
+				<ul id="socialFooter">
 					<li><a href="https://www.facebook.com/PersliceUSA/"><img src="img/fbIcon_blk.png"></a></li>
 					<li><a href="https://www.instagram.com/persliceusa/"><img src="img/igIcon.png"></a></li>
 					<li><a href="https://twitter.com/persliceusa?lang=en"><img src="img/twitterIcon.png"></a></li>
 					<li><a href="https://www.youtube.com/channel/UCNun0CgGBKZDRyAzXDZSYWg"><img src="img/youtubeIcon.png"></a></li>
-				</ul> -->
+				</ul>
 			</div>
 			<div id="newsletterForm" class="col-xs-12 col-md-4 text-center">
 				<p>Subscribe to our newsletter</p>
