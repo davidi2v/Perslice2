@@ -57,8 +57,10 @@
 			<!-- <div id="video" class="row text-center">
 				<h3>Video of Perslice sent to us by Miguel will go here.</h3>
 			</div> -->
-			<div class="howtoHead">
-				<h1>HOW TO USE<br> YOUR PERSLICE</h1>
+			<div class="row">
+				<div class="howtoHead">
+					<h1>HOW TO USE<br> YOUR PERSLICE</h1>
+				</div>
 				<div class="howtoBox">
 					<h2>PERSLICE CUTS EQUAL SLICES</h2>
 					<h3>This is How!</h3>
@@ -69,7 +71,7 @@
 				</div>
 			</div>
 			<div class="row">
-			    <div id="persliceAnimation" class="container">
+			    <div id="persliceAnimation">
 			        <div class="row">
 			          <div class="cakeOutlines text-center">
 			            <img id="start" src="https://cdn.shopify.com/s/files/1/0013/8143/3459/files/cakeOutline14.jpg?4047272281375380847" alt="14 slice cake cutter" style="display: none;"/>

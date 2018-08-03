@@ -116,6 +116,8 @@ a.ctaBtn:hover {
 
 .modal-header {border-bottom: none;}
 
+.modal-header h4 {font-family: "futura-pt", sans-serif; font-size: 30px;}
+
 .modal-header .close {opacity: 1; font-size: 30px;}
 .modal-header .close:hover {opacity: .7;}
 .modal-footer {display: none;}
@@ -547,6 +549,8 @@ shop css
     font-size: 30px;
     color: #fff;
     text-shadow: 0px 3px 4px rgba(0,0,10,.8);
+    font-family: "futura-pt", sans-serif;
+    font-size: 35px;
 }
 
 #shop {padding-top: 4em;}
@@ -562,8 +566,12 @@ shop css
     margin-bottom: 4em;
 }
 
+#shop h2 {font-family: "futura-pt", sans-serif; font-size: 30px;}
+#shop .featuredTitle {font-family: "futura-pt", sans-serif; font-size: 25px;}
+
 #shop #mainProduct h2 {
     margin-top: 0px;
+    font-family: "futura-pt", sans-serif; font-size: 30px;
 }
 
 .productSlider {margin-top: 3em; margin-bottom: 3em;}
@@ -574,7 +582,7 @@ shop css
 
 .sliderItem {text-align: center;}
 
-.sliderItem p {font-size: 20px; padding: 10px 0px;}
+.sliderItem p {font-size: 20px; padding: 10px 0px; font-family: "futura-pt", sans-serif;}
 
 .sliderItem a {color: #000;}
 .sliderItem a:hover {text-decoration: none;}
@@ -608,7 +616,7 @@ product css
 
 #product img {width: 100%;}
 
-#product h1 {font-size: 30px;}
+#product h1 {font-size: 30px; font-family: "futura-pt", sans-serif; font-size: 30px;}
 
 #product button {background-color: #eeb2ca;}
 
@@ -758,7 +766,7 @@ contact css
 ---------------------*/
 #contact img {width: 100%;}
 
-#contactForm p, #retailForm p, #distributionForm p {text-align: center;}
+#contactForm p, #retailForm p, #distributionForm p {text-align: center; font-size: 30px; font-family: "futura-pt", sans-serif; font-size: 16px;}
 
 button.ctaBtn{
     width: 100%;
@@ -779,22 +787,31 @@ button.ctaBtn:hover {
 }
 
 .formSelect {background-color: #eeb2ca; margin-bottom: 2em;}
-.formSelect h1 {font-size: 28px; padding: 20px 0px;}
+.formSelect h1 {font-size: 28px; padding: 20px 0px;font-size: 30px; font-family: "futura-pt", sans-serif; font-size: 30px;}
 .formSelectBlu {background-color: #afe2e3;}
-.formSelectBlu h1 {font-size: 28px; padding: 20px 0px;}
+.formSelectBlu h1 {font-size: 28px; padding: 20px 0px; font-family: "futura-pt", sans-serif; font-size: 30px;}
 #contact p {margin-bottom: 2em; margin-top: 2em; font-size: 16px;}
+#contact form, #contact form input { font-family: "futura-pt", sans-serif; font-size: 16px;}
 
 /* ---------------------
 how-to-use css
 --------------------- */
-#howto h1 {text-align: center; padding: 2em 1em; padding-bottom: 1em; font-size: 40px; font-family: "futura-pt", sans-serif; border-bottom: solid 2px #000; width: 600px; display: block; margin: 0px auto; margin-bottom: 1em;}
+#howto h1 {text-align: center; padding: 2em 10px; padding-bottom: 1em; font-size: 30px; font-family: "futura-pt", sans-serif; border-bottom: solid 2px #000; width: 300px; display: block; margin: 0px auto; margin-bottom: 1em;}
+
+#animeText {font-family: "futura-pt", sans-serif;}
+
+.buttons {font-family: "futura-pt", sans-serif;}
+
+#howto ul {font-style: normal; font-weight: 300; font-size: 16px; padding-top: 25px; padding-bottom: 25px;}
 
 .howtoBox h2, .howtoBox h3 {text-align: center;}
 .howtoBox h2 { font-family: "futura-pt", sans-serif;}
 .howtoBox h3 {padding-bottom: 1em; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
 .howtoBox p { font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
-.howtoBox ol { font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+.howtoBox ol { font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px; padding-top: 25px;}
+
+#howtoPerslice {width: 100%; display: block; margin: 0px auto;}
 
 .howtoBox {margin-bottom: 5em;}
 
@@ -853,9 +870,20 @@ how-to-use css
   cursor: pointer;
 }
 
+#howto .row {margin-left: 0px; margin-right: 0px;}
+
 .buttonsRow {padding-bottom: 3em;}
 
+.howtoContainer {display: block; margin: 0px auto; width: 300px;}
+.howtoIcons {display: flex; width: 300px; display: inline-flex; margin: 0px auto;}
+.howtoIcons2 {display: flex;}
+.howtoIcons img {width: 100%; display: block; margin: 0px auto;}
+.howtoIcons2 img {width: 100%; display: block; margin: 0px auto;}
+.howtoimg {flex: 1;}
+
 @media only screen and (min-width: 768px) {
+    #howto h1 {text-align: center; padding: 2em 1em; padding-bottom: 1em; font-size: 40px; font-family: "futura-pt", sans-serif; border-bottom: solid 2px #000; width: 600px; display: block; margin: 0px auto; margin-bottom: 1em;}
+
     #persliceAnimation .cakeOutlines img {
       width: 60%;
     }
