@@ -321,7 +321,59 @@
 				</div>
 			</div>
 		</section>
+		<section id="specials" class="desk">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <!-- <ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			  </ol> -->
 
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <img src="img/cakeHeart.jpg" alt="cake with heart">
+				  <h3>Order 2<br> <span>SAVE 20%</span></h3>
+				  <p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
+				  <a class="ctaBtn" href="product.php">Shop Now</a>
+			    </div>
+			    <div class="item">
+			      <img src="img/babyBitesCake.jpg" alt="baby bites cake">
+				  <h3><span>Enter to Win</span> <br>$500</h3>
+				  <p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
+				  <a class="ctaBtn" href="" data-toggle="modal" data-target="#contestModal">Learn More</a>
+			    </div>
+				<div id="contestModal" class="modal fade" role="dialog">
+				  <div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+					  <div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Perslice Contest Rules</h4>
+					  </div>
+					  <div class="modal-body">
+
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					  </div>
+					</div>
+
+				  </div>
+				</div>
+			  </div>
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</section>
 		<section id="specials" class="mobile">
 			<div class="container">
 				<div class="row">
@@ -604,7 +656,7 @@
 			</div>
 		</section>
 	</body>
-	<?php include 'footer.php'?>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
