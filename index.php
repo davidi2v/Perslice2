@@ -84,60 +84,244 @@
 				</div>
 			</div>
 		</section>
-
-		<section id="specials" class="desk">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  <!-- <ol class="carousel-indicators">
-			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			    <li data-target="#myCarousel" data-slide-to="1"></li>
-			  </ol> -->
-
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner">
-			    <div class="item active">
-			      <img src="img/cakeHeart.jpg" alt="cake with heart">
-				  <h3>Order 2<br> <span>SAVE 20%</span></h3>
-				  <p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
-				  <a class="ctaBtn" href="product.php">Shop Now</a>
-			    </div>
-			    <div class="item">
-			      <img src="img/babyBitesCake.jpg" alt="baby bites cake">
-				  <h3><span>Enter to Win</span> <br>$500</h3>
-				  <p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
-				  <a class="ctaBtn" href="" data-toggle="modal" data-target="#contestModal">Learn More</a>
-			    </div>
-				<div id="contestModal" class="modal fade" role="dialog">
-				  <div class="modal-dialog">
-
-					<!-- Modal content-->
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-title">Perslice Contest Rules</h4>
-					  </div>
-					  <div class="modal-body">
-
-					  </div>
-					  <div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					  </div>
+		<section id="shopHm">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12">
+						<h2>The Perslice Gives A Perfect Slice Every Time</h2>
+						<p class="subheading">Get your <span class="brandName">Perslice</span> today</p>
 					</div>
-
-				  </div>
 				</div>
-			  </div>
-			  <!-- Left and right controls -->
-			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
+				<div class="row desk">
+					<div class="col-md-6">
+						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
+						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
+						<p class="productPrice">$24.99</p>
+						<a class="ctaBtn" href="" data-toggle="modal" data-target="#myModal">Quick Preview</a>
+						<div id="myModal" class="modal fade" role="dialog">
+						  <div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+							  <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							  </div>
+							  <div class="modal-body">
+								<!-- <div class="container"> -->
+									<div id="product">
+										<div class="row">
+											<div class="col-xs-12 col-md-7">
+												<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
+												<ul id="thumbnails">
+													<li><img src="img/Perslice.jpg" alt=""></li>
+													<li><img src="img/Perslice_front.jpg" alt=""></li>
+													<li><img src="img/Perslice_frontRt.jpg" alt=""></li>
+													<li><img src="img/Perslice_backRt.jpg" alt=""></li>
+													<li><img src="img/Perslice_back.jpg" alt=""></li>
+													<li><img src="img/Perslice_backLt.jpg" alt=""></li>
+													<li><img src="img/Perslice_top.jpg" alt=""></li>
+													<li><img src="img/Perslice_box.jpg" alt=""></li>
+												</ul>
+											</div>
+											<div id="productInfo" class="col-md-5">
+												<div id="productName"  class="text-center">
+													<h1>Perslice<br>Cake Slicer and Server</h1>
+												</div>
+												<div id="productDetail">
+													<div class="productDetailBox">
+														<p class="productPrice">$24.99</p>
+													</div>
+													<div class="productDetailBox">
+														<form>
+															<div class="input-group">
+																<span class="input-group-btn">
+																	<button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+																		<span class="glyphicon glyphicon-minus"></span>
+																	</button>
+																</span>
+																<input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+																<span class="input-group-btn">
+																	<button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+																		<span class="glyphicon glyphicon-plus"></span>
+																	</button>
+																</span>
+															</div>
+														</form>
+													</div>
+												</div>
+												<div>
+													<a href="product.php">View full details</a>
+												</div>
+												<div id="addtocart">
+													<a href="#" class="ctaBtn">Add to Cart</a>
+												</div>
+												</div>
+										</div>
+										</div>
+								<!-- </div> -->
+							  </div>
+							  <div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							  </div>
+							</div>
+
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<a href="shop.php" id="saleTag">Special Offers</a>
+						<img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
+						<p class="productPrice">$24.99</p>
+						<a class="ctaBtn" href="" data-toggle="modal" data-target="#myModal">Quick Preview</a>
+					</div>
+				</div>
+				<div class="row mobile">
+					<div class="col-md-6">
+						<div class="mainBox">
+							<a href="product.php">
+								<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
+								<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
+								<p class="productPrice">$24.99</p>
+							</a>
+								<div class="middle">
+	  						    <div class="text">
+									<p data-toggle="modal" data-target="#myModal">Quick Preview</p>
+								</div>
+	  						  </div>
+
+	  						<!-- Modal -->
+	  						<div id="myModal" class="modal fade" role="dialog">
+	  						  <div class="modal-dialog">
+
+	  						    <!-- Modal content-->
+	  						    <div class="modal-content">
+	  						      <div class="modal-header">
+	  						        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	  						      </div>
+	  						      <div class="modal-body">
+	  						        <!-- <div class="container"> -->
+										<div id="product" class="mobile">
+											<div class="row">
+												<div class="col-xs-12 col-md-7">
+													<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
+													<ul id="thumbnails">
+														<li><img src="img/Perslice.jpg" alt=""></li>
+														<li><img src="img/Perslice_front.jpg" alt=""></li>
+														<li><img src="img/Perslice_frontRt.jpg" alt=""></li>
+														<li><img src="img/Perslice_backRt.jpg" alt=""></li>
+														<li><img src="img/Perslice_back.jpg" alt=""></li>
+														<li><img src="img/Perslice_backLt.jpg" alt=""></li>
+														<li><img src="img/Perslice_top.jpg" alt=""></li>
+														<li><img src="img/Perslice_box.jpg" alt=""></li>
+													</ul>
+												</div>
+												<div id="productInfo" class="col-md-5">
+													<div id="productName"  class="text-center">
+														<h1>Perslice<br>Cake Slicer and Server</h1>
+													</div>
+													<div id="productDetail">
+														<div class="productDetailBox">
+															<p class="productPrice">$24.99</p>
+														</div>
+														<div class="productDetailBox">
+															<form>
+																<div class="input-group">
+																	<span class="input-group-btn">
+																		<button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+																			<span class="glyphicon glyphicon-minus"></span>
+																		</button>
+																	</span>
+																	<input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+																	<span class="input-group-btn">
+																		<button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+																			<span class="glyphicon glyphicon-plus"></span>
+																		</button>
+																	</span>
+																</div>
+															</form>
+														</div>
+													</div>
+													<div>
+														<a href="product.php">View full details</a>
+													</div>
+													<div id="addtocart">
+														<a href="#" class="ctaBtn">Add to Cart</a>
+													</div>
+													</div>
+											</div>
+											</div>
+	  						        <!-- </div> -->
+	  						      </div>
+	  						      <div class="modal-footer">
+	  						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	  						      </div>
+	  						    </div>
+
+	  						  </div>
+	  						</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div id="productCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <!-- <ol class="carousel-indicators">
+						    <li data-target="#productCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#productCarousel" data-slide-to="1"></li>
+						  </ol> -->
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner">
+						    <div class="item active">
+								<a href="shop.php" id="saleTag">Special Offers</a>
+								<a href="product.php"><img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+  	  							<h2 class="productTitle">Perslice<br> Cake Stand</h2>
+	  	  						<p class="productPrice">$24.99</p>
+								</a>
+								<div class="middle">
+									<div class="text">
+										<p data-toggle="modal" data-target="#myModal">Quick Preview</p>
+									</div>
+	  						  </div>
+						    </div>
+							<div class="item">
+							   <a href="product.php"><img src="img/cakePan.jpg" alt="perslice cake slicer and server">
+							   <h2 class="productTitle">Perslice<br> Cake Pan</h2>
+							   <p class="productPrice">$24.99</p>
+							    </a>
+							   <div class="middle">
+						    		<div class="text">
+										<p data-toggle="modal" data-target="#myModal">Quick Preview</p>
+   									</div>
+							 	</div>
+						   </div>
+						   <div class="item">
+							   <a href="product.php"><img src="img/measuringSpoons.jpg" alt="perslice cake slicer and server">
+							   <h2 class="productTitle">Perslice<br> Measuring Spoons</h2>
+							   <p class="productPrice">$24.99</p>
+							   </a>
+							   <div class="middle">
+								   <div class="text">
+   										<p data-toggle="modal" data-target="#myModal">Quick Preview</p>
+   									</div>
+							 	</div>
+						   </div>
+						  </div>
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#productCarousel" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#productCarousel" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
+
 		<section id="specials" class="mobile">
 			<div class="container">
 				<div class="row">
