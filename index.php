@@ -10,51 +10,9 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<?php include 'banner.php'?>
-	<nav class="navbar">
-		<div class="container">
-			<a id="number" href="#">CALL : (888) 567-1901</a>
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="/">
-					<img src="img/Logo_Perslice.png" alt="perslice logo">
-				</a>
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="/">HOME</a></li>
-					<li><a href="shop.php">SHOP</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="contact.php">CONTACT <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-						<li><a href="contact.php#contactForm">CONTACT US</a></li>
-						<li><a href="contact.php#retailForm">RETAILER</a></li>
-						<li><a href="contact.php#distributionForm">DISTRIBUTOR</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="blogs.php">ARTICLES<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-						<li><a href="blogs.php">BLOGS</a></li>
-						<li><a href="recipes-all.php">RECIPES</a></li>
-						<li><a href="all-events.php">SPECIAL EVENTS</a></li>
-						</ul>
-					</li>
-					<li><a href="how-to-use.php">HOW TO USE</a></li>
-				</ul>
-				<!-- <ul class="nav navbar-nav navbar-right">
-					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-				</ul> -->
-			</div>
-		</div>
-	</nav>
+
 	<body>
-		<!-- <section id="landing">
+		<section id="landing">
 			<div class="container-fluid desk" style="padding: 0px;">
 				<div class="row">
 					<div id="landingImg" class="col-md-8">
@@ -83,7 +41,7 @@
 					</div>
 				</div>
 			</div>
-		</section> -->
+		</section>
 		<section id="shopHm">
 			<div class="container">
 				<div class="row text-center">
