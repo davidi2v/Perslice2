@@ -119,7 +119,7 @@
 								<h2>Recent Blogs</h2>
 								<p>For fun and sweet reads</p>
 							</div>
-							<div class="row">
+							<div class="row blogs">
 								<div class="col-md-4">
 									<a href="blogpost.php">
 										<div class="blogBox">

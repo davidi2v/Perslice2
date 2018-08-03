@@ -679,7 +679,7 @@ recipe-all css
     .desk .recipeItem a.ctaBtn {position: absolute; bottom: 0px;}
 }
 
-.recipeItem {height: 310px;}
+.recipeItem {height: 310px;  font-family: "futura-pt", sans-serif; font-size: 20px; }
 
 @media only screen and (min-width: 768px) {
     .mobile .col-md-3 {padding: 5px;}
@@ -733,7 +733,7 @@ blogs css
 .posts p {font-size: 16px;padding-bottom: 10px;}
 .posts img {padding-bottom: 10px;}
 
-.carousel-inner a {color: #000; text-decoration: none; text-align: center;}
+.carousel-inner .text a {color: #000; text-decoration: none; text-align: center; display: block; margin: 0px auto; font-family: "futura-pt", sans-serif; font-size: 20px; padding-top: 10px;}
 
 @media only screen and (min-width: 768px) {
     .blogContent a {color: #000; text-decoration: none;}
@@ -742,11 +742,14 @@ blogs css
 /* ---------------------
 blogposts css
 ---------------------*/
-#blogposts img {width: 100%; padding: 20px 0px;}
+#blogposts h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
+#blogposts p {font-size: 16px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+
+#blogposts img {width: 100%; padding-top: 20px 0px;}
 
 #blogposts .aside img {width: 280px; padding: 0px;}
 
-#followSocial { text-align: center;}
+#followSocial { text-align: center; padding-bottom: 6em;}
 
 #followSocial ul {display: flex; list-style: none; padding: 0px; width: 250px; margin: 0px auto;}
 
@@ -962,6 +965,16 @@ faq css
 /*-------------------------------------
 | event css
 -------------------------------------*/
+#blogs .posts h3 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
+#blogs p {font-size: 16px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+
+.aside h2 {font-family: "futura-pt", sans-serif; font-size: 30px;}
+.aside h3 {font-family: "futura-pt", sans-serif; font-size: 30px;}
+
+.blogs {padding-top: 2em;}
+
+#featuredBlogs h2 {font-size: 25px; text-align: center; font-family: "futura-pt", sans-serif;}
+
 @media only screen and (min-width: 768px) {
     .aside h2 {font-size: 25px; text-align: left; margin-top: 5em;}
     .aside2 h2 {font-size: 25px; text-align: left; margin-top: 1em;}
