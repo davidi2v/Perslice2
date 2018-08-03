@@ -34,6 +34,10 @@ ul.navbar-nav li a:hover {background-color: #eeb2ca;}
 
 ul.navbar-nav li.active a {font-weight: bold;}
 
+.navbar-nav {
+    margin: 20px -15px;
+}
+
  button span.icon-bar {
      background-color: #000;
      margin-top: 25px;
@@ -971,9 +975,14 @@ faq css
 .aside h2 {font-family: "futura-pt", sans-serif; font-size: 30px;}
 .aside h3 {font-family: "futura-pt", sans-serif; font-size: 30px;}
 
+.aside2 h2 {font-family: "futura-pt", sans-serif; font-size: 30px;}
+.aside2 h3 {font-family: "futura-pt", sans-serif; font-size: 30px;}
+
 .blogs {padding-top: 2em;}
 
 #featuredBlogs h2 {font-size: 25px; text-align: center; font-family: "futura-pt", sans-serif;}
+
+#blogs h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
 
 @media only screen and (min-width: 768px) {
     .aside h2 {font-size: 25px; text-align: left; margin-top: 5em;}
