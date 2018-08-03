@@ -206,6 +206,8 @@ a.ctaBtn:hover {
 
 #recipeCarousel  .carousel-control.right {background: none;}
 
+#recipeCarousel h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
+
 #recipeDetail {padding: 0px 13px;}
 #recipeDetail h3 { font-family: "futura-pt", sans-serif; font-size: 40px;}
 
