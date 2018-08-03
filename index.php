@@ -54,7 +54,7 @@
 		</div>
 	</nav>
 	<body>
-		<section id="landing">
+		<!-- <section id="landing">
 			<div class="container-fluid desk" style="padding: 0px;">
 				<div class="row">
 					<div id="landingImg" class="col-md-8">
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<section id="shopHm">
 			<div class="container">
 				<div class="row text-center">
