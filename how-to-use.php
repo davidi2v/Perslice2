@@ -54,11 +54,21 @@
 	</nav>
 	<body>
 		<div id="howto" class="container">
-			<div id="video" class="row text-center">
+			<!-- <div id="video" class="row text-center">
 				<h3>Video of Perslice sent to us by Miguel will go here.</h3>
+			</div> -->
+			<div class="howtoHead">
+				<h1>HOW TO USE<br> YOUR PERSLICE</h1>
+				<div class="howtoBox">
+					<h2>PERSLICE CUTS EQUAL SLICES</h2>
+					<h3>This is How!</h3>
+					<p>It doesn't matter if you are a professional chef or a novice at home DIY baker. The Perslice is the best gadget to grab when you need to slice and serve equal pieces of that delectable delight you are offering guests. We realize you can use just a plain old knife and try to carve out 12 equal slices so no one is sercetly eyeballing the big slice if you don't have enough to go around because you didn't slice perfectly.</p>
+					<p>It's nice to be able to count on something to make your lif a lot easier, like the invention of the can opener, you could have just stabbed it with a knife until it was open but isn't it much nicer having a gadget to cleanly and simply open it for you?</p>
+					<br>
+					<p>When you think of parties, you think of fun, so let the Perslice be apart of every fun occasion that involves dessert!</p>
+				</div>
 			</div>
 			<div class="row">
-				<h1>How many slices does Perslice slice?</h1>
 			    <div id="persliceAnimation" class="container">
 			        <div class="row">
 			          <div class="cakeOutlines text-center">
@@ -78,6 +88,71 @@
 			            <p id="button30" class="buttons">30</p>
 			          </div>
 			        </div>
+					<div class="row">
+						<ul>
+							<li>Count the number of guests</li>
+							<li>Turn the dial on the handle for the amount you need</li>
+							<li>Cut the desserts</li>
+							<li>Slide out the spatula</li>
+							<li>Serve perfectly cut desserts without a mess</li>
+							<li>Enjoy!</li>
+						</ul>
+						<div class="howtoBox">
+							<h2>PERSLICE ASSEMBLY INSTRUCTIONS</h2>
+							<h3>This is How!</h3>
+							<ol>
+								<li>Remove all of the parts from the packaging</li>
+								<li>Slide the two blades into the front slots located on the handle</li>
+								<li>If you have nay problem sliding the blades into place easily, you can use a small amount of cooking oil to where the blades will be slid into place</li>
+								<li>You will know it is in place because the blades will be fully inserted and cannot move down further</li>
+								<li>Wash the Perslice with mild dish soap and allow to dry fully before using it for the first time</li>
+							</ol>
+						</div>
+						<img id="howtoPerslice" src="img/Perslice.jpg" alt="Cake slicer and server">
+						<div class="howtoBox">
+							<h2>PERSLICE CARE INSTRUCTIONS</h2>
+							<h3>This is How!</h3>
+							<p>You want to make sure you wash your Perslice before using it<br>Use mild dish soap and let it soak in warm water.</p>
+							<p>After using your Perlice, you may wash it in the dishwasher or by hand with mild dish soap. Always let the Perslice air dry completely after hand washing before storing or before use.</p>
+							<p>If you have stubborn dessert or frosting stuck in the small crevices, use the tiny brush included to clean these areas. You may also use a toothbrush to lightly scrub the food out of these areas.</p>
+							<p>You can keep you Perslice packaging to store your product safely or disassemble and store conveniently.</p>
+							<div class="howtoContainer">
+								<div class="howtoIcons2">
+									<div class="howtoImg"><img src="img/dishwasherSafe1.png" alt="dishwasher safe"></div>
+									<div class="howtoImg"><img src="img/dishwasherSafe2.png" alt="clean baking"></div>
+								</div>
+							</div>
+						</div>
+						<div class="howtoBox">
+							<h2>PERSLICE SAFETY INSTRUCTIONS</h2>
+							<h3>This is How!</h3>
+							<p>The Perslice is not intended to be a toy and could cause harm if misused.</p>
+							<p>Do not put your Perslice near high heat items or an open flame.</p>
+							<p>Be sure to wash your product before your first use.</p>
+							<p>Do not let children or pets play with the Perslice or the packaging.</p>
+							<p>Small parts could cause a choking hazard.</p>
+							<p>Dispose of any unwanted plastic packaging in a recyle container. Do not allow children or pets to play with plastic parts or packaging products.</p>
+							<p>If you  have additional questions or concerns please contact us through the website <a href="contact.php">contact page</a> or by email at info@persliceusa.com.</p>
+							<div class="howtoContainer">
+								<div class="howtoIcons">
+									<div class="howtoImg"><img src="img/nopets.png" alt="call center"></div>
+									<div class="howtoImg"><img src="img/nofire.png" alt="email"></div>
+									<div class="howtoImg"><img src="img/underAge.png" alt="email"></div>
+								</div>
+							</div>
+						</div>
+						<div class="howtoBox">
+							<h2>ADDITIONAL PERSLICE QUESTIONS</h2>
+							<h3>This is How!</h3>
+							<p>Call us Monday through Friday from 8:00 am and 4:00 pm PST at 888-567-1901 or email us at info@persliceusa.com</p>
+							<div class="howtoContainer">
+								<div class="howtoIcons2">
+									<div class="howtoImg"><img src="img/callcenter.png" alt="call center"></div>
+									<div class="howtoImg"><img src="img/email.png" alt="email"></div>
+								</div>
+							</div>
+						</div>
+					</div>
 			    </div>
 <script>
 

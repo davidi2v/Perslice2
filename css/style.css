@@ -751,7 +751,16 @@ button.ctaBtn:hover {
 /* ---------------------
 how-to-use css
 --------------------- */
-#howto h1 {text-align: center; padding: 2em 1em; font-size: 30px;}
+#howto h1 {text-align: center; padding: 2em 1em; padding-bottom: 1em; font-size: 40px; font-family: "futura-pt", sans-serif; border-bottom: solid 2px #000; width: 600px; display: block; margin: 0px auto; margin-bottom: 1em;}
+
+.howtoBox h2, .howtoBox h3 {text-align: center;}
+.howtoBox h2 { font-family: "futura-pt", sans-serif;}
+.howtoBox h3 {padding-bottom: 1em; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+
+.howtoBox p { font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+.howtoBox ol { font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+
+.howtoBox {margin-bottom: 5em;}
 
 #video {
     height: 300px;
@@ -808,10 +817,23 @@ how-to-use css
   cursor: pointer;
 }
 
+.buttonsRow {padding-bottom: 3em;}
+
 @media only screen and (min-width: 768px) {
     #persliceAnimation .cakeOutlines img {
       width: 60%;
     }
+
+    #howtoPerslice {width: 60%; display: block; margin: 0px auto;}
+
+    .howtoContainer {display: block; margin: 0px auto; width: 600px;}
+    .howtoIcons {display: flex;}
+    .howtoIcons2 {display: flex;}
+    .howtoIcons img {width: 200px; display: block; margin: 0px auto;}
+    .howtoIcons2 img {width: 300px; display: block; margin: 0px auto;}
+    .howtoimg {flex: 1;}
+
+    #howto ul {display: block; margin: 0px auto; width: 500px; padding-bottom: 4em; padding-top: 4em; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
 }
 
 /* ---------------------
