@@ -71,14 +71,14 @@
 			</div>
 			<div class="container-fluid mobile" style="padding: 0px;">
 				<div class="row">
-					<div id="landingCta" class="col-md-4">
+					<div id="landingCta" class="col-sm-4">
 						<div id="landingContainer">
 							<h1>Perslice</h1>
 							<p>Spend less time slicing<br> and more time celebrating</p>
 							<a class="ctaBtn" href="product.php">Shop Now</a>
 						</div>
 					</div>
-					<div id="landingImg" class="col-md-8">
+					<div id="landingImg" class="col-sm-8">
 						<img src="img/slicedCake.jpg" alt="sliced cake">
 					</div>
 				</div>
@@ -377,11 +377,11 @@
 		<section id="specials" class="mobile">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<img class="desk" src="img/cakeHeart.jpg" alt="cake with heart">
 	  			    	<img class="mobile" src="img/cakeHeart_desk.jpg" alt="cake with heart">
 					</div>
-					<div class="col-md-6 salesContent">
+					<div class="col-sm-6 salesContent">
 					<div class="contentBox">
 						<h3>Order 2<br> <span>SAVE 20%</span></h3>
 		  				<p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
@@ -390,7 +390,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 salesContent">
+					<div class="col-sm-6 salesContent">
 					<div class="contentBox">
 						<h3><span>Enter to Win</span> <br>$500</h3>
 	  					<p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
@@ -416,7 +416,7 @@
 					  </div>
 					</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<img class="desk" src="img/babyBitesCake.jpg" alt="baby bites cake">
 	  			      	<img class="mobile" src="img/babyBitesCake_desk.jpg" alt="cake with heart">
 					</div>
@@ -463,44 +463,44 @@
 				</div>
 				<div class="mobile">
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost7.jpg" alt="Instagram Post 7"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost8.jpg" alt="Instagram Post 8"></a>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost9.jpg" alt="Instagram Post 9"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost10.jpg" alt="Instagram Post 10"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost11.jpg" alt="Instagram Post 11"></a>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-xs-6">
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost12.jpg" alt="Instagram Post 12"></a>
 						</div>
 					</div>
@@ -523,11 +523,11 @@
 			  <div class="carousel-inner">
 			    <div class="item active">
     				<div class="row">
-    					<div class="col-md-6 text-center">
+    					<div class="col-sm-6 text-center">
     						<img src="img/blueBerryVelvetCake.jpg">
     						<h3 class="desk">Blueberry Velvet Cake</h3>
     					</div>
-    					<div class="col-md-6">
+    					<div class="col-sm-6">
     						<div id="recipeDetail">
 								<h3 class="mobile">Blueberry Velvet Cake</h3>
 								<div id="timeDiv">
@@ -542,11 +542,11 @@
 			    </div>
 				<div class="item">
     				<div class="row">
-    					<div class="col-md-6 text-center">
+    					<div class="col-sm-6 text-center">
     						<img src="img/blueBerryVelvetCake.jpg">
     						<h3 class="desk">Blueberry Velvet Cake</h3>
     					</div>
-    					<div class="col-md-6">
+    					<div class="col-sm-6">
     						<div id="recipeDetail">
 								<h3 class="mobile">Blueberry Velvet Cake</h3>
 								<div id="timeDiv">

@@ -43,7 +43,7 @@ ul.navbar-nav li.active a {font-weight: bold;}
      margin-top: 25px;
  }
 
-a.navbar-brand img {width: 75px;}
+a.navbar-brand img {width: 75px; position: relative; z-index: 1000;}
 
 #landing, #shopHm, #specials, #newsletter, #insta, #recipes, #blogHm, #shopPlatformp {padding-bottom: 4em;}
 
@@ -215,7 +215,7 @@ a.ctaBtn:hover {
 #recipeCarousel h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
 #recipeDetail {padding: 0px 13px;}
-#recipeDetail h3 { font-family: "futura-pt", sans-serif; font-size: 40px;}
+#recipeDetail h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
 #blogHm {margin-top: 7em; margin-bottom: 7em;}
 #blogHm a {color: #000; text-decoration: none;}
@@ -310,7 +310,6 @@ ul#socialFooter li img {width: 35px;}
 
 #blogHm h2 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
-.blogContent {padding-left: 10px;}
 .blogContent h4 {font-family: "futura-pt", sans-serif; font-size: 20px;}
 .blogContent p {font-family: "futura-pt", sans-serif;}
 
@@ -323,6 +322,7 @@ ul#socialFooter li img {width: 35px;}
     .navbar {
         margin-bottom: 0px;
     }
+
 
     .nav>li {border-right: solid 1px #000; width: 152px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 18px;}
     .nav>li:last-child {border-right:none;}
@@ -437,7 +437,7 @@ ul#socialFooter li img {width: 35px;}
 
     #specials img {width: 100%;}
 
-    #specials .col-md-6 {text-align: center; padding: 0px;}
+    #specials .col-sm-6 {text-align: center; padding: 0px;}
 
     #specials .salesContent {position: relative;}
 
@@ -535,6 +535,12 @@ ul#socialFooter li img {width: 35px;}
     #shopPlatforms h2 {font-family: "futura-pt", sans-serif; font-size: 40px; padding-bottom: 25px;}
     #shopPlatforms p {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px; padding-bottom: 25px;}
 
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        float: right;
+    }
 }
 
 /* ---------------------
@@ -676,6 +682,8 @@ product css
 /* ---------------------
 recipe-all css
 ---------------------*/
+#recipeCarousel img {width: 100%;}
+
 #allRecipes img {width: 100%;}
 #allRecipes h3 {font-size: 20px; text-align: center;}
 @media only screen and (max-width: 768px) {
@@ -1038,8 +1046,79 @@ faq css
     margin-bottom: 5em;
 }
 
+@media only screen and (max-width: 992px) {
+    #specials .salesContent .contentBox {
+        position: absolute;
+        top: 50%;
+        transform: translate(0,0%);
+        margin: 0px 35px;
+        text-align: left;
+        left: 30px;
+    }
+
+    ul.navbar-nav {margin-top: 0px;}
+    .nav>li {border-right: solid 1px #000; width: 130px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+
+    a.navbar-brand img {width: 140px;}
+}
+
 @media only screen and (max-width: 768px) {
+    #myCarousel {
+        height: 800px;
+    }
+
+    a.navbar-brand img {width: 75px;}
+
     ul#socialFooter li img {
-    width: 28px;
+        width: 28px;
+    }
+
+    #number {
+        transform: none;
+        right: 45px;
+        text-align: right;
+        font-size: 20px;
+    }
+
+    ul.navbar-nav {margin-top: 0px;}
+
+    .nav>li {border-right: solid 1px #000; width: 130px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+    .nav>li:last-child {border-right:none;}
+
+    .carousel-inner img {width: 100%;}
 }
+
+@media only screen and (max-width: 767px) {
+
+    .navbar-nav {float: none; margin-top: 60px;}
+
+    .nav>li {width: 100%;}
+
+    ul.navbar-nav {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    #number {
+        position: absolute;
+        top: 5px;
+        right: 25px;
+        color: #000;
+        font-size: 16px;
+    }
 }
+
+@media only screen and (max-width: 768px) {
+    #myCarousel {
+        height: 659px;
+    }
+    .blogContent {padding-left: 10px;}
+}
+
+@media only screen and (max-width: 560px) {
+    #myCarousel {
+        height: 559px;
+    }
+}
+
+
