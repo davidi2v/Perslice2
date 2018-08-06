@@ -1108,6 +1108,7 @@ faq css
 }
 
 @media only screen and (max-width: 768px) {
+    .recipeItem {height: 480px;  font-family: "futura-pt", sans-serif; font-size: 20px; }
     #myCarousel {
         height: 659px;
     }
@@ -1119,10 +1120,23 @@ faq css
 
 }
 
+@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 700px) {
+    .recipeItem {height: 450px;}
+}
+
+@media only screen and (max-width: 600px) {
+    .recipeItem {height: 400px;}
+}
+
 @media only screen and (max-width: 560px) {
     #myCarousel {
-        height: 559px;
+        height: 400px;
     }
+
+    .recipeItem {height: 350px;}
 
     #featuredBlogs .carousel {
         height: 400px;
@@ -1133,6 +1147,8 @@ faq css
     #featuredBlogs .carousel {
         height: 300px;
     }
+
+    .recipeItem {height: 310px;}
 }
 
 
