@@ -768,7 +768,7 @@ blogposts css
 #followSocial ul li img {width: 75%;}
 
 #featuredBlogs {margin-bottom: 4em; margin-top: 4em;}
-#featuredBlogs .carousel {height: 310px;}
+#featuredBlogs .carousel {height: 300px;}
 
 #featuredBlogs2 {margin-bottom: 4em; margin-top: 4em;}
 #featuredBlogs2 .carousel {height: 360px;}
@@ -1025,10 +1025,6 @@ faq css
 
     #featuredBlogs h2 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif;}
 
-    #featuredBlogs .carousel {
-        height: 300px;
-    }
-
     #featuredBlogs .carousel h3 {margin-top: 0px;}
     #blogHeader p {font-size: 16px;}
 
@@ -1046,6 +1042,10 @@ faq css
 }
 
 @media only screen and (max-width: 992px) {
+    #featuredBlogs .carousel {
+        height: 510px;
+    }
+
     #specials .salesContent .contentBox {
         position: absolute;
         top: 50%;
@@ -1112,11 +1112,26 @@ faq css
         height: 659px;
     }
     .blogContent {padding-left: 10px;}
+
+    /* #featuredBlogs .carousel {
+        height: 300px;
+    } */
+
 }
 
 @media only screen and (max-width: 560px) {
     #myCarousel {
         height: 559px;
+    }
+
+    #featuredBlogs .carousel {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #featuredBlogs .carousel {
+        height: 300px;
     }
 }
 
