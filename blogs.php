@@ -114,7 +114,6 @@
 							</a>
 					</div>
 					<section id="blogHm" class="desk">
-						<div class="container">
 							<div class="row text-center">
 								<h2>Recent Blogs</h2>
 								<p>For fun and sweet reads</p>
@@ -147,7 +146,6 @@
 									</a>
 								</div>
 							</div>
-						</div>
 					</section>
 					<div id="featuredBlogs">
 						<h2 class="text-center">Other Blogposts</h2>
