@@ -484,24 +484,24 @@
 							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
 						</div>
 						<div class="col-md-3">
-							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost1.jpg" alt="Instagram Post 1"></a>
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost7.jpg" alt="Instagram Post 7"></a>
 						</div>
 						<div class="col-md-3">
-							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost2.jpg" alt="Instagram Post 2"></a>
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost8.jpg" alt="Instagram Post 8"></a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-3">
-							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost3.jpg" alt="Instagram Post 3"></a>
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost9.jpg" alt="Instagram Post 9"></a>
 						</div>
 						<div class="col-md-3">
-							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost4.jpg" alt="Instagram Post 4"></a>
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost10.jpg" alt="Instagram Post 10"></a>
 						</div>
 						<div class="col-md-3">
-							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost5.jpg" alt="Instagram Post 5"></a>
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost11.jpg" alt="Instagram Post 11"></a>
 						</div>
 						<div class="col-md-3">
-							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost6.jpg" alt="Instagram Post 6"></a>
+							<a href="https://www.instagram.com/persliceusa/"><img src="img/igPost12.jpg" alt="Instagram Post 12"></a>
 						</div>
 					</div>
 				</div>

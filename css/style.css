@@ -317,7 +317,7 @@ ul#socialFooter li img {width: 35px;}
 #shopPlatforms h2 {font-family: "futura-pt", sans-serif; font-size: 30px; padding-bottom: 25px;}
 #shopPlatforms p {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 20px; padding-bottom: 25px;}
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     #landing p, #shopHm p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 20px; margin: 0px;}
 
     .navbar {
