@@ -906,7 +906,6 @@ how-to-use css
     #howtoPerslice {width: 60%; display: block; margin: 0px auto;}
 
     .howtoContainer {display: block; margin: 0px auto; width: 600px;}
-    .howtoIcons {display: flex;}
     .howtoIcons2 {display: flex;}
     .howtoIcons img {width: 200px; display: block; margin: 0px auto;}
     .howtoIcons2 img {width: 300px; display: block; margin: 0px auto;}
