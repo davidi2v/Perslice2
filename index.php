@@ -55,7 +55,7 @@
 	</nav>
 	<body>
 		<section id="landing">
-			<div class="container-fluid desk" style="padding: 0px;">
+			<div class="container-fluid desk">
 				<div class="row">
 					<div id="landingImg" class="col-md-8">
 						<img src="img/slicedCake.jpg" alt="sliced cake">
