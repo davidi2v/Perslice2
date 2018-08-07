@@ -543,7 +543,7 @@
 				<div class="item">
     				<div class="row">
     					<div class="col-sm-6 text-center">
-    						<img src="img/CarrotCake.jpg">
+    						<img src="img/carrotCake.jpg">
     						<h3 class="desk">Carrot Cake</h3>
     					</div>
     					<div class="col-sm-6">
