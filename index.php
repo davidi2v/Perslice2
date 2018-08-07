@@ -629,34 +629,34 @@
 						<a href="blogpost.php">
 							<div class="blogBox">
 								<div class="blogImg">
-									<img src="img/blogpost1.jpg">
+									<img src="img/blog1.jpg">
 								</div>
 								<div class="blogContent middle">
-									<div class="text"><a href="blogpost.php">Blogpost 1</a></div>
+									<div class="text"><a href="blogpost.php">What to Remember When Planning a Birthday</a></div>
 								</div>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-4">
-						<a href="blogpost.php">
+						<a href="blogpost2.php">
 							<div class="blogBox">
 								<div class="blogImg">
-									<img src="img/blogpost2.jpg">
+									<img src="img/blog2.jpg">
 								</div>
 								<div class="blogContent middle">
-									<div class="text"><a href="blogpost.php">Blogpost 2</a></div>
+									<div class="text"><a href="blogpost2.php">My new favorite kitchen tool!</a></div>
 								</div>
 							</div>
 						</a>
 					</div>
 					<div class="col-md-4">
-						<a href="blogpost.php">
+						<a href="blogpost3.php">
 							<div class="blogBox">
 								<div class="blogImg">
-									<img src="img/blogpost1.jpg">
+									<img src="img/blog3.jpg">
 								</div>
 								<div class="blogContent middle">
-									<div class="text"><a href="blogpost.php">Blogpost 3</a></div>
+									<div class="text"><a href="blogpost3.php">Everything a person needs who loves to bake.</a></div>
 								</div>
 							</div>
 						</a>

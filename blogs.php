@@ -57,25 +57,28 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-8 text-left">
 					<div class="posts">
-						<h3>Take It From a Pro</h3>
-						<p>Published : July 17, 2018</p>
-						<a href="blogpost.php"><img src="img/blogpost1.jpg"></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<h3>What to Remember When Planning a Birthday</h3>
+						<p>July 14, 2018</p>
+						<p>By: Mai Ashley</p>
+						<a href="blogpost.php"><img src="img/blog1.jpg"></a>
+						<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times the numerous versions of the event you must layout before settling upon the final event design...</p>
 						<a href="blogpost.php" class="ctaBtn">Read More</a>
 					</div>
 					<div class="posts">
-						<h3>Blogpost 2</h3>
-						<p>Published : July 17, 2018</p>
-						<a href="blogpost.php"><img src="img/blogpost1.jpg"></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<a href="blogpost.php" class="ctaBtn">Read More</a>
+						<h3>My new favorite kitchen tool!</h3>
+						<p>Published : July 15, 2018</p>
+						<p>By: Drake Astor</p>
+						<a href="blogpost2.php"><img src="img/blog2.jpg"></a>
+						<p>Recently I became very interested in baking and how fine of an art it is. One thing that bothered me is that after all this time is how I’ll spend a few hours perfecting a cake and to only have it fall apart as soon as...</p>
+						<a href="blogpost2.php" class="ctaBtn">Read More</a>
 					</div>
 					<div class="posts">
-						<h3>Blogpost 3</h3>
-						<p>Published : July 17, 2018</p>
-						<a href="blogpost.php"><img src="img/blogpost1.jpg"></a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<a href="blogpost.php" class="ctaBtn">Read More</a>
+						<h3>Everything a person needs who loves to bake.</h3>
+						<p>July 14, 2018</p>
+						<p>By: Aliza Welch</p>
+						<a href="blogpost3.php"><img src="img/blog3.jpg"></a>
+						<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t  live without this!” just to finally realize, all I am doing is adding and not being completely strategic with my tools...</p>
+						<a href="blogpost3.php" class="ctaBtn">Read More</a>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-4">
@@ -88,14 +91,14 @@
 					</div>
 					<div class="mobile">
 						<h2>Recent Blogposts</h2>
-							<a href="blogpost.php">
+							<a href="blogpost4.php">
 								<div class="blogBox">
 									<div class="blogImg">
-										<img src="img/blogpost1.jpg">
+										<img src="img/blog4.jpg">
 									</div>
 									<div class="blogContent">
 										<div class="middle">
-											<div class="text"><a href="blogpost.php">Blog Post 1</a></div>
+											<div class="text"><a href="blogpost4.php">Budget Wise Party Planning</a></div>
 										</div>
 									</div>
 								</div>
@@ -103,11 +106,11 @@
 							<a href="blogpost.php">
 								<div class="blogBox">
 									<div class="blogImg">
-										<img src="img/blogpost2.jpg">
+										<img src="img/blog1.jpg">
 									</div>
 									<div class="blogContent">
 										<div class="middle">
-											<div class="text"><a href="blogpost.php">Blog Post 2</a></div>
+											<div class="text"><a href="blogpost.php">What to Remember When Planning a Birthday</a></div>
 										</div>
 									</div>
 								</div>
@@ -120,14 +123,14 @@
 							</div>
 							<div class="row blogs">
 								<div class="col-md-4">
-									<a href="blogpost.php">
+									<a href="blogpost4.php">
 										<div class="blogBox">
 											<div class="blogImg">
-												<img src="img/blogpost1.jpg">
+												<img src="img/blog4.jpg">
 											</div>
 											<div class="blogContent">
-												<h4>Take It From a Pro</h4>
-												<p>Interesting facts about birthdays in the 18th century.</p>
+												<h4>Budget Wise Party Planning</h4>
+												<p>July 14, 2018</p>
 											</div>
 										</div>
 									</a>
@@ -136,28 +139,28 @@
 									<a href="blogpost.php">
 										<div class="blogBox">
 											<div class="blogImg">
-												<img src="img/blogpost2.jpg">
+												<img src="img/blog1.jpg">
 											</div>
 											<div class="blogContent">
-												<h4>Take It From a Pro</h4>
-												<p>Interesting facts about birthdays in the 18th century.</p>
+												<h4>What to Remember When Planning a Birthday</h4>
+												<p>July 14, 2018</p>
 											</div>
 										</div>
 									</a>
 								</div>
 							</div>
 					</section>
-					<div id="featuredBlogs">
+					<!-- <div id="featuredBlogs">
 						<h2 class="text-center">Other Blogposts</h2>
 						<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
-						  <!-- Indicators -->
+
 						  <ol class="carousel-indicators">
 							<li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
 							<li data-target="#recipeCarousel" data-slide-to="1"></li>
 							<li data-target="#recipeCarousel" data-slide-to="3"></li>
 						  </ol>
 
-						  <!-- Wrapper for slides -->
+
 						  <div class="carousel-inner">
 							<div class="item active">
 							<a href="blogpost.php">
@@ -184,7 +187,7 @@
 							</div>
 							</div>
 						  </div>
-						  <!-- Left and right controls -->
+
 						  <a class="left carousel-control" href="#recipeCarousel" data-slide="prev">
 							<span class="glyphicon glyphicon-chevron-left"></span>
 							<span class="sr-only">Previous</span>
@@ -194,7 +197,7 @@
 							<span class="sr-only">Next</span>
 						  </a>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Blogpost 1</title>
+		<title>Blogpost 4</title>
 		<link rel="stylesheet" href="https://use.typekit.net/cco5pnz.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -57,31 +57,43 @@
 			<div class="row">
 				<div class="col-xs-12 col-md-8">
 					<div id="blogHeader">
-						<h1>What to Remember When Planning a Birthday</h1>
+						<h1>Budget Wise Party Planning</h1>
 						<p>July 14, 2018</p>
-						<p>By: Mai Ashley</p>
+						<p>By: Shola Proctor</p>
 					</div>
-					<img src="img/blog1.jpg" alt="" id="blogImg">
+					<img src="img/blog4.jpg" alt="" id="blogImg">
 					<br>
-					<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times the numerous versions of the event you must layout before settling upon the final event design, along with all of my set-up items such as cake design, cake serving gadgets, and serve wear.</p>
+					<p>We want our party to be remembered but not break the bank doing so, here is what you can do to stretch a dollar but look good doing it!</p>
 					<br>
-					<p>This exercise in event planning got me to questioning why people celebrate birthdays and where the tradition evolved from in the first place.</p>
+
+					<p>Start your party planning and shopping early so you can watch for discounts and sales.</p>
 					<br>
-					<p>Here is a little bit of information I found to gain a better perspective and have a additional respect for the tradition we all acknowledge or ignore, depending upon your age and mindset, that is linked directly to the date of our birth.</p>
+
+
+					<p>Embrace activities for your guests to do that don't cost money but will keep them engaged and be having fun.
+					No matter if your guests are pint-sized or adults, everyone loves a well thought out activity such as these hilarious activities.</p>
 					<br>
-					<p>According the book of Lore of Birthdays, ancient Greeks had believed or maybe some still do, that every person has a spirit which attendants to their birth and this spirit keeps watch over them. These spirits were said to have a direct mystical relation with the God on whose birthday the individual was born.  This would certainly make a birthday a very important event.</p>
+
+					<p>Freeze dance works for children and adults, have your DJ man the equipment and select when to start and stop the music. Anyone who is still dancing is out.
+					Charades is a lot of fun with a creative group, write topics on little pieces of paper and have teams pull one out to perform and the other team gets to guess, whoever has the most correct answers wins.</p>
 					<br>
-					<p>The celebration of the date of your birth was a pagan tradition, and actually, many Christians
-					Long ago did not celebrate birthdays historically because of its association with the Pagan tradition.
-					Pagans had proclaimed that spirits skulk on days of considerable transition, one such day would be the day of your birth since a person is transitioning to a year older. This is completely ridiculous of course because every day we grow older so this is a bit silly. Many of these thoughts, ideas and practices give me a good laugh even though I am also very superstitious and quite enjoy traditions and their origins I can still find the humor in some things people put so much validity into.</p>
+					<p>A great kids game that is just as much fun for adults is HeadBandz, if you haven't played with a bunch of adults just try it, it can get a little wild by the way.
+					Look through your kids games and just alter them to accommodate adult kids, I am sure you will find this to be a great activity if you can get the adults to let their hair down.</p>
 					<br>
-					<p>The candles we blow out on our birthday have a very interesting backstory as well, they were said to be a response to the evil spirits, they showed up to communicate with the gods, a sort of light in the darkness.</p>
+
+					<p>Bake a semi-homemade cake, use a box cake and substitute buttermilk for the water, frost the cake with a homemade frosting or buttercream, milk, unsalted butter, vanilla and confectioners sugar. Or you can dress up a basic cake with a bunch of beautiful berries and whipped cream. Don’t forget to get the Perslice cake cutter and server so you have enough slices of cake for all of your guests.</p>
 					<br>
-					<p>Germans began childrens birthday traditions in the 1700s, they would put candles on sweets, such as, tortes for “Kinderfest” one for each year of life, many would add additional candles to honor the upcoming years.
-					The well known English language celebratory song “Happy Birthday to You” originated a tune for school kids in 1893. The actual tune was derived from a song by two school teachers and was called “Good Morning to All.” The tune reportedly earns one of the teachers estate $2 million annually.</p>
+
+					<p>Order decoration supplies online and saves money and time.</p>
 					<br>
-					<p>So, next time you are celebrating your own date of your birth or someone elses you will now understand a little better why it has become such a very involved practice and why it is so very important to acknowledge if only to just realize We Have Survived Another Year! </p>
+
+					<p>Spring & Summer Time Parties; recycle jars and use them as candle holders or beverage glasses, use fancy straws in the jars and fill a huge well cleaned out glass bowl or jar and fill with a Sangria, lemonade, or a mixed fruit punch beverage, throw some cut up fruit into the container or freeze fruit into ice cubes.</p>
 					<br>
+
+					<p>Make a digital invite and not the traditional paper invites.</p>
+					<br>
+
+
 				</div>
 				<div class="col-xs-12 col-md-4">
 					<div class="aside text-center">
@@ -104,6 +116,14 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 							<div class="item active">
+							<a href="blogpost.php">
+								<img src="img/blog1.jpg" alt="">
+							</a>
+							<div class="middle">
+								<div class="text"><a href="blogpost.php">What to Remember When Planning a Birthday</a></div>
+							</div>
+							</div>
+							<div class="item">
 							<a href="blogpost2.php">
 								<img src="img/blog2.jpg" alt="">
 							</a>
@@ -116,15 +136,7 @@
 								<img src="img/blog3.jpg" alt="">
 							</a>
 							<div class="middle">
-								<div class="text"><a href="blogpost3.php">Everything a person needs who loves to bake.</a></div>
-							</div>
-							</div>
-							<div class="item">
-							<a href="blogpost4.php">
-								<img src="img/blog4.jpg" alt="">
-							</a>
-							<div class="middle">
-								<div class="text"><a href="blogpost4.php">Budget Wise Party Planning</a></div>
+								<div class="text"><a href="blogpost3.php">Get your own Perslice Cake Slicer and Server!</a></div>
 							</div>
 							</div>
 						  </div>

@@ -152,6 +152,7 @@ a.ctaBtn:hover {
 #myCarousel .carousel-control.left, #productCarousel .carousel-control.left {background: none;}
 #myCarousel .carousel-control.right, #productCarousel .carousel-control.right {background: none;}
 
+#productCarousel .item a {color: #000; text-decoration: none;}
 
 #newsletter {
     background-image: url("../img/cakePops.jpg");
