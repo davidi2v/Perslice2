@@ -524,12 +524,12 @@
 			    <div class="item active">
     				<div class="row">
     					<div class="col-sm-6 text-center">
-    						<img src="img/blueBerryVelvetCake.jpg">
-    						<h3 class="desk">Blueberry Velvet Cake</h3>
+    						<img src="img/blueVelvetCake.jpg">
+    						<h3 class="desk">Blue Velvet Cake</h3>
     					</div>
     					<div class="col-sm-6">
     						<div id="recipeDetail">
-								<h3 class="mobile">Blueberry Velvet Cake</h3>
+								<h3 class="mobile">Blue Velvet Cake</h3>
 								<div id="timeDiv">
 									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
 									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
@@ -543,18 +543,37 @@
 				<div class="item">
     				<div class="row">
     					<div class="col-sm-6 text-center">
-    						<img src="img/blueBerryVelvetCake.jpg">
-    						<h3 class="desk">Blueberry Velvet Cake</h3>
+    						<img src="img/CarrotCake.jpg">
+    						<h3 class="desk">Carrot Cake</h3>
     					</div>
     					<div class="col-sm-6">
     						<div id="recipeDetail">
-								<h3 class="mobile">Blueberry Velvet Cake</h3>
+								<h3 class="mobile">Carrot Cake</h3>
 								<div id="timeDiv">
 									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
 									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
 									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
 								</div>
-	    						<a class="ctaBtn" href="blue-velvet-cake.php">View Recipe</a>
+	    						<a class="ctaBtn" href="carrot-cake.php">View Recipe</a>
+    						</div>
+    					</div>
+    				</div>
+			    </div>
+				<div class="item">
+    				<div class="row">
+    					<div class="col-sm-6 text-center">
+    						<img src="img/veganChocolateCake.jpg">
+    						<h3 class="desk">Vegan Chocolate Cake</h3>
+    					</div>
+    					<div class="col-sm-6">
+    						<div id="recipeDetail">
+								<h3 class="mobile">Vegan Chocolate Cake</h3>
+								<div id="timeDiv">
+									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+								</div>
+	    						<a class="ctaBtn" href="vegan-chocolate-cake.php">View Recipe</a>
     						</div>
     					</div>
     				</div>

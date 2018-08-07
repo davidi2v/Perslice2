@@ -56,7 +56,7 @@
 		<div id="recipe" class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
-					<img src="img/blueBerryVelvetCake.jpg" alt="Blue velvet cake">
+					<img src="img/chocolateCake.jpg" alt="Blue velvet cake">
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<h1>Insane Chocolate Fun Cake</h1>

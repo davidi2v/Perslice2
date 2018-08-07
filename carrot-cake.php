@@ -56,7 +56,7 @@
 		<div id="recipe" class="container">
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
-					<img src="img/blueBerryVelvetCake.jpg" alt="Blue velvet cake">
+					<img src="img/carrotCake.jpg" alt="Blue velvet cake">
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<h1>Carrot Cake</h1>
@@ -113,7 +113,7 @@
 						      <div id="collapse2" class="panel-collapse collapse">
 						        <div class="panel-body">
 									<p>Use a large bowl to combine the flour, cinnamon, baking soda, sugar, and salt.<p/>
-									<p>Next, add the eggs, carrots, vanilla, and oil.<p/> 
+									<p>Next, add the eggs, carrots, vanilla, and oil.<p/>
 									<p>Beat until combined fully.<p/>
 									<p>Stir in the coconut, nuts, and pineapple.<p/>
 									<p>Pour the mixture into a round greased pan and bake at 350 degrees Fahrenheit or  176.667 Celcius, poke with a toothpick in the center of the cake and make sure the batter is not wet, remove the cake and place on a wire rack to fully cool.<p/>
