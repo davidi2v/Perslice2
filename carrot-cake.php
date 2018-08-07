@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Blue Velvet Cake Recipe</title>
+		<title>Carrot Cake Recipe</title>
 		<link rel="stylesheet" href="https://use.typekit.net/cco5pnz.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -59,7 +59,7 @@
 					<img src="img/blueBerryVelvetCake.jpg" alt="Blue velvet cake">
 				</div>
 				<div class="col-xs-12 col-md-6">
-					<h1>Blue Velvet Cake</h1>
+					<h1>Carrot Cake</h1>
 					<div id="recipeDetail">
 						<div id="timeDiv">
 							<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
@@ -78,16 +78,29 @@
 						      <div id="collapse1" class="panel-collapse collapse in">
 						        <div class="panel-body">
 						        	<ul>
-										<li>1 and 1/4 Cups Cake Flour, sifted</li>
-										<li>1 and 1/4 Cups Ultra-Fine Sugar</li>
-										<li>11 Egg Whites, room temperature</li>
-										<li>2 Teaspoons Vanilla Extract</li>
-										<li>2 oz. of blue food coloring homemade or bought</li>
-										<li>1 and 1/2 Teaspoons Cream of Tartar</li>
-										<li>1 Tablespoon Cocoa Powder</li>
-										<li>1/4 Teaspoon Salt</li>
-										<li>1 and 1/2 Cups Blueberries, fresh not frozen</li>
+										<li>2 cups of all purpose flour </li>
+										<li>2 teaspoons of ground cinnamon </li>
+										<li>2 cups of granulated sugar </li>
+										<li>1 teaspoon of baking soda </li>
+										<li>½ teaspoon of salt </li>
+										<li>3 large eggs </li>
+										<li>1 ½ cups of canola oil </li>
+										<li>2 cups finely grated carrots </li>
+										<li>1 cup chopped nuts </li>
+										<li>1 cup sweetened shredded coconut </li>
+										<li>1 teaspoon vanilla extract </li>
+										<li>1 cup drained crushed pineapple (remove all liquid) </li>
 						        	</ul>
+									<br>
+									<p>Frosting</p>
+									<ul>
+										<li>6 oz of softened cream cheese </li>
+										<li>6 tablespoons of softened salted butter </li>
+										<li>3 cups of confectioners sugar </li>
+										<li>1 teaspoon of vanilla extract </li>
+										<li>Add additional nuts </li>
+
+									</ul>
 						        </div>
 						      </div>
 						    </div>
@@ -99,29 +112,13 @@
 						      </div>
 						      <div id="collapse2" class="panel-collapse collapse">
 						        <div class="panel-body">
-									<p>Preheat the oven to 375 degrees Fahrenheit or 190.556 Celsius.</p>
-									<br>
-									<p>Use a large or medium bowl to sift together the flour, a ½ cup of sugar, and cocoa powder.</p>
-									<br>
-									<p>In a separate large bowl, you will beat together your egg whites, the vanilla extract, cream of tartar, and the salt till they begin to peak.</p>
-									<br>
-									<p>* When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted*</p>
-									<br>
-									<p>Follow this by beating the remaining ¾ cups of sugar and add blue food coloring.</p>
-									<br>
-									<p>*You can make your own blue coloring using food products or
-									you can purchase a natural blue food coloring product online*
-									until the mixture begins to hold stiff peaks, this should take about 5 to 6 minutes.</p>
-									<br>
-									<p>*When do you know you have a stiff peak?  When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted. When egg whites are over beaten, they look curdled and dry*</p>
-									<br>
-
-									<p>Fold in ¼ of the flour mixture slowly, it is best if you use a spatula and try not to stir the mixture, continue folding till of the mixture is worked in. Next, pour 1 cup of blueberries into the batter folding them in but do not stir or you will break up the berries.</p>
-									<br>
-									<p>Now, pour the batter into 2 greased round pans and bake for 20-30 minutes. *make sure you grease all the inside edges thoroughly*</p>
-									<br>
-									<p>When you poke the center of the cake with a toothpick it should come out without any wet batter, place on the top of the counter and let it cool for at least 30-40 minutes before removing from the pan. Wait an extra 30 minutes till you frost the cake.</p>
-									<br>
+									<p>Use a large bowl to combine the flour, cinnamon, baking soda, sugar, and salt.<p/>
+									<p>Next, add the eggs, carrots, vanilla, and oil.<p/> 
+									<p>Beat until combined fully.<p/>
+									<p>Stir in the coconut, nuts, and pineapple.<p/>
+									<p>Pour the mixture into a round greased pan and bake at 350 degrees Fahrenheit or  176.667 Celcius, poke with a toothpick in the center of the cake and make sure the batter is not wet, remove the cake and place on a wire rack to fully cool.<p/>
+									<p>Use a medium bowl, beat butter and cream cheese together until fluffy, add the confectioners sugar, vanilla, and beat again until smooth and fully blended.<p/>
+									<p>Frost the cake top or top and sides, sprinkle with additional nuts.<p/>
 						        </div>
 						      </div>
 						    </div>
@@ -133,16 +130,7 @@
 						      </div>
 						      <div id="collapse3" class="panel-collapse collapse">
 						        <div class="panel-body">
-									<p>Check out our tips and tricks page for dessert lovers! Links from each recipe page</p>
-									<p>Frosting a cake with ease.</p>
-									<ol>
-										<li>Use a piece of wax paper or parchment paper on the top of a baking sheet or plate.</li>
-										<li>Put a cooling rack on the top of the paper.</li>
-										<li>Put your frosting into a microwave-safe bowl or container and heat for 30 seconds or until the frosting is fully melted.</li>
-										<li>Stir in any coloring you might be using, nuts, or other frosting additives.</li>
-										<li>All you have to do is pour the frosting evenly all over the top of the cake till its completely covered, even the sides if you want full coverage. Remember the larger the cake the more frosting you will need.</li>
-										<li>Place the cake in the refrigerator for at least an hour so your frosting will set.</li>
-									</ol>
+									No notes for this recipe.
 						        </div>
 						      </div>
 						    </div>

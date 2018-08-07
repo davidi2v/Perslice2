@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Blue Velvet Cake Recipe</title>
+		<title>Vegan Chocolate Cake Recipe</title>
 		<link rel="stylesheet" href="https://use.typekit.net/cco5pnz.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -59,7 +59,7 @@
 					<img src="img/blueBerryVelvetCake.jpg" alt="Blue velvet cake">
 				</div>
 				<div class="col-xs-12 col-md-6">
-					<h1>Blue Velvet Cake</h1>
+					<h1>Vegan Chocolate Cake</h1>
 					<div id="recipeDetail">
 						<div id="timeDiv">
 							<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
@@ -78,15 +78,17 @@
 						      <div id="collapse1" class="panel-collapse collapse in">
 						        <div class="panel-body">
 						        	<ul>
-										<li>1 and 1/4 Cups Cake Flour, sifted</li>
-										<li>1 and 1/4 Cups Ultra-Fine Sugar</li>
-										<li>11 Egg Whites, room temperature</li>
-										<li>2 Teaspoons Vanilla Extract</li>
-										<li>2 oz. of blue food coloring homemade or bought</li>
-										<li>1 and 1/2 Teaspoons Cream of Tartar</li>
-										<li>1 Tablespoon Cocoa Powder</li>
-										<li>1/4 Teaspoon Salt</li>
-										<li>1 and 1/2 Cups Blueberries, fresh not frozen</li>
+										<li>2 cups spelt or white flour</li>
+										<li>3/4 cup cacao or unsweetened cocoa powder</li>
+										<li>1 tsp baking soda</li>
+										<li>1 tsp salt</li>
+										<li>1 cup mini chocolate chips, optional</li>
+										<li>1 1/2 cup unrefined sugar or xylitol</li>
+										<li>1/2 cup applesauce, banana, or yogurt of choice, such as coconut milk yogurt</li>
+										<li>1/2 cup oil, almond butter, or another substitute</li>
+										<li>1 1/2 tbsp pure vanilla extract</li>
+										<li>1 1/2 cup water</li>
+
 						        	</ul>
 						        </div>
 						      </div>
@@ -99,29 +101,19 @@
 						      </div>
 						      <div id="collapse2" class="panel-collapse collapse">
 						        <div class="panel-body">
-									<p>Preheat the oven to 375 degrees Fahrenheit or 190.556 Celsius.</p>
+									<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius, grease two 8-in round pans, set them aside.</p>
 									<br>
-									<p>Use a large or medium bowl to sift together the flour, a ½ cup of sugar, and cocoa powder.</p>
+									<p>Use a large bowl, combine the flour, cocoa powder, baking soda, salt, optional chips, and sweetener, and stir well.</p>
 									<br>
-									<p>In a separate large bowl, you will beat together your egg whites, the vanilla extract, cream of tartar, and the salt till they begin to peak.</p>
+									<p>*if your butter is not easy to stir you can heat gently until it softens*</p>
 									<br>
-									<p>* When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted*</p>
+									<p>Use a second bowl to whisk together the oil or nut butter, vanilla, applesauce or yogurt, and water.</p>
 									<br>
-									<p>Follow this by beating the remaining ¾ cups of sugar and add blue food coloring.</p>
+									<p>Now, you will pour the wet mixture with the dry and mix until they are combined but do not over-mix.</p>
 									<br>
-									<p>*You can make your own blue coloring using food products or
-									you can purchase a natural blue food coloring product online*
-									until the mixture begins to hold stiff peaks, this should take about 5 to 6 minutes.</p>
-									<br>
-									<p>*When do you know you have a stiff peak?  When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted. When egg whites are over beaten, they look curdled and dry*</p>
+									<p>Grease two round pans, pour the mixture into each evenly and bake in the center of the rack for 25 minutes or until the batter has risen, poke the center of the cakes with a toothpick and if you pull it out without any wet batter it is done.</p>
 									<br>
 
-									<p>Fold in ¼ of the flour mixture slowly, it is best if you use a spatula and try not to stir the mixture, continue folding till of the mixture is worked in. Next, pour 1 cup of blueberries into the batter folding them in but do not stir or you will break up the berries.</p>
-									<br>
-									<p>Now, pour the batter into 2 greased round pans and bake for 20-30 minutes. *make sure you grease all the inside edges thoroughly*</p>
-									<br>
-									<p>When you poke the center of the cake with a toothpick it should come out without any wet batter, place on the top of the counter and let it cool for at least 30-40 minutes before removing from the pan. Wait an extra 30 minutes till you frost the cake.</p>
-									<br>
 						        </div>
 						      </div>
 						    </div>
@@ -133,16 +125,28 @@
 						      </div>
 						      <div id="collapse3" class="panel-collapse collapse">
 						        <div class="panel-body">
-									<p>Check out our tips and tricks page for dessert lovers! Links from each recipe page</p>
-									<p>Frosting a cake with ease.</p>
-									<ol>
-										<li>Use a piece of wax paper or parchment paper on the top of a baking sheet or plate.</li>
-										<li>Put a cooling rack on the top of the paper.</li>
-										<li>Put your frosting into a microwave-safe bowl or container and heat for 30 seconds or until the frosting is fully melted.</li>
-										<li>Stir in any coloring you might be using, nuts, or other frosting additives.</li>
-										<li>All you have to do is pour the frosting evenly all over the top of the cake till its completely covered, even the sides if you want full coverage. Remember the larger the cake the more frosting you will need.</li>
-										<li>Place the cake in the refrigerator for at least an hour so your frosting will set.</li>
-									</ol>
+									<p>*One of our tips is, take the cakes out before they are fully done so the toothpick is almost clean with just a bit of moist batter, the cake will continue to bake in the pan from the heat while it sits on the counter, once cooled you can put the cake inside of the pan into the refrigerator overnight or for a couple of hours to fully set, the vegan cake is even better if you wait a full day to eat*</p>
+									<br>
+									<p>Frosting:</p>
+									<p>Use a knife or a straight spatula, slide it in between the cake edge and the pan to release it, turn it upside down on the serving plate, gently tap the bottom of the pan.</p>
+									<br>
+									<p>You will frost each cake separately before placing one on top of the other, or you can serve two single layer cakes if you prefer.</p>
+									<br>
+									<p>Here is our Vegan Chocolate Frosting Recipe</p>
+									<ul>
+										<li>3 and 3/4 cups (450g) Powdered Sugar</li>
+										<li>4 Tbsp Cocoa Powder</li>
+										<li>3 Tbsp (45g) Vegan Butter</li>
+										<li>5 Tbsp Soy Milk (or other non-dairy milk)</li>
+										<li>1 tsp Vanilla Extract</li>
+									</ul>
+									<br>
+									<p>Use a medium bowl and add the powdered sugar, cocoa powder, vegan butter, non-dairy milk, vanilla, and mix together with an electric hand mixer or stand mixer on low, once blended fully turn the setting up higher and continue till the mixture is thick and creamy.</p>
+									<br>
+									<p>*Some tips for getting the best consistency, you can add more of the non-dairy milk if you want it less thick and smoother, or you can add more of the powdered sugar to thicken it up more, Enjoy!</p>
+									<br>
+
+
 						        </div>
 						      </div>
 						    </div>

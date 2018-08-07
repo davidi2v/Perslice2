@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Blue Velvet Cake Recipe</title>
+		<title>Very Bery Strawberry Cake Recipe</title>
 		<link rel="stylesheet" href="https://use.typekit.net/cco5pnz.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -59,7 +59,7 @@
 					<img src="img/blueBerryVelvetCake.jpg" alt="Blue velvet cake">
 				</div>
 				<div class="col-xs-12 col-md-6">
-					<h1>Blue Velvet Cake</h1>
+					<h1>Very Bery Strawberry Cake</h1>
 					<div id="recipeDetail">
 						<div id="timeDiv">
 							<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
@@ -78,15 +78,21 @@
 						      <div id="collapse1" class="panel-collapse collapse in">
 						        <div class="panel-body">
 						        	<ul>
-										<li>1 and 1/4 Cups Cake Flour, sifted</li>
-										<li>1 and 1/4 Cups Ultra-Fine Sugar</li>
-										<li>11 Egg Whites, room temperature</li>
-										<li>2 Teaspoons Vanilla Extract</li>
-										<li>2 oz. of blue food coloring homemade or bought</li>
-										<li>1 and 1/2 Teaspoons Cream of Tartar</li>
-										<li>1 Tablespoon Cocoa Powder</li>
-										<li>1/4 Teaspoon Salt</li>
-										<li>1 and 1/2 Cups Blueberries, fresh not frozen</li>
+										<li>1  18.25 oz box of white cake mix </li>
+										<li>1  3 oz box of strawberry flavored instant gelatin </li>
+										<li>1   15 oz package of frozen strawberries in the syrup, thaw first then puree </li>
+										<li>*Puree, To blend, grind or mash food until it is a thick, smooth, lump-free consistency. Pureeing can be done in a blender, food processor, or food mill or can be accomplished by pressing the food through a sieve.*</li>
+										<li>4  large eggs</li>
+										<li>½ cup of vegetable oil</li>
+										<li>¼ cup of water</li>
+										<li>Strawberry cream cheese frosting recipe</li>
+										<li>¼ cup salted softened butter</li>
+										<li>1  10 oz package of cream cheese softened</li>
+										<li>1  10 oz package frozen strawberries in the syrup that are thawed and pureed</li>
+										<li>½ teaspoon strawberry extract</li>
+										<li>7 cups of confectioners sugar</li>
+										<li>Optional, 2-8 fresh strawberries to decorate the stop of the cake or use to garnish, you can slice them thin and place over the top of the cake or place a few in the middle of the cake to decorate, or use them to garnish the plates</li>
+
 						        	</ul>
 						        </div>
 						      </div>
@@ -99,29 +105,23 @@
 						      </div>
 						      <div id="collapse2" class="panel-collapse collapse">
 						        <div class="panel-body">
-									<p>Preheat the oven to 375 degrees Fahrenheit or 190.556 Celsius.</p>
+									<p>Preheat the oven to 350 Fahrenheit or 176.667 Celsius.</p>
 									<br>
-									<p>Use a large or medium bowl to sift together the flour, a ½ cup of sugar, and cocoa powder.</p>
+									<p>Lightly grease 2  9 inch round cake cake pans.</p>
 									<br>
-									<p>In a separate large bowl, you will beat together your egg whites, the vanilla extract, cream of tartar, and the salt till they begin to peak.</p>
+									<p>Use a large bowl to combine the boxed cake mix and the gelatin, add the pureed strawberries, eggs, oil, and the water.</p>
 									<br>
-									<p>* When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted*</p>
+									<p>Beat the ingredients at a medium speed with an electric mixer until smooth.</p>
 									<br>
-									<p>Follow this by beating the remaining ¾ cups of sugar and add blue food coloring.</p>
+									<p>Next, pour the mixture into the two greased round pans, bake in the center of the oven for 20 minutes or until a toothpick poked into the center of each cake comes out without wet batter.</p>
 									<br>
-									<p>*You can make your own blue coloring using food products or
-									you can purchase a natural blue food coloring product online*
-									until the mixture begins to hold stiff peaks, this should take about 5 to 6 minutes.</p>
+									<p>Remove from oven and let stand for 10 minutes in the pans.</p>
 									<br>
-									<p>*When do you know you have a stiff peak?  When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted. When egg whites are over beaten, they look curdled and dry*</p>
+									<p>Remove from pans and cool fully on a wire rack.</p>
+									<br>
+									<p>*tips on how to remove a cake from a pan on our tips page* </p>
 									<br>
 
-									<p>Fold in ¼ of the flour mixture slowly, it is best if you use a spatula and try not to stir the mixture, continue folding till of the mixture is worked in. Next, pour 1 cup of blueberries into the batter folding them in but do not stir or you will break up the berries.</p>
-									<br>
-									<p>Now, pour the batter into 2 greased round pans and bake for 20-30 minutes. *make sure you grease all the inside edges thoroughly*</p>
-									<br>
-									<p>When you poke the center of the cake with a toothpick it should come out without any wet batter, place on the top of the counter and let it cool for at least 30-40 minutes before removing from the pan. Wait an extra 30 minutes till you frost the cake.</p>
-									<br>
 						        </div>
 						      </div>
 						    </div>
@@ -133,16 +133,16 @@
 						      </div>
 						      <div id="collapse3" class="panel-collapse collapse">
 						        <div class="panel-body">
-									<p>Check out our tips and tricks page for dessert lovers! Links from each recipe page</p>
-									<p>Frosting a cake with ease.</p>
-									<ol>
-										<li>Use a piece of wax paper or parchment paper on the top of a baking sheet or plate.</li>
-										<li>Put a cooling rack on the top of the paper.</li>
-										<li>Put your frosting into a microwave-safe bowl or container and heat for 30 seconds or until the frosting is fully melted.</li>
-										<li>Stir in any coloring you might be using, nuts, or other frosting additives.</li>
-										<li>All you have to do is pour the frosting evenly all over the top of the cake till its completely covered, even the sides if you want full coverage. Remember the larger the cake the more frosting you will need.</li>
-										<li>Place the cake in the refrigerator for at least an hour so your frosting will set.</li>
-									</ol>
+									<p>Frosting:</p>
+									<p>Use a large bowl to beat the butter and cream cheese on a medium speed with an electric mixer, do this until the consistency is smooth and creamy.</p>
+									<br>
+									<p>Beat in ¼ of a cup of the strawberry puree and the strawberry extract, slowly add the confectioners sugar, continue beating till the mixture is smooth.</p>
+									<br>
+									<p>Use the frosting between the two layers, over the top and sides or you can choose to frost each separately, garnish with fresh whole or sliced strawberries.</p>
+									<br>
+									<p>With the remaining strawberry puree you can use vanilla bean ice cream or lemon gelato on the side, drizzle the puree over the top for a taste and visual sensation!</p>
+									<br>
+
 						        </div>
 						      </div>
 						    </div>
