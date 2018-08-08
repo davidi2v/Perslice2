@@ -332,16 +332,20 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
 			    <div class="item active">
-			      <img src="img/cakeHeart.jpg" alt="cake with heart">
-				  <h3>Order 2<br> <span>SAVE 20%</span></h3>
-				  <p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
-				  <a class="ctaBtn" href="product.php">Shop Now</a>
+					  <img src="img/cakeHeart.jpg" alt="cake with heart">
+					  <div class="contentBox">
+	    				  <h3>Order 2<br> <span>SAVE 20%</span></h3>
+	    				  <p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
+	    				  <a class="ctaBtn" href="product.php">Shop Now</a>
+			      	  </div>
 			    </div>
 			    <div class="item">
 			      <img src="img/babyBitesCake.jpg" alt="baby bites cake">
-				  <h3><span>Enter to Win</span> <br>$500</h3>
-				  <p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
-				  <a class="ctaBtn" href="" data-toggle="modal" data-target="#contestModal">Learn More</a>
+				  <div class="contentBox">
+					  <h3><span>Enter to Win</span> <br>$500</h3>
+    				  <p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
+    				  <a class="ctaBtn" href="" data-toggle="modal" data-target="#contestModal">Learn More</a>
+				  </div>
 			    </div>
 				<div id="contestModal" class="modal fade" role="dialog">
 				  <div class="modal-dialog">
