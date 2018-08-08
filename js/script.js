@@ -92,4 +92,65 @@ $(".input-number").keydown(function (e) {
    //    document.body.appendChild(overlay);
    //    console.log(e);
    // });
+
+
+/*-------------------------------------
+| On Scroll Animations
+-------------------------------------*/
+   $(window).scroll(function() {
+		$('#shopHm').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+
+   $(window).scroll(function() {
+		$('#specials .contentBox').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+
+   $(window).scroll(function() {
+		$('#insta').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+
+   $(window).scroll(function() {
+		$('#blogHm').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+
+   $(window).scroll(function() {
+		$('#socialBox').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+400) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+
+
 });

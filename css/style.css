@@ -1,8 +1,89 @@
+/*-------------------------------------
+| Animation Classes
+-------------------------------------*/
+.slideUp{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	50%{
+		transform: translateY(-8%);
+		opacity: .5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideUp {
+	0% {
+		-webkit-transform: translateY(100%);
+		-webkit-opacity: 0;
+	}
+	50%{
+		-webkit-transform: translateY(-8%);
+		-webkit-opacity: .5;
+	}
+	100% {
+		-webkit-opacity: 1;
+	}
+}
+
+.logoAnime {
+	animation-name: logoAnime;
+	-webkit-animation-name: logoAnime;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;
+	-webkit-animation-timing-function: ease-in-out;
+
+	visibility: visible !important;
+	/* animation-delay: 2s; */
+}
+
+@keyframes logoAnime {
+	0% {
+		 transform: rotate(0deg);
+		 opacity: 0;
+	}
+	100% {
+		transform: rotate(360deg);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes logoAnime {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-webkit-opacity: 0;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		-webkit-opacity: 1;
+	}
+}
+
 /* ---------------------
 index css
 ---------------------*/
 .desk {display: block;}
 .mobile {display: none;}
+
 
 #landing p, #shopHm p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 16px; margin: 0px;}
 
@@ -84,6 +165,7 @@ a.ctaBtn:hover {
 #shopHm {
         margin-top: 3em;
         margin-bottom: 3em;
+		visibility: hidden;
 }
 
 #shopHm a#saleTag {
@@ -183,7 +265,7 @@ a.ctaBtn:hover {
     padding: 5px;
 }
 
-#insta {margin-top: 5em;}
+#insta {margin-top: 5em; visibility: hidden;}
 
 #insta .head {margin: 0px 5px; margin-bottom: 30px;font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
@@ -215,10 +297,23 @@ a.ctaBtn:hover {
 
 #recipeCarousel h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
-#recipeDetail {padding: 0px 13px;}
+#recipeDetail {
+	padding: 0px 13px;
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;
+
+	animation-duration: 1.6s;
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;
+	/* animation-delay: 2s; */
+}
 #recipeDetail h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
-#blogHm {margin-top: 7em; margin-bottom: 7em;}
+#blogHm {margin-top: 7em; margin-bottom: 7em; visibility: hidden;}
 #blogHm a {color: #000; text-decoration: none;}
 
 #blogHm img {transition: 1s;}
@@ -233,7 +328,7 @@ a.ctaBtn:hover {
 
 #shopPlatforms {margin-bottom: 7em;}
 
-#shopPlatforms #socialBox {display: flex;}
+#shopPlatforms #socialBox {display: flex; visibility: hidden;}
 
 #shopPlatforms #socialBox .icon {flex: 1; padding: 25px 0px;}
 
@@ -449,6 +544,7 @@ ul#socialFooter li img {width: 35px;}
         margin: 0px 35px;
         text-align: left;
         left: 30px;
+		visibility: hidden;
     }
 
     #specials .salesContent .contentBox p {
@@ -698,7 +794,7 @@ recipe-all css
     .mobile .col-md-3 {padding: 5px;}
     .mobile .col-md-3 .text {margin-right: 10px;}
 
-    .mobile .recipeItem {position: relative; height: auto; margin-bottom: 10px; margin-right: 0px; margin-left: 0px; overflow: hidden; padding-right: 0px;}
+    .mobile .recipeItem {position: relative; height: auto; margin-bottom: 10px; margin-right: 0px; margin-left: 0px; overflow: hidden; padding-right: 0px;`}
 }
 
 /* ---------------------
