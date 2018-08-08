@@ -132,7 +132,7 @@ index css
 .mobile {display: none;}
 
 
-#landing p, #shopHm p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 16px; margin: 0px;}
+#landing p, #shopHm p, #shopMain p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 16px; margin: 0px;}
 
 #banner {background-color: #eeb2ca;}
 
@@ -173,7 +173,7 @@ ul.navbar-nav li.active a {font-weight: bold;}
 
 a.navbar-brand img {width: 75px; position: relative; z-index: 1000;}
 
-#landing, #shopHm, #specials, #newsletter, #insta, #recipes, #blogHm, #shopPlatformp {padding-bottom: 4em;}
+#landing, #shopHm, #shopMain, #specials, #newsletter, #insta, #recipes, #blogHm, #shopPlatformp {padding-bottom: 4em;}
 
 #landingImg img {
     width: 100%;
@@ -207,7 +207,7 @@ a.ctaBtn:hover {
     color: #fff;
 }
 
-#shopHm {
+#shopHm, #shopMain {
         margin-top: 3em;
         margin-bottom: 3em;
 }
@@ -216,7 +216,7 @@ a.ctaBtn:hover {
 	visibility: hidden;
 }
 
-#shopHm a#saleTag {
+#shopHm a#saleTag, #shopMain a#saleTag {
     font-size: 22px;
     background-color: #afe2e3;
     width: 200px;
@@ -228,22 +228,22 @@ a.ctaBtn:hover {
     color: #000;
 }
 
-#shopHm img {
+#shopHm img, #shopMain img {
     width: 100%;
     display: block;
     margin: 0px auto;
 }
 
-#shopHm h2 {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 35px;}
-#shopHm .subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px;  color: #afe2e3;}
+#shopHm h2, #shopMain h2 {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 35px;}
+#shopHm .subheading, #shopMain .subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px;  color: #afe2e3;}
 .brandName {font-family: 'Cookie', cursive; font-size: 40px;}
 
-#shopHm .col-md-6 {
+#shopHm .col-md-6, #shopMain .col-md-6 {
     text-align: center;
     margin-bottom: 4em;
 }
 
-#shopHm p.productPrice, #mainProduct p.productPrice, #product p.productPrice, .aside p.productPrice {font-size: 24px; padding: 10px 0px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+#shopHm p.productPrice, #shopMain p.productPrice, #mainProduct p.productPrice, #product p.productPrice, .aside p.productPrice {font-size: 24px; padding: 10px 0px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
 .modal-body #productInfo a.ctaBtn {color: #000; width: 100%; transition: .3s;}
 .modal-body #productInfo a.ctaBtn:hover {color: #fff;}
@@ -460,7 +460,7 @@ ul#socialFooter li img {width: 35px;}
 #shopPlatforms p {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 20px; padding-bottom: 25px;}
 
 @media only screen and (min-width: 769px) {
-    #landing p, #shopHm p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 20px; margin: 0px;}
+    #landing p, #shopHm p, #shopMain p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 20px; margin: 0px;}
 
     .navbar {
         margin-bottom: 0px;
@@ -534,7 +534,7 @@ ul#socialFooter li img {width: 35px;}
 
 	#landingContainer h1 {font-family: 'Cookie', cursive; font-size: 90px; margin-bottom: 0px;}
 
-    #shopHm .mainBox a {color: #000; text-decoration: none;}
+    #shopHm .mainBox a, #shopMain .mainBox a {color: #000; text-decoration: none;}
 
     .mainBox {position: relative; overflow: hidden;}
 
@@ -694,7 +694,7 @@ shop css
 
 #imgHeader img {width: 100%;}
 
-#imgHeader #imgText {
+/* #imgHeader #imgText {
     position: absolute;
     top: 45%;
     right: 10px;
@@ -716,7 +716,7 @@ shop css
 	-webkit-animation-timing-function: ease;
 
 	visibility: visible !important;
-}
+} */
 
 #shop {padding-top: 4em;}
 
@@ -762,12 +762,12 @@ shop css
 }
 
 @media only screen and (min-width: 768px) {
-    #imgHeader #imgText {
+    /* #imgHeader #imgText {
         right: 100px;
         font-size: 40px;
     }
 
-    #imgHeader #imgText {font-family: "futura-pt", sans-serif; font-size: 60px;}
+    #imgHeader #imgText {font-family: "futura-pt", sans-serif; font-size: 60px;} */
 
     #productName {margin-bottom: 35px; text-align: left;}
 

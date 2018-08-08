@@ -1,4 +1,8 @@
 $(document).ready(function(){
+   var logo = document.querySelector('a.navbar-brand img');
+   logo.classList.add('logoAnime');
+
+
     $('.btn-number').click(function(e){
     e.preventDefault();
 
@@ -106,9 +110,7 @@ $(".input-number").keydown(function (e) {
 				$(this).addClass("slideUp");
 			}
 		});
-	});
 
-   $(window).scroll(function() {
 		$('#specials .contentBox').each(function(){
 		var imagePos = $(this).offset().top;
 
@@ -117,9 +119,7 @@ $(".input-number").keydown(function (e) {
 				$(this).addClass("slideUp");
 			}
 		});
-	});
 
-   $(window).scroll(function() {
 		$('#insta').each(function(){
 		var imagePos = $(this).offset().top;
 
@@ -128,9 +128,7 @@ $(".input-number").keydown(function (e) {
 				$(this).addClass("slideUp");
 			}
 		});
-	});
 
-   $(window).scroll(function() {
 		$('#blogHm').each(function(){
 		var imagePos = $(this).offset().top;
 
@@ -139,9 +137,7 @@ $(".input-number").keydown(function (e) {
 				$(this).addClass("slideUp");
 			}
 		});
-	});
 
-   $(window).scroll(function() {
 		$('#socialBox').each(function(){
 		var imagePos = $(this).offset().top;
 
@@ -150,9 +146,7 @@ $(".input-number").keydown(function (e) {
 				$(this).addClass("slideUp");
 			}
 		});
-	});
 
-   $(window).scroll(function() {
 		$('.howtoAnimation').each(function(){
 		var imagePos = $(this).offset().top;
 
@@ -161,9 +155,7 @@ $(".input-number").keydown(function (e) {
 				$(this).addClass("slideUp");
 			}
 		});
-	});
 
-   $(window).scroll(function() {
 		$('.postCaption').each(function(){
 		var imagePos = $(this).offset().top;
 

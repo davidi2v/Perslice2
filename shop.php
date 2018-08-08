@@ -37,7 +37,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="blogs.php">ARTICLES<span class="caret"></span></a>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="blogs.php">SWEET READS<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 						<li><a href="blogs.php">BLOGS</a></li>
 						<li><a href="recipes-all.php">RECIPES</a></li>
@@ -54,12 +54,12 @@
 		</div>
 	</nav>
 	<body>
-		<div id="imgHeader">
+		<!-- <div id="imgHeader">
 			<img class="desk" src="img/shopHeader.jpg" alt="blue cupcake">
 			<img class="mobile" src="img/shopHeader2.jpg" alt="blue cupcake">
 			<h1 id="imgText">Free Shipping<br> on All Orders</h1>
-		</div>
-		<section id="shopHm" class="mobile">
+		</div> -->
+		<section id="shopMain" class="mobile">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-md-12">
@@ -284,4 +284,5 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/slick.js"></script>
+	<script src="js/script.js"></script>
 </html>

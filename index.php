@@ -21,7 +21,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="/">
-					<img class="logoAnime" src="img/Logo_Perslice.png" alt="perslice logo">
+					<img src="img/Logo_Perslice.png" alt="perslice logo">
 				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
@@ -37,7 +37,7 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="blogs.php">ARTICLES<span class="caret"></span></a>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="blogs.php">SWEET READS<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 						<li><a href="blogs.php">BLOGS</a></li>
 						<li><a href="recipes-all.php">RECIPES</a></li>
