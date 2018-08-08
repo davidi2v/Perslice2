@@ -84,7 +84,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="shopHm">
+		<section id="shopHm" class="shopHm">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-md-12">

@@ -1,6 +1,8 @@
 /*-------------------------------------
 | Animation Classes
 -------------------------------------*/
+.howtoAnimation {visibility: hidden;}
+
 .slideUp{
 	animation-name: slideUp;
 	-webkit-animation-name: slideUp;
@@ -35,6 +37,48 @@
 	}
 	50%{
 		-webkit-transform: translateY(-8%);
+		-webkit-opacity: .5;
+	}
+	100% {
+		-webkit-opacity: 1;
+	}
+}
+
+.slideUp2{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;
+	animation-delay: 2s;`
+}
+
+@keyframes slideUp2 {
+	0% {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	50%{
+		transform: translateY(-50%);
+		opacity: .5;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideUp2 {
+	0% {
+		-webkit-transform: translateY(100%);
+		-webkit-opacity: 0;
+	}
+	50%{
+		-webkit-transform: translateY(-50%);
 		-webkit-opacity: .5;
 	}
 	100% {
@@ -160,12 +204,13 @@ a.ctaBtn:hover {
     color: #fff;
 }
 
-
-
 #shopHm {
         margin-top: 3em;
         margin-bottom: 3em;
-		visibility: hidden;
+}
+
+.shopHm {
+	visibility: hidden;
 }
 
 #shopHm a#saleTag {
@@ -309,7 +354,6 @@ a.ctaBtn:hover {
 	-webkit-animation-timing-function: ease;
 
 	visibility: visible !important;
-	/* animation-delay: 2s; */
 }
 #recipeDetail h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
@@ -658,6 +702,17 @@ shop css
     text-shadow: 0px 3px 4px rgba(0,0,10,.8);
     font-family: "futura-pt", sans-serif;
     font-size: 35px;
+
+	animation-name: slideUp2;
+	-webkit-animation-name: slideUp2;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;
 }
 
 #shop {padding-top: 4em;}
