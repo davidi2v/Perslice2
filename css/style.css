@@ -2,6 +2,9 @@
 | Animation Classes
 -------------------------------------*/
 .howtoAnimation {visibility: hidden;}
+.postCaption {visibility: hidden;}
+
+#postCaption {padding-top: 2em;}
 
 .slideUp{
 	animation-name: slideUp;

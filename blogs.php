@@ -61,24 +61,30 @@
 						<p>July 14, 2018</p>
 						<p>By: Mai Ashley</p>
 						<a href="blogpost.php"><img src="img/blog1.jpg"></a>
-						<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times the numerous versions of the event you must layout before settling upon the final event design...</p>
-						<a href="blogpost.php" class="ctaBtn">Read More</a>
+						<div class="postCaption">
+							<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times the numerous versions of the event you must layout before settling upon the final event design...</p>
+							<a href="blogpost.php" class="ctaBtn">Read More</a>
+						</div>
 					</div>
 					<div class="posts">
 						<h3>My new favorite kitchen tool!</h3>
 						<p>Published : July 15, 2018</p>
 						<p>By: Drake Astor</p>
 						<a href="blogpost2.php"><img src="img/blog2.jpg"></a>
-						<p>Recently I became very interested in baking and how fine of an art it is. One thing that bothered me is that after all this time is how I’ll spend a few hours perfecting a cake and to only have it fall apart as soon as...</p>
-						<a href="blogpost2.php" class="ctaBtn">Read More</a>
+						<div class="postCaption">
+							<p>Recently I became very interested in baking and how fine of an art it is. One thing that bothered me is that after all this time is how I’ll spend a few hours perfecting a cake and to only have it fall apart as soon as...</p>
+							<a href="blogpost2.php" class="ctaBtn">Read More</a>
+						</div>
 					</div>
 					<div class="posts">
 						<h3>Everything a person needs who loves to bake.</h3>
 						<p>July 14, 2018</p>
 						<p>By: Aliza Welch</p>
 						<a href="blogpost3.php"><img src="img/blog3.jpg"></a>
-						<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t  live without this!” just to finally realize, all I am doing is adding and not being completely strategic with my tools...</p>
-						<a href="blogpost3.php" class="ctaBtn">Read More</a>
+						<div class="postCaption">
+							<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t  live without this!” just to finally realize, all I am doing is adding and not being completely strategic with my tools...</p>
+							<a href="blogpost3.php" class="ctaBtn">Read More</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-4">
@@ -205,4 +211,5 @@
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </html>

@@ -62,36 +62,38 @@
 						<p>By: Shola Proctor</p>
 					</div>
 					<img src="img/blog4.jpg" alt="" id="blogImg">
-					<br>
-					<p>We want our party to be remembered but not break the bank doing so, here is what you can do to stretch a dollar but look good doing it!</p>
-					<br>
+					<div id="postCaption" class="postCaption">
+						<br>
+						<p>We want our party to be remembered but not break the bank doing so, here is what you can do to stretch a dollar but look good doing it!</p>
+						<br>
 
-					<p>Start your party planning and shopping early so you can watch for discounts and sales.</p>
-					<br>
+						<p>Start your party planning and shopping early so you can watch for discounts and sales.</p>
+						<br>
 
 
-					<p>Embrace activities for your guests to do that don't cost money but will keep them engaged and be having fun.
-					No matter if your guests are pint-sized or adults, everyone loves a well thought out activity such as these hilarious activities.</p>
-					<br>
+						<p>Embrace activities for your guests to do that don't cost money but will keep them engaged and be having fun.
+						No matter if your guests are pint-sized or adults, everyone loves a well thought out activity such as these hilarious activities.</p>
+						<br>
 
-					<p>Freeze dance works for children and adults, have your DJ man the equipment and select when to start and stop the music. Anyone who is still dancing is out.
-					Charades is a lot of fun with a creative group, write topics on little pieces of paper and have teams pull one out to perform and the other team gets to guess, whoever has the most correct answers wins.</p>
-					<br>
-					<p>A great kids game that is just as much fun for adults is HeadBandz, if you haven't played with a bunch of adults just try it, it can get a little wild by the way.
-					Look through your kids games and just alter them to accommodate adult kids, I am sure you will find this to be a great activity if you can get the adults to let their hair down.</p>
-					<br>
+						<p>Freeze dance works for children and adults, have your DJ man the equipment and select when to start and stop the music. Anyone who is still dancing is out.
+						Charades is a lot of fun with a creative group, write topics on little pieces of paper and have teams pull one out to perform and the other team gets to guess, whoever has the most correct answers wins.</p>
+						<br>
+						<p>A great kids game that is just as much fun for adults is HeadBandz, if you haven't played with a bunch of adults just try it, it can get a little wild by the way.
+						Look through your kids games and just alter them to accommodate adult kids, I am sure you will find this to be a great activity if you can get the adults to let their hair down.</p>
+						<br>
 
-					<p>Bake a semi-homemade cake, use a box cake and substitute buttermilk for the water, frost the cake with a homemade frosting or buttercream, milk, unsalted butter, vanilla and confectioners sugar. Or you can dress up a basic cake with a bunch of beautiful berries and whipped cream. Don’t forget to get the Perslice cake cutter and server so you have enough slices of cake for all of your guests.</p>
-					<br>
+						<p>Bake a semi-homemade cake, use a box cake and substitute buttermilk for the water, frost the cake with a homemade frosting or buttercream, milk, unsalted butter, vanilla and confectioners sugar. Or you can dress up a basic cake with a bunch of beautiful berries and whipped cream. Don’t forget to get the Perslice cake cutter and server so you have enough slices of cake for all of your guests.</p>
+						<br>
 
-					<p>Order decoration supplies online and saves money and time.</p>
-					<br>
+						<p>Order decoration supplies online and saves money and time.</p>
+						<br>
 
-					<p>Spring & Summer Time Parties; recycle jars and use them as candle holders or beverage glasses, use fancy straws in the jars and fill a huge well cleaned out glass bowl or jar and fill with a Sangria, lemonade, or a mixed fruit punch beverage, throw some cut up fruit into the container or freeze fruit into ice cubes.</p>
-					<br>
+						<p>Spring & Summer Time Parties; recycle jars and use them as candle holders or beverage glasses, use fancy straws in the jars and fill a huge well cleaned out glass bowl or jar and fill with a Sangria, lemonade, or a mixed fruit punch beverage, throw some cut up fruit into the container or freeze fruit into ice cubes.</p>
+						<br>
 
-					<p>Make a digital invite and not the traditional paper invites.</p>
-					<br>
+						<p>Make a digital invite and not the traditional paper invites.</p>
+						<br>
+					</div>
 
 
 				</div>
@@ -169,4 +171,5 @@
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </html>

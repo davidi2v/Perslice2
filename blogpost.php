@@ -63,25 +63,27 @@
 					</div>
 					<img src="img/blog1.jpg" alt="" id="blogImg">
 					<br>
-					<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times the numerous versions of the event you must layout before settling upon the final event design, along with all of my set-up items such as cake design, cake serving gadgets, and serve wear.</p>
-					<br>
-					<p>This exercise in event planning got me to questioning why people celebrate birthdays and where the tradition evolved from in the first place.</p>
-					<br>
-					<p>Here is a little bit of information I found to gain a better perspective and have a additional respect for the tradition we all acknowledge or ignore, depending upon your age and mindset, that is linked directly to the date of our birth.</p>
-					<br>
-					<p>According the book of Lore of Birthdays, ancient Greeks had believed or maybe some still do, that every person has a spirit which attendants to their birth and this spirit keeps watch over them. These spirits were said to have a direct mystical relation with the God on whose birthday the individual was born.  This would certainly make a birthday a very important event.</p>
-					<br>
-					<p>The celebration of the date of your birth was a pagan tradition, and actually, many Christians
-					Long ago did not celebrate birthdays historically because of its association with the Pagan tradition.
-					Pagans had proclaimed that spirits skulk on days of considerable transition, one such day would be the day of your birth since a person is transitioning to a year older. This is completely ridiculous of course because every day we grow older so this is a bit silly. Many of these thoughts, ideas and practices give me a good laugh even though I am also very superstitious and quite enjoy traditions and their origins I can still find the humor in some things people put so much validity into.</p>
-					<br>
-					<p>The candles we blow out on our birthday have a very interesting backstory as well, they were said to be a response to the evil spirits, they showed up to communicate with the gods, a sort of light in the darkness.</p>
-					<br>
-					<p>Germans began childrens birthday traditions in the 1700s, they would put candles on sweets, such as, tortes for “Kinderfest” one for each year of life, many would add additional candles to honor the upcoming years.
-					The well known English language celebratory song “Happy Birthday to You” originated a tune for school kids in 1893. The actual tune was derived from a song by two school teachers and was called “Good Morning to All.” The tune reportedly earns one of the teachers estate $2 million annually.</p>
-					<br>
-					<p>So, next time you are celebrating your own date of your birth or someone elses you will now understand a little better why it has become such a very involved practice and why it is so very important to acknowledge if only to just realize We Have Survived Another Year! </p>
-					<br>
+					<div id="postCaption" class="postCaption">
+						<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times the numerous versions of the event you must layout before settling upon the final event design, along with all of my set-up items such as cake design, cake serving gadgets, and serve wear.</p>
+						<br>
+						<p>This exercise in event planning got me to questioning why people celebrate birthdays and where the tradition evolved from in the first place.</p>
+						<br>
+						<p>Here is a little bit of information I found to gain a better perspective and have a additional respect for the tradition we all acknowledge or ignore, depending upon your age and mindset, that is linked directly to the date of our birth.</p>
+						<br>
+						<p>According the book of Lore of Birthdays, ancient Greeks had believed or maybe some still do, that every person has a spirit which attendants to their birth and this spirit keeps watch over them. These spirits were said to have a direct mystical relation with the God on whose birthday the individual was born.  This would certainly make a birthday a very important event.</p>
+						<br>
+						<p>The celebration of the date of your birth was a pagan tradition, and actually, many Christians
+						Long ago did not celebrate birthdays historically because of its association with the Pagan tradition.
+						Pagans had proclaimed that spirits skulk on days of considerable transition, one such day would be the day of your birth since a person is transitioning to a year older. This is completely ridiculous of course because every day we grow older so this is a bit silly. Many of these thoughts, ideas and practices give me a good laugh even though I am also very superstitious and quite enjoy traditions and their origins I can still find the humor in some things people put so much validity into.</p>
+						<br>
+						<p>The candles we blow out on our birthday have a very interesting backstory as well, they were said to be a response to the evil spirits, they showed up to communicate with the gods, a sort of light in the darkness.</p>
+						<br>
+						<p>Germans began childrens birthday traditions in the 1700s, they would put candles on sweets, such as, tortes for “Kinderfest” one for each year of life, many would add additional candles to honor the upcoming years.
+						The well known English language celebratory song “Happy Birthday to You” originated a tune for school kids in 1893. The actual tune was derived from a song by two school teachers and was called “Good Morning to All.” The tune reportedly earns one of the teachers estate $2 million annually.</p>
+						<br>
+						<p>So, next time you are celebrating your own date of your birth or someone elses you will now understand a little better why it has become such a very involved practice and why it is so very important to acknowledge if only to just realize We Have Survived Another Year! </p>
+						<br>
+					</div>
 				</div>
 				<div class="col-xs-12 col-md-4">
 					<div class="aside text-center">
@@ -157,4 +159,5 @@
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </html>

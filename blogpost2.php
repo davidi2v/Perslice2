@@ -62,7 +62,10 @@
 						<p>By: Drake Astor</p>
 					</div>
 					<img src="img/blog2.jpg" alt="" id="blogImg">
-					<p>Recently I became very interested in baking and how fine of an art it is. One thing that bothered me is that after all this time is how I’ll spend a few hours perfecting a cake and to only have it fall apart as soon as I touch it with a spatula or a knife. However, now that I’ve discovered Perslice, a revolutionary cutting tool, I can have my cake and eat it too! It has different settings for how wide I want my slice to be, just in case I want to treat myself to a bit extra of my favorite chocolate cake. It didn’t stop there, the Perslice went the extra mile and added in a retractable spatula on top of the already existing blades. Now I know you’re probably thinking about how sharp the blades are, let me tell you there is no need to worry about having an accident with your fingers, Perslice came prepared, it features quality plastic blades that are not at all sharp and will still cut through a cake with ease. At parties it makes for a great way to cut cake, but to also have fun. My little cousins and my friends both enjoy it!</p>
+					<div id="postCaption" class="postCaption">
+						<p>Recently I became very interested in baking and how fine of an art it is. One thing that bothered me is that after all this time is how I’ll spend a few hours perfecting a cake and to only have it fall apart as soon as I touch it with a spatula or a knife. However, now that I’ve discovered Perslice, a revolutionary cutting tool, I can have my cake and eat it too! It has different settings for how wide I want my slice to be, just in case I want to treat myself to a bit extra of my favorite chocolate cake. It didn’t stop there, the Perslice went the extra mile and added in a retractable spatula on top of the already existing blades.</p>
+						<p>Now I know you’re probably thinking about how sharp the blades are, let me tell you there is no need to worry about having an accident with your fingers, Perslice came prepared, it features quality plastic blades that are not at all sharp and will still cut through a cake with ease. At parties it makes for a great way to cut cake, but to also have fun. My little cousins and my friends both enjoy it!</p>
+					</div>
 				</div>
 				<div class="col-xs-12 col-md-4">
 					<div class="aside text-center">
@@ -138,4 +141,5 @@
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </html>

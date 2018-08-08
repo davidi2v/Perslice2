@@ -63,48 +63,50 @@
 					</div>
 					<img src="img/blog3.jpg" alt="" id="blogImg">
 					<br>
-					<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t  live without this!” just to finally realize, all I am doing is adding and not being completely strategic with my tools. My main interest in the kitchen is baking, other than the random snack I might be in there to grab, I don’t do a lot of cooking for myself because I tend to overcook or make a huge mess which I am not fond of cleaning up.</p>
-					<br>
-					<p>So, when I went through my kitchen gear I began laying out the items I had used in the past year to see if any of the rest of it was needed. I really needed to purge but that is a separate article for another time.</p>
-					<br>
+					<div id="postCaption" class="postCaption">
+						<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t  live without this!” just to finally realize, all I am doing is adding and not being completely strategic with my tools. My main interest in the kitchen is baking, other than the random snack I might be in there to grab, I don’t do a lot of cooking for myself because I tend to overcook or make a huge mess which I am not fond of cleaning up.</p>
+						<br>
+						<p>So, when I went through my kitchen gear I began laying out the items I had used in the past year to see if any of the rest of it was needed. I really needed to purge but that is a separate article for another time.</p>
+						<br>
 
-					<p>On one side of dining room table I put my must haves, these are things I use more than once a year. Most of these things are baking aparatice and a few basic cooking tools which I feel are good to hold onto.
-					On the other side of the table I laid out all of the things that I either, have not opened, has only been used one time, or the things I might have used a couple of times and have been lost in the abyss of lonely gadgets.
-					Mind you all of these items had been purchased with 100% good intent but my follow through was not so hot! </p>
-					<br>
+						<p>On one side of dining room table I put my must haves, these are things I use more than once a year. Most of these things are baking aparatice and a few basic cooking tools which I feel are good to hold onto.
+						On the other side of the table I laid out all of the things that I either, have not opened, has only been used one time, or the things I might have used a couple of times and have been lost in the abyss of lonely gadgets.
+						Mind you all of these items had been purchased with 100% good intent but my follow through was not so hot! </p>
+						<br>
 
-					<p>Now I have narrowed down the things I can evaluate further! </p>
-					<br>
+						<p>Now I have narrowed down the things I can evaluate further! </p>
+						<br>
 
-					<p>I have my gadgets I cannot live without.</p>
-					<br>
-					<p>My dry ingredient measuring cups, measuring spoons, my large liquid measuring cup.</p>
-					<br>
-					<p>I use all of these for both baking and cooking so they are keepers.</p>
-					<br>
+						<p>I have my gadgets I cannot live without.</p>
+						<br>
+						<p>My dry ingredient measuring cups, measuring spoons, my large liquid measuring cup.</p>
+						<br>
+						<p>I use all of these for both baking and cooking so they are keepers.</p>
+						<br>
 
-					<p>My metal and glass mixing bowls are great for multiple reasons but I can tell you these are essential in any kitchen that does more than facilitate take out food.</p>
-					<br>
+						<p>My metal and glass mixing bowls are great for multiple reasons but I can tell you these are essential in any kitchen that does more than facilitate take out food.</p>
+						<br>
 
-					<p>My hand held electric mixer and my standup counter mixer are both items I love but if I could only take one of them to a deserted island I would take the handheld for sure.</p>
-					<br>
+						<p>My hand held electric mixer and my standup counter mixer are both items I love but if I could only take one of them to a deserted island I would take the handheld for sure.</p>
+						<br>
 
-					<p>My simple white serving set for all of my baking, events, and anything I want to make look pretty.
-					Of course I have the Perslice because it works for my aesthetic and I don't need the 5 pie and cake serving things I had which never really served my desserts properly to begin with.</p>
-					<br>
+						<p>My simple white serving set for all of my baking, events, and anything I want to make look pretty.
+						Of course I have the Perslice because it works for my aesthetic and I don't need the 5 pie and cake serving things I had which never really served my desserts properly to begin with.</p>
+						<br>
 
-					<p>I also absolutely love my icing kit and all of the attachments, I use this every  time I make a cake or a cupcake.</p>
-					<br>
+						<p>I also absolutely love my icing kit and all of the attachments, I use this every  time I make a cake or a cupcake.</p>
+						<br>
 
-					<p>My pie and cake pans are not going anywhere either, I need all of the sizes and I will forfeit 7 of my 10 saucepans because I really only need 3 if I am being honest with myself.</p>
-					<br>
+						<p>My pie and cake pans are not going anywhere either, I need all of the sizes and I will forfeit 7 of my 10 saucepans because I really only need 3 if I am being honest with myself.</p>
+						<br>
 
-					<p>The last thing I really use all of the time when I bake is my rubber spatula.</p>
-					<br>
+						<p>The last thing I really use all of the time when I bake is my rubber spatula.</p>
+						<br>
 
-					<p>When I looked at all of the things I had collected in a trance like state of shopping madness I was astonished how many things I really thought I needed but I never had used, its a little bit concerning but I also realized I will be donating a lot of things other people will certainly enjoy cluttering up their cabinet space with now.
-					Good deed and a clear head at last! </p>
-					<br>
+						<p>When I looked at all of the things I had collected in a trance like state of shopping madness I was astonished how many things I really thought I needed but I never had used, its a little bit concerning but I also realized I will be donating a lot of things other people will certainly enjoy cluttering up their cabinet space with now.
+						Good deed and a clear head at last! </p>
+						<br>
+					</div>
 
 				</div>
 				<div class="col-xs-12 col-md-4">
@@ -181,4 +183,5 @@
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </html>
