@@ -59,24 +59,30 @@
 				<div class="col-xs-12 col-md-8 text-left">
 					<div class="posts">
 						<img src="img/blogpost2.jpg">
-						<h3>IHHS in Chicago, Illinios</h3>
-						<p>March 15, 2017</p>
-						<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-						<a href="event.php" class="ctaBtn">Read More</a>
+						<div class="postCaption">
+							<h3>IHHS in Chicago, Illinios</h3>
+							<p>March 15, 2017</p>
+							<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
+							<a href="event.php" class="ctaBtn">Read More</a>
+						</div>
 					</div>
 					<div class="posts">
 						<img src="img/blogpost2.jpg">
-						<h3>Upcoming Event #2</h3>
-						<p>May 25, 2017</p>
-						<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-						<a href="event.php" class="ctaBtn">Read More</a>
+						<div class="postCaption">
+							<h3>Upcoming Event #2</h3>
+							<p>May 25, 2017</p>
+							<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
+							<a href="event.php" class="ctaBtn">Read More</a>
+						</div>
 					</div>
 					<div class="posts">
 						<img src="img/blogpost2.jpg">
-						<h3>Upcoming Event #3</h3>
-						<p>August 15, 2017</p>
-						<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
-						<a href="event.php" class="ctaBtn">Read More</a>
+						<div class="postCaption">
+							<h3>Upcoming Event #3</h3>
+							<p>August 15, 2017</p>
+							<p>Early next year we will be at the International Houseware Show in Chicago, Illinois. Come support the team and learn more about our Perslice cake slicer. Our booth will be located on...</p>
+							<a href="event.php" class="ctaBtn">Read More</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-4">
@@ -142,4 +148,5 @@
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </html>
