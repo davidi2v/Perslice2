@@ -180,7 +180,6 @@ $(".input-number").keydown(function (e) {
 
    var contactTitle = document.querySelectorAll('h1.contactTitle');
    var option = document.getElementById('options');
-   console.log(option);
 
    var contactForm = document.getElementById('contactForm');
    var retailForm = document.getElementById('retailForm');
