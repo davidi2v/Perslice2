@@ -30,9 +30,9 @@
 					<li class="dropdown active">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="contact.php">CONTACT <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-						<li><a href="contact.php#contactForm">CONTACT US</a></li>
-						<li><a href="contact.php#retailForm">RETAILER</a></li>
-						<li><a href="contact.php#distributionForm">DISTRIBUTOR</a></li>
+						<li><a href="contact.php">CONTACT US</a></li>
+						<li><a href="contact.php">RETAILER</a></li>
+						<li><a href="contact.php">DISTRIBUTOR</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -53,8 +53,25 @@
 		</div>
 	</nav>
 	<body>
+		<section id="options">
+			<div id="contactOptions" clas="container">
+				<div class="row">
+					<div id="contactBtn1" class="col-sm-4">
+						<img src="img/contact.png" alt="contact icon">
+						<h1 class="contactTitle">Contact Us</h1>
+					</div>
+					<div id="contactBtn2" class="col-sm-4">
+						<img src="img/retail.png" alt="retail icon">
+						<h1 class="contactTitle">Wholesale and Retail</h1>
+					</div>
+					<div id="contactBtn3" class="col-sm-4">
+						<img src="img/distributor.png" alt="distributor icon">
+						<h1 class="contactTitle">Distribution</h1>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section id="contact">
-			<img src="img/babyBitesCake.jpg" alt="Baby bites cake">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12"  id="contactForm">
@@ -62,7 +79,7 @@
 							<h1>Contact Us</h1>
 						</div>
 						<div>
-							<p>Please fill the form below if you have any questions or concers about Perslice or our services, and we will be glad to assist.</p>
+							<p>Please fill the form below if you have any questions or concerns about Perslice or our services, and we will be glad to assist.</p>
 							<form>
 							  <div class="form-group">
 							    <label for="name">Full Name</label>
@@ -81,7 +98,7 @@
 							    <textarea class="form-control" id="message" rows="3"></textarea>
 							  </div>
 							  <button type="submit" class="ctaBtn">Send</button>
-							  <p>Want our Perslice cake slicer and server in your stores? Please <a href="contact.php#retailForm">click here</a>.</p>
+							  <p>Want our Perslice cake slicer and server in your stores? Please <a id="retailFormLink" href="contact.php#contactBtn2">click here</a>.</p>
 							</form>
 						</div>
 					</div>
@@ -109,7 +126,7 @@
 							    <textarea class="form-control" id="message2" rows="3"></textarea>
 							  </div>
 							  <button type="submit" class="ctaBtn">Send</button>
-							  <p>Have questions about our products or service? Please <a href="contact.php#contactForm">click here</a>.</p>
+							  <p>Have questions about our products or service? Please <a id="contactFormLink" href="contact.php#contactBtn1">click here</a>.</p>
 							</form>
 						</div>
 					</div>
@@ -137,7 +154,7 @@
 							    <textarea class="form-control" id="message5" rows="3"></textarea>
 							  </div>
 							  <button type="submit" class="ctaBtn">Send</button>
-							  <p>Have questions about our products or service? Please <a href="contact.php#contactForm">click here</a>.</p>
+							  <p>Have questions about our products or service? Please <a id="contactFormLink2" href="contact.php#contactBtn1">click here</a>.</p>
 							</form>
 						</div>
 					</div>

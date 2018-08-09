@@ -934,7 +934,41 @@ blogposts css
 /*---------------------
 contact css
 ---------------------*/
-#contact img {width: 100%;}
+#contactOptions {margin-top: 1em;}
+#options {margin-bottom: 4em;}
+
+#contactBtn1, #contactBtn2, #contactBtn3 {padding-top: 30px;}
+
+#contactBtn1 img, #contactBtn2 img, #contactBtn3 img {
+	transition: 1s;
+	width: 200px;
+	display: block;
+	margin: 0px auto;
+}
+
+#contactForm form, #retailForm form, #distributionForm form {
+	width: 600px;
+	display: block;
+	margin: 0px auto;
+}
+
+#contactBtn1 h1, #contactBtn2 h1, #contactBtn3 h1 {
+	transition: 1s;
+	text-align: center;
+	font-family: "futura-pt", sans-serif;
+	font-size: 30px;
+}
+
+.col-sm-12#contactBtn1 img, .col-sm-12#contactBtn2 img, .col-sm-12#contactBtn3 img {
+	transition: 1s;
+	width: 300px;
+	display: block;
+	margin: 0px auto;
+}
+
+#contactBtn1 img:hover, #contactBtn2 img:hover, #contactBtn3 img:hover {
+	cursor: pointer;
+}
 
 #contactForm p, #retailForm p, #distributionForm p {text-align: center; font-size: 30px; font-family: "futura-pt", sans-serif; font-size: 16px;}
 
@@ -960,7 +994,7 @@ button.ctaBtn:hover {
 .formSelect h1 {font-size: 28px; padding: 20px 0px;font-size: 30px; font-family: "futura-pt", sans-serif; font-size: 30px;}
 .formSelectBlu {background-color: #afe2e3;}
 .formSelectBlu h1 {font-size: 28px; padding: 20px 0px; font-family: "futura-pt", sans-serif; font-size: 30px;}
-#contact p {margin-bottom: 2em; margin-top: 2em; font-size: 16px;}
+#contact p {margin-bottom: 6em; margin-top: 2em; font-size: 16px;}
 #contact form, #contact form input { font-family: "futura-pt", sans-serif; font-size: 16px;}
 
 /* ---------------------

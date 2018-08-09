@@ -1,8 +1,13 @@
 $(document).ready(function(){
+/*-------------------------------------
+| Logo Animation
+-------------------------------------*/
    var logo = document.querySelector('a.navbar-brand img');
    logo.classList.add('logoAnime');
 
-
+/*-------------------------------------
+| Shop Quantity Control Buttons
+-------------------------------------*/
     $('.btn-number').click(function(e){
     e.preventDefault();
 
@@ -165,6 +170,132 @@ $(".input-number").keydown(function (e) {
 			}
 		});
 	});
+
+   /*-------------------------------------
+   | Contact Form Animation
+   -------------------------------------*/
+   var contactBtn1 = document.getElementById('contactBtn1');
+   var contactBtn2 = document.getElementById('contactBtn2');
+   var contactBtn3 = document.getElementById('contactBtn3');
+
+   var contactTitle = document.querySelectorAll('h1.contactTitle');
+   var option = document.getElementById('options');
+   console.log(option);
+
+   var contactForm = document.getElementById('contactForm');
+   var retailForm = document.getElementById('retailForm');
+   var distributionForm = document.getElementById('distributionForm');
+
+   var retsailFormLink = document.getElementById('retailFormLink');
+   var contactFormLink = document.getElementById('contactFormLink');
+   var contactFormLink2 = document.getElementById('contactFormLink2');
+
+   contactForm.style.display = 'none';
+   retailForm.style.display = 'none';
+   distributionForm.style.display = 'none';
+
+   contactBtn1.addEventListener('click', buttonClicked);
+   contactBtn2.addEventListener('click', buttonClicked2);
+   contactBtn3.addEventListener('click', buttonClicked3);
+
+   retailFormLink.addEventListener('click', retailLinkClicked);
+   contactFormLink.addEventListener('click', contactLinkClicked);
+   contactFormLink2.addEventListener('click', contactLinkClicked2);
+   // distributorFormLink.addEventListener('click', distributorLinkClicked);
+
+   function buttonClicked () {
+      option.style.marginBottom = '0px';
+      contactBtn2.style.display = 'none';
+      contactBtn3.style.display = 'none';
+      contactTitle[0].style.display = 'none';
+      // contactForm.style.display = 'block';
+      $(contactForm).fadeIn();
+
+      this.className = "col-sm-12";
+      // console.dir(this);
+   }
+
+   function buttonClicked2 () {
+      option.style.marginBottom = '0px';
+      contactBtn1.style.display = 'none';
+      contactBtn3.style.display = 'none';
+      contactTitle[1].style.display = 'none';
+      // contactForm.style.display = 'block';
+      $(retailForm).fadeIn();
+      $(contactTitle).fadeOut();
+
+      this.className = "col-sm-12";
+      // console.dir(this);
+   }
+
+   function buttonClicked3 () {
+      option.style.marginBottom = '0px';
+      contactBtn1.style.display = 'none';
+      contactBtn2.style.display = 'none';
+      contactTitle[2].style.display = 'none';
+      // contactForm.style.display = 'block';
+      $(distributionForm).fadeIn();
+
+      this.className = "col-sm-12";
+      // console.dir(this);
+   }
+
+   function retailLinkClicked () {
+      // $(contactBtn1).fadeOut();
+      // $(contactBtn3).fadeOut();
+      // $(contactBtn2).fadeIn();
+      contactBtn1.style.display = "none";
+      contactBtn3.style.display = "none";
+      contactTitle[0].style.display = 'none';
+      contactTitle[1].style.display = 'none';
+      contactTitle[2].style.display = 'none';
+      contactBtn2.style.display = "block";
+      contactBtn2.className = "col-sm-12";
+      $(contactForm).fadeOut();
+      $(retailForm).fadeIn();
+   }
+
+   function contactLinkClicked () {
+      // $(contactBtn2).fadeOut();
+      // $(contactBtn3).fadeOut();
+      // $(contactBtn1).fadeIn();
+      contactBtn2.style.display = "none";
+      contactBtn3.style.display = "none";
+      contactTitle[0].style.display = 'none';
+      contactTitle[1].style.display = 'none';
+      contactTitle[2].style.display = 'none';
+      contactBtn1.style.display = "block";
+      contactBtn1.className = "col-sm-12";
+      $(retailForm).fadeOut();
+      $(contactForm).fadeIn();
+   }
+
+   function contactLinkClicked2 () {
+      // $(contactBtn2).fadeOut();
+      // $(contactBtn3).fadeOut();
+      // $(contactBtn1).fadeIn();
+      contactBtn2.style.display = "none";
+      contactBtn3.style.display = "none";
+      contactTitle[0].style.display = 'none';
+      contactTitle[1].style.display = 'none';
+      contactTitle[2].style.display = 'none';
+      contactBtn1.style.display = "block";
+      contactBtn1.className = "col-sm-12";
+      $(retailForm).fadeOut();
+      $(distributionForm).fadeOut();
+      $(contactForm).fadeIn();
+   }
+
+   // function distributorLinkClicked () {
+   //    $(contactBtn2).fadeOut();
+   //    $(contactBtn2).fadeOut();
+   //    $(contactBtn3).fadeIn();
+   //    contactBtn1.className = "col-sm-12";
+   //    $(contactForm).fadeIn();
+   //    $(retailForm).fadeOut();
+   // }
+
+
 
 
 

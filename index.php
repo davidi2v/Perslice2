@@ -597,7 +597,7 @@
 		<section id="blogHm">
 			<div class="container">
 				<div class="row text-center">
-					<h2>Perlice Blog</h2>
+					<h2>Perslice Blog</h2>
 					<p class="subheading">For fun and sweet reads</p>
 				</div>
 				<div class="row desk">
