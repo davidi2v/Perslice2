@@ -54,7 +54,7 @@
 	</nav>
 	<body>
 		<section id="options">
-			<div id="contactOptions" clas="container">
+			<div id="contactOptions" class="container">
 				<div class="row">
 					<div id="contactBtn1" class="col-sm-4">
 						<img src="img/contact.png" alt="contact icon">
