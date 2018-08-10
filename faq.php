@@ -80,7 +80,7 @@
 					  <div class="checkbox form-group">
 					  	<label><input type="checkbox" value="" checked>I understand the terms and conditions</label>
 					  </div>
-					  <button type="submit" class="ctaBtn">Send</button>
+					  <button type="submit" class="ctaBtn">Enter Contest</button>
 					  <p style="padding-top: 25px; text-align: center;"><i>Contest is for Continental US only.</i></p>
 					</form>
   				</div>
