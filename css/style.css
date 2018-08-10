@@ -414,26 +414,34 @@ a.ctaBtn:hover {
 
 #recipes {margin-top: 7em; margin-bottom: 7em;}
 
-#recipes .col-md-8 img, #recipes .col-md-6 img {width: 100%;}
+/* #recipes .col-md-8 img, #recipes .col-md-6 img {width: 100%;} */
+
+#recipeGrid img {width: 100%; transition: .3s;}
+#recipeGrid img:hover {opacity: .7;}
 
 #recipes h2 {padding-bottom: 10px;  font-size: 40px; font-family: "futura-pt", sans-serif; font-size: 40px;}
 
-#recipes .col-md-8 {padding: 0px;}
+#recipe .col-md-8 {padding: 0px;}
 
-#recipes #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+#recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
 
-#recipes #timeDiv .time {flex: 1;}
+#recipe #timeDiv .time {flex: 1;}
 
-#recipes #timeDiv .time img {width: 30px; float: left; padding-right: 7px;}
+#recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;}
 
 #recipeCarousel  .carousel-control.left {background: none;}
 
 #recipeCarousel  .carousel-control.right {background: none;}
 
+#recipeCarousel  p {font-size: 16px;}
+
 #recipeCarousel h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
 #recipeDetail {
 	padding: 0px 13px;
+}
+
+#recipeDetail .ctaBtn {
 	animation-name: slideUp;
 	-webkit-animation-name: slideUp;
 
@@ -445,9 +453,10 @@ a.ctaBtn:hover {
 
 	visibility: visible !important;
 }
+
 #recipeDetail h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
-#blogHm {margin-top: 7em; margin-bottom: 7em; visibility: hidden;}
+#blogHm {margin-top: 7em; margin-bottom: 7em;}
 #blogHm a {color: #000; text-decoration: none;}
 
 #blogHm img {transition: 1s;}
@@ -547,7 +556,9 @@ ul#socialFooter li img {width: 35px;}
 #shopPlatforms p {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 20px; padding-bottom: 25px;}
 
 @media only screen and (min-width: 769px) {
-    #landing p, #shopHm p, #shopMain p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 20px; margin: 0px;}
+    #landing p, #shopHm p, #shopMain p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p{font-size: 20px; margin: 0px;}
+
+	#recipeCarousel p {font-size: 16px; padding: 15px 0px;}
 
     .navbar {
         margin-bottom: 0px;
@@ -638,7 +649,7 @@ ul#socialFooter li img {width: 35px;}
       width: 100%;
     }
 
-    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle, #featuredBlogs .item:hover .middle, #blogs .blogBox:hover .middle, #allRecipes .mobile .recipeItem:hover .middle {
+    .mainBox:hover .middle, #productCarousel .item:hover .middle, #blogHm .blogBox:hover .middle, #featuredBlogs .item:hover .middle, #blogs .blogBox:hover .middle, #allRecipes .mobile .recipeItem:hover .middle, #recipeGrid .mobile .recipeItem:hover .middle {
       opacity: 1;
       bottom: 0%;
       width: 100%;
@@ -928,9 +939,9 @@ recipe-all css
 #recipeCarousel img {width: 100%;}
 
 #allRecipes img {width: 100%;}
-#allRecipes h3 {font-size: 20px; text-align: center;}
+#allRecipes h3, #recipeGrid h3 {font-size: 20px; text-align: center;}
 @media only screen and (max-width: 768px) {
-    #allRecipes a {position: absolute; bottom: 20px; left: 50%; transform: translate(-50%,0%); width: 85%;}
+    #allRecipes a, #recipeGrid a {position: absolute; bottom: 20px; left: 50%; transform: translate(-50%,0%); width: 85%;}
     .desk .recipeItem a.ctaBtn {position: absolute; bottom: 0px;}
 }
 
@@ -950,6 +961,8 @@ single recipe css
 
 #recipe {margin-bottom: 7em; margin-top: 2em;}
 
+#recipes {visibility: hidden;}
+
 #recipeHead {margin-bottom: 2em;}
 
 #recipe .col-xs-12 img {width: 100%;}
@@ -959,12 +972,13 @@ single recipe css
 #recipe .col-xs-12 {padding: 0px;}
 #recipe #procedure {padding-left: 15px; padding-right: 15px;}
 
-#recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+#blogHm #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
 
-#recipe #timeDiv .time {flex: 1; text-align: center;}
+#blogHm #timeDiv .time {flex: 1; text-align: center;}
+#blogHm #timeDiv .time {flex: 1; text-align: center;}
 #recipeDetail #timeDiv .time p { font-family: "futura-pt", sans-serif;}
 
-#recipe #timeDiv .time img {width: 30px; float: left; padding-left: 7px;}
+#blogHm #timeDiv .time img {width: 30px; float: left; padding-left: 7px;}
 
 @media only screen and (min-width: 768px) {
     #recipe .col-xs-12 {padding: 15px;}
@@ -977,6 +991,78 @@ single recipe css
 /* ---------------------
 blogs css
 ---------------------*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+/* just for demo purpose */
+    html,
+    body,
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+      height: 100%;
+    }
+
+    .item:nth-child(1) {
+      /* background: blue; */
+    }
+
+    .item:nth-child(2) {
+      /* background: red; */
+    }
+
+    .item:nth-child(3) {
+      /* background: orange; */
+    }
+
 #blogs img {width: 100%;}
 #blogs .aside {margin-top: 4em;}
 

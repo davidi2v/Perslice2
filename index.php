@@ -447,159 +447,234 @@
 			<div class="container">
 				<div class="row text-center">
 					<h2>Perslice Blog</h2>
-					<p class="subheading">For fun and sweet reads</p>
+					<p class="subheading">Read Our Editor's Stories</p>
 				</div>
-				<div class="row desk">
-					<div class="col-md-4">
-						<a href="blogpost.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blogpost1.jpg">
-								</div>
-								<div class="blogContent">
-									<h4>Take It From a Pro</h4>
-									<p>Interesting facts about birthdays in the 18th century.</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="blogpost.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blogpost2.jpg">
-								</div>
-								<div class="blogContent">
-									<h4>Take It From a Pro</h4>
-									<p>Interesting facts about birthdays in the 18th century.</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="row mobile">
-					<div class="col-md-4">
-						<a href="blogpost.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blog1.jpg">
-								</div>
-								<div class="blogContent middle">
-									<div class="text"><a href="blogpost.php">What to Remember When Planning a Birthday</a></div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="blogpost2.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blog2.jpg">
-								</div>
-								<div class="blogContent middle">
-									<div class="text"><a href="blogpost2.php">My new favorite kitchen tool!</a></div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="blogpost3.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blog3.jpg">
-								</div>
-								<div class="blogContent middle">
-									<div class="text"><a href="blogpost3.php">Everything a person needs who loves to bake.</a></div>
-								</div>
-							</div>
-						</a>
-					</div>
+				<div id="recipeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+				  <!-- Indicators -->
+				  <!-- <ol class="carousel-indicators">
+				    <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#recipeCarousel" data-slide-to="1"></li>
+				  </ol> -->
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+	    				<div class="row">
+	    					<div class="col-sm-6 text-center">
+	    						<img src="img/blog1_sq.jpg">
+	    						<h3 class="desk">Blue Velvet Cake</h3>
+	    					</div>
+	    					<div class="col-sm-6">
+	    						<div id="recipeDetail">
+									<h3 class="mobile">What to Remember When Planning a Birthday</h3>
+									<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times...</p>
+		    						<a class="ctaBtn" href="blogpost.php">Read More</a>
+	    						</div>
+	    					</div>
+	    				</div>
+				    </div>
+					<div class="item">
+	    				<div class="row">
+	    					<div class="col-sm-6 text-center">
+	    						<img src="img/blog2_sq.jpg">
+	    						<h3 class="desk">Carrot Cake</h3>
+	    					</div>
+	    					<div class="col-sm-6">
+	    						<div id="recipeDetail">
+									<h3 class="mobile">My new favorite kitchen tool!</h3>
+									<p>Recently I became very interested in baking and how fine of an art it is. One thing that bothered me is that after all this time...</p>
+		    						<a class="ctaBtn" href="blogpost2.php">Read More</a>
+	    						</div>
+	    					</div>
+	    				</div>
+				    </div>
+					<div class="item">
+	    				<div class="row">
+	    					<div class="col-sm-6 text-center">
+	    						<img src="img/blog3_sq.jpg">
+	    						<h3 class="desk">Vegan Chocolate Cake</h3>
+	    					</div>
+	    					<div class="col-sm-6">
+	    						<div id="recipeDetail">
+									<h3 class="mobile">Everything a person needs who loves to bake</h3>
+									<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t live without this!” just to finally realize...</p>
+		    						<a class="ctaBtn" href="blogpost3.php">Read More</a>
+	    						</div>
+	    					</div>
+	    				</div>
+				    </div>
+				  </div>
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#recipeCarousel" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#recipeCarousel" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
 				</div>
 			</div>
 		</section>
 		<section id="recipes" class="container">
-			<div class="text-center">
-				<h2>Delicious Recipes</h2>
-				<p class="subheading">Try out the recipe and let us know how it tastes!</p>
+			<div class="row">
+				<div class="text-center">
+					<h2>The Sugar Shop</h2>
+					<p class="subheading">Recipes for Every Occasion</p>
+				</div>
 			</div>
-			<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  <!-- <ol class="carousel-indicators">
-			    <li data-target="#recipeCarousel" data-slide-to="0" class="active"></li>
-			    <li data-target="#recipeCarousel" data-slide-to="1"></li>
-			  </ol> -->
-
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner">
-			    <div class="item active">
-    				<div class="row">
-    					<div class="col-sm-6 text-center">
-    						<img src="img/blueVelvetCake.jpg">
-    						<h3 class="desk">Blue Velvet Cake</h3>
-    					</div>
-    					<div class="col-sm-6">
-    						<div id="recipeDetail">
-								<h3 class="mobile">Blue Velvet Cake</h3>
-								<div id="timeDiv">
-									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
-									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
-									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
-								</div>
-	    						<a class="ctaBtn" href="blue-velvet-cake.php">View Recipe</a>
-    						</div>
-    					</div>
-    				</div>
-			    </div>
-				<div class="item">
-    				<div class="row">
-    					<div class="col-sm-6 text-center">
-    						<img src="img/carrotCake.jpg">
-    						<h3 class="desk">Carrot Cake</h3>
-    					</div>
-    					<div class="col-sm-6">
-    						<div id="recipeDetail">
-								<h3 class="mobile">Carrot Cake</h3>
-								<div id="timeDiv">
-									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
-									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
-									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
-								</div>
-	    						<a class="ctaBtn" href="carrot-cake.php">View Recipe</a>
-    						</div>
-    					</div>
-    				</div>
-			    </div>
-				<div class="item">
-    				<div class="row">
-    					<div class="col-sm-6 text-center">
-    						<img src="img/veganChocolateCake.jpg">
-    						<h3 class="desk">Vegan Chocolate Cake</h3>
-    					</div>
-    					<div class="col-sm-6">
-    						<div id="recipeDetail">
-								<h3 class="mobile">Vegan Chocolate Cake</h3>
-								<div id="timeDiv">
-									<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
-									<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
-									<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
-								</div>
-	    						<a class="ctaBtn" href="vegan-chocolate-cake.php">View Recipe</a>
-    						</div>
-    					</div>
-    				</div>
-			    </div>
-			  </div>
-			  <!-- Left and right controls -->
-			  <a class="left carousel-control" href="#recipeCarousel" data-slide="prev">
-			    <span class="glyphicon glyphicon-chevron-left"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#recipeCarousel" data-slide="next">
-			    <span class="glyphicon glyphicon-chevron-right"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
+			<div id="recipeGrid" class="row">
+				<!-- <div class="col-sm-4 col-xs-6">
+					<a href=""><img src="img/blueVelvetCake.jpg" alt="blue velvet cake"></a>
+				</div>
+				<div class="col-sm-4 col-xs-6">
+					<a href=""><img src="img/carrotCake.jpg" alt="carrot cake"></a>
+				</div>
+				<div class="col-sm-4 col-xs-6">
+					<a href=""><img src="img/strawberryCake.jpg" alt="strawberry cake"></a>
+				</div>
+				<div class="col-sm-4 col-xs-6">
+					<a href=""><img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake"></a>
+				</div>
+				<div class="col-sm-4 col-xs-6">
+					<a href=""><img src="img/veganChocolateCake.jpg" alt="vegan chocolate cake"></a>
+				</div>
+				<div class="col-sm-4 col-xs-6">
+					<a href=""><img src="img/chocolateCake.jpg" alt="Insane Chocolate Fun Cake"></a>
+				</div> -->
+				<!-- <div class="row">
+					<div class="col-xs-6 col-sm-6 recipeItem">
+						<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
+						<h3>Blue Velvet Cake</h3>
+						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+					<div class="col-xs-6 col-sm-6 recipeItem">
+						<img src="img/carrotCake.jpg" alt="Carrot Cake">
+						<h3>Carrot Cake</h3>
+						<a href="carrot-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 recipeItem">
+						<img src="img/chocolateCake.jpg" alt="Insane Chocolate Fun Cake">
+						<h3>Insane Chocolate Fun Cake</h3>
+						<a href="insane-chocolate-fun-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+					<div class="col-xs-6 col-sm-6 recipeItem">
+						<img src="img/veganChocolateCake.jpg" alt="Vegan Chocolate Cake">
+						<h3>Vegan Chocolate Cake</h3>
+						<a href="vegan-chocolate-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 recipeItem">
+						<img src="img/strawberryCake.jpg" alt="Very Berry Strawberry Cake">
+						<h3>Very Berry Strawberry Cake</h3>
+						<a href="very-berry-strawberry-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+					<div class="col-xs-6 col-sm-6 recipeItem">
+						<img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake">
+						<h3>Tantalizing Turtle Praline Cake</h3>
+						<a href="tantalizing-turtle-praline-cake.php" class="ctaBtn">Read Recipe</a>
+					</div>
+				</div> -->
+				<div class="container desk">
+					<div id="recipeHead" class="row text-center">
+						<h1>Delicious Recipes</h1>
+						<p>Fun and sweet recipes</p>
+					</div>
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 recipeItem">
+							<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
+							<h3>Blue Velvet Cake</h3>
+							<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
+						</div>
+						<div class="col-xs-6 col-sm-6 recipeItem">
+							<img src="img/carrotCake.jpg" alt="Carrot Cake">
+							<h3>Carrot Cake</h3>
+							<a href="carrot-cake.php" class="ctaBtn">Read Recipe</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 recipeItem">
+							<img src="img/chocolateCake.jpg" alt="Insane Chocolate Fun Cake">
+							<h3>Insane Chocolate Fun Cake</h3>
+							<a href="insane-chocolate-fun-cake.php" class="ctaBtn">Read Recipe</a>
+						</div>
+						<div class="col-xs-6 col-sm-6 recipeItem">
+							<img src="img/veganChocolateCake.jpg" alt="Vegan Chocolate Cake">
+							<h3>Vegan Chocolate Cake</h3>
+							<a href="vegan-chocolate-cake.php" class="ctaBtn">Read Recipe</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 recipeItem">
+							<img src="img/strawberryCake.jpg" alt="Very Berry Strawberry Cake">
+							<h3>Very Berry Strawberry Cake</h3>
+							<a href="very-berry-strawberry-cake.php" class="ctaBtn">Read Recipe</a>
+						</div>
+						<div class="col-xs-6 col-sm-6 recipeItem">
+							<img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake">
+							<h3>Tantalizing Turtle Praline Cake</h3>
+							<a href="tantalizing-turtle-praline-cake.php" class="ctaBtn">Read Recipe</a>
+						</div>
+					</div>
+				</div>
+				<div class="container mobile">
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 recipeItem">
+							<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
+							<div class="middle">
+								<div class="text"><a href="blue-velvet-cake.php">Blue Velvet Cake</a></div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-4 recipeItem">
+							<img src="img/carrotCake.jpg" alt="Carrot Cake">
+							<div class="middle">
+								<div class="text"><a href="carrot-cake.php">Carrot Cake</a></div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-4 recipeItem">
+							<img src="img/chocolateCake.jpg" alt="Insane chocolate fun Cake">
+							<div class="middle">
+								<div class="text"><a href="insane-chocolate-fun-cake.php">Insane Chocolate Fun Cake Cake</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 recipeItem">
+							<img src="img/veganChocolateCake.jpg" alt="Vegan Chocolate Cake">
+							<div class="middle">
+								<div class="text"><a href="vegan-chocolate-cake.php">Vegan Chocolate Cake</a></div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-4 recipeItem">
+							<img src="img/strawberryCake.jpg" alt="Very Berry Strawberry Cake">
+							<div class="middle">
+								<div class="text"><a href="very-berry-strawberry-cake.php">Very Berry Strawberry Cake</a></div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-4 recipeItem">
+							<img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake">
+							<div class="middle">
+								<div class="text"><a href="tantalizing-turtle-praline-cake.php">Tantalizing Turtle Praline Cake</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
 			</div>
 		</section>
+
+
+
+
+
+
+
+
+
+
 		<section id="shopPlatforms">
 			<div class="container text-center">
 				<h2>You can also shop at...</h2>

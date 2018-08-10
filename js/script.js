@@ -1,7 +1,10 @@
 $(document).ready(function(){
+    $('#carouselHacked').carousel();
+
    setInterval(function(){
        $('#banner p').addClass("bigEntrance");
     }, 1900);
+
 /*-------------------------------------
 | Logo Animation
 -------------------------------------*/
@@ -137,7 +140,7 @@ $(".input-number").keydown(function (e) {
 			}
 		});
 
-		$('#blogHm').each(function(){
+		$('#recipes').each(function(){
 		var imagePos = $(this).offset().top;
 
 		var topOfWindow = $(window).scrollTop();
