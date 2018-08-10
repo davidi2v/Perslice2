@@ -443,6 +443,80 @@
 				</div>
 			</div>
 		</section>
+		<section id="blogHm">
+			<div class="container">
+				<div class="row text-center">
+					<h2>Perslice Blog</h2>
+					<p class="subheading">For fun and sweet reads</p>
+				</div>
+				<div class="row desk">
+					<div class="col-md-4">
+						<a href="blogpost.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blogpost1.jpg">
+								</div>
+								<div class="blogContent">
+									<h4>Take It From a Pro</h4>
+									<p>Interesting facts about birthdays in the 18th century.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="blogpost.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blogpost2.jpg">
+								</div>
+								<div class="blogContent">
+									<h4>Take It From a Pro</h4>
+									<p>Interesting facts about birthdays in the 18th century.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row mobile">
+					<div class="col-md-4">
+						<a href="blogpost.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blog1.jpg">
+								</div>
+								<div class="blogContent middle">
+									<div class="text"><a href="blogpost.php">What to Remember When Planning a Birthday</a></div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="blogpost2.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blog2.jpg">
+								</div>
+								<div class="blogContent middle">
+									<div class="text"><a href="blogpost2.php">My new favorite kitchen tool!</a></div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="blogpost3.php">
+							<div class="blogBox">
+								<div class="blogImg">
+									<img src="img/blog3.jpg">
+								</div>
+								<div class="blogContent middle">
+									<div class="text"><a href="blogpost3.php">Everything a person needs who loves to bake.</a></div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section id="recipes" class="container">
 			<div class="text-center">
 				<h2>Delicious Recipes</h2>
@@ -524,80 +598,6 @@
 			    <span class="glyphicon glyphicon-chevron-right"></span>
 			    <span class="sr-only">Next</span>
 			  </a>
-			</div>
-		</section>
-		<section id="blogHm">
-			<div class="container">
-				<div class="row text-center">
-					<h2>Perslice Blog</h2>
-					<p class="subheading">For fun and sweet reads</p>
-				</div>
-				<div class="row desk">
-					<div class="col-md-4">
-						<a href="blogpost.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blogpost1.jpg">
-								</div>
-								<div class="blogContent">
-									<h4>Take It From a Pro</h4>
-									<p>Interesting facts about birthdays in the 18th century.</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="blogpost.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blogpost2.jpg">
-								</div>
-								<div class="blogContent">
-									<h4>Take It From a Pro</h4>
-									<p>Interesting facts about birthdays in the 18th century.</p>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
-				<div class="row mobile">
-					<div class="col-md-4">
-						<a href="blogpost.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blog1.jpg">
-								</div>
-								<div class="blogContent middle">
-									<div class="text"><a href="blogpost.php">What to Remember When Planning a Birthday</a></div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="blogpost2.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blog2.jpg">
-								</div>
-								<div class="blogContent middle">
-									<div class="text"><a href="blogpost2.php">My new favorite kitchen tool!</a></div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-md-4">
-						<a href="blogpost3.php">
-							<div class="blogBox">
-								<div class="blogImg">
-									<img src="img/blog3.jpg">
-								</div>
-								<div class="blogContent middle">
-									<div class="text"><a href="blogpost3.php">Everything a person needs who loves to bake.</a></div>
-								</div>
-							</div>
-						</a>
-					</div>
-				</div>
 			</div>
 		</section>
 		<section id="shopPlatforms">

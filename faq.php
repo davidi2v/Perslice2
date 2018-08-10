@@ -53,6 +53,46 @@
 		</div>
 	</nav>
 	<body>
+		<div id="myModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			  </div>
+			  <div class="modal-body">
+				<div>
+  					<h3 class="text-center">Contest Rules</h3>
+					<form>
+					  <div class="form-group">
+						<label for="name">Full Name</label>
+						<input type="name" class="form-control" id="name" placeholder="First, Last Name" required>
+					  </div>
+					  <div class="form-group">
+						<label for="address">Address</label>
+						<input type="email" class="form-control" id="address" placeholder="Type address" required>
+					  </div>
+					  <div class="form-group">
+						<label for="country">Country</label>
+						<input type="name" class="form-control" id="country" placeholder="Type country" required>
+					  </div>
+					  <div class="checkbox form-group">
+					  	<label><input type="checkbox" value="" checked>I understand the terms and conditions</label>
+					  </div>
+					  <button type="submit" class="ctaBtn">Send</button>
+					  <p style="padding-top: 25px; text-align: center;"><i>Contest is for Continental US only.</i></p>
+					</form>
+  				</div>
+
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
 			<div id="faqHead" class="container">
 				<h1>Frequently Asked Questions</h1>
 			</div>
@@ -63,6 +103,47 @@
 			<table id="myTable">
 			  <tr class="header">
 			    <!-- <th style="width:60%;">Name</th> -->
+			  </tr>
+			  <tr>
+				<td>
+					<b>What are the contest rules?</b>
+
+					<p><i>Legal Residents of the 50 Unites States (D.C.) and Canada 18 years and older only.</i></p>
+
+					<p>No Purchase Necessary.</p>
+
+					<p>Promotion will run from (Set Date), 2018</p>
+
+					<p>Eligible entries require:</p>
+					<ul>
+						<li>One entry per household.</li>
+						<li>Winner will be selected by CEO, randomly from all eligible entries.</li>
+						<li>Employees of PERSLICE USA, LLC are not eligible to participate in the contest.</li>
+						<li>Winner will be advised via Facebook Or Instagram messenger on (Set Date), and must respond by (Set Date).</li>
+					</ul>
+
+					<p>If no response is received by the winner, by (Set Date), another winner will be selected from the remaining eligible submissions.</p>
+
+					<p>Winner will be officially announced on (Set Date) 2018, via Instagram/Facebook.</p>
+
+					<p>Winner is required to sign a release of liability waiver against Facebook/Instagram, and Perslice USA, LLC.</p>
+
+					<p>Winner is required to sign an authorization to use image for marketing purposes</p>
+
+					<p>Promotion is in no way sponsored, endorsed, administered by, or associated with Facebook/Instagram.</p>
+
+					<p><i>If you meet these requirements and wish to participate to win your own free Perslice cake slicer <a data-toggle="modal" data-target="#myModal">click here.</a></i></p>
+
+					<div id="followSocial">
+						<h3>Follow us to stay up to date on all contests!</h2>
+						<ul>
+							<li><a href="https://www.facebook.com/PersliceUSA/" target="_blank"><img src="img/fbIcon_blk.png" alt=""></a></li>
+							<li><a href="https://www.instagram.com/persliceusa/" target="_blank"><img src="img/igIcon.png" alt=""></a></li>
+							<li><a href="https://twitter.com/persliceusa?lang=en" target="_blank"><img src="img/twitterIcon.png" alt=""></a></li>
+							<li><a href="https://www.youtube.com/channel/UCNun0CgGBKZDRyAzXDZSYWg" target="_blank"><img src="img/youtubeIcon.png" alt=""></a></li>
+						</ul>
+					</div>
+				</td>
 			  </tr>
 			  <tr>
 				<td>
