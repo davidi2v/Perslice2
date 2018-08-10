@@ -1,4 +1,7 @@
 $(document).ready(function(){
+   setInterval(function(){
+       $('#banner p').addClass("bigEntrance");
+    }, 1900);
 /*-------------------------------------
 | Logo Animation
 -------------------------------------*/
@@ -179,7 +182,8 @@ $(".input-number").keydown(function (e) {
    var contactBtn3 = document.getElementById('contactBtn3');
 
    var contactTitle = document.querySelectorAll('h1.contactTitle');
-   var option = document.getElementById('options');
+   var option = document.getElement('h1.contactTitle');
+   // console.log(contactTitle[0]);
 
    var contactForm = document.getElementById('contactForm');
    var retailForm = document.getElementById('retailForm');
@@ -203,7 +207,6 @@ $(".input-number").keydown(function (e) {
    // distributorFormLink.addEventListener('click', distributorLinkClicked);
 
    function buttonClicked () {
-      option.style.marginBottom = '0px';
       contactBtn2.style.display = 'none';
       contactBtn3.style.display = 'none';
       contactTitle[0].style.display = 'none';
@@ -215,7 +218,6 @@ $(".input-number").keydown(function (e) {
    }
 
    function buttonClicked2 () {
-      option.style.marginBottom = '0px';
       contactBtn1.style.display = 'none';
       contactBtn3.style.display = 'none';
       contactTitle[1].style.display = 'none';
@@ -228,7 +230,6 @@ $(".input-number").keydown(function (e) {
    }
 
    function buttonClicked3 () {
-      option.style.marginBottom = '0px';
       contactBtn1.style.display = 'none';
       contactBtn2.style.display = 'none';
       contactTitle[2].style.display = 'none';
@@ -293,8 +294,6 @@ $(".input-number").keydown(function (e) {
    //    $(contactForm).fadeIn();
    //    $(retailForm).fadeOut();
    // }
-
-
 
 
 

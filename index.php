@@ -170,7 +170,7 @@
 					</div>
 
 					<div class="col-md-6">
-						<a href="shop.php" id="saleTag">Special Offers</a>
+						<a href="shop.php" id="saleTag">Special Offer</a>
 						<img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 						<p class="productPrice">$24.99</p>
@@ -203,7 +203,7 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-								<a href="shop.php" id="saleTag">Special Offers</a>
+								<a href="shop.php" id="saleTag">Special Offer</a>
 								<a href="product.php"><img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
   	  							<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 	  	  						<p class="productPrice">$24.99</p>
@@ -215,6 +215,7 @@
 	  						  </div>
 						    </div>
 							<div class="item">
+								<a href="shop.php" id="saleTag">Special Offer</a>
 							   <a href="product.php"><img src="img/cakePan.jpg" alt="perslice cake slicer and server">
 							   <h2 class="productTitle">Perslice<br> Cake Pan</h2>
 							   <p class="productPrice">$24.99</p>
@@ -226,6 +227,7 @@
 							 	</div>
 						   </div>
 						   <div class="item">
+							   <a href="shop.php" id="saleTag">Special Offer</a>
 							   <a href="product.php"><img src="img/measuringSpoons.jpg" alt="perslice cake slicer and server">
 							   <h2 class="productTitle">Perslice<br> Measuring Spoons</h2>
 							   <p class="productPrice">$24.99</p>
