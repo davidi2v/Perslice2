@@ -558,10 +558,11 @@ ul#socialFooter li img {width: 35px;}
 #shopPlatforms h2 {font-family: "futura-pt", sans-serif; font-size: 30px; padding-bottom: 25px;}
 #shopPlatforms p {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 20px; padding-bottom: 25px;}
 
+#recipeCarousel p {font-size: 16px; padding: 10px 0px 25px 0px; text-align: center; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; padding-bottom: 25px;}
+
 @media only screen and (min-width: 769px) {
     #landing p, #shopHm p, #shopMain p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p{font-size: 20px; margin: 0px;}
 
-	#recipeCarousel p {font-size: 16px; padding: 15px 0px;}
 
     .navbar {
         margin-bottom: 0px;
@@ -678,10 +679,6 @@ ul#socialFooter li img {width: 35px;}
       color: #000;
       text-decoration: none;
     }
-
-    .carousel-control {color: #000;}
-    .carousel-control:hover {color: #000;}
-    .carousel-control:focus {color: #000;}
 
     #specials img {width: 100%;}
 
@@ -1002,6 +999,10 @@ single recipe css
 /* ---------------------
 blogs css
 ---------------------*/
+.carousel-control {color: #000;}
+.carousel-control:hover {color: #000;}
+.carousel-control:focus {color: #000;}
+
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
@@ -1508,7 +1509,7 @@ faq css
 
 @media only screen and (max-width: 560px) {
     #myCarousel {
-        height: 500px;
+        height: 530px;
     }
 
     .recipeItem {height: 350px;}
