@@ -153,7 +153,7 @@ $(".input-number").keydown(function (e) {
 		var imagePos = $(this).offset().top;
 
 		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+200) {
+			if (imagePos < topOfWindow+1200) {
 				$(this).addClass("slideUp");
 			}
 		});
