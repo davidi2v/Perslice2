@@ -63,7 +63,7 @@
 			  </div>
 			  <div class="modal-body">
 				<div>
-  					<h3 class="text-center">Contest Rules</h3>
+  					<h3 class="text-center">Win a Free Perslice</h3>
 					<form>
 					  <div class="form-group">
 						<label for="name">Full Name</label>
@@ -132,7 +132,7 @@
 
 					<p>Promotion is in no way sponsored, endorsed, administered by, or associated with Facebook/Instagram.</p>
 
-					<p><i>If you meet these requirements and wish to participate to win your own free Perslice cake slicer <a data-toggle="modal" data-target="#myModal">click here.</a></i></p>
+					<p><i>If you meet these requirements and wish to participate to win your own free Perslice cake slicer <a href="" data-toggle="modal" data-target="#myModal">click here.</a></i></p>
 
 					<div id="followSocial">
 						<h3>Follow us to stay up to date on all contests!</h2>
