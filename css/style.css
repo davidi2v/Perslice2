@@ -1264,7 +1264,7 @@ how-to-use css
 
 .buttonsRow {padding-bottom: 3em;}
 
-.howtoContainer {display: block; margin: 0px auto; width: 400px;}
+.howtoContainer {display: block; margin: 0px auto; width: 100%;}
 .howtoContainer2 {display: block; margin: 0px auto; width: 100%;}
 .howtoIcons {width: 100%; display:flex;}
 .howtoIcons img {width: 100%; display: block; margin: 0px auto;}
