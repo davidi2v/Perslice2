@@ -1172,6 +1172,7 @@ button.ctaBtn{
     padding-bottom: 5px;
     transition: .3s;
     text-align: center;
+	background-color: #fff;
 }
 button.ctaBtn:hover {
     text-decoration: none;
