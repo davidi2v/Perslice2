@@ -571,10 +571,10 @@ ul#socialFooter li img {width: 35px;}
 #shopPlatforms h2 {font-family: "futura-pt", sans-serif; font-size: 30px; padding-bottom: 25px;}
 #shopPlatforms p {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 20px; padding-bottom: 25px;}
 
-#recipeCarousel p {font-size: 16px; padding: 10px 0px 25px 0px; text-align: center; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; padding-bottom: 25px;}
+#recipeCarousel p {font-size: 16px; padding: 10px 0px 25px 0px; text-align: left; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; padding-bottom: 25px;}
 
-@media only screen and (min-width: 769px) {
-    #landing p, #shopHm p, #shopMain p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p{font-size: 20px; margin: 0px;}
+@media only screen and (min-width: 768px) {
+    #landing p, #shopHm p, #shopMain p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p{font-size: 18px; margin: 0px;}
 
 
     .navbar {
@@ -678,13 +678,15 @@ ul#socialFooter li img {width: 35px;}
     .text {
       background-color: #eeb3ca;
       color: #000;
-      font-size: 20px;
-      padding: 16px 32px;
+      font-size: 16px;
+      padding: 31px 32px;
       font-family: "futura-pt", sans-serif;
       font-style: normal;
       font-weight: 300;
 	  border-radius: 3px;
     }
+
+	#productCarousel .text, #shopMain .text {padding: 16px 32px;}
 
     .text:hover {cursor: pointer;}
 
@@ -765,7 +767,7 @@ ul#socialFooter li img {width: 35px;}
     #recipeDetail {
         display: block;
         margin: 0px auto;
-        width: 500px;
+        width: 100%;
     }
 
 	.recipeItem .middle .text {background-color: #fff; opacity: .8;}
@@ -803,7 +805,6 @@ ul#socialFooter li img {width: 35px;}
         float: right;
     }
 }
-
 /* ---------------------
 shop css
 ---------------------*/
@@ -1004,7 +1005,7 @@ single recipe css
     #recipe .col-xs-12 {padding: 15px;}
     #recipe #procedure {padding-left: 0px; padding-right: 0px;}
 
-    #recipeCarousel #recipeDetail {margin-top: 80px;}
+    /* #recipeCarousel #recipeDetail {margin-top: 80px;} */
     #recipeDetail .ctaBtn {float: left; color: #000;}
     #recipeDetail .ctaBtn:hover {color: #fff;}
 }
@@ -1281,28 +1282,13 @@ how-to-use css
 .howtoContainer {display: block; margin: 0px auto; width: 100%;}
 .howtoContainer2 {display: block; margin: 0px auto; width: 100%;}
 .howtoIcons {width: 100%; display:flex;}
-.howtoIcons img {width: 100%; display: block; margin: 0px auto;}
+.howtoIcons img {width: 300px; display: block; margin: 0px auto;}
 .howtoIcons2 {display: flex; width: 100%;}
 .howtoIcons2 img {width: 100%; display: block; margin: 0px auto;}
 /* .howtoimg {flex: 1;} */
 
 @media only screen and (min-width: 768px) {
-    #howto h1 {text-align: center; padding: 2em 1em; padding-bottom: 1em; font-size: 40px; font-family: "futura-pt", sans-serif; border-bottom: solid 2px #000; width: 600px; display: block; margin: 0px auto; margin-bottom: 1em;}
 
-    #persliceAnimation .cakeOutlines img {
-      width: 60%;
-    }
-
-    #howtoPerslice {width: 60%; display: block; margin: 0px auto;}
-
-    .howtoContainer {display: block; margin: 0px auto; width: 600px;}
-	.howtoContainer2 {display: block; margin: 0px auto; width: 900px;}
-    .howtoIcons2 {display: flex;}
-    .howtoIcons img {width: 300px; display: block; margin: 0px auto;}
-    .howtoIcons2 img {width: 300px; display: block; margin: 0px auto;}
-    .howtoimg {flex: 1;}
-
-    #howto ul {display: block; margin: 0px auto; width: 500px; padding-bottom: 4em; padding-top: 4em; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
 }
 
 /* ---------------------
@@ -1383,7 +1369,7 @@ faq css
 #blogs h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
 
 @media only screen and (min-width: 768px) {
-    .aside h2 {font-size: 25px; text-align: left; margin-top: 5em;}
+    .aside h2 {font-size: 25px; text-align: center; margin-top: 5em;}
     .aside2 h2 {font-size: 25px; text-align: left; margin-top: 1em;}
 
     #blogs {margin-top: 2em;}
@@ -1411,6 +1397,8 @@ faq css
 
     #blogposts p {font-size: 18px; text-align: left; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
+	#blogposts p#productPrice {text-align: center;}
+
     #blogposts .posts p {text-align: left;}
 
 
@@ -1422,6 +1410,24 @@ faq css
     #blogposts {margin-bottom: 6em;}
 
     #blogs .posts {margin-bottom: 4em;}
+
+	#howto h1 {text-align: center; padding: 2em 1em; padding-bottom: 1em; font-size: 40px; font-family: "futura-pt", sans-serif; border-bottom: solid 2px #000; width: 600px; display: block; margin: 0px auto; margin-bottom: 1em;}
+
+    #persliceAnimation .cakeOutlines img {
+      width: 60%;
+    }
+
+    #howtoPerslice {width: 60%; display: block; margin: 0px auto;}
+
+    .howtoContainer {display: block; margin: 0px auto; width: 600px;}
+	/* .howtoContainer2 {display: block; margin: 0px auto; width: 900px;} */
+    .howtoIcons2 {display: flex;}
+    .howtoIcons img {width: 300px; display: block; margin: 0px auto;}
+    .howtoIcons2 img {width: 300px; display: block; margin: 0px auto;}
+    .howtoimg {flex: 1;}
+
+    #howto ul {display: block; margin: 0px auto; width: 500px; padding-bottom: 4em; padding-top: 4em; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+
 
 }
 
@@ -1505,7 +1511,7 @@ ul.navbar-nav {position: relative; z-index: 1000;}
     #myCarousel {
         height: 780px;
     }
-    .blogContent {padding-left: 10px;}
+    /* .blogContent {padding-left: 10px;} */
 
     /* #featuredBlogs .carousel {
         height: 300px;
@@ -1514,6 +1520,7 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 		width: 90%;
 	}
 }
+
 
 @media only screen and (max-width: 700px) {
     .recipeItem {height: 450px;}

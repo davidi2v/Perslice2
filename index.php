@@ -173,7 +173,7 @@
 						<a href="shop.php" id="saleTag">Special Offer</a>
 						<img src="img/cakeStand_2.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
-						<p class="productPrice">$24.99</p>
+						<p class="productPrice">$19.99</p>
 						<a class="ctaBtn" href="" data-toggle="modal" data-target="#myModal">Quick Preview</a>
 					</div>
 				</div>
@@ -206,7 +206,7 @@
 								<a href="shop.php" id="saleTag">Special Offer</a>
 								<a href="product.php"><img src="img/cakeStand_2.jpg" alt="perslice cake slicer and server">
   	  							<h2 class="productTitle">Perslice<br> Cake Stand</h2>
-	  	  						<p class="productPrice">$24.99</p>
+	  	  						<p class="productPrice">$19.99</p>
 								</a>
 								<div class="middle">
 									<div class="text">
