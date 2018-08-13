@@ -255,6 +255,8 @@ ul.navbar-nav li.active a {font-weight: bold;}
 
 a.navbar-brand img {width: 75px; position: relative; z-index: 1000;}
 
+.navbar-toggle {z-index: 1000;}
+
 #landing, #shopHm, #shopMain, #specials, #newsletter, #insta, #recipes, #blogHm, #shopPlatformp {padding-bottom: 4em;}
 
 #landingImg img {
