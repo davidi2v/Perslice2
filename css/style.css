@@ -229,7 +229,7 @@ index css
 #number {
     position: absolute;
     top: 5px;
-    left: 50%;
+    left: 30%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     color: #000;
@@ -1483,7 +1483,7 @@ ul.navbar-nav {position: relative; z-index: 1000;}
     #number {
         position: absolute;
         top: 5px;
-        right: 35px;
+        right: 25px;
         color: #000;
         font-size: 16px;
     }
