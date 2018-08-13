@@ -446,7 +446,7 @@
 		<section id="blogHm">
 			<div class="container">
 				<div class="row text-center">
-					<h2>Perslice Blog</h2>
+					<img class="title" src="img/Title_blog_desk.png" alt="Perslice blog" style="display: block; margin: 0px auto; width: 80%;">
 					<p class="subheading">Read Our Editor's Stories</p>
 				</div>
 				<div id="recipeCarousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -519,7 +519,7 @@
 		<section id="recipes" class="container">
 			<div class="row">
 				<div class="text-center">
-					<h2>The Sugar Shop</h2>
+					<img class="title" src="img/Title_sugarShop_desk.png" alt="The Sugar Shop" style="width: 100%; margin: 0px auto; display: block;">
 					<p class="subheading">Recipes for Every Occasion</p>
 				</div>
 			</div>

@@ -63,7 +63,7 @@
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-md-12">
-						<h2 style="font-family: 'futura-pt', sans-serif; font-size: 50px;">SHOP!</h2>
+						<img class="title" src="img/Title_Shop_desk.png">
 					</div>
 				</div>
 				<div class="row desk">
@@ -231,7 +231,7 @@
 		<div id="shop" class="desk">
 			<div class="container">
 				<div class="row text-center">
-					<h2>SHOP!</h2>
+					<img class="title" src="img/Title_Shop_mobile.png">
 				</div>
 				<div class="row">
 					<div id="mainProduct" class="col-xs-12">
