@@ -185,7 +185,7 @@ $(".input-number").keydown(function (e) {
    var contactBtn3 = document.getElementById('contactBtn3');
 
    var contactTitle = document.querySelectorAll('h1.contactTitle');
-   var option = document.getElement('h1.contactTitle');
+   var option = document.getElementById('h1.contactTitle');
    // console.log(contactTitle[0]);
 
    var contactForm = document.getElementById('contactForm');

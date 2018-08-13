@@ -208,7 +208,7 @@ function button14Click () {
 					<p>Small parts could cause a choking hazard.</p>
 					<p>Dispose of any unwanted plastic packaging in a recyle container. Do not allow children or pets to play with plastic parts or packaging products.</p>
 					<p>If you  have additional questions or concerns please contact us through the website <a href="contact.php">contact page</a> or by email at info@persliceusa.com.</p>
-					<div class="howtoContainer howtoAnimation">
+					<div class="howtoContainer2 howtoAnimation">
 						<div class="howtoIcons">
 							<div class="howtoImg"><img src="img/nopets.png" alt="call center"></div>
 							<div class="howtoImg"><img src="img/nofire.png" alt="email"></div>

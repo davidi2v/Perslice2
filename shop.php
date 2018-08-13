@@ -75,7 +75,7 @@
 					</div>
 					<div class="col-md-6">
 						<span id="saleTag">Sale</span>
-						<img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+						<img src="img/cakeStand_2.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 						<p class="productPrice">$24.99</p>
 						<a class="ctaBtn" href="#">Quick View</a>
@@ -179,7 +179,7 @@
 						  <div class="carousel-inner">
 						    <div class="item active">
 								<a href="shop.php" id="saleTag">Special Offer</a>
-								<a href="product.php"><img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+								<a href="product.php"><img src="img/cakeStand_2.jpg" alt="perslice cake slicer and server">
   	  							<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 	  	  						<p class="productPrice">$24.99</p>
 								</a>
@@ -241,7 +241,7 @@
 						<a class="ctaBtn" href="product.php">Buy Now</a>
 					</div>
 					<!-- <div class="col-xs-6">
-						<img src="img/cakeStand.jpg" alt="perslice cake stand">
+						<img src="img/cakeStand_2.jpg" alt="perslice cake stand">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 						<p id="productPrice">$24.99</p>
 						<a class="ctaBtn" href="#">Quick View</a>
@@ -256,7 +256,7 @@
 							<div class="productSlider">
 							  <div class="sliderItem">
 							  	<a href="#">
-							  		<img src="img/cakeStand.jpg" alt="cake stand">
+							  		<img src="img/cakeStand_2.jpg" alt="cake stand">
 									<h1 class="featuredTitle">Perslice <br>Cake Stand</h1>
 									<p id="productPrice">$24.99</p>
 							  	</a>

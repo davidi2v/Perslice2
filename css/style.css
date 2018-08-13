@@ -433,6 +433,9 @@ a.ctaBtn:hover {
 
 #recipeCarousel  .carousel-control.right {background: none;}
 
+#recipeCarousel .carousel-indicators {bottom: -50px;}
+#recipeCarousel .carousel-inner .text {padding-top: 10px; background-color: #fff;}
+
 #recipeCarousel  p {font-size: 16px;}
 
 #recipeCarousel h3 { font-family: "futura-pt", sans-serif; font-size: 30px;}
@@ -478,7 +481,7 @@ a.ctaBtn:hover {
 #shopPlatforms #socialBox img {width: 90%; flex: 1; display: block; margin: 0px auto; transition: .3s;}
 #shopPlatforms #socialBox img:hover {opacity: .8;}
 
-footer {background-color: #eeb2ca;}
+footer {background-color: #fff;}
 
 footer ul {list-style: none; padding-left: 0px;}
 
@@ -655,10 +658,13 @@ ul#socialFooter li img {width: 35px;}
       width: 100%;
       z-index: 10;
     }
+
+	.blogBox .text {background-color: #fff; opacity: .9;}
+
     .text {
       background-color: #eeb3ca;
       color: #000;
-      font-size: 16px;
+      font-size: 20px;
       padding: 16px 32px;
       font-family: "futura-pt", sans-serif;
       font-style: normal;
@@ -706,7 +712,7 @@ ul#socialFooter li img {width: 35px;}
         padding-bottom: 0px;
     }
 
-    #specials .salesContent .contentBox h3 {font-size: 50px; "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+    #specials .salesContent .contentBox h3 {font-size: 50px; font-family: "futura-pt", sans-serif; font-style: normal;}
 
     #specials .salesContent .contentBox p.ctaBtn{
         border: solid 1px #000;
@@ -751,6 +757,8 @@ ul#socialFooter li img {width: 35px;}
         margin: 0px auto;
         width: 500px;
     }
+
+	.recipeItem .middle .text {background-color: #fff; opacity: .8;}
 
     #recipeCarousel .carousel-control .glyphicon-chevron-right, .carousel-control .icon-nextglyphicon .glyphicon-chevron-right {
         right: 25px;
@@ -938,7 +946,9 @@ recipe-all css
 ---------------------*/
 #recipeCarousel img {width: 100%;}
 
-#allRecipes img {width: 100%;}
+#allRecipes img {width: 100%; transition: .3s;}
+#allRecipes img:hover {opacity: .7;}
+
 #allRecipes h3, #recipeGrid h3 {font-size: 20px; text-align: center;}
 @media only screen and (max-width: 768px) {
     #allRecipes a, #recipeGrid a {position: absolute; bottom: 20px; left: 50%; transform: translate(-50%,0%); width: 85%;}
@@ -985,7 +995,8 @@ single recipe css
     #recipe #procedure {padding-left: 0px; padding-right: 0px;}
 
     #recipeCarousel #recipeDetail {margin-top: 80px;}
-    #recipeDetail .ctaBtn {float: left;}
+    #recipeDetail .ctaBtn {float: left; color: #000;}
+    #recipeDetail .ctaBtn:hover {color: #fff;}
 }
 
 /* ---------------------
@@ -1164,9 +1175,9 @@ button.ctaBtn:hover {
     color: #fff;
 }
 
-.formSelect {background-color: #eeb2ca; margin-bottom: 2em;}
+.formSelect {background-color: #eeb2ca; margin-bottom: 2em; border-radius: 3px;}
 .formSelect h1 {font-size: 28px; padding: 20px 0px;font-size: 30px; font-family: "futura-pt", sans-serif; font-size: 30px;}
-.formSelectBlu {background-color: #afe2e3;}
+.formSelectBlu {background-color: #afe2e3; border-radius: 3px;}
 .formSelectBlu h1 {font-size: 28px; padding: 20px 0px; font-family: "futura-pt", sans-serif; font-size: 30px;}
 #contact p {margin-bottom: 6em; margin-top: 2em; font-size: 16px;}
 #contact form, #contact form input { font-family: "futura-pt", sans-serif; font-size: 16px;}
@@ -1252,12 +1263,13 @@ how-to-use css
 
 .buttonsRow {padding-bottom: 3em;}
 
-.howtoContainer {display: block; margin: 0px auto; width: 300px;}
-.howtoIcons {display: flex; width: 300px; display: inline-flex; margin: 0px auto;}
-.howtoIcons2 {display: flex;}
+.howtoContainer {display: block; margin: 0px auto; width: 400px;}
+.howtoContainer2 {display: block; margin: 0px auto; width: 100%;}
+.howtoIcons {width: 100%; display:flex;}
 .howtoIcons img {width: 100%; display: block; margin: 0px auto;}
+.howtoIcons2 {display: flex; width: 100%;}
 .howtoIcons2 img {width: 100%; display: block; margin: 0px auto;}
-.howtoimg {flex: 1;}
+/* .howtoimg {flex: 1;} */
 
 @media only screen and (min-width: 768px) {
     #howto h1 {text-align: center; padding: 2em 1em; padding-bottom: 1em; font-size: 40px; font-family: "futura-pt", sans-serif; border-bottom: solid 2px #000; width: 600px; display: block; margin: 0px auto; margin-bottom: 1em;}
@@ -1269,8 +1281,9 @@ how-to-use css
     #howtoPerslice {width: 60%; display: block; margin: 0px auto;}
 
     .howtoContainer {display: block; margin: 0px auto; width: 600px;}
+	.howtoContainer2 {display: block; margin: 0px auto; width: 900px;}
     .howtoIcons2 {display: flex;}
-    .howtoIcons img {width: 200px; display: block; margin: 0px auto;}
+    .howtoIcons img {width: 300px; display: block; margin: 0px auto;}
     .howtoIcons2 img {width: 300px; display: block; margin: 0px auto;}
     .howtoimg {flex: 1;}
 

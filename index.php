@@ -171,7 +171,7 @@
 
 					<div class="col-md-6">
 						<a href="shop.php" id="saleTag">Special Offer</a>
-						<img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+						<img src="img/cakeStand_2.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 						<p class="productPrice">$24.99</p>
 						<a class="ctaBtn" href="" data-toggle="modal" data-target="#myModal">Quick Preview</a>
@@ -204,7 +204,7 @@
 						  <div class="carousel-inner">
 						    <div class="item active">
 								<a href="shop.php" id="saleTag">Special Offer</a>
-								<a href="product.php"><img src="img/cakeStand.jpg" alt="perslice cake slicer and server">
+								<a href="product.php"><img src="img/cakeStand_2.jpg" alt="perslice cake slicer and server">
   	  							<h2 class="productTitle">Perslice<br> Cake Stand</h2>
 	  	  						<p class="productPrice">$24.99</p>
 								</a>
@@ -677,7 +677,7 @@
 
 		<section id="shopPlatforms">
 			<div class="container text-center">
-				<h2>You can also shop at...</h2>
+				<h2>You can also get your Perslice at...</h2>
 				<div id="socialBox">
 					<div class="icon"><a href="https://www.amazon.com/Perslice-Cake-Slicer-Server-Occasion/dp/B07CRRLDJL/ref=sr_1_1?s=home-garden&ie=UTF8&qid=1532976822&sr=1-1&keywords=perslice&dpID=31bxtcBTOYL&preST=_SY300_QL70_&dpSrc=srch" target="_blank"><img src="img/amazonIcon.png"></a></div>
 					<div class="icon"><a href="https://www.facebook.com/PersliceUSA/"  target="_blank"><img src="img/fbIcon.png"></a></div>
