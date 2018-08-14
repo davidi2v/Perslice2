@@ -6,6 +6,10 @@
 
 #postCaption {padding-top: 2em;}
 
+#number {display: block; text-decoration: none;}
+#number:hover {cursor: default;}
+#numberMobile {display: none;}
+
 #banner p {
 	color: #fff;
     text-shadow: 0px 3px 4px rgba(0,0,10,.8);
@@ -230,7 +234,7 @@ index css
 
 #banner {background-color: #eeb2ca;}
 
-#number {
+#number, #numberMobile {
     position: absolute;
     top: 5px;
     left: 30%;
@@ -595,7 +599,7 @@ ul#socialFooter li img {width: 35px;}
 
     .navbar-header {height: 100px;}
 
-    #number {
+    #number, #numberMobile  {
         font-size: 30px;
     }
 
@@ -633,7 +637,7 @@ ul#socialFooter li img {width: 35px;}
 
     .navbar-nav {float: right; margin-top: 85px;}
 
-    #number {
+    #number, #numberMobile {
         transform: none;
         right: 45px;
         text-align: right;
@@ -1471,6 +1475,9 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 }
 
 @media only screen and (max-width: 768px) {
+	#numberMobile {display: block;}
+	#number {display: none;}
+
 	#myCarousel {
         height: 800px;
     }
@@ -1526,7 +1533,7 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 }
 
 @media only screen and (max-width: 767px) {
-	#number {
+	#number, #numberMobile {
         transform: none;
         right: 45px;
         text-align: right;
@@ -1542,7 +1549,7 @@ ul.navbar-nav {position: relative; z-index: 1000;}
         margin-bottom: 0px;
     }
 
-    #number {
+    #number, #numberMobile {
         position: absolute;
         top: 5px;
         right: 25px;
