@@ -1455,32 +1455,6 @@ ul.navbar-nav {position: relative; z-index: 1000;}
     a.navbar-brand img {width: 140px;}
 }
 
-@media only screen and (max-width: 768px) {
-    #myCarousel {
-        height: 800px;
-    }
-
-    a.navbar-brand img {width: 75px;}
-
-    ul#socialFooter li img {
-        width: 28px;
-    }
-
-    #number {
-        transform: none;
-        right: 45px;
-        text-align: right;
-        font-size: 16px;
-    }
-
-    ul.navbar-nav {margin-top: 0px;}
-
-    .nav>li {border-right: solid 1px #000; width: 130px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
-    .nav>li:last-child {border-right:none;}
-
-    .carousel-inner img {width: 100%;}
-}
-
 .navbar-nav {
 	float: right;
 }
@@ -1497,6 +1471,23 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 }
 
 @media only screen and (max-width: 768px) {
+	#myCarousel {
+        height: 800px;
+    }
+
+    a.navbar-brand img {width: 75px;}
+
+    ul#socialFooter li img {
+        width: 28px;
+    }
+
+    ul.navbar-nav {margin-top: 0px;}
+
+    .nav>li {border-right: solid 1px #000; width: 130px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
+    .nav>li:last-child {border-right:none;}
+
+    .carousel-inner img {width: 100%;}
+
 
     .recipeItem {height: 480px;  font-family: "futura-pt", sans-serif; font-size: 20px; }
     #myCarousel {
@@ -1535,6 +1526,13 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 }
 
 @media only screen and (max-width: 767px) {
+	#number {
+        transform: none;
+        right: 45px;
+        text-align: right;
+        font-size: 16px;
+    }
+
 	.navbar-nav {float: none; margin-top: 60px;}
 
     .nav>li {width: 100%;}
