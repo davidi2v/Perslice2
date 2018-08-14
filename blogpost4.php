@@ -102,7 +102,7 @@
 						<h2>Get your own Perslice Cake Slicer and Server!</h2>
 						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
 						<h3>Perslice<br>Cake Slicer and Server</h3>
-						<p id="productPrice"></p>
+						<p id="productPrice">$24.99</p>
 						<a href="product.php" class="ctaBtn">Buy Now</a>
 					</div>
 					<div id="featuredBlogs">

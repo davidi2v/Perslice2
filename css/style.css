@@ -430,7 +430,7 @@ a.ctaBtn:hover {
 /* #recipes .col-md-8 img, #recipes .col-md-6 img {width: 100%;} */
 
 #recipeGrid img {width: 100%; transition: .3s;}
-#recipeGrid img:hover {opacity: .7;}
+#recipeGrid img:hover {opacity: .7; cursor: pointer;}
 
 #recipes h2 {padding-bottom: 10px;  font-size: 40px; font-family: "futura-pt", sans-serif; font-size: 40px;}
 
@@ -948,7 +948,7 @@ recipe-all css
 #recipeCarousel img {width: 100%;}
 
 #allRecipes img {width: 100%; transition: .3s;}
-#allRecipes img:hover {opacity: .7;}
+#allRecipes img:hover {opacity: .7; cursor: pointer;}
 
 #allRecipes h3, #recipeGrid h3 {font-size: 20px; text-align: center;}
 @media only screen and (max-width: 768px) {
@@ -1080,6 +1080,8 @@ now override the 3.3 new styles for modern browsers & apply opacity
 #blogs img {width: 100%;}
 #blogs .aside {margin-top: 4em;}
 
+#blogs .aside2 img {width: 60%;}
+
 #blogs .mobile {
     margin-top: 4em;
 }
@@ -1111,7 +1113,7 @@ blogposts css
 #followSocial ul li img {width: 75%;}
 
 #featuredBlogs {margin-bottom: 4em; margin-top: 4em;}
-#featuredBlogs .carousel {height: 300px;}
+#featuredBlogs .carousel {height: 250px;}
 
 #featuredBlogs2 {margin-bottom: 4em; margin-top: 4em;}
 #featuredBlogs2 .carousel {height: 360px;}
@@ -1356,8 +1358,10 @@ faq css
 
 #blogs h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
 
+#blogs h2, #blogposts h2 {text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
+
 @media only screen and (min-width: 768px) {
-    .aside h2 {font-size: 25px; text-align: center; margin-top: 5em;}
+    /* .aside h2 {font-size: 25px; text-align: center; margin-top: 5em;} */
     .aside2 h2 {font-size: 25px; text-align: left; margin-top: 1em;}
 
     #blogs {margin-top: 2em;}
@@ -1370,7 +1374,6 @@ faq css
 
     #blogs .posts h3 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
     #blogs h3 {text-align: center; font-family: "futura-pt", sans-serif; font-size: 26px;}
-    #blogs h2 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 26px;}
     #blogs h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
 
     #blogs p {font-size: 18px; text-align: center; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
@@ -1528,6 +1531,13 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 	  border-radius: 3px;
 	}
 
+	#blogs h2, #blogposts h2 {text-align: center;}
+
+	#blogs .aside img {width: 60%;}
+
+	.blogBox .blogContent h4 {text-align: center; font-size: 26px;}
+
+	.blogBox {margin-bottom: 4em;}
 
 	/* .mobile {display: block;}
 	.desk {display: none;} */
@@ -1541,6 +1551,10 @@ ul.navbar-nav {position: relative; z-index: 1000;}
     #landing .container-fluid, #landing .container-fluid .col-md-8 {
         padding: 0px;
     }
+
+
+	.blogBox .blogContent h4 {text-align: left; font-size: 26px;}
+	.blogBox .blogContent {padding-left: 10px;}
 
     /* #landing .ctaBtn {margin-left: 15px; margin-right: 15px;} */
 
@@ -1579,7 +1593,7 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 
 @media only screen and (max-width: 500px) {
     #featuredBlogs .carousel {
-        height: 350px;
+        height: 250px;
     }
 
     .recipeItem {height: 310px;}
@@ -1588,6 +1602,10 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 
 @media only screen and (min-width: 500px) {
 	img.title {width: 600px !important;}
+}
+
+@media only screen and (max-width: 400px) {
+	.blogBox .blogContent h4 {font-size: 18px;}
 }
 
 
