@@ -69,7 +69,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid mobile" style="padding: 0px;">
+			<div class="container-fluid mobile">
 				<div class="row">
 					<div id="landingCta" class="col-sm-4">
 						<div id="landingContainer">
