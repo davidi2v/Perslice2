@@ -1270,7 +1270,7 @@ how-to-use css
 .buttonsRow {padding-bottom: 3em;}
 
 .howtoContainer {display: block; margin: 0px auto; width: 100%;}
-.howtoContainer2 {display: block; margin: 0px auto; width: 100%;}
+.howtoContainer2 {display: block; margin: 0px auto; width: 900px;}
 .howtoIcons {width: 100%; display:flex;}
 .howtoIcons img {width: 300px; display: block; margin: 0px auto;}
 .howtoIcons2 {display: flex; width: 100%;}
@@ -1477,27 +1477,14 @@ ul.navbar-nav {position: relative; z-index: 1000;}
     .carousel-inner img {width: 100%;}
 }
 
-@media only screen and (max-width: 767px) {
-
-    .navbar-nav {float: none; margin-top: 60px;}
-
-    .nav>li {width: 100%;}
-
-    ul.navbar-nav {
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
-
-    #number {
-        position: absolute;
-        top: 5px;
-        right: 25px;
-        color: #000;
-        font-size: 16px;
-    }
-}
 .navbar-nav {
 	float: right;
+}
+
+@media only screen and (max-width: 1025px) {
+	.howtoContainer2 {width: 100%;}
+
+	.howtoIcons img {width: 100%;}
 }
 
 @media only screen and (min-width: 769px) {
@@ -1544,6 +1531,23 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 }
 
 @media only screen and (max-width: 767px) {
+	.navbar-nav {float: none; margin-top: 60px;}
+
+    .nav>li {width: 100%;}
+
+    ul.navbar-nav {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    #number {
+        position: absolute;
+        top: 5px;
+        right: 25px;
+        color: #000;
+        font-size: 16px;
+    }
+
 	.navbar-nav {
 		float: none;
 	}
