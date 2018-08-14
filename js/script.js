@@ -114,9 +114,36 @@ $(".input-number").keydown(function (e) {
 -------------------------------------*/
       var screenHeight = screen.height;
       if (screenHeight > 1200) {
-         alert('your screen size is too big');
+         $(window).scroll(function() {
+
+      		$('#socialBox').each(function(){
+      		var imagePos = $(this).offset().top;
+
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+1000) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
+
+      		$('.howtoAnimation').each(function(){
+      		var imagePos = $(this).offset().top;
+
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+1000) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
+
+      		$('.postCaption').each(function(){
+      		var imagePos = $(this).offset().top;
+
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+1000) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
+      	});
       } else {
-         alert('your screen size is big enough');
          $(window).scroll(function() {
       		$('#shopHm').each(function(){
       		var imagePos = $(this).offset().top;
