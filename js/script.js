@@ -113,72 +113,76 @@ $(".input-number").keydown(function (e) {
 | On Scroll Animations
 -------------------------------------*/
       var screenHeight = screen.height;
-      alert(screenHeight);
+      if (screenHeight > 1200) {
+         alert('your screen size is too big');
+      } else {
+         alert('your screen size is big enough');
+         $(window).scroll(function() {
+      		$('#shopHm').each(function(){
+      		var imagePos = $(this).offset().top;
 
-   $(window).scroll(function() {
-		$('#shopHm').each(function(){
-		var imagePos = $(this).offset().top;
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+400) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
+      		$('#specials .contentBox').each(function(){
+      		var imagePos = $(this).offset().top;
 
-		$('#specials .contentBox').each(function(){
-		var imagePos = $(this).offset().top;
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+400) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
+      		$('#insta').each(function(){
+      		var imagePos = $(this).offset().top;
 
-		$('#insta').each(function(){
-		var imagePos = $(this).offset().top;
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+400) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
+      		$('#recipes').each(function(){
+      		var imagePos = $(this).offset().top;
 
-		$('#recipes').each(function(){
-		var imagePos = $(this).offset().top;
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+400) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
+      		$('#socialBox').each(function(){
+      		var imagePos = $(this).offset().top;
 
-		$('#socialBox').each(function(){
-		var imagePos = $(this).offset().top;
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+400) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
+      		$('.howtoAnimation').each(function(){
+      		var imagePos = $(this).offset().top;
 
-		$('.howtoAnimation').each(function(){
-		var imagePos = $(this).offset().top;
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+400) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
+      		$('.postCaption').each(function(){
+      		var imagePos = $(this).offset().top;
 
-		$('.postCaption').each(function(){
-		var imagePos = $(this).offset().top;
+      		var topOfWindow = $(window).scrollTop();
+      			if (imagePos < topOfWindow+400) {
+      				$(this).addClass("slideUp");
+      			}
+      		});
+      	});
+      }
 
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+400) {
-				$(this).addClass("slideUp");
-			}
-		});
-	});
 
    /*-------------------------------------
    | Contact Form Animation
