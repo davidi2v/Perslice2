@@ -338,7 +338,7 @@ a.ctaBtn:hover {
 #shopHm .subheading, #shopMain .subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px;  color: #afe2e3;}
 .brandName {font-family: 'Cookie', cursive; font-size: 40px;}
 
-#shopHm .col-md-6, #shopMain .col-md-6 {
+#shopHm .col-sm-6, #shopMain .col-md-6 {
     text-align: center;
     margin-bottom: 4em;
 }
@@ -535,22 +535,6 @@ ul#socialFooter li img {width: 35px;}
 
 #Copyright {text-align: center; padding-top: 30px; padding-bottom: 20px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
 
-@media only screen and (max-width: 767px) {
-    #landing .container-fluid, #landing .container-fluid .col-md-8 {
-        padding: 0px;
-    }
-
-    /* #landing .ctaBtn {margin-left: 15px; margin-right: 15px;} */
-
-    ul.dropdown-menu li{background-color: #eeb2ca; text-align: center; padding: 10px 0px;}
-
-    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
-        padding: 0px;
-    }
-
-    #landing .row {margin: 0px;}
-}
-
 #landingContainer h1 {font-family: 'Cookie', cursive; font-size: 60px; margin-bottom: 0px;}
 
 .nav>li {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 18px;}
@@ -634,8 +618,8 @@ ul#socialFooter li img {width: 35px;}
     ul.navbar-nav li.active a {background-color: #afe2e3;}
 
 
-    .mobile {display: block;}
-    .desk {display: none;}
+    /* .mobile {display: block;}
+    .desk {display: none;} */
 
     a.navbar-brand img {width: 180px;}
 
@@ -797,7 +781,7 @@ ul#socialFooter li img {width: 35px;}
 
     .blogBox {display : block;}
 
-    #shopPlatforms #socialBox img {width: 40%}
+    #shopPlatforms #socialBox img {width: 55%}
     #shopPlatforms #socialBox .icon:first-child img {float: right; margin-right: 25px;}
     #shopPlatforms #socialBox .icon:last-child img {float: left; margin-left: 25px;}
 
@@ -815,11 +799,6 @@ ul#socialFooter li img {width: 35px;}
 
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar-nav {
-        float: right;
-    }
-}
 /* ---------------------
 shop css
 ---------------------*/
@@ -895,10 +874,6 @@ shop css
 }
 
 @media only screen and (min-width: 768px) {
-    /* #imgHeader #imgText {
-        right: 100px;
-        font-size: 40px;
-    }
 
     #imgHeader #imgText {font-family: "futura-pt", sans-serif; font-size: 60px;} */
 
@@ -998,8 +973,6 @@ single recipe css
 #recipe {margin-bottom: 7em; margin-top: 2em;}
 
 #recipes {visibility: hidden;}
-
-#recipeHead {margin-bottom: 2em;}
 
 #recipe .col-xs-12 img {width: 100%;}
 
@@ -1520,8 +1493,17 @@ ul.navbar-nav {position: relative; z-index: 1000;}
         font-size: 16px;
     }
 }
+.navbar-nav {
+	float: right;
+}
+
+@media only screen and (min-width: 769px) {
+	.mobile {display: block;}
+    .desk {display: none;}
+}
 
 @media only screen and (max-width: 768px) {
+
     .recipeItem {height: 480px;  font-family: "futura-pt", sans-serif; font-size: 20px; }
     #myCarousel {
         height: 780px;
@@ -1545,6 +1527,33 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 	  font-weight: 300;
 	  border-radius: 3px;
 	}
+
+
+	/* .mobile {display: block;}
+	.desk {display: none;} */
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		float: none;
+	}
+
+    #landing .container-fluid, #landing .container-fluid .col-md-8 {
+        padding: 0px;
+    }
+
+    /* #landing .ctaBtn {margin-left: 15px; margin-right: 15px;} */
+
+    ul.dropdown-menu li{background-color: #eeb2ca; text-align: center; padding: 10px 0px;}
+
+    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+        padding: 0px;
+    }
+
+    #landing .row {margin: 0px;}
+
+	#product p.productPrice {text-align: center;}
+
 }
 
 

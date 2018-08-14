@@ -162,14 +162,14 @@
 				  </div>
 				</div>
 				<div class="row desk">
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Slicer and Server</h2>
 						<p class="productPrice">$24.99</p>
 						<a class="ctaBtn" href="" data-toggle="modal" data-target="#myModal">Quick Preview</a>
 					</div>
 
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<a href="shop.php" id="saleTag">Special Offer</a>
 						<img src="img/cakeStand_2.jpg" alt="perslice cake slicer and server">
 						<h2 class="productTitle">Perslice<br> Cake Stand</h2>
@@ -178,7 +178,7 @@
 					</div>
 				</div>
 				<div class="row mobile">
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div class="mainBox">
 							<a href="product.php">
 								<img src="img/Perslice.jpg" alt="perslice cake slicer and server">
@@ -192,7 +192,7 @@
 	  						  </div>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-6">
 						<div id="productCarousel" class="carousel slide" data-ride="carousel">
 						  <!-- Indicators -->
 						  <!-- <ol class="carousel-indicators">
@@ -462,11 +462,11 @@
 	    				<div class="row">
 	    					<div class="col-sm-6 text-center">
 	    						<img src="img/blog1_sq.jpg">
-	    						<h3 class="desk">Blue Velvet Cake</h3>
+	    						<!-- <h3 class="desk">Blue Velvet Cake</h3> -->
 	    					</div>
 	    					<div class="col-sm-6">
 	    						<div id="recipeDetail">
-									<h3 class="mobile">What to Remember When Planning a Birthday</h3>
+									<h3>What to Remember When Planning a Birthday</h3>
 									<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times...</p>
 		    						<a class="ctaBtn" href="blogpost.php">Read More</a>
 	    						</div>
@@ -477,11 +477,11 @@
 	    				<div class="row">
 	    					<div class="col-sm-6 text-center">
 	    						<img src="img/blog2_sq.jpg">
-	    						<h3 class="desk">Carrot Cake</h3>
+	    						<!-- <h3 class="desk">Carrot Cake</h3> -->
 	    					</div>
 	    					<div class="col-sm-6">
 	    						<div id="recipeDetail">
-									<h3 class="mobile">My new favorite kitchen tool!</h3>
+									<h3>My new favorite kitchen tool!</h3>
 									<p>Recently I became very interested in baking and how fine of an art it is. One thing that bothered me is that after all this time...</p>
 		    						<a class="ctaBtn" href="blogpost2.php">Read More</a>
 	    						</div>
@@ -492,11 +492,11 @@
 	    				<div class="row">
 	    					<div class="col-sm-6 text-center">
 	    						<img src="img/blog3_sq.jpg">
-	    						<h3 class="desk">Vegan Chocolate Cake</h3>
+	    						<!-- <h3 class="desk">Vegan Chocolate Cake</h3> -->
 	    					</div>
 	    					<div class="col-sm-6">
 	    						<div id="recipeDetail">
-									<h3 class="mobile">Everything a person needs who loves to bake</h3>
+									<h3>Everything a person needs who loves to bake</h3>
 									<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t live without this!” just to finally realize...</p>
 		    						<a class="ctaBtn" href="blogpost3.php">Read More</a>
 	    						</div>
@@ -579,10 +579,10 @@
 					</div>
 				</div> -->
 				<div class="container desk">
-					<div id="recipeHead" class="row text-center">
+					<!-- <div id="recipeHead" class="row text-center">
 						<h1>Delicious Recipes</h1>
 						<p>Fun and sweet recipes</p>
-					</div>
+					</div> -->
 					<div class="row">
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
