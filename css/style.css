@@ -221,6 +221,10 @@ index css
 .desk {display: block;}
 .mobile {display: none;}
 
+.navbar-nav>li>a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 #landing p, #shopHm p, #shopMain p, #specials p, #newsletter p, #insta p, #recipes p, #blogHm p, #shopPlatforms p {font-size: 16px; margin: 0px;}
 
