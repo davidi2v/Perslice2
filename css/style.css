@@ -1200,7 +1200,7 @@ how-to-use css
 #howto ul {font-style: normal; font-weight: 300; font-size: 16px; padding-top: 25px; padding-bottom: 25px;}
 
 .howtoBox h2, .howtoBox h3 {text-align: center;}
-.howtoBox h2 { font-family: "futura-pt", sans-serif;}
+.howtoBox h2 { font-family: "futura-pt", sans-serif; font-size: 25px;}
 .howtoBox h3 {padding-bottom: 1em; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
 .howtoBox p { font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 16px;}
@@ -1216,7 +1216,7 @@ how-to-use css
 }
 
 #persliceAnimation {
-  margin-bottom: 10em;
+  margin-bottom: 0em;
 }
 
 #persliceAnimation .cakeOutlines img {
