@@ -186,6 +186,7 @@ $(".input-number").keydown(function (e) {
 
    var contactTitle = document.querySelectorAll('h1.contactTitle');
    var option = document.getElementById('h1.contactTitle');
+   var Options = document.getElementById('options');
    // console.log(contactTitle[0]);
 
    var contactForm = document.getElementById('contactForm');
@@ -213,6 +214,7 @@ $(".input-number").keydown(function (e) {
       contactBtn2.style.display = 'none';
       contactBtn3.style.display = 'none';
       contactTitle[0].style.display = 'none';
+      Options.style.marginBottom = '0';
       // contactForm.style.display = 'block';
       $(contactForm).fadeIn();
 
@@ -224,6 +226,7 @@ $(".input-number").keydown(function (e) {
       contactBtn1.style.display = 'none';
       contactBtn3.style.display = 'none';
       contactTitle[1].style.display = 'none';
+      Options.style.marginBottom = '0';
       // contactForm.style.display = 'block';
       $(retailForm).fadeIn();
       $(contactTitle).fadeOut();
@@ -236,6 +239,7 @@ $(".input-number").keydown(function (e) {
       contactBtn1.style.display = 'none';
       contactBtn2.style.display = 'none';
       contactTitle[2].style.display = 'none';
+      Options.style.marginBottom = '0';
       // contactForm.style.display = 'block';
       $(distributionForm).fadeIn();
 

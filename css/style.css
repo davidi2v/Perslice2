@@ -1151,7 +1151,7 @@ contact css
 
 .col-sm-12#contactBtn1 img, .col-sm-12#contactBtn2 img, .col-sm-12#contactBtn3 img {
 	transition: 1s;
-	width: 300px;
+	width: 250px;
 	display: block;
 	margin: 0px auto;
 }
