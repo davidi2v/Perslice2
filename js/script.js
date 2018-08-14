@@ -112,6 +112,9 @@ $(".input-number").keydown(function (e) {
 /*-------------------------------------
 | On Scroll Animations
 -------------------------------------*/
+      var screenHeight = screen.height;
+      alert(screenHeight);
+
    $(window).scroll(function() {
 		$('#shopHm').each(function(){
 		var imagePos = $(this).offset().top;
