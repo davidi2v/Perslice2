@@ -53,7 +53,7 @@
 		</div>
 	</nav>
 	<body>
-		<section id="allRecipes">
+		<!-- <section id="allRecipes">
 			<div class="container desk">
 				<div id="recipeHead" class="row text-center">
 					<h1>Delicious Recipes</h1>
@@ -139,6 +139,605 @@
 						<a href="tantalizing-turtle-praline-cake.php"><img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake"></a>
 						<div class="middle">
 							<div class="text"><a href="tantalizing-turtle-praline-cake.php">Tantalizing Turtle Praline Cake</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<section>
+			<div id="blueVelvet" class="container recipe">
+				<div class="row">
+					<div class="text-center">
+						<img class="title" src="img/Title_sugarShop_desk.png" alt="The Sugar Shop" style="width: 100%; margin: 0px auto; display: block;">
+						<p class="subheading">Recipes for Every Occasion</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img src="img/blueVelvetCake.jpg" alt="Blue velvet cake">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h1>Blue Velvet Cake</h1>
+						<div id="recipeDetail">
+							<div id="timeDiv">
+								<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+							</div>
+						</div>
+						<div id="procedure">
+							<div class="panel-group" id="accordion">
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse1" class="panel-collapse collapse">
+							        <div class="panel-body">
+							        	<ul>
+											<li>1 and 1/4 Cups Cake Flour, sifted</li>
+											<li>1 and 1/4 Cups Ultra-Fine Sugar</li>
+											<li>11 Egg Whites, room temperature</li>
+											<li>2 Teaspoons Vanilla Extract</li>
+											<li>2 oz. of blue food coloring homemade or bought</li>
+											<li>1 and 1/2 Teaspoons Cream of Tartar</li>
+											<li>1 Tablespoon Cocoa Powder</li>
+											<li>1/4 Teaspoon Salt</li>
+											<li>1 and 1/2 Cups Blueberries, fresh not frozen</li>
+							        	</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse2" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>Preheat the oven to 375 degrees Fahrenheit or 190.556 Celsius.</p>
+										<br>
+										<p>Use a large or medium bowl to sift together the flour, a ½ cup of sugar, and cocoa powder.</p>
+										<br>
+										<p>In a separate large bowl, you will beat together your egg whites, the vanilla extract, cream of tartar, and the salt till they begin to peak.</p>
+										<br>
+										<p>* When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted*</p>
+										<br>
+										<p>Follow this by beating the remaining ¾ cups of sugar and add blue food coloring.</p>
+										<br>
+										<p>*You can make your own blue coloring using food products or
+										you can purchase a natural blue food coloring product online*
+										until the mixture begins to hold stiff peaks, this should take about 5 to 6 minutes.</p>
+										<br>
+										<p>*When do you know you have a stiff peak?  When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted. When egg whites are over beaten, they look curdled and dry*</p>
+										<br>
+
+										<p>Fold in ¼ of the flour mixture slowly, it is best if you use a spatula and try not to stir the mixture, continue folding till of the mixture is worked in. Next, pour 1 cup of blueberries into the batter folding them in but do not stir or you will break up the berries.</p>
+										<br>
+										<p>Now, pour the batter into 2 greased round pans and bake for 20-30 minutes. *make sure you grease all the inside edges thoroughly*</p>
+										<br>
+										<p>When you poke the center of the cake with a toothpick it should come out without any wet batter, place on the top of the counter and let it cool for at least 30-40 minutes before removing from the pan. Wait an extra 30 minutes till you frost the cake.</p>
+										<br>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse3" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>Check out our tips and tricks page for dessert lovers! Links from each recipe page</p>
+										<p>Frosting a cake with ease.</p>
+										<ol>
+											<li>Use a piece of wax paper or parchment paper on the top of a baking sheet or plate.</li>
+											<li>Put a cooling rack on the top of the paper.</li>
+											<li>Put your frosting into a microwave-safe bowl or container and heat for 30 seconds or until the frosting is fully melted.</li>
+											<li>Stir in any coloring you might be using, nuts, or other frosting additives.</li>
+											<li>All you have to do is pour the frosting evenly all over the top of the cake till its completely covered, even the sides if you want full coverage. Remember the larger the cake the more frosting you will need.</li>
+											<li>Place the cake in the refrigerator for at least an hour so your frosting will set.</li>
+										</ol>
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="carrotCake" class="container recipe">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img src="img/carrotCake.jpg" alt="Blue velvet cake">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h1>Carrot Cake</h1>
+						<div id="recipeDetail">
+							<div id="timeDiv">
+								<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+							</div>
+						</div>
+						<div id="procedure">
+							<div class="panel-group" id="accordion">
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse1" class="panel-collapse collapse">
+							        <div class="panel-body">
+							        	<ul>
+											<li>2 cups of all purpose flour </li>
+											<li>2 teaspoons of ground cinnamon </li>
+											<li>2 cups of granulated sugar </li>
+											<li>1 teaspoon of baking soda </li>
+											<li>½ teaspoon of salt </li>
+											<li>3 large eggs </li>
+											<li>1 ½ cups of canola oil </li>
+											<li>2 cups finely grated carrots </li>
+											<li>1 cup chopped nuts </li>
+											<li>1 cup sweetened shredded coconut </li>
+											<li>1 teaspoon vanilla extract </li>
+											<li>1 cup drained crushed pineapple (remove all liquid) </li>
+							        	</ul>
+										<br>
+										<p>Frosting</p>
+										<ul>
+											<li>6 oz of softened cream cheese </li>
+											<li>6 tablespoons of softened salted butter </li>
+											<li>3 cups of confectioners sugar </li>
+											<li>1 teaspoon of vanilla extract </li>
+											<li>Add additional nuts </li>
+
+										</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse2" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>Use a large bowl to combine the flour, cinnamon, baking soda, sugar, and salt.<p/>
+										<p>Next, add the eggs, carrots, vanilla, and oil.<p/>
+										<p>Beat until combined fully.<p/>
+										<p>Stir in the coconut, nuts, and pineapple.<p/>
+										<p>Pour the mixture into a round greased pan and bake at 350 degrees Fahrenheit or  176.667 Celcius, poke with a toothpick in the center of the cake and make sure the batter is not wet, remove the cake and place on a wire rack to fully cool.<p/>
+										<p>Use a medium bowl, beat butter and cream cheese together until fluffy, add the confectioners sugar, vanilla, and beat again until smooth and fully blended.<p/>
+										<p>Frost the cake top or top and sides, sprinkle with additional nuts.<p/>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse3" class="panel-collapse collapse">
+							        <div class="panel-body">
+										No notes for this recipe.
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="insaneChocolate" class="container recipe">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img src="img/chocolateCake.jpg" alt="Blue velvet cake">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h1>Insane Chocolate Fun Cake</h1>
+						<div id="recipeDetail">
+							<div id="timeDiv">
+								<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+							</div>
+						</div>
+						<div id="procedure">
+							<div class="panel-group" id="accordion">
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse1" class="panel-collapse collapse">
+							        <div class="panel-body">
+							        	<ul>
+											<li>1 ¼ cups of all purpose flour </li>
+											<li>1 cup of sugar </li>
+											<li>Nonstick vegetable oil spray </li>
+											<li>1 ½ kosher salt </li>
+											<li>1 teaspoon of baking soda </li>
+											<li>1 teaspoon vanilla extract </li>
+											<li>¾ cup natural unsweetened cocoa powder </li>
+											<li>¼ cup vegetable oil </li>
+											<li>½ cup finely chopped semi sweet chocolate approximately 3 ½ oz.</li>
+							        	</ul>
+										<br>
+										<p>Ingredients for the Peanut Butter Cream</p>
+										<ul>
+											<li>½ cup of granulated sugar </li>
+											<li>1 ½ teaspoons vanilla extract </li>
+											<li>6 tablespoons of chilled unsalted butter cut into small cubes </li>
+											<li>¼ cup egg white requires 2 large eggs </li>
+											<li>¼ cup creamy peanut butter</li>
+											<li>1 ½ cups of Kosher salt </li>
+											<li>¼ cup chopped semisweet chocolate which is about 1 ¾ oz</li>
+											<li>¼ cup chopped unsalted dry roasted peanuts </li>
+										</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse2" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius.</p>
+										<br>
+										<p>Spray non-stick on the bottoms and sides of the round pans, line bottom of the pan with parchment paper.</p>
+										<br>
+										<p>Whisk flour and next 4 ingredients in a large bowl. Add oil, vanilla, and 1 1/4 cups water; whisk until smooth. Fold in chopped chocolate. Scrape into prepared pan; smooth top. Bake until a tester comes out clean when inserted into center, 35–40 minutes. Let cool completely in pan on a wire rack.</p>
+										<br>
+										<p>Peanut Butter Cream</p>
+										<p>Use a medium bowl on the top of a saucepan of simmering water, combine the sugar and egg whites, whisk continuously till the sugar is fully dissolved about 4 to 5 minutes, do not overcook, remove from heat.</p>
+										<br>
+										<p>Move the bowl to a heat safe surface, use an electric mixer at a medium speed, add the butter pieces slowly to the bowl beating continuously between adding the butter pieces.</p>
+										<br>
+										<p>Sprinkle the salt.</p>
+										<br>
+										<p>Using a thin knife you will cut around the edge of the pan between the cake and the pan to release onto a serving plate inverted.</p>
+										<br>
+										<p>Spread the peanut butter cream over the entire top of the cake.</p>
+										<br>
+										<p>Sprinkle the chopped chocolate and peanuts.</p>
+										<br>
+
+
+
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse3" class="panel-collapse collapse">
+							        <div class="panel-body">
+										No notes for this recipe.
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="pralineCake" class="container recipe">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img src="img/turtleCake.jpg" alt="Blue velvet cake">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h1>Tantalizing Turtle Praline Cake</h1>
+						<div id="recipeDetail">
+							<div id="timeDiv">
+								<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+							</div>
+						</div>
+						<div id="procedure">
+							<div class="panel-group" id="accordion">
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse1" class="panel-collapse collapse">
+							        <div class="panel-body">
+							        	<ul>
+											<li>¾ cup of unsweetened cocoa </li>
+											<li>2 cups of all purpose flour </li>
+											<li>2 cups of granulated sugar </li>
+											<li>1 cup of brown sugar </li>
+											<li>½ cup of butter </li>
+											<li>1 cup of chopped pecans </li>
+											<li>1 can or 14 oz of sweetened condensed milk </li>
+											<li>1 ½ teaspoon of baking powder </li>
+											<li>1 ½ teaspoon of baking soda </li>
+											<li>1 teaspoon of salt </li>
+											<li>2 large eggs </li>
+											<li>½ cup of canola oil </li>
+											<li>1 teaspoon of vanilla extract </li>
+											<li>1 cup of sour cream </li>
+											<li>1 teaspoon white vinegar</li>
+											<li>1/2 cup fudge topping</li>
+											<li>1/2 cup chocolate chips, melted</li>
+
+							        	</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse2" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius.</p>
+										<br>
+										<p>Grease with butter the bottoms of two 9-inch round cake pans, fit a circle of parchment paper on the inside of each cake pan up the sides 1 inch.</p>
+										<br>
+										<p>Slowly heat the butter, sweetened condensed milk, and brown sugar in a saucepan on a medium heat till the butter melts fully and the sugar is completely dissolved, make sure not to boil.</p>
+										<br>
+										<p>Divide the sugar mixture into equal parts into the two round cake pans. Next, sprinkle the ¾ cup of pecans on top of the sugar mixture and put to the side to set and cool fully.</p>
+										<br>
+										<p>In a large bowl combine the flour, granulated sugar, cocoa, baking powder, baking soda, and the salt together. Add the 2 large eggs, oil, vanilla, sour cream, vinegar, 1 cup of hot water, and mix with a wooden spoon until the batter is smooth and creamy.</p>
+										<br>
+										<p>Pour the batter into the two cake pans over the sugar mixture that has cooled, bake until a toothpick poked into the center of each cake comes out without wet batter, cooking time will be around 30-45 minutes depending upon your oven. </p>
+										<br>
+										<p>Remove from oven and let cool in the pans for at least 10 minutes.</p>
+										<br>
+										<p>Use a knife to run around the edges of the pans to separate from the pan, turn the pan upside down on the cooling rack, remove the parchment paper, let the cakes cool fully before adding frosting.</p>
+										<br>
+										<p>You will now spread the fudge topping on top of the sugar mixture of one of the cakes, place your second cake on the top of the first.</p>
+										<br>
+										<p>Now, drizzle the melted chocolate over the top, sprinkle the ¼ cup of pecans, you can also frost the cake sides with a chocolate frosting. </p>
+										<br>
+										<p>Assemble the cake: Spread the fudge topping over the sugar mixture side of one cake layer. Place the second layer over the first and drizzle with the melted chocolate and the remaining 1/4 cup pecans. Frost the cake sides with your favorite chocolate icing.
+
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse3" class="panel-collapse collapse">
+							        <div class="panel-body">
+										No notes for this recipe.
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="veganChocolate" class="container recipe">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img src="img/veganChocolateCake.jpg" alt="Blue velvet cake">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h1>Vegan Chocolate Cake</h1>
+						<div id="recipeDetail">
+							<div id="timeDiv">
+								<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+							</div>
+						</div>
+						<div id="procedure">
+							<div class="panel-group" id="accordion">
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse1" class="panel-collapse collapse">
+							        <div class="panel-body">
+							        	<ul>
+											<li>2 cups spelt or white flour</li>
+											<li>3/4 cup cacao or unsweetened cocoa powder</li>
+											<li>1 tsp baking soda</li>
+											<li>1 tsp salt</li>
+											<li>1 cup mini chocolate chips, optional</li>
+											<li>1 1/2 cup unrefined sugar or xylitol</li>
+											<li>1/2 cup applesauce, banana, or yogurt of choice, such as coconut milk yogurt</li>
+											<li>1/2 cup oil, almond butter, or another substitute</li>
+											<li>1 1/2 tbsp pure vanilla extract</li>
+											<li>1 1/2 cup water</li>
+
+							        	</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse2" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius, grease two 8-in round pans, set them aside.</p>
+										<br>
+										<p>Use a large bowl, combine the flour, cocoa powder, baking soda, salt, optional chips, and sweetener, and stir well.</p>
+										<br>
+										<p>*if your butter is not easy to stir you can heat gently until it softens*</p>
+										<br>
+										<p>Use a second bowl to whisk together the oil or nut butter, vanilla, applesauce or yogurt, and water.</p>
+										<br>
+										<p>Now, you will pour the wet mixture with the dry and mix until they are combined but do not over-mix.</p>
+										<br>
+										<p>Grease two round pans, pour the mixture into each evenly and bake in the center of the rack for 25 minutes or until the batter has risen, poke the center of the cakes with a toothpick and if you pull it out without any wet batter it is done.</p>
+										<br>
+
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse3" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>*One of our tips is, take the cakes out before they are fully done so the toothpick is almost clean with just a bit of moist batter, the cake will continue to bake in the pan from the heat while it sits on the counter, once cooled you can put the cake inside of the pan into the refrigerator overnight or for a couple of hours to fully set, the vegan cake is even better if you wait a full day to eat*</p>
+										<br>
+										<p>Frosting:</p>
+										<p>Use a knife or a straight spatula, slide it in between the cake edge and the pan to release it, turn it upside down on the serving plate, gently tap the bottom of the pan.</p>
+										<br>
+										<p>You will frost each cake separately before placing one on top of the other, or you can serve two single layer cakes if you prefer.</p>
+										<br>
+										<p>Here is our Vegan Chocolate Frosting Recipe</p>
+										<ul>
+											<li>3 and 3/4 cups (450g) Powdered Sugar</li>
+											<li>4 Tbsp Cocoa Powder</li>
+											<li>3 Tbsp (45g) Vegan Butter</li>
+											<li>5 Tbsp Soy Milk (or other non-dairy milk)</li>
+											<li>1 tsp Vanilla Extract</li>
+										</ul>
+										<br>
+										<p>Use a medium bowl and add the powdered sugar, cocoa powder, vegan butter, non-dairy milk, vanilla, and mix together with an electric hand mixer or stand mixer on low, once blended fully turn the setting up higher and continue till the mixture is thick and creamy.</p>
+										<br>
+										<p>*Some tips for getting the best consistency, you can add more of the non-dairy milk if you want it less thick and smoother, or you can add more of the powdered sugar to thicken it up more, Enjoy!</p>
+										<br>
+
+
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="strawberryCake" class="container recipe">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img src="img/strawberryCake.jpg" alt="Blue velvet cake">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h1>Very Berry Strawberry Cake</h1>
+						<div id="recipeDetail">
+							<div id="timeDiv">
+								<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+							</div>
+						</div>
+						<div id="procedure">
+							<div class="panel-group" id="accordion">
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse1" class="panel-collapse collapse">
+							        <div class="panel-body">
+							        	<ul>
+											<li>1  18.25 oz box of white cake mix </li>
+											<li>1  3 oz box of strawberry flavored instant gelatin </li>
+											<li>1   15 oz package of frozen strawberries in the syrup, thaw first then puree </li>
+											<li>*Puree, To blend, grind or mash food until it is a thick, smooth, lump-free consistency. Pureeing can be done in a blender, food processor, or food mill or can be accomplished by pressing the food through a sieve.*</li>
+											<li>4  large eggs</li>
+											<li>½ cup of vegetable oil</li>
+											<li>¼ cup of water</li>
+											<li>Strawberry cream cheese frosting recipe</li>
+											<li>¼ cup salted softened butter</li>
+											<li>1  10 oz package of cream cheese softened</li>
+											<li>1  10 oz package frozen strawberries in the syrup that are thawed and pureed</li>
+											<li>½ teaspoon strawberry extract</li>
+											<li>7 cups of confectioners sugar</li>
+											<li>Optional, 2-8 fresh strawberries to decorate the stop of the cake or use to garnish, you can slice them thin and place over the top of the cake or place a few in the middle of the cake to decorate, or use them to garnish the plates</li>
+
+							        	</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse2" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celsius.</p>
+										<br>
+										<p>Lightly grease 2  9 inch round cake cake pans.</p>
+										<br>
+										<p>Use a large bowl to combine the boxed cake mix and the gelatin, add the pureed strawberries, eggs, oil, and the water.</p>
+										<br>
+										<p>Beat the ingredients at a medium speed with an electric mixer until smooth.</p>
+										<br>
+										<p>Next, pour the mixture into the two greased round pans, bake in the center of the oven for 20 minutes or until a toothpick poked into the center of each cake comes out without wet batter.</p>
+										<br>
+										<p>Remove from oven and let stand for 10 minutes in the pans.</p>
+										<br>
+										<p>Remove from pans and cool fully on a wire rack.</p>
+										<br>
+										<p>*tips on how to remove a cake from a pan on our tips page* </p>
+										<br>
+
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="collapse3" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>Frosting:</p>
+										<p>Use a large bowl to beat the butter and cream cheese on a medium speed with an electric mixer, do this until the consistency is smooth and creamy.</p>
+										<br>
+										<p>Beat in ¼ of a cup of the strawberry puree and the strawberry extract, slowly add the confectioners sugar, continue beating till the mixture is smooth.</p>
+										<br>
+										<p>Use the frosting between the two layers, over the top and sides or you can choose to frost each separately, garnish with fresh whole or sliced strawberries.</p>
+										<br>
+										<p>With the remaining strawberry puree you can use vanilla bean ice cream or lemon gelato on the side, drizzle the puree over the top for a taste and visual sensation!</p>
+										<br>
+
+							        </div>
+							      </div>
+							    </div>
+							  </div>
 						</div>
 					</div>
 				</div>

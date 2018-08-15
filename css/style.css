@@ -442,13 +442,13 @@ a.ctaBtn:hover {
 
 #recipes h2 {padding-bottom: 10px;  font-size: 40px; font-family: "futura-pt", sans-serif; font-size: 40px;}
 
-#recipe .col-md-8 {padding: 0px;}
+/* .recipe .col-md-8 {padding: 0px;}
 
-#recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+.recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
 
-#recipe #timeDiv .time {flex: 1;}
+.recipe #timeDiv .time {flex: 1;}
 
-#recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;}
+.recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;} */
 
 #recipeCarousel  .carousel-control.left {background: none;}
 
@@ -553,7 +553,7 @@ ul#socialFooter li img {width: 35px;}
 
 #cakepopBox h3 {font-size: 30px; color: #fff; background-color: #000; font-family: "futura-pt", sans-serif;}
 
-#recipes p.subheading, #blogHm p.subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px; padding-bottom: 25px;}
+#recipes p.subheading, #blogHm p.subheading, .recipe p.subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px; padding-bottom: 25px;}
 
 #blogHm h2 { font-family: "futura-pt", sans-serif; font-size: 30px;}
 
@@ -798,7 +798,7 @@ ul#socialFooter li img {width: 35px;}
     .blogBox {overflow: hidden; position: relative}
     #blogHm .row {margin-top: 25px;}
 
-    #recipes p.subheading, #blogHm p.subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px; padding-bottom: 25px;}
+    #recipes p.subheading, #blogHm p.subheading, .recipe p.subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px; padding-bottom: 25px;}
 
     #blogHm h2 { font-family: "futura-pt", sans-serif; font-size: 40px;}
 
@@ -976,18 +976,26 @@ recipe-all css
 /* ---------------------
 single recipe css
 ---------------------*/
+.recipe .col-md-8 {padding: 0px;}
+
+.recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+
+.recipe #timeDiv .time {flex: 1;}
+
+.recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;}
+
 #allRecipes {margin-bottom: 6em;}
 
-#recipe {margin-bottom: 7em; margin-top: 2em;}
+.recipe {margin-bottom: 7em; margin-top: 2em;}
 
 #recipes {visibility: hidden;}
 
-#recipe .col-xs-12 img {width: 100%;}
+.recipe .col-xs-12 img {width: 100%;}
 
-#recipe h2 {padding-bottom: 25px;}
+.recipe h2 {padding-bottom: 25px;}
 
-#recipe .col-xs-12 {padding: 0px;}
-#recipe #procedure {padding-left: 15px; padding-right: 15px;}
+.recipe .col-xs-12 {padding: 0px;}
+.recipe #procedure {padding-left: 15px; padding-right: 15px;}
 
 #blogHm #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
 
@@ -998,8 +1006,8 @@ single recipe css
 #blogHm #timeDiv .time img {width: 30px; float: left; padding-left: 7px;}
 
 @media only screen and (min-width: 768px) {
-    #recipe .col-xs-12 {padding: 15px;}
-    #recipe #procedure {padding-left: 0px; padding-right: 0px;}
+    .recipe .col-xs-12 {padding: 15px;}
+    .recipe #procedure {padding-left: 0px; padding-right: 0px;}
 
     /* #recipeCarousel #recipeDetail {margin-top: 80px;} */
     #recipeDetail .ctaBtn {float: left; color: #000;}
@@ -1475,6 +1483,8 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 }
 
 @media only screen and (max-width: 768px) {
+	.recipe h1 {padding-left: 10px;}
+
 	#numberMobile {display: block;}
 	#number {display: none;}
 

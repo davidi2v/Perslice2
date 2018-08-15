@@ -588,7 +588,7 @@
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
 							<h3>Blue Velvet Cake</h3>
-							<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
+							<a href="recipes-all.php" class="ctaBtn">Read Recipe</a>
 						</div>
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/carrotCake.jpg" alt="Carrot Cake">
@@ -624,41 +624,41 @@
 				<div class="container mobile">
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 recipeItem">
-							<a href="blue-velvet-cake.php"><img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake"></a>
+							<a href="recipes-all.php#blueVelvet"><img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake"></a>
 							<div class="middle">
-								<div class="text"><a href="blue-velvet-cake.php">Blue Velvet Cake</a></div>
+								<div class="text"><a href="recipes-all.php#blueVelvet">Blue Velvet Cake</a></div>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-4 recipeItem">
-							<a href="carrot-cake.php"><img src="img/carrotCake.jpg" alt="Carrot Cake"></a>
+							<a href="recipes-all.php#carrotCake"><img src="img/carrotCake.jpg" alt="Carrot Cake"></a>
 							<div class="middle">
-								<div class="text"><a href="carrot-cake.php">Carrot Cake</a></div>
+								<div class="text"><a href="recipes-all.php#carrotCake">Carrot Cake</a></div>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-4 recipeItem">
-							<a href="insane-chocolate-fun-cake.php"><img src="img/chocolateCake.jpg" alt="Insane chocolate fun Cake"></a>
+							<a href="recipes-all.php#insaneChocolate"><img src="img/chocolateCake.jpg" alt="Insane chocolate fun Cake"></a>
 							<div class="middle">
-								<div class="text"><a href="insane-chocolate-fun-cake.php">Insane Chocolate Fun Cake Cake</a></div>
+								<div class="text"><a href="recipes-all.php#insaneChocolate">Insane Chocolate Fun Cake</a></div>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 recipeItem">
-							<a href="vegan-chocolate-cake.php"><img src="img/veganChocolateCake.jpg" alt="Vegan Chocolate Cake"></a>
+							<a href="recipes-all.php#veganChocolate"><img src="img/veganChocolateCake.jpg" alt="Vegan Chocolate Cake"></a>
 							<div class="middle">
-								<div class="text"><a href="vegan-chocolate-cake.php">Vegan Chocolate Cake</a></div>
+								<div class="text"><a href="recipes-all.php#veganChocolate">Vegan Chocolate Cake</a></div>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-4 recipeItem">
-							<a href="very-berry-strawberry-cake.php"><img src="img/strawberryCake.jpg" alt="Very Berry Strawberry Cake"></a>
+							<a href="recipes-all.php#strawberryCake"><img src="img/strawberryCake.jpg" alt="Very Berry Strawberry Cake"></a>
 							<div class="middle">
-								<div class="text"><a href="very-berry-strawberry-cake.php">Very Berry Strawberry Cake</a></div>
+								<div class="text"><a href="recipes-all.php#strawberryCake">Very Berry Strawberry Cake</a></div>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-4 recipeItem">
-							<a href="tantalizing-turtle-praline-cake.php"><img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake"></a>
+							<a href="recipes-all.php#pralineCake"><img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake"></a>
 							<div class="middle">
-								<div class="text"><a href="tantalizing-turtle-praline-cake.php">Tantalizing Turtle Praline Cake</a></div>
+								<div class="text"><a href="recipes-all.php#pralineCake">Tantalizing Turtle Praline Cake</a></div>
 							</div>
 						</div>
 					</div>
