@@ -588,36 +588,36 @@
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
 							<h3>Blue Velvet Cake</h3>
-							<a href="recipes-all.php" class="ctaBtn">Read Recipe</a>
+							<a href="recipes-all.php#blueVelvet" class="ctaBtn">Read Recipe</a>
 						</div>
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/carrotCake.jpg" alt="Carrot Cake">
 							<h3>Carrot Cake</h3>
-							<a href="carrot-cake.php" class="ctaBtn">Read Recipe</a>
+							<a href="recipes-all.php#carrotCake" class="ctaBtn">Read Recipe</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/chocolateCake.jpg" alt="Insane Chocolate Fun Cake">
 							<h3>Insane Chocolate Fun Cake</h3>
-							<a href="insane-chocolate-fun-cake.php" class="ctaBtn">Read Recipe</a>
+							<a href="recipes-all.php#insaneChocolate" class="ctaBtn">Read Recipe</a>
 						</div>
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/veganChocolateCake.jpg" alt="Vegan Chocolate Cake">
 							<h3>Vegan Chocolate Cake</h3>
-							<a href="vegan-chocolate-cake.php" class="ctaBtn">Read Recipe</a>
+							<a href="recipes-all.php#veganChocolate" class="ctaBtn">Read Recipe</a>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/strawberryCake.jpg" alt="Very Berry Strawberry Cake">
 							<h3>Very Berry Strawberry Cake</h3>
-							<a href="very-berry-strawberry-cake.php" class="ctaBtn">Read Recipe</a>
+							<a href="recipes-all.php#strawberryCake" class="ctaBtn">Read Recipe</a>
 						</div>
 						<div class="col-xs-6 col-sm-6 recipeItem">
 							<img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake">
 							<h3>Tantalizing Turtle Praline Cake</h3>
-							<a href="tantalizing-turtle-praline-cake.php" class="ctaBtn">Read Recipe</a>
+							<a href="recipes-all.php#pralineCake" class="ctaBtn">Read Recipe</a>
 						</div>
 					</div>
 				</div>
