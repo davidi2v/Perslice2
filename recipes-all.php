@@ -170,10 +170,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#blueVelvetcollapse1">Ingredients <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse1" class="panel-collapse collapse">
+							      <div id="blueVelvetcollapse1" class="panel-collapse collapse">
 							        <div class="panel-body">
 							        	<ul>
 											<li>1 and 1/4 Cups Cake Flour, sifted</li>
@@ -192,10 +192,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#blueVelvetcollapse2">Directions <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse2" class="panel-collapse collapse">
+							      <div id="blueVelvetcollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 375 degrees Fahrenheit or 190.556 Celsius.</p>
 										<br>
@@ -226,10 +226,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#blueVelvetcollapse3">Notes <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse3" class="panel-collapse collapse">
+							      <div id="blueVelvetcollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Check out our tips and tricks page for dessert lovers! Links from each recipe page</p>
 										<p>Frosting a cake with ease.</p>
@@ -270,10 +270,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#carrotCakecollapse1">Ingredients <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse1" class="panel-collapse collapse">
+							      <div id="carrotCakecollapse1" class="panel-collapse collapse">
 							        <div class="panel-body">
 							        	<ul>
 											<li>2 cups of all purpose flour </li>
@@ -305,10 +305,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#carrotCakecollapse2">Directions <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse2" class="panel-collapse collapse">
+							      <div id="carrotCakecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Use a large bowl to combine the flour, cinnamon, baking soda, sugar, and salt.<p/>
 										<p>Next, add the eggs, carrots, vanilla, and oil.<p/>
@@ -323,10 +323,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#carrotCakecollapse3">Notes <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse3" class="panel-collapse collapse">
+							      <div id="carrotCakecollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										No notes for this recipe.
 							        </div>
@@ -358,10 +358,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#insaneChocolatecollapse1">Ingredients <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse1" class="panel-collapse collapse">
+							      <div id="insaneChocolatecollapse1" class="panel-collapse collapse">
 							        <div class="panel-body">
 							        	<ul>
 											<li>1 ¼ cups of all purpose flour </li>
@@ -392,10 +392,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#insaneChocolatecollapse2">Directions <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse2" class="panel-collapse collapse">
+							      <div id="insaneChocolatecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius.</p>
 										<br>
@@ -425,10 +425,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#insaneChocolatecollapse3">Notes <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse3" class="panel-collapse collapse">
+							      <div id="insaneChocolatecollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										No notes for this recipe.
 							        </div>
@@ -460,10 +460,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#pralineCakecollapse1">Ingredients <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse1" class="panel-collapse collapse">
+							      <div id="pralineCakecollapse1" class="panel-collapse collapse">
 							        <div class="panel-body">
 							        	<ul>
 											<li>¾ cup of unsweetened cocoa </li>
@@ -491,10 +491,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#pralineCakecollapse2">Directions <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse2" class="panel-collapse collapse">
+							      <div id="pralineCakecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius.</p>
 										<br>
@@ -524,10 +524,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#pralineCakecollapse3">Notes <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse3" class="panel-collapse collapse">
+							      <div id="pralineCakecollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										No notes for this recipe.
 							        </div>
@@ -559,10 +559,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#veganChocolatecollapse1">Ingredients <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse1" class="panel-collapse collapse">
+							      <div id="veganChocolatecollapse1" class="panel-collapse collapse">
 							        <div class="panel-body">
 							        	<ul>
 											<li>2 cups spelt or white flour</li>
@@ -583,10 +583,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#veganChocolatecollapse2">Directions <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse2" class="panel-collapse collapse">
+							      <div id="veganChocolatecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius, grease two 8-in round pans, set them aside.</p>
 										<br>
@@ -607,10 +607,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#veganChocolatecollapse3">Notes <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse3" class="panel-collapse collapse">
+							      <div id="veganChocolatecollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>*One of our tips is, take the cakes out before they are fully done so the toothpick is almost clean with just a bit of moist batter, the cake will continue to bake in the pan from the heat while it sits on the counter, once cooled you can put the cake inside of the pan into the refrigerator overnight or for a couple of hours to fully set, the vegan cake is even better if you wait a full day to eat*</p>
 										<br>
@@ -663,10 +663,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ingredients <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#strawberryCakecollapse1">Ingredients <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse1" class="panel-collapse collapse">
+							      <div id="strawberryCakecollapse1" class="panel-collapse collapse">
 							        <div class="panel-body">
 							        	<ul>
 											<li>1  18.25 oz box of white cake mix </li>
@@ -691,10 +691,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Directions <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#strawberryCakecollapse2">Directions <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse2" class="panel-collapse collapse">
+							      <div id="strawberryCakecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celsius.</p>
 										<br>
@@ -719,10 +719,10 @@
 							    <div class="panel panel-default">
 							      <div class="panel-heading">
 							        <h4 class="panel-title">
-							          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Notes <span class="caret"></span></a>
+							          <a data-toggle="collapse" data-parent="#accordion" href="#strawberryCakecollapse3">Notes <span class="caret"></span></a>
 							        </h4>
 							      </div>
-							      <div id="collapse3" class="panel-collapse collapse">
+							      <div id="strawberryCakecollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Frosting:</p>
 										<p>Use a large bowl to beat the butter and cream cheese on a medium speed with an electric mixer, do this until the consistency is smooth and creamy.</p>
