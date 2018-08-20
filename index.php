@@ -526,10 +526,10 @@
 			</div>
 			<div id="recipeGrid" class="row">
 				<!-- <div class="col-sm-4 col-xs-6">
-					<a href=""><img src="img/blueVelvetCake.jpg" alt="blue velvet cake"></a>
+					<a href=""><img src="img/recipe_blue-velvet_sq.jpg" alt="blue velvet cake"></a>
 				</div>
 				<div class="col-sm-4 col-xs-6">
-					<a href=""><img src="img/carrotCake.jpg" alt="carrot cake"></a>
+					<a href=""><img src="img/carrot-cake_sq.jpg" alt="carrot cake"></a>
 				</div>
 				<div class="col-sm-4 col-xs-6">
 					<a href=""><img src="img/strawberryCake.jpg" alt="strawberry cake"></a>
@@ -545,12 +545,12 @@
 				</div> -->
 				<!-- <div class="row">
 					<div class="col-xs-6 col-sm-6 recipeItem">
-						<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
+						<img src="img/recipe_blue-velvet_sq.jpg" alt="Blue Velvet Cake">
 						<h3>Blue Velvet Cake</h3>
 						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
 					</div>
 					<div class="col-xs-6 col-sm-6 recipeItem">
-						<img src="img/carrotCake.jpg" alt="Carrot Cake">
+						<img src="img/carrot-cake_sq.jpg" alt="Carrot Cake">
 						<h3>Carrot Cake</h3>
 						<a href="carrot-cake.php" class="ctaBtn">Read Recipe</a>
 					</div>
@@ -586,12 +586,12 @@
 					</div> -->
 					<div class="row">
 						<div class="col-xs-6 col-sm-6 recipeItem">
-							<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
+							<img src="img/recipe_blue-velvet_sq.jpg" alt="Blue Velvet Cake">
 							<h3>Blue Velvet Cake</h3>
 							<a href="recipes-all.php#blueVelvet" class="ctaBtn">Read Recipe</a>
 						</div>
 						<div class="col-xs-6 col-sm-6 recipeItem">
-							<img src="img/carrotCake.jpg" alt="Carrot Cake">
+							<img src="img/carrot-cake_sq.jpg" alt="Carrot Cake">
 							<h3>Carrot Cake</h3>
 							<a href="recipes-all.php#carrotCake" class="ctaBtn">Read Recipe</a>
 						</div>
@@ -624,13 +624,13 @@
 				<div class="container mobile">
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 recipeItem">
-							<a href="recipes-all.php#blueVelvet"><img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake"></a>
+							<a href="recipes-all.php#blueVelvet"><img src="img/recipe_blue-velvet_sq.jpg" alt="Blue Velvet Cake"></a>
 							<div class="middle">
 								<div class="text"><a href="recipes-all.php#blueVelvet">Blue Velvet Cake</a></div>
 							</div>
 						</div>
 						<div class="col-xs-12 col-sm-4 recipeItem">
-							<a href="recipes-all.php#carrotCake"><img src="img/carrotCake.jpg" alt="Carrot Cake"></a>
+							<a href="recipes-all.php#carrotCake"><img src="img/carrot-cake_sq.jpg" alt="Carrot Cake"></a>
 							<div class="middle">
 								<div class="text"><a href="recipes-all.php#carrotCake">Carrot Cake</a></div>
 							</div>
