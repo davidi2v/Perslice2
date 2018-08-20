@@ -62,7 +62,7 @@
 						<p>July 14, 2018</p>
 						<p>By: Mai Ashley</p>
 					</div>
-					<img src="img/blog1.jpg" alt="" id="blogImg">
+					<img src="img/blog_what-to-remember_sq.jpg" alt="" id="blogImg">
 					<br>
 					<div id="postCaption" class="postCaption">
 						<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times the numerous versions of the event you must layout before settling upon the final event design, along with all of my set-up items such as cake design, cake serving gadgets, and serve wear.</p>
@@ -108,7 +108,7 @@
 						  <div class="carousel-inner">
 							<div class="item active">
 							<a href="blogpost2.php">
-								<img src="img/blog2.jpg" alt="">
+								<img src="img/blog_my-new-favorite_sq.jpg" alt="">
 							</a>
 							<div class="middle">
 								<div class="text"><a href="blogpost2.php">My new favorite kitchen tool!</a></div>
@@ -116,7 +116,7 @@
 							</div>
 							<div class="item">
 							<a href="blogpost3.php">
-								<img src="img/blog3.jpg" alt="">
+								<img src="img/blog_everything-a-person-needs_sq.jpg" alt="">
 							</a>
 							<div class="middle">
 								<div class="text"><a href="blogpost3.php">Everything a person needs who loves to bake.</a></div>

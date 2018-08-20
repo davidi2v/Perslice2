@@ -62,7 +62,7 @@
 						<p>July 14, 2018</p>
 						<p>By: Aliza Welch</p>
 					</div>
-					<img src="img/blog3.jpg" alt="" id="blogImg">
+					<img src="img/blog_everything-a-person-needs_sq.jpg" alt="" id="blogImg">
 					<br>
 					<div id="postCaption" class="postCaption">
 						<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t  live without this!” just to finally realize, all I am doing is adding and not being completely strategic with my tools. My main interest in the kitchen is baking, other than the random snack I might be in there to grab, I don’t do a lot of cooking for myself because I tend to overcook or make a huge mess which I am not fond of cleaning up.</p>
@@ -140,7 +140,7 @@
 							</div>
 							<div class="item">
 							<a href="blogpost.php">
-								<img src="img/blog1.jpg" alt="">
+								<img src="img/blog_what-to-remember_sq.jpg" alt="">
 							</a>
 							<div class="middle">
 								<div class="text"><a href="blogpost.php">What to Remember When Planning a Birthday</a></div>
@@ -148,7 +148,7 @@
 							</div>
 							<div class="item">
 							<a href="blogpost2.php">
-								<img src="img/blog2.jpg" alt="">
+								<img src="img/blog_my-new-favorite_sq.jpg" alt="">
 							</a>
 							<div class="middle">
 								<div class="text"><a href="blogpost2.php">My new favorite kitchen tool!</a></div>

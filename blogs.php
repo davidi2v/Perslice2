@@ -12,8 +12,7 @@
 	<?php include 'banner.php'?>
 	<nav class="navbar">
 		<div class="container">
-			<a id="numberMobile" href="tel:18885671901">CALL : (888) 567-1901</a>
-			<a id="number" href="">CALL : (888) 567-1901</a>
+			<a id="number" href="#">CALL : (888) 567-1901</a>
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
@@ -61,7 +60,7 @@
 						<h3>What to Remember When Planning a Birthday</h3>
 						<p>July 14, 2018</p>
 						<p>By: Mai Ashley</p>
-						<a href="blogpost.php"><img src="img/blog1.jpg"></a>
+						<a href="blogpost.php"><img src="img/blog_what-to-remember_sq.jpg"></a>
 						<div class="postCaption">
 							<p>I was recently planning a birthday event and realizing how much pleasure I derive from the extensive and often times the numerous versions of the event you must layout before settling upon the final event design...</p>
 							<a href="blogpost.php" class="ctaBtn">Read More</a>
@@ -71,7 +70,7 @@
 						<h3>My new favorite kitchen tool!</h3>
 						<p>Published : July 15, 2018</p>
 						<p>By: Drake Astor</p>
-						<a href="blogpost2.php"><img src="img/blog2.jpg"></a>
+						<a href="blogpost2.php"><img src="img/blog_my-new-favorite_sq.jpg"></a>
 						<div class="postCaption">
 							<p>Recently I became very interested in baking and how fine of an art it is. One thing that bothered me is that after all this time is how I’ll spend a few hours perfecting a cake and to only have it fall apart as soon as...</p>
 							<a href="blogpost2.php" class="ctaBtn">Read More</a>
@@ -81,7 +80,7 @@
 						<h3>Everything a person needs who loves to bake.</h3>
 						<p>July 14, 2018</p>
 						<p>By: Aliza Welch</p>
-						<a href="blogpost3.php"><img src="img/blog3.jpg"></a>
+						<a href="blogpost3.php"><img src="img/blog_everything-a-person-needs_sq.jpg"></a>
 						<div class="postCaption">
 							<p>My kitchen has seen many transformation of style and equipment that I had thought “I can’t  live without this!” just to finally realize, all I am doing is adding and not being completely strategic with my tools...</p>
 							<a href="blogpost3.php" class="ctaBtn">Read More</a>
@@ -113,7 +112,7 @@
 							<a href="blogpost.php">
 								<div class="blogBox">
 									<div class="blogImg">
-										<img src="img/blog1.jpg">
+										<img src="img/blog_what-to-remember_sq.jpg">
 									</div>
 									<div class="blogContent">
 										<div class="middle">
@@ -146,7 +145,7 @@
 									<a href="blogpost.php">
 										<div class="blogBox">
 											<div class="blogImg">
-												<img src="img/blog1.jpg">
+												<img src="img/blog_what-to-remember_sq.jpg">
 											</div>
 											<div class="blogContent">
 												<h4>What to Remember When Planning a Birthday</h4>

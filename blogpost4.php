@@ -120,7 +120,7 @@
 						  <div class="carousel-inner">
 							<div class="item active">
 							<a href="blogpost.php">
-								<img src="img/blog1.jpg" alt="">
+								<img src="img/blog_what-to-remember_sq.jpg" alt="">
 							</a>
 							<div class="middle">
 								<div class="text"><a href="blogpost.php">What to Remember When Planning a Birthday</a></div>
@@ -128,7 +128,7 @@
 							</div>
 							<div class="item">
 							<a href="blogpost2.php">
-								<img src="img/blog2.jpg" alt="">
+								<img src="img/blog_my-new-favorite_sq.jpg" alt="">
 							</a>
 							<div class="middle">
 								<div class="text"><a href="blogpost2.php">My new favorite kitchen tool!</a></div>
@@ -136,10 +136,10 @@
 							</div>
 							<div class="item">
 							<a href="blogpost3.php">
-								<img src="img/blog3.jpg" alt="">
+								<img src="img/blog_everything-a-person-needs_sq.jpg" alt="">
 							</a>
 							<div class="middle">
-								<div class="text"><a href="blogpost3.php">Get your own Perslice Cake Slicer and Server!</a></div>
+								<div class="text"><a href="blogpost3.php">Everything a person needs who loves to bake.</a></div>
 							</div>
 							</div>
 						  </div>

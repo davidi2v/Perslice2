@@ -462,7 +462,7 @@
 				    <div class="item active">
 	    				<div class="row">
 	    					<div class="col-sm-6 text-center">
-	    						<img src="img/blog1_sq.jpg">
+	    						<img src="img/blog_what-to-remember_sq.jpg">
 	    						<!-- <h3 class="desk">Blue Velvet Cake</h3> -->
 	    					</div>
 	    					<div class="col-sm-6">
@@ -477,7 +477,7 @@
 					<div class="item">
 	    				<div class="row">
 	    					<div class="col-sm-6 text-center">
-	    						<img src="img/blog2_sq.jpg">
+	    						<img src="img/blog_my-new-favorite_sq.jpg">
 	    						<!-- <h3 class="desk">Carrot Cake</h3> -->
 	    					</div>
 	    					<div class="col-sm-6">
@@ -492,7 +492,7 @@
 					<div class="item">
 	    				<div class="row">
 	    					<div class="col-sm-6 text-center">
-	    						<img src="img/blog3_sq.jpg">
+	    						<img src="img/blog_everything-a-person-needs_sq.jpg">
 	    						<!-- <h3 class="desk">Vegan Chocolate Cake</h3> -->
 	    					</div>
 	    					<div class="col-sm-6">
