@@ -219,7 +219,7 @@
 								<a href="shop.php" id="saleTag">Special Offer</a>
 							   <a href="product.php"><img src="img/cakePan.jpg" alt="perslice cake slicer and server">
 							   <h2 class="productTitle">Perslice<br> Cake Pan</h2>
-							   <p class="productPrice">$24.99</p>
+							   <p class="productPrice">$9.99</p>
 							    </a>
 							   <div class="middle">
 						    		<div class="text">
@@ -231,7 +231,7 @@
 							   <a href="shop.php" id="saleTag">Special Offer</a>
 							   <a href="product.php"><img src="img/measuringSpoons.jpg" alt="perslice cake slicer and server">
 							   <h2 class="productTitle">Perslice<br> Measuring Spoons</h2>
-							   <p class="productPrice">$24.99</p>
+							   <p class="productPrice">$7.99</p>
 							   </a>
 							   <div class="middle">
 								   <div class="text">
