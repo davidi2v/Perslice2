@@ -620,6 +620,18 @@
 							<a href="recipes-all.php#pralineCake" class="ctaBtn">Read Recipe</a>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 recipeItem">
+							<img src="img/popcorn-cake_sq.jpg" alt="Peanut Butter Caramel Popcorn Cake">
+							<h3>Peanut Butter Caramel Popcorn Cake</h3>
+							<a href="recipes-all.php#popcornCake" class="ctaBtn">Read Recipe</a>
+						</div>
+						<!-- <div class="col-xs-6 col-sm-6 recipeItem">
+							<img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake">
+							<h3>Tantalizing Turtle Praline Cake</h3>
+							<a href="recipes-all.php#pralineCake" class="ctaBtn">Read Recipe</a>
+						</div> -->
+					</div>
 				</div>
 				<div class="container mobile">
 					<div class="row">
@@ -659,6 +671,14 @@
 							<a href="recipes-all.php#pralineCake"><img src="img/turtleCake.jpg" alt="Tantalizing Turtle Praline Cake"></a>
 							<div class="middle">
 								<div class="text"><a href="recipes-all.php#pralineCake">Tantalizing Turtle Praline Cake</a></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-4 recipeItem">
+							<a href="recipes-all.php#popcornCake"><img src="img/popcorn-cake_sq.jpg" alt="Peanut Butter Caramel Popcorn Cake"></a>
+							<div class="middle">
+								<div class="text"><a href="recipes-all.php#popcornCake">Peanut Butter Caramel Popcorn Cake</a></div>
 							</div>
 						</div>
 					</div>

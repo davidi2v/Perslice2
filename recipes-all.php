@@ -62,12 +62,12 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-sm-6 recipeItem">
-						<img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake">
+						<img src="img/recipe_blue-velvet_sq.jpg" alt="Blue Velvet Cake">
 						<h3>Blue Velvet Cake</h3>
 						<a href="blue-velvet-cake.php" class="ctaBtn">Read Recipe</a>
 					</div>
 					<div class="col-xs-6 col-sm-6 recipeItem">
-						<img src="img/carrotCake.jpg" alt="Carrot Cake">
+						<img src="img/carrot-cake_sq.jpg" alt="Carrot Cake">
 						<h3>Carrot Cake</h3>
 						<a href="carrot-cake.php" class="ctaBtn">Read Recipe</a>
 					</div>
@@ -105,13 +105,13 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 recipeItem">
-						<a href="blue-velvet-cake.php"><img src="img/blueVelvetCake.jpg" alt="Blue Velvet Cake"></a>
+						<a href="blue-velvet-cake.php"><img src="img/recipe_blue-velvet_sq.jpg" alt="Blue Velvet Cake"></a>
 						<div class="middle">
 							<div class="text"><a href="blue-velvet-cake.php">Blue Velvet Cake</a></div>
 						</div>
 					</div>
 					<div class="col-xs-12 col-sm-4 recipeItem">
-						<a href="carrot-cake.php"><img src="img/carrotCake.jpg" alt="Carrot Cake"></a>
+						<a href="carrot-cake.php"><img src="img/carrot-cake_sq.jpg" alt="Carrot Cake"></a>
 						<div class="middle">
 							<div class="text"><a href="carrot-cake.php">Carrot Cake</a></div>
 						</div>
@@ -155,7 +155,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-md-6">
-						<img src="img/blueVelvetCake.jpg" alt="Blue velvet cake">
+						<img src="img/recipe_blue-velvet_sq.jpg" alt="Blue velvet cake">
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<h1>Blue Velvet Cake</h1>
@@ -255,7 +255,7 @@
 			<div id="carrotCake" class="container recipe">
 				<div class="row">
 					<div class="col-xs-12 col-md-6">
-						<img src="img/carrotCake.jpg" alt="Blue velvet cake">
+						<img src="img/carrot-cake_sq.jpg" alt="Blue velvet cake">
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<h1>Carrot Cake</h1>
@@ -733,6 +733,213 @@
 										<p>Use the frosting between the two layers, over the top and sides or you can choose to frost each separately, garnish with fresh whole or sliced strawberries.</p>
 										<br>
 										<p>With the remaining strawberry puree you can use vanilla bean ice cream or lemon gelato on the side, drizzle the puree over the top for a taste and visual sensation!</p>
+										<br>
+
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div id="popcornCake" class="container recipe">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img src="img/popcorn-cake_sq.jpg" alt="Blue velvet cake">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h1>Peanut Butter Caramel Popcorn Cake</h1>
+						<div id="recipeDetail">
+							<div id="timeDiv">
+								<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+							</div>
+						</div>
+						<div id="procedure">
+							<div class="panel-group" id="accordion">
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#popcornCakecollapse1">Ingredients <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="popcornCakecollapse1" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p><b>Brown Butter Cake:</b></p>
+							        	<ul>
+											<li>1 1/4 cups unsalted browned butter, chilled then softened</li>
+											<li>2 ¼ cups all-purpose flour</li>
+											<li>2 ½ teaspoons baking powder</li>
+											<li>½  teaspoon salt</li>
+											<li>1 cup granulated sugar</li>
+											<li>½ cup brown sugar</li>
+											<li>2 teaspoons pure vanilla extract</li>
+											<li>2 large eggs</li>
+											<li>2 egg yolks</li>
+											<li>1 cup + 2 tablespoons whole milk</li>
+							        	</ul>
+										<p><b>Peanut Butter Frosting:</b></p>
+							        	<ul>
+											<li>1 1/2 cups unsalted butter, softened</li>
+											<li>4 ounces cream cheese, softened</li>
+											<li>3/4 cup smooth peanut butter</li>
+											<li>5 1/2 to 6 cups confectioners sugar</li>
+											<li>1/4 to 1/3 cup milk</li>
+											<li>1 teaspoon vanilla extract</li>
+							        	</ul>
+										<p><b>Caramel Popcorn:</b></p>
+							        	<ul>
+											<li>about 5 cups popped popcorn</li>
+											<li>1/2 cup unsalted peanuts</li>
+											<li>1/4 cup unsalted butter</li>
+											<li>1/4 cup Beehive Golden Syrup</li>
+											<li>1/2 cup brown sugar</li>
+											<li>1/2 teaspoon salt</li>
+											<li>1/2 teaspoon baking soda</li>
+											<li>1/2 teaspoon ground cinnamon</li>
+											<li>1 teaspoon vanilla extract</li>
+											<li>extra sea salt for sprinkling (optional)</li>
+							        	</ul>
+										<p><b>Salted Caramel Sauce (for drizzling and assembling):</b></p>
+							        	<ul>
+											<li>1/2 cup sugar</li>
+											<li>2 tablespoons Beehive Golden Syrup</li>
+											<li>1 tablespoon water</li>
+											<li>1/3 cup heavy cream,</li>
+											<li>1 tablespoon unsalted butter</li>
+											<li>1/2 teaspoon sea salt, or to taste</li>
+							        	</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#popcornCakecollapse2">Directions <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="popcornCakecollapse2" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p><b>Brown Butter:</b></p>
+										<br>
+										<p>Place the butter in a small saucepan over medium heat until melted.</p>
+										<br>
+										<p>Continue to cook, while stirring, until the milk solids on the bottom of the pan begin to brown and the butter is fragrant and nutty (about 5 minutes).</p>
+										<br>
+										<p>Transfer the butter (including the browned bits at the bottom) to a glass bowl and place in the freezer for about 15 minutes, or until it just begins to firm up back up.</p>
+										<br>
+										<p><b>For the Cake:</p></b>
+										<P>Preheat oven to 350 degrees.  Grease and flour three 6-inch cake pans and set aside.</p>
+											<br>
+										<p>Whisk together the dry ingredients and set aside.</p>
+										<br>
+										<p>In the bowl of an electric mixer, beat together the browned butter and both sugars on medium speed for about 3 to 4 minutes until light and fluffy.</p>
+										<br>
+										<p>With the mixer on low, add in the vanilla and eggs – one at a time.</p>
+										<br>
+										<p>In alternating batches (beginning and ending with the dry ingredients), add in the flour mixture and the milk while the mixer runs on low speed.  Be sure to incorporate each ingredient before adding in the next batch.</p>
+										<br>
+										<p>Mix the batter on medium speed no more than 20 to 30 seconds once the last traces of flour disappear.</p>
+										<br>
+										<p>Evenly distribute between the pans and bake until a toothpick inserted into the center comes out clean (about 30 to 35 minutes).</p>
+										<br>
+										<p>Cool on a wire rack for about 15 minutes before removing the cakes from their pans.</p>
+										<br>
+										<p><b>Peanut Butter Frosting:</p></b>
+										<p>Using an electric mixer, beat the butter and cream cheese together until smooth.</p>
+										<br>
+										<p>Add in the peanut butter and mix until smooth.</p>
+										<br>
+										<p>With the mixer on low, gradually add in the remaining ingredients.</p>
+										<br>
+										<p>Once incorporated, increase the speed to medium and mix until smooth.</p>
+										<br>
+										<p>Add in more milk or sugar until desired consistency is reached.</p>
+										<br>
+										<p><b>Caramel popcorn:</p></b>
+										<p>Pre-heat oven to 250 degrees.</p>
+										<br>
+										<p>Stir together the popped popcorn and peanuts.</p>
+										<br>
+										<p>Spread out on a parchment-line rimmed baking sheet and set aside.</p>
+										<br>
+										<p>In a medium saucepan, melt the butter over medium heat.</p>
+										<br>
+										<p>Stir in the corn syrup and sugar with a wooden spoon.</p>
+										<br>
+										<p>Turnt he heat up to medium-high.</p>
+										<br>
+										<p>Stirring constantly, bring to a boil. Boil for about 4 minutes.</p>
+										<br>
+										<p>Remove form the heat and immediately stir in the salt, baking soda, cinnamon, and vanilla.</p>
+										<br>
+										<p>Quickly but carefully, pour the caramel over the popcorn mixture - taking care to stir and evenly coat the popcorn and peanuts.</p>
+										<br>
+										<p>Spread out into an even layer and bake for about 45 to 60 minutes, stirring every 15 minutes.</p>
+										<br>
+										<p>Remove from the oven and let rest until cool enough to handle.</p>
+										<br>
+										<p>Pile on top of the cake before serving,  Use salted caramel sauce to help stick together, if necessary.</p>
+										<br>
+										<p><b>Salted Caramel Sauce:</p></b>
+										<p>Place the sugar, syrup, and water in a small saucepan over high heat.</p>
+										<br>
+										<p>Bring the sugar mixture to a boil and cook without stirring until the mixture reaches about 350 degrees on a candy thermometer.</p>
+										<br>
+										<p>Once it reaches this temperature and turns a medium amber color, remove from the heat.</p>
+										<br>
+										<p>Slowly (and carefully) whisk in the cream (the mixture will bubble up a bit, so use caution).</p>
+										<br>
+										<p>Whisk in the butter until melted.</p>
+										<br>
+										<p>Transfer the caramel to a heat-safe container and stir in the salt.</p>
+										<br>
+										<p>Let cool until slightly thickened.</p>
+										<br>
+										<p><b>Assembly:</p></b>
+										<p>Once the cakes have cooled, trim to level off the tops if necessary.</p>
+										<br>
+										<p>Place the bottom layer on a cake stand or serving dish.  Spread on about ¾ cup of the peanut butter frosting with a small offset spatula.</p>
+										<br>
+										<p>Top with the next layer of cake and repeat.</p>
+										<br>
+										<p>Crumb coat the cake with the frosting and chill to set in the refrigerator for about 15 minutes.</p>
+										<br>
+										<p>Frost the cake with the remaining frosting.</p>
+										<br>
+										<p>Garnish the top of the cake with a generous amount of caramel popcorn.</p>
+										<br>
+										<p>Once the caramel sauce has cooled and thickened (but not solid), use to help hold the caramel popcorn in place and let drip over the edges of the cake.</p>
+										<br>
+										<p>To serve, carefully remove some of the caramel popcorn in order to cut the cake.   Serve with any remaining caramel popcorn, if desired.</p>
+										<br>
+
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#popcornCakecollapse3">Notes <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="popcornCakecollapse3" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>The cake layers are extremely moist and tender, especially straight from the oven.  To make them a bit more stable and easier to frost, wrap cooled cakes in a double layer of plastic and chill in the refrigerator for an hour or so, or up to three days.</p>
+										<br>
+										<p>Caramel popcorn may be made up to a week in advanced.</p>
+										<br>
+										<p>Caramel sauce may be made up to a week in advance and stored in the refrigerator.  Reheat before assembling the cake.</p>
+										<br>
+										<p>Store any extra caramel popcorn in an airtight container for about a week.  The recipe may be doubled, should you wish to make a big batch (using half for the cake and the rest for snacking or gifting!)</p>
+										<br>
+										<p>Likewise, leftover peanut butter frosting may be stored in an airtight container in the refrigerator for about a week.  Use to slather between cookies or graham crackers for a sweet treat!</p>
+										<br>
+										<p>Instead of using three 6-inch cake pans, the brown butter cake may also be baked in two 8 or 9-inch cake pans.  Bake times may vary.</p>
 										<br>
 
 							        </div>
