@@ -645,7 +645,9 @@ ul#socialFooter li img {width: 35px;}
     }
 
     a.ctaBtn{
-        width: 130px;
+		width: 270px;
+    	height: 50px;
+		margin-left: 30px;
     }
 
     #banner {background-color: #eeb2ca; height: 50px;}
@@ -723,8 +725,12 @@ ul#socialFooter li img {width: 35px;}
 		visibility: hidden;
     }
 
-    #specials .salesContent .contentBox .ctaBtn, #blogs .ctaBtn {
+    #specials .salesContent .contentBox .ctaBtn {
         float: left;
+    }
+
+	#blogs .ctaBtn {
+        float: right;
     }
 
      #specials .salesContent .contentBox .ctaBtn p{
@@ -1111,6 +1117,8 @@ now override the 3.3 new styles for modern browsers & apply opacity
 @media only screen and (min-width: 768px) {
     .blogContent a {color: #000; text-decoration: none;}
 }
+
+.postCaption {display: flex;}
 
 /* ---------------------
 blogposts css
