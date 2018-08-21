@@ -56,7 +56,7 @@
 	<body>
 		<div class="container" id="blogposts">
 			<div class="row">
-				<div class="col-xs-12 col-md-8">
+				<div class="col-xs-12 col-sm-9">
 					<div id="blogHeader">
 						<h1>My new favorite kitchen tool!</h1>
 						<p>Published : July 15, 2018</p>
@@ -68,14 +68,7 @@
 						<p>Now I know you’re probably thinking about how sharp the blades are, let me tell you there is no need to worry about having an accident with your fingers, Perslice came prepared, it features quality plastic blades that are not at all sharp and will still cut through a cake with ease. At parties it makes for a great way to cut cake, but to also have fun. My little cousins and my friends both enjoy it!</p>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-4">
-					<div class="aside text-center">
-						<h2>Get your own Perslice Cake Slicer and Server!</h2>
-						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
-						<h3>Perslice<br>Cake Slicer and Server</h3>
-						<p id="productPrice">$24.99</p>
-						<a href="product.php" class="ctaBtn">Buy Now</a>
-					</div>
+				<div class="col-xs-12 col-sm-3">
 					<div id="featuredBlogs">
 						<h2 class="text-center">Other Blogposts</h2>
 						<div id="recipeCarousel" class="carousel slide" data-ride="carousel">
@@ -125,7 +118,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-4">
+				<div class="col-xs-12 col-sm-3">
 					<div id="followSocial">
 						<h3>Follow Us!</h2>
 						<ul>
@@ -134,6 +127,13 @@
 							<li><a href="https://twitter.com/persliceusa?lang=en" target="_blank"><img src="img/twitterIcon.png" alt=""></a></li>
 							<li><a href="https://www.youtube.com/channel/UCNun0CgGBKZDRyAzXDZSYWg" target="_blank"><img src="img/youtubeIcon.png" alt=""></a></li>
 						</ul>
+					</div>
+					<div class="aside text-center">
+						<h2>Get your own Perslice Cake Slicer and Server!</h2>
+						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
+						<h3>Perslice<br>Cake Slicer and Server</h3>
+						<p id="productPrice">$24.99</p>
+						<a href="product.php" class="ctaBtn">Buy Now</a>
 					</div>
 				</div>
 			</div>

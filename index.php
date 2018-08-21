@@ -267,9 +267,9 @@
 			    <div class="item active">
 					  <img src="img/cakeHeart.jpg" alt="cake with heart">
 					  <div class="contentBox">
-	    				  <h3>Order 2<br> <span>SAVE 20%</span></h3>
-	    				  <p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
-	    				  <a class="ctaBtn" href="product.php">Shop Now</a>
+	    				  <h3>Just For You</h3>
+	    				  <p>Discounts, Special Offers, and Amazing Event Details!</p>
+	    				  <a class="ctaBtn" href="product.php">Learn More</a>
 			      	  </div>
 			    </div>
 			    <div class="item">
@@ -320,9 +320,9 @@
 					</div>
 					<div class="col-sm-6 salesContent">
 					<div class="contentBox">
-						<h3>Order 2<br> <span>SAVE 20%</span></h3>
-		  				<p>For a limited time we are offering an additional 20% off when you purchase one for you and one for a friend or family member</p>
-		  				<a class="ctaBtn" href="product.php">Shop Now</a>
+						<h3>Just For You</h3>
+		  				<p>Discounts, Special Offers, and Amazing Event Details!</p>
+		  				<a class="ctaBtn" href="product.php">Learn More</a>
 					</div>
 					</div>
 				</div>
@@ -369,7 +369,7 @@
 		<section id="insta">
 			<div class="container">
 				<div class="head row text-center">
-					<h2>Instagram @<span class="brandName">perslice</span></h2>
+					<h2>Instagram @<span class="brandName">Perslice</span></h2>
 					<p>Tag us @perslice to have your photo added to our feed!</p>
 				</div>
 				<div class="desk">

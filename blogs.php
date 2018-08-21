@@ -55,7 +55,7 @@
 	<body>
 		<div class="container" id="blogs">
 			<div class="row">
-				<div class="col-xs-12 col-md-8 text-left">
+				<div class="col-xs-12 col-sm-9 text-left">
 					<div class="posts">
 						<h3>What to Remember When Planning a Birthday</h3>
 						<p>July 14, 2018</p>
@@ -87,14 +87,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-md-4">
-					<div class="aside text-center">
-						<h2>Get your own Perslice Cake Slicer and Server!</h2>
-						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
-						<h3>Perslice<br>Cake Slicer and Server</h3>
-						<p class="productPrice">$24.99</p>
-						<a href="product.php" class="ctaBtn">Buy Now</a>
-					</div>
+				<div class="col-xs-12 col-sm-3">
 					<div class="mobile">
 						<h2>Recent Blogposts</h2>
 							<a href="blogpost4.php">
@@ -121,6 +114,13 @@
 									</div>
 								</div>
 							</a>
+					</div>
+					<div class="aside text-center">
+						<h2>Get your own Perslice Cake Slicer and Server!</h2>
+						<img src="img/Perslice.jpg" alt="Perslice cake slicer and server">
+						<h3>Perslice<br>Cake Slicer and Server</h3>
+						<p class="productPrice">$24.99</p>
+						<a href="product.php" class="ctaBtn">Buy Now</a>
 					</div>
 					<section id="blogHm" class="desk">
 							<div class="row text-center">
