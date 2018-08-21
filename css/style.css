@@ -1495,6 +1495,12 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 }
 
 @media only screen and (max-width: 768px) {
+	#insta .col-xs-6 img, #insta .col-md-3 img {
+	    width: 100%;
+	    transition: .3s;
+		padding: 5px;
+	}
+
 	.recipe h1 {padding-left: 10px;}
 
 	#numberMobile {display: block;}
