@@ -951,6 +951,102 @@
 				</div>
 			</div>
 		</section>
+		<section>
+			<div id="saltyChocolateCake" class="container recipe">
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img src="img/sweet-salty-choc-cake(1)_sq.jpg" alt="Sassy, Sweet, and Salty Chocolate Cake">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h1>Sassy, Sweet, and Salty Chocolate Cake</h1>
+						<div id="recipeDetail">
+							<div id="timeDiv">
+								<div class="time"><img src="img/clockIcon.png"><p>Prep Time: <br> 20 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Cook Time: <br> 30 mins</p></div>
+								<div class="time"><img src="img/clockIcon.png"><p>Total Time: <br> 50 mins</p></div>
+							</div>
+						</div>
+						<div id="procedure">
+							<div class="panel-group" id="accordion">
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#saltyChocolatecollapse1">Ingredients <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="saltyChocolatecollapse1" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p><b>Cake:</b></p>
+							        	<ul>
+											<li>1 cup (2 sticks) unsalted butter, cut into pieces, plus more for baking dish</li>
+											<li>2 cups all-purpose flour, plus more for baking dish</li>
+											<li>1/4 cup unsweetened cocoa powder</li>
+											<li>2 cups sugar</li>
+											<li>1 teaspoon baking soda</li>
+											<li>1 teaspoon kosher salt</li>
+											<li>2 large eggs</li>
+											<li>1/2 cup buttermilk</li>
+											<li>1 teaspoon vanilla extract</li>
+
+							        	</ul>
+										<p><b>Frosting:</b></p>
+							        	<ul>
+											<li>1/4 cup (1/2 stick) unsalted butter</li>
+											<li>3 tablespoons whole milk</li>
+											<li>2 tablespoons unsweetened cocoa powder</li>
+											<li>1 1/2 cups powdered sugar</li>
+											<li>1 teaspoon vanilla extract</li>
+											<li>1/2 cup chopped unsalted, roasted pistachios</li>
+											<li>1 teaspoon flaky sea salt (such as Maldon)</li>
+							        	</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#saltyChocolatecollapse2">Directions <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="saltyChocolatecollapse2" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p><b>Cake:</b></p>
+										
+										<p>Preheat oven to 350°. Butter and flour a 13x9" baking dish. Bring cocoa powder, 1 cup butter, and 1 cup water to a boil in a small saucepan; remove from heat.</p>
+										<p>Meanwhile, whisk sugar, baking soda, salt, and 2 cups flour in a medium bowl. Make a well in the center. Add eggs, buttermilk, and vanilla to well. Blend with a fork, then gradually incorporate dry ingredients. Add butter mixture and whisk until smooth. Scrape batter into prepared baking dish and smooth top.</p>
+										<p>Bake until cake starts to pull away from edges of dish and a tester inserted into the center comes out clean, 35–40 minutes. Transfer pan to a wire rack.</p>
+										<br>
+										<p><b>Frosting:</b></p>
+										
+										<p>Just before cake has finished baking, heat butter, milk, and cocoa powder in a medium saucepan over low heat, whisking occasionally, until butter is melted and mixture is smooth (do not let boil). Remove from heat and whisk in powdered sugar and vanilla.</p>
+										<p>Pour warm frosting over warm cake and spread out and smooth with an offset spatula. Top with pistachios and sea salt.</p>
+										<p>Serve slightly warm or room temperature.</p>
+
+
+
+							        </div>
+							      </div>
+							    </div>
+							    <div class="panel panel-default">
+							      <div class="panel-heading">
+							        <h4 class="panel-title">
+							          <a data-toggle="collapse" data-parent="#accordion" href="#saltyChocolatecollapse3">Notes <span class="caret"></span></a>
+							        </h4>
+							      </div>
+							      <div id="saltyChocolatecollapse3" class="panel-collapse collapse">
+							        <div class="panel-body">
+										<p>No notes for this recipe.</p>
+										<br>
+
+							        </div>
+							      </div>
+							    </div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 	<?php include 'footer.php'?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
