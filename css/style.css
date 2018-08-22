@@ -344,7 +344,7 @@ a.ctaBtn:hover {
 
 #shopHm h2, #shopMain h2 {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 35px;}
 #shopHm .subheading, #shopMain .subheading {font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300; font-size: 25px;  color: #afe2e3;}
-.brandName {font-family: 'Cookie', cursive; font-size: 50px;}
+.brandName {font-family: 'Cookie', cursive; font-size: 60px;}
 
 #shopHm .col-sm-6, #shopMain .col-md-6 {
     text-align: center;
@@ -444,11 +444,11 @@ a.ctaBtn:hover {
 
 /* .recipe .col-md-8 {padding: 0px;}
 
-.recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+/* .recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;} */
 
-.recipe #timeDiv .time {flex: 1;}
+/* .recipe #timeDiv .time {flex: 1;} */
 
-.recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;} */
+/* .recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;} */ */
 
 #recipeCarousel  .carousel-control.left {background: none;}
 
@@ -722,7 +722,7 @@ ul#socialFooter li img {width: 35px;}
     #specials .salesContent .contentBox {
         position: absolute;
         top: 50%;
-        transform: translate(0,30%);
+        transform: translate(0,25%);
         margin: 0px 35px;
         text-align: left;
         left: 30px;
@@ -931,11 +931,11 @@ product css
     background: none;
     border-right: 0;
     border-left: 0;
-    border-top: solid 2px #000;
+    /* border-top: solid 2px #000; */
 }
 
 .panel-group .panel-default:last-child {
-    border-bottom: solid 2px #000;
+    /* border-bottom: solid 2px #000; */
 }
 
 .panel-heading {
@@ -946,7 +946,7 @@ product css
     font-size: 30px;
   }
 
-  .panel-title a {font-family: "futura-pt", sans-serif; font-size: 20px;}
+  .panel-title a {font-family: "futura-pt", sans-serif; font-size: 20px;  font-style: normal; font-weight: 300;}
   .panel-body {font-family: "futura-pt", sans-serif; font-size: 16px;}
 
     #productInfo #productName h1 {font-family: "futura-pt", sans-serif; font-size: 40px;}
@@ -988,11 +988,13 @@ single recipe css
 ---------------------*/
 .recipe .col-md-8 {padding: 0px;}
 
-.recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+p.recipeTitle {font-size: 36px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
-.recipe #timeDiv .time {flex: 1;}
+/* .recipe #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;} */
 
-.recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;}
+/* .recipe #timeDiv .time {flex: 1;} */
+
+/* .recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;} */
 
 #allRecipes {margin-bottom: 6em;}
 
@@ -1007,13 +1009,13 @@ single recipe css
 .recipe .col-xs-12 {padding: 0px;}
 .recipe #procedure {padding-left: 15px; padding-right: 15px;}
 
-#blogHm #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;}
+/* #blogHm #timeDiv {display: flex; padding: 3em 0px; padding-top: 1em;} */
 
-#blogHm #timeDiv .time {flex: 1; text-align: center;}
-#blogHm #timeDiv .time {flex: 1; text-align: center;}
-#recipeDetail #timeDiv .time p { font-family: "futura-pt", sans-serif;}
+/* #blogHm #timeDiv .time {flex: 1; text-align: center;} */
+/* #blogHm #timeDiv .time {flex: 1; text-align: center;} */
+/* #recipeDetail #timeDiv .time p { font-family: "futura-pt", sans-serif;} */
 
-#blogHm #timeDiv .time img {width: 30px; float: left; padding-left: 7px;}
+/* #blogHm #timeDiv .time img {width: 30px; float: left; padding-left: 7px;} */
 
 @media only screen and (min-width: 768px) {
     .recipe .col-xs-12 {padding: 15px;}
@@ -1629,7 +1631,7 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 
 @media only screen and (max-width: 560px) {
     #myCarousel {
-        height: 530px;
+        height: 555px;
     }
 
     .recipeItem {height: 350px;}

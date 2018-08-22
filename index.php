@@ -267,17 +267,17 @@
 			    <div class="item active">
 					  <img src="img/cakeHeart.jpg" alt="cake with heart">
 					  <div class="contentBox">
-	    				  <h3>Just For You</h3>
-	    				  <p>Discounts, Special Offers, and Amazing Event Details!</p>
-	    				  <a class="ctaBtn" href="product.php">Learn More</a>
+						  <h3>Order The Entire Set <br> SAVE Over 40%</h3>
+  		  				<p>For a limited time only we are offering an additional 40% off when you purchase the entire set of products. <br> The set includes: 1 Perslice, 1 Cake Stand, 1 Set of Pans, 1 Set of Measuring Cups</p>
+  		  				<a class="ctaBtn" href="product.php">Learn More</a>
 			      	  </div>
 			    </div>
 			    <div class="item">
 			      <img src="img/babyBitesCake.jpg" alt="baby bites cake">
 				  <div class="contentBox">
-					  <h3><span>Enter to Win</span> <br>$500</h3>
-    				  <p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
-    				  <a class="ctaBtn" href="" data-toggle="modal" data-target="#contestModal">Learn More</a>
+					  <h3>Just For You</h3>
+					  <p>Sign up to receive Discounts, Special Offers, and Invitations to Amazing Events</p>
+    				  <a class="ctaBtn" href="" data-toggle="modal" data-target="#contestModal">Sign Up</a>
 				  </div>
 			    </div>
 			  </div>
@@ -320,8 +320,8 @@
 					</div>
 					<div class="col-sm-6 salesContent">
 					<div class="contentBox">
-						<h3>Just For You</h3>
-		  				<p>Discounts, Special Offers, and Amazing Event Details!</p>
+						<h3>Order The Entire Set <br> SAVE Over 40%</h3>
+		  				<p>For a limited time only we are offering an additional 40% off when you purchase the entire set of products. <br> The set includes: 1 Perslice, 1 Cake Stand, 1 Set of Pans, 1 Set of Measuring Cups</p>
 		  				<a class="ctaBtn" href="product.php">Learn More</a>
 					</div>
 					</div>
@@ -329,9 +329,9 @@
 				<div class="row">
 					<div class="col-sm-6 salesContent">
 					<div class="contentBox">
-						<h3><span>Enter to Win</span> <br>$500</h3>
-	  					<p>All you have to do is take a photo and send it to us and tell us about your Perslice experience</p>
-	  					<p class="ctaBtn" data-toggle="modal" data-target="#contestModal">Learn More</p>
+						<h3>Just For You</h3>
+  					  <p>Sign up to receive Discounts, Special Offers, and Invitations to Amazing Events</p>
+      				  <a class="ctaBtn" href="" data-toggle="modal" data-target="#contestModal">Sign Up</a>
 					</div>
 					<div id="contestModal" class="modal fade" role="dialog">
 					  <div class="modal-dialog">
