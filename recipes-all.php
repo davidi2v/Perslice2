@@ -41,7 +41,7 @@
 						<ul class="dropdown-menu">
 						<li><a href="blogs.php">BLOGS</a></li>
 						<li><a href="recipes-all.php">RECIPES</a></li>
-						<li><a href="all-events.php">SPECIAL EVENTS</a></li>
+						<!-- <li><a href="all-events.php">SPECIAL EVENTS</a></li> -->
 						</ul>
 					</li>
 					<li><a href="how-to-use.php">HOW TO USE</a></li>
@@ -199,28 +199,28 @@
 							      <div id="blueVelvetcollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 375 degrees Fahrenheit or 190.556 Celsius.</p>
-										
+
 										<p>Use a large or medium bowl to sift together the flour, a ½ cup of sugar, and cocoa powder.</p>
-										
+
 										<p>In a separate large bowl, you will beat together your egg whites, the vanilla extract, cream of tartar, and the salt till they begin to peak.</p>
-										
+
 										<p>* When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted*</p>
-										
+
 										<p>Follow this by beating the remaining ¾ cups of sugar and add blue food coloring.</p>
-										
+
 										<p>*You can make your own blue coloring using food products or
 										you can purchase a natural blue food coloring product online*
 										until the mixture begins to hold stiff peaks, this should take about 5 to 6 minutes.</p>
-										
+
 										<p>*When do you know you have a stiff peak?  When the egg whites are beaten to soft peak stage, the whites will mound, but no sharp tips will form. When the recipe calls for egg whites that are beaten to the stiff peak stage, beat until sharp tips form when the beaters are lifted. When egg whites are over beaten, they look curdled and dry*</p>
-										
+
 
 										<p>Fold in ¼ of the flour mixture slowly, it is best if you use a spatula and try not to stir the mixture, continue folding till of the mixture is worked in. Next, pour 1 cup of blueberries into the batter folding them in but do not stir or you will break up the berries.</p>
-										
+
 										<p>Now, pour the batter into 2 greased round pans and bake for 20-30 minutes. *make sure you grease all the inside edges thoroughly*</p>
-										
+
 										<p>When you poke the center of the cake with a toothpick it should come out without any wet batter, place on the top of the counter and let it cool for at least 30-40 minutes before removing from the pan. Wait an extra 30 minutes till you frost the cake.</p>
-										
+
 							        </div>
 							      </div>
 							    </div>
@@ -290,7 +290,7 @@
 											<li>1 teaspoon vanilla extract </li>
 											<li>1 cup drained crushed pineapple (remove all liquid) </li>
 							        	</ul>
-										
+
 										<p>Frosting</p>
 										<ul>
 											<li>6 oz of softened cream cheese </li>
@@ -375,7 +375,7 @@
 											<li>¼ cup vegetable oil </li>
 											<li>½ cup finely chopped semi sweet chocolate approximately 3 ½ oz.</li>
 							        	</ul>
-										
+
 										<p>Ingredients for the Peanut Butter Cream</p>
 										<ul>
 											<li>½ cup of granulated sugar </li>
@@ -399,24 +399,24 @@
 							      <div id="insaneChocolatecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius.</p>
-										
+
 										<p>Spray non-stick on the bottoms and sides of the round pans, line bottom of the pan with parchment paper.</p>
-										
+
 										<p>Whisk flour and next 4 ingredients in a large bowl. Add oil, vanilla, and 1 1/4 cups water; whisk until smooth. Fold in chopped chocolate. Scrape into prepared pan; smooth top. Bake until a tester comes out clean when inserted into center, 35–40 minutes. Let cool completely in pan on a wire rack.</p>
-										
+
 										<p>Peanut Butter Cream</p>
 										<p>Use a medium bowl on the top of a saucepan of simmering water, combine the sugar and egg whites, whisk continuously till the sugar is fully dissolved about 4 to 5 minutes, do not overcook, remove from heat.</p>
-										
+
 										<p>Move the bowl to a heat safe surface, use an electric mixer at a medium speed, add the butter pieces slowly to the bowl beating continuously between adding the butter pieces.</p>
-										
+
 										<p>Sprinkle the salt.</p>
-										
+
 										<p>Using a thin knife you will cut around the edge of the pan between the cake and the pan to release onto a serving plate inverted.</p>
-										
+
 										<p>Spread the peanut butter cream over the entire top of the cake.</p>
-										
+
 										<p>Sprinkle the chopped chocolate and peanuts.</p>
-										
+
 
 
 
@@ -498,25 +498,25 @@
 							      <div id="pralineCakecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius.</p>
-										
+
 										<p>Grease with butter the bottoms of two 9-inch round cake pans, fit a circle of parchment paper on the inside of each cake pan up the sides 1 inch.</p>
-										
+
 										<p>Slowly heat the butter, sweetened condensed milk, and brown sugar in a saucepan on a medium heat till the butter melts fully and the sugar is completely dissolved, make sure not to boil.</p>
-										
+
 										<p>Divide the sugar mixture into equal parts into the two round cake pans. Next, sprinkle the ¾ cup of pecans on top of the sugar mixture and put to the side to set and cool fully.</p>
-										
+
 										<p>In a large bowl combine the flour, granulated sugar, cocoa, baking powder, baking soda, and the salt together. Add the 2 large eggs, oil, vanilla, sour cream, vinegar, 1 cup of hot water, and mix with a wooden spoon until the batter is smooth and creamy.</p>
-										
+
 										<p>Pour the batter into the two cake pans over the sugar mixture that has cooled, bake until a toothpick poked into the center of each cake comes out without wet batter, cooking time will be around 30-45 minutes depending upon your oven. </p>
-										
+
 										<p>Remove from oven and let cool in the pans for at least 10 minutes.</p>
-										
+
 										<p>Use a knife to run around the edges of the pans to separate from the pan, turn the pan upside down on the cooling rack, remove the parchment paper, let the cakes cool fully before adding frosting.</p>
-										
+
 										<p>You will now spread the fudge topping on top of the sugar mixture of one of the cakes, place your second cake on the top of the first.</p>
-										
+
 										<p>Now, drizzle the melted chocolate over the top, sprinkle the ¼ cup of pecans, you can also frost the cake sides with a chocolate frosting. </p>
-										
+
 										<p>Assemble the cake: Spread the fudge topping over the sugar mixture side of one cake layer. Place the second layer over the first and drizzle with the melted chocolate and the remaining 1/4 cup pecans. Frost the cake sides with your favorite chocolate icing.
 
 							        </div>
@@ -590,17 +590,17 @@
 							      <div id="veganChocolatecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celcius, grease two 8-in round pans, set them aside.</p>
-										
+
 										<p>Use a large bowl, combine the flour, cocoa powder, baking soda, salt, optional chips, and sweetener, and stir well.</p>
-										
+
 										<p>*if your butter is not easy to stir you can heat gently until it softens*</p>
-										
+
 										<p>Use a second bowl to whisk together the oil or nut butter, vanilla, applesauce or yogurt, and water.</p>
-										
+
 										<p>Now, you will pour the wet mixture with the dry and mix until they are combined but do not over-mix.</p>
-										
+
 										<p>Grease two round pans, pour the mixture into each evenly and bake in the center of the rack for 25 minutes or until the batter has risen, poke the center of the cakes with a toothpick and if you pull it out without any wet batter it is done.</p>
-										
+
 
 							        </div>
 							      </div>
@@ -614,12 +614,12 @@
 							      <div id="veganChocolatecollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>*One of our tips is, take the cakes out before they are fully done so the toothpick is almost clean with just a bit of moist batter, the cake will continue to bake in the pan from the heat while it sits on the counter, once cooled you can put the cake inside of the pan into the refrigerator overnight or for a couple of hours to fully set, the vegan cake is even better if you wait a full day to eat*</p>
-										
+
 										<p>Frosting:</p>
 										<p>Use a knife or a straight spatula, slide it in between the cake edge and the pan to release it, turn it upside down on the serving plate, gently tap the bottom of the pan.</p>
-										
+
 										<p>You will frost each cake separately before placing one on top of the other, or you can serve two single layer cakes if you prefer.</p>
-										
+
 										<p>Here is our Vegan Chocolate Frosting Recipe</p>
 										<ul>
 											<li>3 and 3/4 cups (450g) Powdered Sugar</li>
@@ -628,11 +628,11 @@
 											<li>5 Tbsp Soy Milk (or other non-dairy milk)</li>
 											<li>1 tsp Vanilla Extract</li>
 										</ul>
-										
+
 										<p>Use a medium bowl and add the powdered sugar, cocoa powder, vegan butter, non-dairy milk, vanilla, and mix together with an electric hand mixer or stand mixer on low, once blended fully turn the setting up higher and continue till the mixture is thick and creamy.</p>
-										
+
 										<p>*Some tips for getting the best consistency, you can add more of the non-dairy milk if you want it less thick and smoother, or you can add more of the powdered sugar to thicken it up more, Enjoy!</p>
-										
+
 
 
 							        </div>
@@ -698,21 +698,21 @@
 							      <div id="strawberryCakecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>Preheat the oven to 350 Fahrenheit or 176.667 Celsius.</p>
-										
+
 										<p>Lightly grease 2  9 inch round cake cake pans.</p>
-										
+
 										<p>Use a large bowl to combine the boxed cake mix and the gelatin, add the pureed strawberries, eggs, oil, and the water.</p>
-										
+
 										<p>Beat the ingredients at a medium speed with an electric mixer until smooth.</p>
-										
+
 										<p>Next, pour the mixture into the two greased round pans, bake in the center of the oven for 20 minutes or until a toothpick poked into the center of each cake comes out without wet batter.</p>
-										
+
 										<p>Remove from oven and let stand for 10 minutes in the pans.</p>
-										
+
 										<p>Remove from pans and cool fully on a wire rack.</p>
-										
+
 										<p>*tips on how to remove a cake from a pan on our tips page* </p>
-										
+
 
 							        </div>
 							      </div>
@@ -727,13 +727,13 @@
 							        <div class="panel-body">
 										<p>Frosting:</p>
 										<p>Use a large bowl to beat the butter and cream cheese on a medium speed with an electric mixer, do this until the consistency is smooth and creamy.</p>
-										
+
 										<p>Beat in ¼ of a cup of the strawberry puree and the strawberry extract, slowly add the confectioners sugar, continue beating till the mixture is smooth.</p>
-										
+
 										<p>Use the frosting between the two layers, over the top and sides or you can choose to frost each separately, garnish with fresh whole or sliced strawberries.</p>
-										
+
 										<p>With the remaining strawberry puree you can use vanilla bean ice cream or lemon gelato on the side, drizzle the puree over the top for a taste and visual sensation!</p>
-										
+
 
 							        </div>
 							      </div>
@@ -825,98 +825,98 @@
 							      <div id="popcornCakecollapse2" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p><b>Brown Butter:</b></p>
-										
+
 										<p>Place the butter in a small saucepan over medium heat until melted.</p>
-										
+
 										<p>Continue to cook, while stirring, until the milk solids on the bottom of the pan begin to brown and the butter is fragrant and nutty (about 5 minutes).</p>
-										
+
 										<p>Transfer the butter (including the browned bits at the bottom) to a glass bowl and place in the freezer for about 15 minutes, or until it just begins to firm up back up.</p>
-										
+
 										<p><b>For the Cake:</p></b>
 										<P>Preheat oven to 350 degrees.  Grease and flour three 6-inch cake pans and set aside.</p>
-											
+
 										<p>Whisk together the dry ingredients and set aside.</p>
-										
+
 										<p>In the bowl of an electric mixer, beat together the browned butter and both sugars on medium speed for about 3 to 4 minutes until light and fluffy.</p>
-										
+
 										<p>With the mixer on low, add in the vanilla and eggs – one at a time.</p>
-										
+
 										<p>In alternating batches (beginning and ending with the dry ingredients), add in the flour mixture and the milk while the mixer runs on low speed.  Be sure to incorporate each ingredient before adding in the next batch.</p>
-										
+
 										<p>Mix the batter on medium speed no more than 20 to 30 seconds once the last traces of flour disappear.</p>
-										
+
 										<p>Evenly distribute between the pans and bake until a toothpick inserted into the center comes out clean (about 30 to 35 minutes).</p>
-										
+
 										<p>Cool on a wire rack for about 15 minutes before removing the cakes from their pans.</p>
-										
+
 										<p><b>Peanut Butter Frosting:</p></b>
 										<p>Using an electric mixer, beat the butter and cream cheese together until smooth.</p>
-										
+
 										<p>Add in the peanut butter and mix until smooth.</p>
-										
+
 										<p>With the mixer on low, gradually add in the remaining ingredients.</p>
-										
+
 										<p>Once incorporated, increase the speed to medium and mix until smooth.</p>
-										
+
 										<p>Add in more milk or sugar until desired consistency is reached.</p>
-										
+
 										<p><b>Caramel popcorn:</p></b>
 										<p>Pre-heat oven to 250 degrees.</p>
-										
+
 										<p>Stir together the popped popcorn and peanuts.</p>
-										
+
 										<p>Spread out on a parchment-line rimmed baking sheet and set aside.</p>
-										
+
 										<p>In a medium saucepan, melt the butter over medium heat.</p>
-										
+
 										<p>Stir in the corn syrup and sugar with a wooden spoon.</p>
-										
+
 										<p>Turnt he heat up to medium-high.</p>
-										
+
 										<p>Stirring constantly, bring to a boil. Boil for about 4 minutes.</p>
-										
+
 										<p>Remove form the heat and immediately stir in the salt, baking soda, cinnamon, and vanilla.</p>
-										
+
 										<p>Quickly but carefully, pour the caramel over the popcorn mixture - taking care to stir and evenly coat the popcorn and peanuts.</p>
-										
+
 										<p>Spread out into an even layer and bake for about 45 to 60 minutes, stirring every 15 minutes.</p>
-										
+
 										<p>Remove from the oven and let rest until cool enough to handle.</p>
-										
+
 										<p>Pile on top of the cake before serving,  Use salted caramel sauce to help stick together, if necessary.</p>
-										
+
 										<p><b>Salted Caramel Sauce:</p></b>
 										<p>Place the sugar, syrup, and water in a small saucepan over high heat.</p>
-										
+
 										<p>Bring the sugar mixture to a boil and cook without stirring until the mixture reaches about 350 degrees on a candy thermometer.</p>
-										
+
 										<p>Once it reaches this temperature and turns a medium amber color, remove from the heat.</p>
-										
+
 										<p>Slowly (and carefully) whisk in the cream (the mixture will bubble up a bit, so use caution).</p>
-										
+
 										<p>Whisk in the butter until melted.</p>
-										
+
 										<p>Transfer the caramel to a heat-safe container and stir in the salt.</p>
-										
+
 										<p>Let cool until slightly thickened.</p>
-										
+
 										<p><b>Assembly:</p></b>
 										<p>Once the cakes have cooled, trim to level off the tops if necessary.</p>
-										
+
 										<p>Place the bottom layer on a cake stand or serving dish.  Spread on about ¾ cup of the peanut butter frosting with a small offset spatula.</p>
-										
+
 										<p>Top with the next layer of cake and repeat.</p>
-										
+
 										<p>Crumb coat the cake with the frosting and chill to set in the refrigerator for about 15 minutes.</p>
-										
+
 										<p>Frost the cake with the remaining frosting.</p>
-										
+
 										<p>Garnish the top of the cake with a generous amount of caramel popcorn.</p>
-										
+
 										<p>Once the caramel sauce has cooled and thickened (but not solid), use to help hold the caramel popcorn in place and let drip over the edges of the cake.</p>
-										
+
 										<p>To serve, carefully remove some of the caramel popcorn in order to cut the cake.   Serve with any remaining caramel popcorn, if desired.</p>
-										
+
 
 							        </div>
 							      </div>
@@ -930,17 +930,17 @@
 							      <div id="popcornCakecollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>The cake layers are extremely moist and tender, especially straight from the oven.  To make them a bit more stable and easier to frost, wrap cooled cakes in a double layer of plastic and chill in the refrigerator for an hour or so, or up to three days.</p>
-										
+
 										<p>Caramel popcorn may be made up to a week in advanced.</p>
-										
+
 										<p>Caramel sauce may be made up to a week in advance and stored in the refrigerator.  Reheat before assembling the cake.</p>
-										
+
 										<p>Store any extra caramel popcorn in an airtight container for about a week.  The recipe may be doubled, should you wish to make a big batch (using half for the cake and the rest for snacking or gifting!)</p>
-										
+
 										<p>Likewise, leftover peanut butter frosting may be stored in an airtight container in the refrigerator for about a week.  Use to slather between cookies or graham crackers for a sweet treat!</p>
-										
+
 										<p>Instead of using three 6-inch cake pans, the brown butter cake may also be baked in two 8 or 9-inch cake pans.  Bake times may vary.</p>
-										
+
 
 							        </div>
 							      </div>
@@ -1015,7 +1015,7 @@
 										<p>Preheat oven to 350°. Butter and flour a 13x9" baking dish. Bring cocoa powder, 1 cup butter, and 1 cup water to a boil in a small saucepan; remove from heat.</p>
 										<p>Meanwhile, whisk sugar, baking soda, salt, and 2 cups flour in a medium bowl. Make a well in the center. Add eggs, buttermilk, and vanilla to well. Blend with a fork, then gradually incorporate dry ingredients. Add butter mixture and whisk until smooth. Scrape batter into prepared baking dish and smooth top.</p>
 										<p>Bake until cake starts to pull away from edges of dish and a tester inserted into the center comes out clean, 35–40 minutes. Transfer pan to a wire rack.</p>
-										
+
 										<p><b>Frosting:</b></p>
 
 										<p>Just before cake has finished baking, heat butter, milk, and cocoa powder in a medium saucepan over low heat, whisking occasionally, until butter is melted and mixture is smooth (do not let boil). Remove from heat and whisk in powdered sugar and vanilla.</p>
@@ -1036,7 +1036,7 @@
 							      <div id="saltyChocolatecollapse3" class="panel-collapse collapse">
 							        <div class="panel-body">
 										<p>No notes for this recipe.</p>
-										
+
 
 							        </div>
 							      </div>
