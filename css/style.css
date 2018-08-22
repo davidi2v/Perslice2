@@ -1,10 +1,19 @@
 /*-------------------------------------
+| Fonts
+-------------------------------------*/
+@font-face {
+    font-family: Avenir-LT;
+    src: url(../fonts/Avenir LT 45 Book.ttf);
+}
+
+
+/*-------------------------------------
 | Animation Classes
 -------------------------------------*/
 .howtoAnimation {visibility: hidden;}
 .postCaption {visibility: hidden;}
 
-#postCaption {padding-top: 2em;}
+#postCaption {padding-top: 2em; display: block;}
 
 #number {display: block; text-decoration: none;}
 #number:hover {cursor: default;}
@@ -448,7 +457,7 @@ a.ctaBtn:hover {
 
 /* .recipe #timeDiv .time {flex: 1;} */
 
-/* .recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;} */ */
+/* .recipe #timeDiv .time img {width: 30px; float: left; padding-right: 7px;} */
 
 #recipeCarousel  .carousel-control.left {background: none;}
 
@@ -484,7 +493,7 @@ a.ctaBtn:hover {
 #blogHm a {color: #000; text-decoration: none;}
 
 #blogHm img {transition: 1s;}
-#blogHm img:hover {opacity: .8;}
+#blogHm img:hover {opacity: 1;}
 
 .blogBox {display : flex; margin-bottom: 20px;}
 .blogBox .blogImg {flex : 1; padding-bottom: 20px;}
@@ -500,7 +509,7 @@ a.ctaBtn:hover {
 #shopPlatforms #socialBox .icon {flex: 1; padding: 25px 0px;}
 
 #shopPlatforms #socialBox img {width: 90%; flex: 1; display: block; margin: 0px auto; transition: .3s;}
-#shopPlatforms #socialBox img:hover {opacity: .8;}
+#shopPlatforms #socialBox img:hover {opacity: 1;}
 
 footer {background-color: #fff;}
 
@@ -691,7 +700,7 @@ ul#socialFooter li img {width: 35px;}
       z-index: 10;
     }
 
-	.blogBox .text {background-color: #fff; opacity: .9;}
+	.blogBox .text {background-color: #fff; opacity: 1;}
 
     /* .text {
       background-color: #eeb3ca;
@@ -787,7 +796,7 @@ ul#socialFooter li img {width: 35px;}
         width: 100%;
     }
 
-	.recipeItem .middle .text {background-color: #fff; opacity: .8;}
+	.recipeItem .middle .text {background-color: #fff; opacity: 1;}
 
     #recipeCarousel .carousel-control .glyphicon-chevron-right, .carousel-control .icon-nextglyphicon .glyphicon-chevron-right {
         right: 25px;
@@ -1029,6 +1038,8 @@ p.recipeTitle {font-size: 36px; font-family: "futura-pt", sans-serif; font-style
 /* ---------------------
 blogs css
 ---------------------*/
+/* #blogSpot {width: 400px;} */
+
 .carousel-control {color: #000;}
 .carousel-control:hover {color: #000;}
 .carousel-control:focus {color: #000;}
@@ -1106,12 +1117,17 @@ now override the 3.3 new styles for modern browsers & apply opacity
     }
 
 #blogs img {width: 100%;}
+#blogs img#blogSpot {
+	width: 650px;
+	display: block;
+	margin: 0px auto;
+}
 #blogs .aside {margin-top: 4em;}
 
 #blogs .aside2 img {width: 60%;}
 
 #blogs .mobile {
-    margin-top: 4em;
+    margin-top: 13em;
 }
 
 .posts {padding-top: 20px; padding-bottom: 20px;}
@@ -1142,7 +1158,7 @@ blogposts css
 
 #followSocial ul li img {width: 75%;}
 
-#featuredBlogs {margin-bottom: 4em; margin-top: 4em;}
+#featuredBlogs {margin-bottom: 4em; margin-top: 10em;}
 #featuredBlogs .carousel {height: 250px;}
 
 #featuredBlogs2 {margin-bottom: 4em; margin-top: 4em;}
@@ -1373,7 +1389,7 @@ faq css
 /*-------------------------------------
 | event css
 -------------------------------------*/
-#blogs .posts h3 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
+#blogs .posts h3 {font-size: 25px; font-family: 'Didact Gothic', sans-serif;}
 #blogs p {font-size: 16px; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
 .aside h2 {font-family: "futura-pt", sans-serif; font-size: 30px;}
@@ -1388,7 +1404,7 @@ faq css
 
 #blogs h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
 
-#blogs h2, #blogposts h2 {text-align: left; font-family: "futura-pt", sans-serif; font-size: 30px;}
+#blogs h2, #blogposts h2 {font-family: 'Didact Gothic', sans-serif;}
 
 @media only screen and (min-width: 768px) {
     /* .aside h2 {font-size: 25px; text-align: center; margin-top: 5em;} */
@@ -1402,28 +1418,28 @@ faq css
     #blogs .aside a.ctaBtn {float: none; width: 100%;}
     #blogs .aside2 a.ctaBtn {float: none; width: 100%;}
 
-    #blogs .posts h3 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
-    #blogs h3 {text-align: center; font-family: "futura-pt", sans-serif; font-size: 26px;}
+    #blogs .posts h3 {font-size: 25px; text-align: left; font-family: 'Didact Gothic', sans-serif; font-size: 40px;}
+    #blogs h3 {text-align: center; font-family: 'Didact Gothic', sans-serif; font-size: 26px;}
     #blogs h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
 
     #blogs p {font-size: 18px; text-align: center; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
 
-    #blogs .posts p {text-align: left;}
+    #blogs .posts p {text-align: left; font-family: 'Didact Gothic', sans-serif;}
 
     #blogposts .aside a.ctaBtn {float: none; width: 100%;}
 
     #blogposts .posts h3 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
-    #blogposts h3 {text-align: center; font-family: "futura-pt", sans-serif; font-size: 26px;}
-    #blogHeader h1 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif; font-size: 40px;}
+    #blogposts h3 {text-align: center;font-family: 'Didact Gothic', sans-serif;}
+    #blogHeader h1 {font-family: 'Didact Gothic', sans-serif;}
 
-    #blogposts p {font-size: 18px; text-align: left; font-family: "futura-pt", sans-serif; font-style: normal; font-weight: 300;}
+    #blogposts p {font-family: 'Didact Gothic', sans-serif;}
 
 	#blogposts p#productPrice {text-align: center;}
 
     #blogposts .posts p {text-align: left;}
 
 
-    #featuredBlogs h2 {font-size: 25px; text-align: left; font-family: "futura-pt", sans-serif;}
+    #featuredBlogs h2 {font-family: 'Didact Gothic', sans-serif;}
 
     #featuredBlogs .carousel h3 {margin-top: 0px;}
     #blogHeader p {font-size: 16px;}
@@ -1544,7 +1560,7 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 	  color: #000;
 	  font-size: 16px;
 	  padding: 31px 32px;
-	  font-family: "futura-pt", sans-serif;
+	  font-family: 'Didact Gothic', sans-serif;
 	  font-style: normal;
 	  font-weight: 300;
 	  border-radius: 3px;
@@ -1623,6 +1639,9 @@ ul.navbar-nav {position: relative; z-index: 1000;}
 
 @media only screen and (max-width: 700px) {
     .recipeItem {height: 450px;}
+	#blogs img#blogSpot {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 600px) {
